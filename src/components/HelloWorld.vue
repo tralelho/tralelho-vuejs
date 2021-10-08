@@ -7,6 +7,15 @@
 
         <font-awesome-icon icon="user-secret" />
       </p>
+      <p>{{ $t("message.hello") }}</p>
+      <p>{{ $t("message.hello", "en") }}</p>
+
+      <p class="is-size-1">
+        <span class="is-size-1 flag-icon flag-icon-gr"></span>
+      </p>
+      <p>
+        <span class="is-size-1 flag-icon flag-icon-fr"></span>
+      </p>
     </div>
   </section>
 </template>
