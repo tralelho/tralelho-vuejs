@@ -11,10 +11,14 @@
       <p>{{ $t("message.hello", "en") }}</p>
 
       <p class="is-size-1">
-        <span class="is-size-1 flag-icon flag-icon-gr"></span>
+        <router-link :to="{name: 'Translation', params: {lang: 'gr'}}">
+          <span class="is-size-1 flag-icon flag-icon-gr"></span>
+        </router-link>
       </p>
       <p>
-        <span class="is-size-1 flag-icon flag-icon-fr"></span>
+        <router-link :to="{name: 'Translation', params: {lang: 'fr'}}">
+          <span class="is-size-1 flag-icon flag-icon-fr"></span>
+        </router-link>
       </p>
     </div>
   </section>
@@ -22,7 +26,7 @@
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: "Home",
   props: {
     msg: String,
   },

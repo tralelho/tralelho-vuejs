@@ -6,6 +6,7 @@ import { faUserSecret } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { createI18n } from "vue-i18n";
 import "flag-icon-css/css/flag-icon.css";
+import router from "@/router";
 
 library.add(faUserSecret);
 
@@ -36,5 +37,7 @@ const app = createApp(App);
 app.component("font-awesome-icon", FontAwesomeIcon);
 
 app.use(i18n);
+
+app.use(router);
 
 app.mount("#app");
