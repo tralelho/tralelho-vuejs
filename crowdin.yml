@@ -1,0 +1,7 @@
+"files":
+  [
+    {
+      "source": "/src/locales/fr.json",
+      "translation": "/src/locales/%two_letters_code%.json"
+    },
+  ]

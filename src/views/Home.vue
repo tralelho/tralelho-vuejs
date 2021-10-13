@@ -10,7 +10,7 @@
       <p>{{ $t("message.hello") }}</p>
       <p>{{ $t("message.hello", "en") }}</p>
 
-      <p class="is-size-1">
+      <p>
         <router-link :to="{name: 'Translation', params: {lang: 'gr'}}">
           <span class="is-size-1 flag-icon flag-icon-gr"></span>
         </router-link>
