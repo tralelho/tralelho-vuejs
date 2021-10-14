@@ -11,12 +11,12 @@
       <p>{{ $t("message.hello", "en") }}</p>
 
       <p>
-        <router-link :to="{name: 'Translation', params: {lang: 'gr'}}">
+        <router-link :to="{ name: 'Translation', params: { lang: 'gr' } }">
           <span class="is-size-1 flag-icon flag-icon-gr"></span>
         </router-link>
       </p>
       <p>
-        <router-link :to="{name: 'Translation', params: {lang: 'fr'}}">
+        <router-link :to="{ name: 'Translation', params: { lang: 'fr' } }">
           <span class="is-size-1 flag-icon flag-icon-fr"></span>
         </router-link>
       </p>
