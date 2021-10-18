@@ -2,6 +2,6 @@
   [
     {
       "source": "/src/locales/fr.json",
-      "translation": "/src/locales/%two_letters_code%.json"
+      "translation": "/src/locales/%three_letters_code%.json"
     },
   ]
