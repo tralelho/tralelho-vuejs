@@ -54,7 +54,7 @@ export default defineComponent({
 
     // sync to switch locale from router locale path
     watch(router.currentRoute, (route) => {
-      currentLocale.value = route.params.locale as string;
+      currentLocale.value = route.params.locale;
     });
 
     /**
@@ -65,7 +65,7 @@ export default defineComponent({
      */
     watch(currentLocale, (val) => {
       router.push({
-        name: router.currentRoute.value.name!,
+        name: router.currentRoute.value.name,
         params: { locale: val },
       });
     });
