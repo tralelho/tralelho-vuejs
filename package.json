@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test": "vue-cli-service test:unit",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "prettier:fix": "prettier --write --no-config 'src/**/*.{js,vue,ts,json}'"
   },
   "engines": {
     "node": "14"
