@@ -4,33 +4,23 @@ import "./assets/main.sass";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faUserSecret } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
-import { createI18n } from "vue-i18n";
 import "flag-icon-css/css/flag-icon.css";
-import router from "@/router";
+import { setupRouter } from "./router";
+import { setupI18n } from "./i18n";
+import fr from "./locales/fr.json";
 
 library.add(faUserSecret);
 
-const messages = {
-  en: {
-    message: {
-      hello: "hello world",
-    },
+const i18n = setupI18n({
+  legacy: false,
+  locale: "fr",
+  fallbackLocale: "fr",
+  messages: {
+    fr,
   },
-  ja: {
-    message: {
-      hello: "こんにちは、世界",
-    },
-  },
-};
-
-// 2. Create i18n instance with options
-const i18n = createI18n({
-  locale: "ja", // set locale
-  fallbackLocale: "en", // set fallback locale
-  messages, // set locale messages
-  // If you need to specify other options, you can set other options
-  // ...
 });
+
+const router = setupRouter(i18n);
 
 const app = createApp(App);
 
