@@ -1,12 +1,10 @@
-<template>
-  <h1>Translation Page lang: {{ lang }}</h1>
-</template>
-
-<script>
-export default {
-  name: "Translation",
-  props: {
-    lang: String,
-  },
-};
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+const { t } = useI18n({ useScope: "global" });
 </script>
+
+<template>
+  <h1>Translation Page lang: {{ locale }}</h1>
+
+  <p>{{ t("others.presentation", locale) }}</p>
+</template>

@@ -1,0 +1,972 @@
+[
+  {
+    "iso3": "AFG",
+    "iso2": "AF",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "ZAF",
+    "iso2": "ZA",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "ALB",
+    "iso2": "AL",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "DZA",
+    "iso2": "DZ",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "DEU",
+    "iso2": "DE",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "AND",
+    "iso2": "AD",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "AGO",
+    "iso2": "AO",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "ATG",
+    "iso2": "AG",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "SAU",
+    "iso2": "SA",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "ARG",
+    "iso2": "AR",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "ARM",
+    "iso2": "AM",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "AUS",
+    "iso2": "AU",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "AUT",
+    "iso2": "AT",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "AZE",
+    "iso2": "AZ",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "BHS",
+    "iso2": "BS",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "BHR",
+    "iso2": "BH",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "BGD",
+    "iso2": "BD",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "BRB",
+    "iso2": "BB",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "PLW",
+    "iso2": "PW",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "BEL",
+    "iso2": "BE",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "BLZ",
+    "iso2": "BZ",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "BEN",
+    "iso2": "BJ",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "BTN",
+    "iso2": "BT",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "BLR",
+    "iso2": "BY",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "MMR",
+    "iso2": "MM",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "BOL",
+    "iso2": "BO",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "BIH",
+    "iso2": "BA",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "BWA",
+    "iso2": "BW",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "BRA",
+    "iso2": "BR",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "BRN",
+    "iso2": "BN",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "BGR",
+    "iso2": "BG",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "BFA",
+    "iso2": "BF",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "BDI",
+    "iso2": "BI",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "KHM",
+    "iso2": "KH",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "CMR",
+    "iso2": "CM",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "CAN",
+    "iso2": "CA",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "CPV",
+    "iso2": "CV",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "CAF",
+    "iso2": "CF",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "CHL",
+    "iso2": "CL",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "CHN",
+    "iso2": "CN",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "CYP",
+    "iso2": "CY",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "COL",
+    "iso2": "CO",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "COM",
+    "iso2": "KM",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "COG",
+    "iso2": "CG",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "COD",
+    "iso2": "CD",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "PRK",
+    "iso2": "KP",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "KOR",
+    "iso2": "KR",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "CRI",
+    "iso2": "CR",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "CIV",
+    "iso2": "CI",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "HRV",
+    "iso2": "HR",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "CUB",
+    "iso2": "CU",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "DNK",
+    "iso2": "DK",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "DJI",
+    "iso2": "DJ",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "DMA",
+    "iso2": "DM",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "EGY",
+    "iso2": "EG",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "ARE",
+    "iso2": "AE",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "ECU",
+    "iso2": "EC",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "ERI",
+    "iso2": "ER",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "ESP",
+    "iso2": "ES",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "EST",
+    "iso2": "EE",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "USA",
+    "iso2": "US",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "ETH",
+    "iso2": "ET",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "FJI",
+    "iso2": "FJ",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "FIN",
+    "iso2": "FI",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "FRA",
+    "iso2": "FR",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "GAB",
+    "iso2": "GA",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "GMB",
+    "iso2": "GM",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "GEO",
+    "iso2": "GE",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "GHA",
+    "iso2": "GH",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "GRC",
+    "iso2": "GR",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "GRD",
+    "iso2": "GD",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "GTM",
+    "iso2": "GT",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "GNB",
+    "iso2": "GW",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "GIN",
+    "iso2": "GN",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "GNQ",
+    "iso2": "GQ",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "GUY",
+    "iso2": "GY",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "HTI",
+    "iso2": "HT",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "HND",
+    "iso2": "HN",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "HUN",
+    "iso2": "HU",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "IND",
+    "iso2": "IN",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "IDN",
+    "iso2": "ID",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "IRQ",
+    "iso2": "IQ",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "IRN",
+    "iso2": "IR",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "IRL",
+    "iso2": "IE",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "ISL",
+    "iso2": "IS",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "ISR",
+    "iso2": "IL",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "ITA",
+    "iso2": "IT",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "JAM",
+    "iso2": "JM",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "JPN",
+    "iso2": "JP",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "JOR",
+    "iso2": "JO",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "KAZ",
+    "iso2": "KZ",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "KEN",
+    "iso2": "KE",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "KGZ",
+    "iso2": "KG",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "KIR",
+    "iso2": "KI",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "XXK",
+    "iso2": "XK",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "KWT",
+    "iso2": "KW",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "LAO",
+    "iso2": "LA",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "LSO",
+    "iso2": "LS",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "LVA",
+    "iso2": "LV",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "LBN",
+    "iso2": "LB",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "LBR",
+    "iso2": "LR",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "LBY",
+    "iso2": "LY",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "LTU",
+    "iso2": "LT",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "LUX",
+    "iso2": "LU",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "MKD",
+    "iso2": "MK",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "MDG",
+    "iso2": "MG",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "MYS",
+    "iso2": "MY",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "MWI",
+    "iso2": "MW",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "MDV",
+    "iso2": "MV",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "MLI",
+    "iso2": "ML",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "MLT",
+    "iso2": "MT",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "MAR",
+    "iso2": "MA",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "MHL",
+    "iso2": "MH",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "MUS",
+    "iso2": "MU",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "MRT",
+    "iso2": "MR",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "MEX",
+    "iso2": "MX",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "FSM",
+    "iso2": "FM",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "MDA",
+    "iso2": "MD",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "MCO",
+    "iso2": "MC",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "MNG",
+    "iso2": "MN",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "MNE",
+    "iso2": "ME",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "MOZ",
+    "iso2": "MZ",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "NAM",
+    "iso2": "NA",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "NRU",
+    "iso2": "NR",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "NPL",
+    "iso2": "NP",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "NIC",
+    "iso2": "NI",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "NER",
+    "iso2": "NE",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "NGA",
+    "iso2": "NG",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "NOR",
+    "iso2": "NO",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "NZL",
+    "iso2": "NZ",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "OMN",
+    "iso2": "OM",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "UGA",
+    "iso2": "UG",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "UZB",
+    "iso2": "UZ",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "PAK",
+    "iso2": "PK",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "PAN",
+    "iso2": "PA",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "PNG",
+    "iso2": "PG",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "PRY",
+    "iso2": "PY",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "NLD",
+    "iso2": "NL",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "PER",
+    "iso2": "PE",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "PHL",
+    "iso2": "PH",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "POL",
+    "iso2": "PL",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "PRT",
+    "iso2": "PT",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "QAT",
+    "iso2": "QA",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "DOM",
+    "iso2": "DO",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "CZE",
+    "iso2": "CZ",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "ROU",
+    "iso2": "RO",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "GBR",
+    "iso2": "GB",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "RUS",
+    "iso2": "RU",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "RWA",
+    "iso2": "RW",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "KNA",
+    "iso2": "KN",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "LCA",
+    "iso2": "LC",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "SMR",
+    "iso2": "SM",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "VCT",
+    "iso2": "VC",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "SLB",
+    "iso2": "SB",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "STP",
+    "iso2": "ST",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "SLV",
+    "iso2": "SV",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "WSM",
+    "iso2": "WS",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "SEN",
+    "iso2": "SN",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "SRB",
+    "iso2": "RS",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "SYC",
+    "iso2": "SC",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "SLE",
+    "iso2": "SL",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "SGP",
+    "iso2": "SG",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "SVK",
+    "iso2": "SK",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "SVN",
+    "iso2": "SI",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "SOM",
+    "iso2": "SO",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "SDN",
+    "iso2": "SD",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "SSD",
+    "iso2": "SS",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "LKA",
+    "iso2": "LK",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "SWE",
+    "iso2": "SE",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "CHE",
+    "iso2": "CH",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "SUR",
+    "iso2": "SR",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "SWZ",
+    "iso2": "SZ",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "SYR",
+    "iso2": "SY",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "TJK",
+    "iso2": "TJ",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "TZA",
+    "iso2": "TZ",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "TCD",
+    "iso2": "TD",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "TLS",
+    "iso2": "TL",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "THA",
+    "iso2": "TH",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "TGO",
+    "iso2": "TG",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "TTO",
+    "iso2": "TT",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "TUN",
+    "iso2": "TN",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "TKM",
+    "iso2": "TM",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "TUR",
+    "iso2": "TR",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "TUV",
+    "iso2": "TV",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "UKR",
+    "iso2": "UA",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "URY",
+    "iso2": "UY",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "VUT",
+    "iso2": "VU",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "VAT",
+    "iso2": "VA",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "VEN",
+    "iso2": "VE",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "VNM",
+    "iso2": "VN",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "YEM",
+    "iso2": "YE",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "ZMB",
+    "iso2": "ZM",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "ZWE",
+    "iso2": "ZW",
+    "languages": ["eng"]
+  },
+  {
+    "iso3": "FRA",
+    "iso2": "FR",
+    "languages": ["fr"]
+  }
+]
