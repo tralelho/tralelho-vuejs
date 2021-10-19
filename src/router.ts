@@ -45,18 +45,15 @@ export function setupRouter(i18n: I18n): Router {
 
   // navigation guards
   router.beforeEach(async (to) => {
-    console.log("new:", to);
     const paramsLocale = to.params.locale as string;
 
     // use locale if paramsLocale is not in SUPPORT_LOCALES
     if (!SUPPORT_LOCALES.includes(paramsLocale)) {
-      console.log("là");
       return `/${locale}`;
     }
 
     // load locale messages
     if (!i18n.global.availableLocales.includes(paramsLocale)) {
-      console.log("ici");
       await loadLocaleMessages(i18n, paramsLocale);
     }
 
