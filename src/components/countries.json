@@ -2,37 +2,37 @@
   {
     "iso3": "AFG",
     "iso2": "AF",
-    "languages": ["eng"]
+    "languages": ["pus","psr"]
   },
   {
     "iso3": "ZAF",
     "iso2": "ZA",
-    "languages": ["eng"]
+    "languages": ["zul", "xho", "afr", "eng", "nso", "tsn", "tso"]
   },
   {
     "iso3": "ALB",
     "iso2": "AL",
-    "languages": ["eng"]
+    "languages": ["sqi"]
   },
   {
     "iso3": "DZA",
     "iso2": "DZ",
-    "languages": ["eng"]
+    "languages": ["ara"]
   },
   {
     "iso3": "DEU",
     "iso2": "DE",
-    "languages": ["eng"]
+    "languages": ["deu"]
   },
   {
     "iso3": "AND",
     "iso2": "AD",
-    "languages": ["eng"]
+    "languages": ["cat"]
   },
   {
     "iso3": "AGO",
     "iso2": "AO",
-    "languages": ["eng"]
+    "languages": ["por"]
   },
   {
     "iso3": "ATG",
@@ -42,17 +42,17 @@
   {
     "iso3": "SAU",
     "iso2": "SA",
-    "languages": ["eng"]
+    "languages": ["ara"]
   },
   {
     "iso3": "ARG",
     "iso2": "AR",
-    "languages": ["eng"]
+    "languages": ["spa"]
   },
   {
     "iso3": "ARM",
     "iso2": "AM",
-    "languages": ["eng"]
+    "languages": ["hye"]
   },
   {
     "iso3": "AUS",
@@ -62,12 +62,12 @@
   {
     "iso3": "AUT",
     "iso2": "AT",
-    "languages": ["eng"]
+    "languages": ["deu"]
   },
   {
     "iso3": "AZE",
     "iso2": "AZ",
-    "languages": ["eng"]
+    "languages": ["aze"]
   },
   {
     "iso3": "BHS",
@@ -77,12 +77,12 @@
   {
     "iso3": "BHR",
     "iso2": "BH",
-    "languages": ["eng"]
+    "languages": ["ara"]
   },
   {
     "iso3": "BGD",
     "iso2": "BD",
-    "languages": ["eng"]
+    "languages": ["ben"]
   },
   {
     "iso3": "BRB",
@@ -92,12 +92,12 @@
   {
     "iso3": "PLW",
     "iso2": "PW",
-    "languages": ["eng"]
+    "languages": ["eng","pau"]
   },
   {
     "iso3": "BEL",
     "iso2": "BE",
-    "languages": ["eng"]
+    "languages": ["fra","deu","nld"]
   },
   {
     "iso3": "BLZ",
@@ -107,32 +107,32 @@
   {
     "iso3": "BEN",
     "iso2": "BJ",
-    "languages": ["eng"]
+    "languages": ["fra"]
   },
   {
     "iso3": "BTN",
     "iso2": "BT",
-    "languages": ["eng"]
+    "languages": ["dzo"]
   },
   {
     "iso3": "BLR",
     "iso2": "BY",
-    "languages": ["eng"]
+    "languages": ["bel","rus"]
   },
   {
     "iso3": "MMR",
     "iso2": "MM",
-    "languages": ["eng"]
+    "languages": ["mya"]
   },
   {
     "iso3": "BOL",
     "iso2": "BO",
-    "languages": ["eng"]
+    "languages": ["spa"]
   },
   {
     "iso3": "BIH",
     "iso2": "BA",
-    "languages": ["eng"]
+    "languages": ["bos","srp","hrv"]
   },
   {
     "iso3": "BWA",
@@ -142,127 +142,127 @@
   {
     "iso3": "BRA",
     "iso2": "BR",
-    "languages": ["eng"]
+    "languages": ["bre"]
   },
   {
     "iso3": "BRN",
     "iso2": "BN",
-    "languages": ["eng"]
+    "languages": ["msa"]
   },
   {
     "iso3": "BGR",
     "iso2": "BG",
-    "languages": ["eng"]
+    "languages": ["bul"]
   },
   {
     "iso3": "BFA",
     "iso2": "BF",
-    "languages": ["eng"]
+    "languages": ["fra"]
   },
   {
     "iso3": "BDI",
     "iso2": "BI",
-    "languages": ["eng"]
+    "languages": ["run","fra"]
   },
   {
     "iso3": "KHM",
     "iso2": "KH",
-    "languages": ["eng"]
+    "languages": ["khm"]
   },
   {
     "iso3": "CMR",
     "iso2": "CM",
-    "languages": ["eng"]
+    "languages": ["fra","eng"]
   },
   {
     "iso3": "CAN",
     "iso2": "CA",
-    "languages": ["eng"]
+    "languages": ["eng","fra"]
   },
   {
     "iso3": "CPV",
     "iso2": "CV",
-    "languages": ["eng"]
+    "languages": ["por"]
   },
   {
     "iso3": "CAF",
     "iso2": "CF",
-    "languages": ["eng"]
+    "languages": ["sag","fra"]
   },
   {
     "iso3": "CHL",
     "iso2": "CL",
-    "languages": ["eng"]
+    "languages": ["spa"]
   },
   {
     "iso3": "CHN",
     "iso2": "CN",
-    "languages": ["eng"]
+    "languages": ["zho"]
   },
   {
     "iso3": "CYP",
     "iso2": "CY",
-    "languages": ["eng"]
+    "languages": ["ell","tur"]
   },
   {
     "iso3": "COL",
     "iso2": "CO",
-    "languages": ["eng"]
+    "languages": ["spa"]
   },
   {
     "iso3": "COM",
     "iso2": "KM",
-    "languages": ["eng"]
+    "languages": ["fra","ara","swb"]
   },
   {
     "iso3": "COG",
     "iso2": "CG",
-    "languages": ["eng"]
+    "languages": ["fra","lin"]
   },
   {
     "iso3": "COD",
     "iso2": "CD",
-    "languages": ["eng"]
+    "languages": ["fra","lin","swa","lua"]
   },
   {
     "iso3": "PRK",
     "iso2": "KP",
-    "languages": ["eng"]
+    "languages": ["kor"]
   },
   {
     "iso3": "KOR",
     "iso2": "KR",
-    "languages": ["eng"]
+    "languages": ["kor"]
   },
   {
     "iso3": "CRI",
     "iso2": "CR",
-    "languages": ["eng"]
+    "languages": ["spa"]
   },
   {
     "iso3": "CIV",
     "iso2": "CI",
-    "languages": ["eng"]
+    "languages": ["fra"]
   },
   {
     "iso3": "HRV",
     "iso2": "HR",
-    "languages": ["eng"]
+    "languages": ["hrv"]
   },
   {
     "iso3": "CUB",
     "iso2": "CU",
-    "languages": ["eng"]
+    "languages": ["spa"]
   },
   {
     "iso3": "DNK",
     "iso2": "DK",
-    "languages": ["eng"]
+    "languages": ["dan"]
   },
   {
     "iso3": "DJI",
     "iso2": "DJ",
-    "languages": ["eng"]
+    "languages": ["fra","ara"]
   },
   {
     "iso3": "DMA",
@@ -272,32 +272,32 @@
   {
     "iso3": "EGY",
     "iso2": "EG",
-    "languages": ["eng"]
+    "languages": ["ara"]
   },
   {
     "iso3": "ARE",
     "iso2": "AE",
-    "languages": ["eng"]
+    "languages": ["ara"]
   },
   {
     "iso3": "ECU",
     "iso2": "EC",
-    "languages": ["eng"]
+    "languages": ["spa"]
   },
   {
     "iso3": "ERI",
     "iso2": "ER",
-    "languages": ["eng"]
+    "languages": ["tir","ara","eng"]
   },
   {
     "iso3": "ESP",
     "iso2": "ES",
-    "languages": ["eng"]
+    "languages": ["spa"]
   },
   {
     "iso3": "EST",
     "iso2": "EE",
-    "languages": ["eng"]
+    "languages": ["est"]
   },
   {
     "iso3": "USA",
@@ -307,27 +307,27 @@
   {
     "iso3": "ETH",
     "iso2": "ET",
-    "languages": ["eng"]
+    "languages": ["amh"]
   },
   {
     "iso3": "FJI",
     "iso2": "FJ",
-    "languages": ["eng"]
+    "languages": ["eng","fj"]
   },
   {
     "iso3": "FIN",
     "iso2": "FI",
-    "languages": ["eng"]
+    "languages": ["fin","swe"]
   },
   {
     "iso3": "FRA",
     "iso2": "FR",
-    "languages": ["eng"]
+    "languages": ["fra"]
   },
   {
     "iso3": "GAB",
     "iso2": "GA",
-    "languages": ["eng"]
+    "languages": ["fra"]
   },
   {
     "iso3": "GMB",
@@ -337,7 +337,7 @@
   {
     "iso3": "GEO",
     "iso2": "GE",
-    "languages": ["eng"]
+    "languages": ["kat"]
   },
   {
     "iso3": "GHA",
@@ -347,7 +347,7 @@
   {
     "iso3": "GRC",
     "iso2": "GR",
-    "languages": ["eng"]
+    "languages": ["ell"]
   },
   {
     "iso3": "GRD",
@@ -357,22 +357,22 @@
   {
     "iso3": "GTM",
     "iso2": "GT",
-    "languages": ["eng"]
+    "languages": ["spa"]
   },
   {
     "iso3": "GNB",
     "iso2": "GW",
-    "languages": ["eng"]
+    "languages": ["por"]
   },
   {
     "iso3": "GIN",
     "iso2": "GN",
-    "languages": ["eng"]
+    "languages": ["fra"]
   },
   {
     "iso3": "GNQ",
     "iso2": "GQ",
-    "languages": ["eng"]
+    "languages": ["spa"]
   },
   {
     "iso3": "GUY",
@@ -382,37 +382,37 @@
   {
     "iso3": "HTI",
     "iso2": "HT",
-    "languages": ["eng"]
+    "languages": ["fra","hat"]
   },
   {
     "iso3": "HND",
     "iso2": "HN",
-    "languages": ["eng"]
+    "languages": ["spa"]
   },
   {
     "iso3": "HUN",
     "iso2": "HU",
-    "languages": ["eng"]
+    "languages": ["hun"]
   },
   {
     "iso3": "IND",
     "iso2": "IN",
-    "languages": ["eng"]
+    "languages": ["hin","eng","mal","urd","ben","tam"]
   },
   {
     "iso3": "IDN",
     "iso2": "ID",
-    "languages": ["eng"]
+    "languages": ["ind"]
   },
   {
     "iso3": "IRQ",
     "iso2": "IQ",
-    "languages": ["eng"]
+    "languages": ["ara","kur"]
   },
   {
     "iso3": "IRN",
     "iso2": "IR",
-    "languages": ["eng"]
+    "languages": ["fas","kur"]
   },
   {
     "iso3": "IRL",
@@ -422,17 +422,17 @@
   {
     "iso3": "ISL",
     "iso2": "IS",
-    "languages": ["eng"]
+    "languages": ["isl"]
   },
   {
     "iso3": "ISR",
     "iso2": "IL",
-    "languages": ["eng"]
+    "languages": ["heb","ara"]
   },
   {
     "iso3": "ITA",
     "iso2": "IT",
-    "languages": ["eng"]
+    "languages": ["ita"]
   },
   {
     "iso3": "JAM",
@@ -442,27 +442,27 @@
   {
     "iso3": "JPN",
     "iso2": "JP",
-    "languages": ["eng"]
+    "languages": ["jpn"]
   },
   {
     "iso3": "JOR",
     "iso2": "JO",
-    "languages": ["eng"]
+    "languages": ["ara"]
   },
   {
     "iso3": "KAZ",
     "iso2": "KZ",
-    "languages": ["eng"]
+    "languages": ["kaz","rus"]
   },
   {
     "iso3": "KEN",
     "iso2": "KE",
-    "languages": ["eng"]
+    "languages": ["eng","swa"]
   },
   {
     "iso3": "KGZ",
     "iso2": "KG",
-    "languages": ["eng"]
+    "languages": ["kir","rus"]
   },
   {
     "iso3": "KIR",
@@ -472,32 +472,32 @@
   {
     "iso3": "XXK",
     "iso2": "XK",
-    "languages": ["eng"]
+    "languages": ["sqi","srp"]
   },
   {
     "iso3": "KWT",
     "iso2": "KW",
-    "languages": ["eng"]
+    "languages": ["ara"]
   },
   {
     "iso3": "LAO",
     "iso2": "LA",
-    "languages": ["eng"]
+    "languages": ["lao"]
   },
   {
     "iso3": "LSO",
     "iso2": "LS",
-    "languages": ["eng"]
+    "languages": ["eng","sot"]
   },
   {
     "iso3": "LVA",
     "iso2": "LV",
-    "languages": ["eng"]
+    "languages": ["lav"]
   },
   {
     "iso3": "LBN",
     "iso2": "LB",
-    "languages": ["eng"]
+    "languages": ["ara"]
   },
   {
     "iso3": "LBR",
@@ -507,32 +507,32 @@
   {
     "iso3": "LBY",
     "iso2": "LY",
-    "languages": ["eng"]
+    "languages": ["ara"]
   },
   {
     "iso3": "LTU",
     "iso2": "LT",
-    "languages": ["eng"]
+    "languages": ["lit"]
   },
   {
     "iso3": "LUX",
     "iso2": "LU",
-    "languages": ["eng"]
+    "languages": ["deu","fra","ltz"]
   },
   {
     "iso3": "MKD",
     "iso2": "MK",
-    "languages": ["eng"]
+    "languages": ["mkd","sqi"]
   },
   {
     "iso3": "MDG",
     "iso2": "MG",
-    "languages": ["eng"]
+    "languages": ["mlg","fra","eng"]
   },
   {
     "iso3": "MYS",
     "iso2": "MY",
-    "languages": ["eng"]
+    "languages": ["zsm","msa"]
   },
   {
     "iso3": "MWI",
@@ -542,42 +542,42 @@
   {
     "iso3": "MDV",
     "iso2": "MV",
-    "languages": ["eng"]
+    "languages": ["div"]
   },
   {
     "iso3": "MLI",
     "iso2": "ML",
-    "languages": ["eng"]
+    "languages": ["fra"]
   },
   {
     "iso3": "MLT",
     "iso2": "MT",
-    "languages": ["eng"]
+    "languages": ["mlt","eng"]
   },
   {
     "iso3": "MAR",
     "iso2": "MA",
-    "languages": ["eng"]
+    "languages": ["ara"]
   },
   {
     "iso3": "MHL",
     "iso2": "MH",
-    "languages": ["eng"]
+    "languages": ["eng","mah"]
   },
   {
     "iso3": "MUS",
     "iso2": "MU",
-    "languages": ["eng"]
+    "languages": ["eng","fra"]
   },
   {
     "iso3": "MRT",
     "iso2": "MR",
-    "languages": ["eng"]
+    "languages": ["ara","fra"]
   },
   {
     "iso3": "MEX",
     "iso2": "MX",
-    "languages": ["eng"]
+    "languages": ["spa"]
   },
   {
     "iso3": "FSM",
@@ -587,27 +587,27 @@
   {
     "iso3": "MDA",
     "iso2": "MD",
-    "languages": ["eng"]
+    "languages": ["ron"]
   },
   {
     "iso3": "MCO",
     "iso2": "MC",
-    "languages": ["eng"]
+    "languages": ["fra"]
   },
   {
     "iso3": "MNG",
     "iso2": "MN",
-    "languages": ["eng"]
+    "languages": ["mon"]
   },
   {
     "iso3": "MNE",
     "iso2": "ME",
-    "languages": ["eng"]
+    "languages": ["cnr","srp","hrv","bos","sqi"]
   },
   {
     "iso3": "MOZ",
     "iso2": "MZ",
-    "languages": ["eng"]
+    "languages": ["por"]
   },
   {
     "iso3": "NAM",
@@ -617,22 +617,22 @@
   {
     "iso3": "NRU",
     "iso2": "NR",
-    "languages": ["eng"]
+    "languages": ["eng","nau"]
   },
   {
     "iso3": "NPL",
     "iso2": "NP",
-    "languages": ["eng"]
+    "languages": ["nep"]
   },
   {
     "iso3": "NIC",
     "iso2": "NI",
-    "languages": ["eng"]
+    "languages": ["spa"]
   },
   {
     "iso3": "NER",
     "iso2": "NE",
-    "languages": ["eng"]
+    "languages": ["fra"]
   },
   {
     "iso3": "NGA",
@@ -642,17 +642,17 @@
   {
     "iso3": "NOR",
     "iso2": "NO",
-    "languages": ["eng"]
+    "languages": ["nor"]
   },
   {
     "iso3": "NZL",
     "iso2": "NZ",
-    "languages": ["eng"]
+    "languages": ["eng","mri"]
   },
   {
     "iso3": "OMN",
     "iso2": "OM",
-    "languages": ["eng"]
+    "languages": ["ara"]
   },
   {
     "iso3": "UGA",
@@ -662,17 +662,17 @@
   {
     "iso3": "UZB",
     "iso2": "UZ",
-    "languages": ["eng"]
+    "languages": ["uzb","rus"]
   },
   {
     "iso3": "PAK",
     "iso2": "PK",
-    "languages": ["eng"]
+    "languages": ["eng","urd","snd"]
   },
   {
     "iso3": "PAN",
     "iso2": "PA",
-    "languages": ["eng"]
+    "languages": ["spa"]
   },
   {
     "iso3": "PNG",
@@ -682,52 +682,52 @@
   {
     "iso3": "PRY",
     "iso2": "PY",
-    "languages": ["eng"]
+    "languages": ["spa"]
   },
   {
     "iso3": "NLD",
     "iso2": "NL",
-    "languages": ["eng"]
+    "languages": ["nld"]
   },
   {
     "iso3": "PER",
     "iso2": "PE",
-    "languages": ["eng"]
+    "languages": ["spa"]
   },
   {
     "iso3": "PHL",
     "iso2": "PH",
-    "languages": ["eng"]
+    "languages": ["eng","fil"]
   },
   {
     "iso3": "POL",
     "iso2": "PL",
-    "languages": ["eng"]
+    "languages": ["pol"]
   },
   {
     "iso3": "PRT",
     "iso2": "PT",
-    "languages": ["eng"]
+    "languages": ["por"]
   },
   {
     "iso3": "QAT",
     "iso2": "QA",
-    "languages": ["eng"]
+    "languages": ["ara"]
   },
   {
     "iso3": "DOM",
     "iso2": "DO",
-    "languages": ["eng"]
+    "languages": ["spa"]
   },
   {
     "iso3": "CZE",
     "iso2": "CZ",
-    "languages": ["eng"]
+    "languages": ["cze"]
   },
   {
     "iso3": "ROU",
     "iso2": "RO",
-    "languages": ["eng"]
+    "languages": ["ron"]
   },
   {
     "iso3": "GBR",
@@ -737,12 +737,12 @@
   {
     "iso3": "RUS",
     "iso2": "RU",
-    "languages": ["eng"]
+    "languages": ["rus"]
   },
   {
     "iso3": "RWA",
     "iso2": "RW",
-    "languages": ["eng"]
+    "languages": ["kin","fra","eng","swa"]
   },
   {
     "iso3": "KNA",
@@ -757,7 +757,7 @@
   {
     "iso3": "SMR",
     "iso2": "SM",
-    "languages": ["eng"]
+    "languages": ["ita"]
   },
   {
     "iso3": "VCT",
@@ -772,62 +772,62 @@
   {
     "iso3": "STP",
     "iso2": "ST",
-    "languages": ["eng"]
+    "languages": ["por"]
   },
   {
     "iso3": "SLV",
     "iso2": "SV",
-    "languages": ["eng"]
+    "languages": ["spa"]
   },
   {
     "iso3": "WSM",
     "iso2": "WS",
-    "languages": ["eng"]
+    "languages": ["smo","eng"]
   },
   {
     "iso3": "SEN",
     "iso2": "SN",
-    "languages": ["eng"]
+    "languages": ["fra"]
   },
   {
     "iso3": "SRB",
     "iso2": "RS",
-    "languages": ["eng"]
+    "languages": ["srp"]
   },
   {
     "iso3": "SYC",
     "iso2": "SC",
-    "languages": ["eng"]
+    "languages": ["fra","ara"]
   },
   {
     "iso3": "SLE",
     "iso2": "SL",
-    "languages": ["eng"]
+    "languages": ["eng","sus"]
   },
   {
     "iso3": "SGP",
     "iso2": "SG",
-    "languages": ["eng"]
+    "languages": ["eng","msa","zho","tam"]
   },
   {
     "iso3": "SVK",
     "iso2": "SK",
-    "languages": ["eng"]
+    "languages": ["slk"]
   },
   {
     "iso3": "SVN",
     "iso2": "SI",
-    "languages": ["eng"]
+    "languages": ["slv","hun"]
   },
   {
     "iso3": "SOM",
     "iso2": "SO",
-    "languages": ["eng"]
+    "languages": ["som","ara"]
   },
   {
     "iso3": "SDN",
     "iso2": "SD",
-    "languages": ["eng"]
+    "languages": ["ara"]
   },
   {
     "iso3": "SSD",
@@ -837,62 +837,62 @@
   {
     "iso3": "LKA",
     "iso2": "LK",
-    "languages": ["eng"]
+    "languages": ["sin","tam"]
   },
   {
     "iso3": "SWE",
     "iso2": "SE",
-    "languages": ["eng"]
+    "languages": ["swe"]
   },
   {
     "iso3": "CHE",
     "iso2": "CH",
-    "languages": ["eng"]
+    "languages": ["deu","fra"]
   },
   {
     "iso3": "SUR",
     "iso2": "SR",
-    "languages": ["eng"]
+    "languages": ["nld"]
   },
   {
     "iso3": "SWZ",
     "iso2": "SZ",
-    "languages": ["eng"]
+    "languages": ["eng","ssw"]
   },
   {
     "iso3": "SYR",
     "iso2": "SY",
-    "languages": ["eng"]
+    "languages": ["ara","kur"]
   },
   {
     "iso3": "TJK",
     "iso2": "TJ",
-    "languages": ["eng"]
+    "languages": ["tgk","rus"]
   },
   {
     "iso3": "TZA",
     "iso2": "TZ",
-    "languages": ["eng"]
+    "languages": ["eng","swa"]
   },
   {
     "iso3": "TCD",
     "iso2": "TD",
-    "languages": ["eng"]
+    "languages": ["ara","fra"]
   },
   {
     "iso3": "TLS",
     "iso2": "TL",
-    "languages": ["eng"]
+    "languages": ["por","tet"]
   },
   {
     "iso3": "THA",
     "iso2": "TH",
-    "languages": ["eng"]
+    "languages": ["tha"]
   },
   {
     "iso3": "TGO",
     "iso2": "TG",
-    "languages": ["eng"]
+    "languages": ["fra"]
   },
   {
     "iso3": "TTO",
@@ -902,57 +902,57 @@
   {
     "iso3": "TUN",
     "iso2": "TN",
-    "languages": ["eng"]
+    "languages": ["ara"]
   },
   {
     "iso3": "TKM",
     "iso2": "TM",
-    "languages": ["eng"]
+    "languages": ["tuk","rus"]
   },
   {
     "iso3": "TUR",
     "iso2": "TR",
-    "languages": ["eng"]
+    "languages": ["tur","kur"]
   },
   {
     "iso3": "TUV",
     "iso2": "TV",
-    "languages": ["eng"]
+    "languages": ["eng","tvl"]
   },
   {
     "iso3": "UKR",
     "iso2": "UA",
-    "languages": ["eng"]
+    "languages": ["ukr"]
   },
   {
     "iso3": "URY",
     "iso2": "UY",
-    "languages": ["eng"]
+    "languages": ["spa"]
   },
   {
     "iso3": "VUT",
     "iso2": "VU",
-    "languages": ["eng"]
+    "languages": ["eng","fra"]
   },
   {
     "iso3": "VAT",
     "iso2": "VA",
-    "languages": ["eng"]
+    "languages": ["ita"]
   },
   {
     "iso3": "VEN",
     "iso2": "VE",
-    "languages": ["eng"]
+    "languages": ["spa"]
   },
   {
     "iso3": "VNM",
     "iso2": "VN",
-    "languages": ["eng"]
+    "languages": ["vie"]
   },
   {
     "iso3": "YEM",
     "iso2": "YE",
-    "languages": ["eng"]
+    "languages": ["ara"]
   },
   {
     "iso3": "ZMB",
@@ -965,8 +965,8 @@
     "languages": ["eng"]
   },
   {
-    "iso3": "FRA",
+    "iso3": "FRE",
     "iso2": "FR",
-    "languages": ["fr"]
+    "languages": ["swb"]
   }
 ]
