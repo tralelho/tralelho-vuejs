@@ -67,6 +67,7 @@ export default defineComponent({
       router.push({
         name: router.currentRoute.value.name,
         params: { locale: val },
+        query: { lang: router.currentRoute.value.query.lang },
       });
     });
 

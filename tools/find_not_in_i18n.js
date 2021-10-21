@@ -2,7 +2,7 @@
 require("events").EventEmitter.prototype._maxListeners = 20;
 const fs = require("fs");
 const readline = require("readline");
-let i18n_fr = require("@/locales/fr.json");
+let i18n_fr = require("@/locales/fra.json");
 
 const localesPath = "../src/locales/";
 
