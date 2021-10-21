@@ -5,8 +5,9 @@
       :key="country.iso2"
       class="block m-1"
       :to="{
-        name: 'about',
-        params: { locale: country.languages[0].toLowerCase() },
+        name: 'translation',
+        params: { locale },
+        query: { lang: country.languages[0].toLowerCase() },
       }"
     >
       <span
@@ -18,10 +19,13 @@
 
 <script lang="ts">
 import countries from "./countries.json";
+import { useI18n } from "vue-i18n";
 export default {
   data: function () {
+    const { locale } = useI18n({ useScope: "global" });
     return {
       countries,
+      locale,
     };
   },
 };

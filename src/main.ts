@@ -7,17 +7,18 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import "flag-icon-css/css/flag-icon.css";
 import { setupRouter } from "./router";
 import { setupI18n } from "./i18n";
-import fr from "./locales/fr.json";
+import fra from "./locales/fra.json";
 
 library.add(faUserSecret);
 
 const i18n = setupI18n({
   legacy: false,
-  locale: "fr",
-  fallbackLocale: "fr",
+  locale: "fra",
+  fallbackLocale: "fra",
   messages: {
-    fr,
+    fra,
   },
+  globalInjection: true,
 });
 
 const router = setupRouter(i18n);
