@@ -5,5 +5,7 @@ const { t } = useI18n({ useScope: "global" });
 </script>
 
 <template>
-  <h2>{{ t("presentation.midwife") }}</h2>
+  <div class="section">
+    <h1 class="title">Soutenir TraLELHo</h1>
+  </div>
 </template>
