@@ -1,6 +1,6 @@
 import { createApp } from "vue";
 import App from "./App.vue";
-import "./assets/main.sass";
+import "./assets/main.scss";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faUserSecret } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
@@ -8,6 +8,7 @@ import "flag-icon-css/css/flag-icon.css";
 import { setupRouter } from "./router";
 import { setupI18n } from "./i18n";
 import fra from "./locales/fra.json";
+import NavBar from "./components/Nav-bar.vue"
 
 library.add(faUserSecret);
 
@@ -30,5 +31,7 @@ app.component("font-awesome-icon", FontAwesomeIcon);
 app.use(i18n);
 
 app.use(router);
+
+app.component('NavBar', NavBar)
 
 app.mount("#app");

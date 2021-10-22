@@ -1,34 +1,6 @@
 <template>
-  <div>
-    <nav>
-      <div class="navigation">
-        <router-link :to="{ name: 'home', params: { locale } }">
-          Home
-        </router-link>
-        |
-        <router-link :to="{ name: 'about', params: { locale } }">
-          About
-        </router-link>
-        |
-        <router-link :to="{ name: 'translation', params: { locale } }">
-          Translation
-        </router-link>
-      </div>
-
-      <form class="language">
-        <select id="locale-select" v-model="currentLocale">
-          <option
-            v-for="optionLocale in supportLocales"
-            :key="optionLocale"
-            :value="optionLocale"
-          >
-            {{ optionLocale }}
-          </option>
-        </select>
-      </form>
-    </nav>
-    <router-view />
-  </div>
+  <NavBar></NavBar>
+  <router-view />
 </template>
 
 <script lang="ts">
@@ -83,7 +55,6 @@ export default defineComponent({
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
-@import "./assets/main.sass";
+@import "src/assets/main";
 </style>
