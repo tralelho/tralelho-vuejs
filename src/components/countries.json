@@ -7,7 +7,7 @@
   {
     "iso3": "ZAF",
     "iso2": "ZA",
-    "languages": ["zul", "xho", "afr", "eng", "nso", "tsn", "tso"]
+    "languages": ["zul", "xho", "afr", "eng", "nso", "tsn", "tso"], "continent":"africa"
   },
   {
     "iso3": "ALB",
@@ -17,7 +17,7 @@
   {
     "iso3": "DZA",
     "iso2": "DZ",
-    "languages": ["ara"]
+    "languages": ["ara"], "continent":"africa"
   },
   {
     "iso3": "DEU",
@@ -32,7 +32,7 @@
   {
     "iso3": "AGO",
     "iso2": "AO",
-    "languages": ["por"]
+    "languages": ["por"], "continent":"africa"
   },
   {
     "iso3": "ATG",
@@ -107,7 +107,7 @@
   {
     "iso3": "BEN",
     "iso2": "BJ",
-    "languages": ["fra"]
+    "languages": ["fra"], "continent":"africa"
   },
   {
     "iso3": "BTN",
@@ -117,12 +117,12 @@
   {
     "iso3": "BLR",
     "iso2": "BY",
-    "languages": ["bel","rus"]
+    "languages": ["bel","rus"], "continent":"europe"
   },
   {
     "iso3": "MMR",
     "iso2": "MM",
-    "languages": ["mya"]
+    "languages": ["mya"], "continent":"asia"
   },
   {
     "iso3": "BOL",
@@ -137,7 +137,7 @@
   {
     "iso3": "BWA",
     "iso2": "BW",
-    "languages": ["eng"]
+    "languages": ["eng"], "continent":"africa"
   },
   {
     "iso3": "BRA",
@@ -157,12 +157,12 @@
   {
     "iso3": "BFA",
     "iso2": "BF",
-    "languages": ["fra"]
+    "languages": ["fra"], "continent":"africa"
   },
   {
     "iso3": "BDI",
     "iso2": "BI",
-    "languages": ["run","fra"]
+    "languages": ["run","fra"], "continent":"africa"
   },
   {
     "iso3": "KHM",
@@ -172,7 +172,7 @@
   {
     "iso3": "CMR",
     "iso2": "CM",
-    "languages": ["fra","eng"]
+    "languages": ["fra","eng"], "continent":"africa"
   },
   {
     "iso3": "CAN",
@@ -182,12 +182,12 @@
   {
     "iso3": "CPV",
     "iso2": "CV",
-    "languages": ["por"]
+    "languages": ["por"], "continent":"africa"
   },
   {
     "iso3": "CAF",
     "iso2": "CF",
-    "languages": ["sag","fra"]
+    "languages": ["sag","fra"], "continent":"africa"
   },
   {
     "iso3": "CHL",
@@ -217,12 +217,12 @@
   {
     "iso3": "COG",
     "iso2": "CG",
-    "languages": ["fra","lin"]
+    "languages": ["fra","lin"], "continent":"africa"
   },
   {
     "iso3": "COD",
     "iso2": "CD",
-    "languages": ["fra","lin","swa","lua"]
+    "languages": ["fra","lin","swa","lua"], "continent":"africa"
   },
   {
     "iso3": "PRK",
@@ -242,7 +242,7 @@
   {
     "iso3": "CIV",
     "iso2": "CI",
-    "languages": ["fra"]
+    "languages": ["fra"], "continent":"africa"
   },
   {
     "iso3": "HRV",
@@ -262,7 +262,7 @@
   {
     "iso3": "DJI",
     "iso2": "DJ",
-    "languages": ["fra","ara"]
+    "languages": ["fra","ara"], "continent":"africa"
   },
   {
     "iso3": "DMA",
@@ -272,7 +272,7 @@
   {
     "iso3": "EGY",
     "iso2": "EG",
-    "languages": ["ara"]
+    "languages": ["ara"], "continent":"africa"
   },
   {
     "iso3": "ARE",
@@ -287,7 +287,7 @@
   {
     "iso3": "ERI",
     "iso2": "ER",
-    "languages": ["tir","ara","eng"]
+    "languages": ["tir","ara","eng"], "continent":"africa"
   },
   {
     "iso3": "ESP",
@@ -307,7 +307,7 @@
   {
     "iso3": "ETH",
     "iso2": "ET",
-    "languages": ["amh"]
+    "languages": ["amh"], "continent":"africa", "continent":"africa"
   },
   {
     "iso3": "FJI",
@@ -327,12 +327,12 @@
   {
     "iso3": "GAB",
     "iso2": "GA",
-    "languages": ["fra"]
+    "languages": ["fra"], "continent":"africa"
   },
   {
     "iso3": "GMB",
     "iso2": "GM",
-    "languages": ["eng"]
+    "languages": ["eng"], "continent":"africa"
   },
   {
     "iso3": "GEO",
@@ -342,7 +342,7 @@
   {
     "iso3": "GHA",
     "iso2": "GH",
-    "languages": ["eng"]
+    "languages": ["eng"], "continent":"africa"
   },
   {
     "iso3": "GRC",
@@ -362,7 +362,7 @@
   {
     "iso3": "GNB",
     "iso2": "GW",
-    "languages": ["por"]
+    "languages": ["por"], "continent":"africa"
   },
   {
     "iso3": "GIN",
@@ -457,7 +457,7 @@
   {
     "iso3": "KEN",
     "iso2": "KE",
-    "languages": ["eng","swa"]
+    "languages": ["eng","swa"], "continent":"africa"
   },
   {
     "iso3": "KGZ",
@@ -487,7 +487,7 @@
   {
     "iso3": "LSO",
     "iso2": "LS",
-    "languages": ["eng","sot"]
+    "languages": ["eng","sot"], "continent":"africa"
   },
   {
     "iso3": "LVA",
@@ -502,12 +502,12 @@
   {
     "iso3": "LBR",
     "iso2": "LR",
-    "languages": ["eng"]
+    "languages": ["eng"], "continent":"africa"
   },
   {
     "iso3": "LBY",
     "iso2": "LY",
-    "languages": ["ara"]
+    "languages": ["ara"], "continent":"asia"
   },
   {
     "iso3": "LTU",
@@ -527,7 +527,7 @@
   {
     "iso3": "MDG",
     "iso2": "MG",
-    "languages": ["mlg","fra","eng"]
+    "languages": ["mlg","fra","eng"], "continent":"africa"
   },
   {
     "iso3": "MYS",
@@ -537,7 +537,7 @@
   {
     "iso3": "MWI",
     "iso2": "MW",
-    "languages": ["eng"]
+    "languages": ["eng"], "continent":"africa"
   },
   {
     "iso3": "MDV",
@@ -547,7 +547,7 @@
   {
     "iso3": "MLI",
     "iso2": "ML",
-    "languages": ["fra"]
+    "languages": ["fra"], "continent":"africa"
   },
   {
     "iso3": "MLT",
@@ -557,7 +557,7 @@
   {
     "iso3": "MAR",
     "iso2": "MA",
-    "languages": ["ara"]
+    "languages": ["ara"], "continent":"africa"
   },
   {
     "iso3": "MHL",
@@ -572,7 +572,7 @@
   {
     "iso3": "MRT",
     "iso2": "MR",
-    "languages": ["ara","fra"]
+    "languages": ["ara","fra"], "continent":"africa"
   },
   {
     "iso3": "MEX",
@@ -587,12 +587,12 @@
   {
     "iso3": "MDA",
     "iso2": "MD",
-    "languages": ["ron"]
+    "languages": ["ron"], "continent":"europe"
   },
   {
     "iso3": "MCO",
     "iso2": "MC",
-    "languages": ["fra"]
+    "languages": ["fra"], "continent":"europe"
   },
   {
     "iso3": "MNG",
@@ -607,12 +607,12 @@
   {
     "iso3": "MOZ",
     "iso2": "MZ",
-    "languages": ["por"]
+    "languages": ["por"], "continent":"africa"
   },
   {
     "iso3": "NAM",
     "iso2": "NA",
-    "languages": ["eng"]
+    "languages": ["eng"], "continent":"africa"
   },
   {
     "iso3": "NRU",
@@ -632,12 +632,12 @@
   {
     "iso3": "NER",
     "iso2": "NE",
-    "languages": ["fra"]
+    "languages": ["fra"], "continent":"africa"
   },
   {
     "iso3": "NGA",
     "iso2": "NG",
-    "languages": ["eng"]
+    "languages": ["eng"], "continent":"africa"
   },
   {
     "iso3": "NOR",
@@ -742,7 +742,7 @@
   {
     "iso3": "RWA",
     "iso2": "RW",
-    "languages": ["kin","fra","eng","swa"]
+    "languages": ["kin","fra","eng","swa"], "continent":"africa"
   },
   {
     "iso3": "KNA",
@@ -787,7 +787,7 @@
   {
     "iso3": "SEN",
     "iso2": "SN",
-    "languages": ["fra"]
+    "languages": ["fra"], "continent":"africa"
   },
   {
     "iso3": "SRB",
@@ -802,7 +802,7 @@
   {
     "iso3": "SLE",
     "iso2": "SL",
-    "languages": ["eng","sus"]
+    "languages": ["eng","sus"], "continent":"africa"
   },
   {
     "iso3": "SGP",
@@ -822,17 +822,17 @@
   {
     "iso3": "SOM",
     "iso2": "SO",
-    "languages": ["som","ara"]
+    "languages": ["som","ara"], "continent":"africa"
   },
   {
     "iso3": "SDN",
     "iso2": "SD",
-    "languages": ["ara"]
+    "languages": ["ara"], "continent":"africa"
   },
   {
     "iso3": "SSD",
     "iso2": "SS",
-    "languages": ["eng"]
+    "languages": ["eng"], "continent":"africa"
   },
   {
     "iso3": "LKA",
@@ -852,12 +852,12 @@
   {
     "iso3": "SUR",
     "iso2": "SR",
-    "languages": ["nld"]
+    "languages": ["nld"], "continent":"africa"
   },
   {
     "iso3": "SWZ",
     "iso2": "SZ",
-    "languages": ["eng","ssw"]
+    "languages": ["eng","ssw"], "continent":"africa"
   },
   {
     "iso3": "SYR",
@@ -872,12 +872,12 @@
   {
     "iso3": "TZA",
     "iso2": "TZ",
-    "languages": ["eng","swa"]
+    "languages": ["eng","swa"], "continent":"africa"
   },
   {
     "iso3": "TCD",
     "iso2": "TD",
-    "languages": ["ara","fra"]
+    "languages": ["ara","fra"], "continent":"africa"
   },
   {
     "iso3": "TLS",
@@ -892,7 +892,7 @@
   {
     "iso3": "TGO",
     "iso2": "TG",
-    "languages": ["fra"]
+    "languages": ["fra"], "continent":"africa"
   },
   {
     "iso3": "TTO",
@@ -902,7 +902,7 @@
   {
     "iso3": "TUN",
     "iso2": "TN",
-    "languages": ["ara"]
+    "languages": ["ara"], "continent":"africa"
   },
   {
     "iso3": "TKM",
@@ -957,12 +957,12 @@
   {
     "iso3": "ZMB",
     "iso2": "ZM",
-    "languages": ["eng"]
+    "languages": ["eng"], "continent":"africa"
   },
   {
     "iso3": "ZWE",
     "iso2": "ZW",
-    "languages": ["eng"]
+    "languages": ["eng"], "continent":"africa"
   },
   {
     "iso3": "FRE",
