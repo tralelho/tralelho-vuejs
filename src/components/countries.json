@@ -2,7 +2,7 @@
   {
     "iso3": "AFG",
     "iso2": "AF",
-    "languages": ["pus","psr"]
+    "languages": ["pus","psr"], continent:"asia"
   },
   {
     "iso3": "ZAF",
@@ -52,7 +52,7 @@
   {
     "iso3": "ARM",
     "iso2": "AM",
-    "languages": ["hye"]
+    "languages": ["hye"], continent:"asia"
   },
   {
     "iso3": "AUS",
@@ -67,7 +67,7 @@
   {
     "iso3": "AZE",
     "iso2": "AZ",
-    "languages": ["aze"]
+    "languages": ["aze"], continent:"asia"
   },
   {
     "iso3": "BHS",
@@ -77,12 +77,12 @@
   {
     "iso3": "BHR",
     "iso2": "BH",
-    "languages": ["ara"]
+    "languages": ["ara"], continent:"asia"
   },
   {
     "iso3": "BGD",
     "iso2": "BD",
-    "languages": ["ben"]
+    "languages": ["ben"], continent:"asia"
   },
   {
     "iso3": "BRB",
@@ -112,7 +112,7 @@
   {
     "iso3": "BTN",
     "iso2": "BT",
-    "languages": ["dzo"]
+    "languages": ["dzo"], continent:"asia"
   },
   {
     "iso3": "BLR",
@@ -147,7 +147,7 @@
   {
     "iso3": "BRN",
     "iso2": "BN",
-    "languages": ["msa"]
+    "languages": ["msa"], continent:"asia"
   },
   {
     "iso3": "BGR",
@@ -167,7 +167,7 @@
   {
     "iso3": "KHM",
     "iso2": "KH",
-    "languages": ["khm"]
+    "languages": ["khm"], continent:"asia"
   },
   {
     "iso3": "CMR",
@@ -197,7 +197,7 @@
   {
     "iso3": "CHN",
     "iso2": "CN",
-    "languages": ["zho"]
+    "languages": ["zho"], continent:"asia"
   },
   {
     "iso3": "CYP",
@@ -227,12 +227,12 @@
   {
     "iso3": "PRK",
     "iso2": "KP",
-    "languages": ["kor"]
+    "languages": ["kor"], continent:"asia"
   },
   {
     "iso3": "KOR",
     "iso2": "KR",
-    "languages": ["kor"]
+    "languages": ["kor"], continent:"asia"
   },
   {
     "iso3": "CRI",
@@ -277,7 +277,7 @@
   {
     "iso3": "ARE",
     "iso2": "AE",
-    "languages": ["ara"]
+    "languages": ["ara"], continent:"asia"
   },
   {
     "iso3": "ECU",
@@ -337,7 +337,7 @@
   {
     "iso3": "GEO",
     "iso2": "GE",
-    "languages": ["kat"]
+    "languages": ["kat"], continent:"asia"
   },
   {
     "iso3": "GHA",
@@ -397,22 +397,22 @@
   {
     "iso3": "IND",
     "iso2": "IN",
-    "languages": ["hin","eng","mal","urd","ben","tam"]
+    "languages": ["hin","eng","mal","urd","ben","tam"], continent:"asia"
   },
   {
     "iso3": "IDN",
     "iso2": "ID",
-    "languages": ["ind"]
+    "languages": ["ind"], continent:"asia"
   },
   {
     "iso3": "IRQ",
     "iso2": "IQ",
-    "languages": ["ara","kur"]
+    "languages": ["ara","kur"], continent:"asia"
   },
   {
     "iso3": "IRN",
     "iso2": "IR",
-    "languages": ["fas","kur"]
+    "languages": ["fas","kur"], continent:"asia"
   },
   {
     "iso3": "IRL",
@@ -427,7 +427,7 @@
   {
     "iso3": "ISR",
     "iso2": "IL",
-    "languages": ["heb","ara"]
+    "languages": ["heb","ara"], continent:"asia"
   },
   {
     "iso3": "ITA",
@@ -442,17 +442,17 @@
   {
     "iso3": "JPN",
     "iso2": "JP",
-    "languages": ["jpn"]
+    "languages": ["jpn"], continent:"asia"
   },
   {
     "iso3": "JOR",
     "iso2": "JO",
-    "languages": ["ara"]
+    "languages": ["ara"], continent:"asia"
   },
   {
     "iso3": "KAZ",
     "iso2": "KZ",
-    "languages": ["kaz","rus"]
+    "languages": ["kaz","rus"], continent:"asia"
   },
   {
     "iso3": "KEN",
@@ -462,7 +462,7 @@
   {
     "iso3": "KGZ",
     "iso2": "KG",
-    "languages": ["kir","rus"]
+    "languages": ["kir","rus"], continent:"asia"
   },
   {
     "iso3": "KIR",
@@ -477,12 +477,12 @@
   {
     "iso3": "KWT",
     "iso2": "KW",
-    "languages": ["ara"]
+    "languages": ["ara"], continent:"asia"
   },
   {
     "iso3": "LAO",
     "iso2": "LA",
-    "languages": ["lao"]
+    "languages": ["lao"], continent:"asia", continent:"asia"
   },
   {
     "iso3": "LSO",
@@ -497,7 +497,7 @@
   {
     "iso3": "LBN",
     "iso2": "LB",
-    "languages": ["ara"]
+    "languages": ["ara"], continent:"asia"
   },
   {
     "iso3": "LBR",
@@ -532,7 +532,7 @@
   {
     "iso3": "MYS",
     "iso2": "MY",
-    "languages": ["zsm","msa"]
+    "languages": ["zsm","msa"], continent:"asia"
   },
   {
     "iso3": "MWI",
@@ -597,7 +597,7 @@
   {
     "iso3": "MNG",
     "iso2": "MN",
-    "languages": ["mon"]
+    "languages": ["mon"], continent:"asia"
   },
   {
     "iso3": "MNE",
@@ -622,7 +622,7 @@
   {
     "iso3": "NPL",
     "iso2": "NP",
-    "languages": ["nep"]
+    "languages": ["nep"], continent:"asia"
   },
   {
     "iso3": "NIC",
@@ -652,7 +652,7 @@
   {
     "iso3": "OMN",
     "iso2": "OM",
-    "languages": ["ara"]
+    "languages": ["ara"], continent:"asia"
   },
   {
     "iso3": "UGA",
@@ -662,12 +662,12 @@
   {
     "iso3": "UZB",
     "iso2": "UZ",
-    "languages": ["uzb","rus"]
+    "languages": ["uzb","rus"], continent:"asia"
   },
   {
     "iso3": "PAK",
     "iso2": "PK",
-    "languages": ["eng","urd","snd"]
+    "languages": ["eng","urd","snd"], continent:"asia"
   },
   {
     "iso3": "PAN",
@@ -712,7 +712,7 @@
   {
     "iso3": "QAT",
     "iso2": "QA",
-    "languages": ["ara"]
+    "languages": ["ara"], continent:"asia"
   },
   {
     "iso3": "DOM",
@@ -737,7 +737,7 @@
   {
     "iso3": "RUS",
     "iso2": "RU",
-    "languages": ["rus"]
+    "languages": ["rus"], continent:"asia"
   },
   {
     "iso3": "RWA",
@@ -807,7 +807,7 @@
   {
     "iso3": "SGP",
     "iso2": "SG",
-    "languages": ["eng","msa","zho","tam"]
+    "languages": ["eng","msa","zho","tam"], continent:"asia"
   },
   {
     "iso3": "SVK",
@@ -837,7 +837,7 @@
   {
     "iso3": "LKA",
     "iso2": "LK",
-    "languages": ["sin","tam"]
+    "languages": ["sin","tam"], continent:"asia"
   },
   {
     "iso3": "SWE",
@@ -862,12 +862,12 @@
   {
     "iso3": "SYR",
     "iso2": "SY",
-    "languages": ["ara","kur"]
+    "languages": ["ara","kur"], continent:"asia"
   },
   {
     "iso3": "TJK",
     "iso2": "TJ",
-    "languages": ["tgk","rus"]
+    "languages": ["tgk","rus"], continent:"asia"
   },
   {
     "iso3": "TZA",
@@ -887,7 +887,7 @@
   {
     "iso3": "THA",
     "iso2": "TH",
-    "languages": ["tha"]
+    "languages": ["tha"], continent:"asia"
   },
   {
     "iso3": "TGO",
@@ -907,12 +907,12 @@
   {
     "iso3": "TKM",
     "iso2": "TM",
-    "languages": ["tuk","rus"]
+    "languages": ["tuk","rus"], continent:"asia"
   },
   {
     "iso3": "TUR",
     "iso2": "TR",
-    "languages": ["tur","kur"]
+    "languages": ["tur","kur"], continent:"asia"
   },
   {
     "iso3": "TUV",
@@ -947,12 +947,12 @@
   {
     "iso3": "VNM",
     "iso2": "VN",
-    "languages": ["vie"]
+    "languages": ["vie"], continent:"asia"
   },
   {
     "iso3": "YEM",
     "iso2": "YE",
-    "languages": ["ara"]
+    "languages": ["ara"], continent:"asia"
   },
   {
     "iso3": "ZMB",
