@@ -92,7 +92,7 @@
   {
     "iso3": "PLW",
     "iso2": "PW",
-    "languages": ["eng","pau"]
+    "languages": ["eng","pau"], "continent":"oceania"
   },
   {
     "iso3": "BEL",
@@ -212,7 +212,7 @@
   {
     "iso3": "COM",
     "iso2": "KM",
-    "languages": ["fra","ara","swb"]
+    "languages": ["fra","ara","swb"], "continent":"africa"
   },
   {
     "iso3": "COG",
