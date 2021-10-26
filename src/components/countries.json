@@ -2,971 +2,1165 @@
   {
     "iso3": "AFG",
     "iso2": "AF",
-    "languages": ["pus","psr"], "continent":"asia"
+    "languages": ["pus", "psr"],
+    "continent": "asia"
   },
   {
     "iso3": "ZAF",
     "iso2": "ZA",
-    "languages": ["zul", "xho", "afr", "eng", "nso", "tsn", "tso"], "continent":"africa"
+    "languages": ["zul", "xho", "afr", "eng", "nso", "tsn", "tso"],
+    "continent": "africa"
   },
   {
     "iso3": "ALB",
     "iso2": "AL",
-    "languages": ["sqi"], "continent":"europe"
+    "languages": ["sqi"],
+    "continent": "europe"
   },
   {
     "iso3": "DZA",
     "iso2": "DZ",
-    "languages": ["ara"], "continent":"africa"
+    "languages": ["ara"],
+    "continent": "africa"
   },
   {
     "iso3": "DEU",
     "iso2": "DE",
-    "languages": ["deu"], "continent":"europe"
+    "languages": ["deu"],
+    "continent": "europe"
   },
   {
     "iso3": "AND",
     "iso2": "AD",
-    "languages": ["cat"], "continent":"europe"
+    "languages": ["cat"],
+    "continent": "europe"
   },
   {
     "iso3": "AGO",
     "iso2": "AO",
-    "languages": ["por"], "continent":"africa"
+    "languages": ["por"],
+    "continent": "africa"
   },
   {
     "iso3": "ATG",
     "iso2": "AG",
-    "languages": ["eng"], "continent":"america"
+    "languages": ["eng"],
+    "continent": "america"
   },
   {
     "iso3": "SAU",
     "iso2": "SA",
-    "languages": ["ara"], "continent":"asia"
+    "languages": ["ara"],
+    "continent": "asia"
   },
   {
     "iso3": "ARG",
     "iso2": "AR",
-    "languages": ["spa"], "continent":"america"
+    "languages": ["spa"],
+    "continent": "america"
   },
   {
     "iso3": "ARM",
     "iso2": "AM",
-    "languages": ["hye"], "continent":"asia"
+    "languages": ["hye"],
+    "continent": "asia"
   },
   {
     "iso3": "AUS",
     "iso2": "AU",
-    "languages": ["eng"], "continent":"oceania"
+    "languages": ["eng"],
+    "continent": "oceania"
   },
   {
     "iso3": "AUT",
     "iso2": "AT",
-    "languages": ["deu"], "continent":"europe"
+    "languages": ["deu"],
+    "continent": "europe"
   },
   {
     "iso3": "AZE",
     "iso2": "AZ",
-    "languages": ["aze"], "continent":"asia"
+    "languages": ["aze"],
+    "continent": "asia"
   },
   {
     "iso3": "BHS",
     "iso2": "BS",
-    "languages": ["eng"], "continent":"america"
+    "languages": ["eng"],
+    "continent": "america"
   },
   {
     "iso3": "BHR",
     "iso2": "BH",
-    "languages": ["ara"], "continent":"asia"
+    "languages": ["ara"],
+    "continent": "asia"
   },
   {
     "iso3": "BGD",
     "iso2": "BD",
-    "languages": ["ben"], "continent":"asia"
+    "languages": ["ben"],
+    "continent": "asia"
   },
   {
     "iso3": "BRB",
     "iso2": "BB",
-    "languages": ["eng"], "continent":"america"
+    "languages": ["eng"],
+    "continent": "america"
   },
   {
     "iso3": "PLW",
     "iso2": "PW",
-    "languages": ["eng","pau"], "continent":"oceania"
+    "languages": ["eng", "pau"],
+    "continent": "oceania"
   },
   {
     "iso3": "BEL",
     "iso2": "BE",
-    "languages": ["fra","deu","nld"], "continent":"europe"
+    "languages": ["fra", "deu", "nld"],
+    "continent": "europe"
   },
   {
     "iso3": "BLZ",
     "iso2": "BZ",
-    "languages": ["eng"], "continent":"america"
+    "languages": ["eng"],
+    "continent": "america"
   },
   {
     "iso3": "BEN",
     "iso2": "BJ",
-    "languages": ["fra"], "continent":"africa"
+    "languages": ["fra"],
+    "continent": "africa"
   },
   {
     "iso3": "BTN",
     "iso2": "BT",
-    "languages": ["dzo"], "continent":"asia"
+    "languages": ["dzo"],
+    "continent": "asia"
   },
   {
     "iso3": "BLR",
     "iso2": "BY",
-    "languages": ["bel","rus"], "continent":"europe"
+    "languages": ["bel", "rus"],
+    "continent": "europe"
   },
   {
     "iso3": "MMR",
     "iso2": "MM",
-    "languages": ["mya"], "continent":"asia"
+    "languages": ["mya"],
+    "continent": "asia"
   },
   {
     "iso3": "BOL",
     "iso2": "BO",
-    "languages": ["spa"], "continent":"america"
+    "languages": ["spa"],
+    "continent": "america"
   },
   {
     "iso3": "BIH",
     "iso2": "BA",
-    "languages": ["bos","srp","hrv"], "continent":"europe"
+    "languages": ["bos", "srp", "hrv"],
+    "continent": "europe"
   },
   {
     "iso3": "BWA",
     "iso2": "BW",
-    "languages": ["eng"], "continent":"africa"
+    "languages": ["eng"],
+    "continent": "africa"
   },
   {
     "iso3": "BRA",
     "iso2": "BR",
-    "languages": ["bre"], "continent":"america"
+    "languages": ["bre"],
+    "continent": "america"
   },
   {
     "iso3": "BRN",
     "iso2": "BN",
-    "languages": ["msa"], "continent":"asia"
+    "languages": ["msa"],
+    "continent": "asia"
   },
   {
     "iso3": "BGR",
     "iso2": "BG",
-    "languages": ["bul"], "continent":"europe"
+    "languages": ["bul"],
+    "continent": "europe"
   },
   {
     "iso3": "BFA",
     "iso2": "BF",
-    "languages": ["fra"], "continent":"africa"
+    "languages": ["fra"],
+    "continent": "africa"
   },
   {
     "iso3": "BDI",
     "iso2": "BI",
-    "languages": ["run","fra"], "continent":"africa"
+    "languages": ["run", "fra"],
+    "continent": "africa"
   },
   {
     "iso3": "KHM",
     "iso2": "KH",
-    "languages": ["khm"], "continent":"asia"
+    "languages": ["khm"],
+    "continent": "asia"
   },
   {
     "iso3": "CMR",
     "iso2": "CM",
-    "languages": ["fra","eng"], "continent":"africa"
+    "languages": ["fra", "eng"],
+    "continent": "africa"
   },
   {
     "iso3": "CAN",
     "iso2": "CA",
-    "languages": ["eng","fra"], "continent":"america"
+    "languages": ["eng", "fra"],
+    "continent": "america"
   },
   {
     "iso3": "CPV",
     "iso2": "CV",
-    "languages": ["por"], "continent":"africa"
+    "languages": ["por"],
+    "continent": "africa"
   },
   {
     "iso3": "CAF",
     "iso2": "CF",
-    "languages": ["sag","fra"], "continent":"africa"
+    "languages": ["sag", "fra"],
+    "continent": "africa"
   },
   {
     "iso3": "CHL",
     "iso2": "CL",
-    "languages": ["spa"], "continent":"america"
+    "languages": ["spa"],
+    "continent": "america"
   },
   {
     "iso3": "CHN",
     "iso2": "CN",
-    "languages": ["zho"], "continent":"asia"
+    "languages": ["zho"],
+    "continent": "asia"
   },
   {
     "iso3": "CYP",
     "iso2": "CY",
-    "languages": ["ell","tur"], "continent":"europe"
+    "languages": ["ell", "tur"],
+    "continent": "europe"
   },
   {
     "iso3": "COL",
     "iso2": "CO",
-    "languages": ["spa"], "continent":"america"
+    "languages": ["spa"],
+    "continent": "america"
   },
   {
     "iso3": "COM",
     "iso2": "KM",
-    "languages": ["fra","ara","swb"], "continent":"africa"
+    "languages": ["fra", "ara", "swb"],
+    "continent": "africa"
   },
   {
     "iso3": "COG",
     "iso2": "CG",
-    "languages": ["fra","lin"], "continent":"africa"
+    "languages": ["fra", "lin"],
+    "continent": "africa"
   },
   {
     "iso3": "COD",
     "iso2": "CD",
-    "languages": ["fra","lin","swa","lua"], "continent":"africa"
+    "languages": ["fra", "lin", "swa", "lua"],
+    "continent": "africa"
   },
   {
     "iso3": "PRK",
     "iso2": "KP",
-    "languages": ["kor"], "continent":"asia"
+    "languages": ["kor"],
+    "continent": "asia"
   },
   {
     "iso3": "KOR",
     "iso2": "KR",
-    "languages": ["kor"], "continent":"asia"
+    "languages": ["kor"],
+    "continent": "asia"
   },
   {
     "iso3": "CRI",
     "iso2": "CR",
-    "languages": ["spa"], "continent":"america"
+    "languages": ["spa"],
+    "continent": "america"
   },
   {
     "iso3": "CIV",
     "iso2": "CI",
-    "languages": ["fra"], "continent":"africa"
+    "languages": ["fra"],
+    "continent": "africa"
   },
   {
     "iso3": "HRV",
     "iso2": "HR",
-    "languages": ["hrv"], "continent":"europe"
+    "languages": ["hrv"],
+    "continent": "europe"
   },
   {
     "iso3": "CUB",
     "iso2": "CU",
-    "languages": ["spa"], "continent":"america"
+    "languages": ["spa"],
+    "continent": "america"
   },
   {
     "iso3": "DNK",
     "iso2": "DK",
-    "languages": ["dan"], "continent":"europe"
+    "languages": ["dan"],
+    "continent": "europe"
   },
   {
     "iso3": "DJI",
     "iso2": "DJ",
-    "languages": ["fra","ara"], "continent":"africa"
+    "languages": ["fra", "ara"],
+    "continent": "africa"
   },
   {
     "iso3": "DMA",
     "iso2": "DM",
-    "languages": ["eng"], "continent":"america"
+    "languages": ["eng"],
+    "continent": "america"
   },
   {
     "iso3": "EGY",
     "iso2": "EG",
-    "languages": ["ara"], "continent":"africa"
+    "languages": ["ara"],
+    "continent": "africa"
   },
   {
     "iso3": "ARE",
     "iso2": "AE",
-    "languages": ["ara"], "continent":"asia"
+    "languages": ["ara"],
+    "continent": "asia"
   },
   {
     "iso3": "ECU",
     "iso2": "EC",
-    "languages": ["spa"], "continent":"america"
+    "languages": ["spa"],
+    "continent": "america"
   },
   {
     "iso3": "ERI",
     "iso2": "ER",
-    "languages": ["tir","ara","eng"], "continent":"africa"
+    "languages": ["tir", "ara", "eng"],
+    "continent": "africa"
   },
   {
     "iso3": "ESP",
     "iso2": "ES",
-    "languages": ["spa"], "continent":"europe"
+    "languages": ["spa"],
+    "continent": "europe"
   },
   {
     "iso3": "EST",
     "iso2": "EE",
-    "languages": ["est"], "continent":"europe"
+    "languages": ["est"],
+    "continent": "europe"
   },
   {
     "iso3": "USA",
     "iso2": "US",
-    "languages": ["eng"], "continent":"america"
+    "languages": ["eng"],
+    "continent": "america"
   },
   {
     "iso3": "ETH",
     "iso2": "ET",
-    "languages": ["amh"], "continent":"africa", "continent":"africa"
+    "languages": ["amh"],
+    "continent": "africa"
   },
   {
     "iso3": "FJI",
     "iso2": "FJ",
-    "languages": ["eng","fj"], "continent":"oceania"
+    "languages": ["eng", "fj"],
+    "continent": "oceania"
   },
   {
     "iso3": "FIN",
     "iso2": "FI",
-    "languages": ["fin","swe"], "continent":"europe"
+    "languages": ["fin", "swe"],
+    "continent": "europe"
   },
   {
     "iso3": "FRA",
     "iso2": "FR",
-    "languages": ["fra"], "continent":"europe"
+    "languages": ["fra"],
+    "continent": "europe"
   },
   {
     "iso3": "GAB",
     "iso2": "GA",
-    "languages": ["fra"], "continent":"africa"
+    "languages": ["fra"],
+    "continent": "africa"
   },
   {
     "iso3": "GMB",
     "iso2": "GM",
-    "languages": ["eng"], "continent":"africa"
+    "languages": ["eng"],
+    "continent": "africa"
   },
   {
     "iso3": "GEO",
     "iso2": "GE",
-    "languages": ["kat"], "continent":"asia"
+    "languages": ["kat"],
+    "continent": "asia"
   },
   {
     "iso3": "GHA",
     "iso2": "GH",
-    "languages": ["eng"], "continent":"africa"
+    "languages": ["eng"],
+    "continent": "africa"
   },
   {
     "iso3": "GRC",
     "iso2": "GR",
-    "languages": ["ell"], "continent":"europe", "continent":"europe"
+    "languages": ["ell"],
+    "continent": "europe"
   },
   {
     "iso3": "GRD",
     "iso2": "GD",
-    "languages": ["eng"], "continent":"america"
+    "languages": ["eng"],
+    "continent": "america"
   },
   {
     "iso3": "GTM",
     "iso2": "GT",
-    "languages": ["spa"], "continent":"america"
+    "languages": ["spa"],
+    "continent": "america"
   },
   {
     "iso3": "GNB",
     "iso2": "GW",
-    "languages": ["por"], "continent":"africa"
+    "languages": ["por"],
+    "continent": "africa"
   },
   {
     "iso3": "GIN",
     "iso2": "GN",
-    "languages": ["fra"], "continent":"africa"
+    "languages": ["fra"],
+    "continent": "africa"
   },
   {
     "iso3": "GNQ",
     "iso2": "GQ",
-    "languages": ["spa"], "continent":"america"
+    "languages": ["spa"],
+    "continent": "america"
   },
   {
     "iso3": "GUY",
     "iso2": "GY",
-    "languages": ["eng"], "continent":"america"
+    "languages": ["eng"],
+    "continent": "america"
   },
   {
     "iso3": "HTI",
     "iso2": "HT",
-    "languages": ["fra","hat"], "continent":"america"
+    "languages": ["fra", "hat"],
+    "continent": "america"
   },
   {
     "iso3": "HND",
     "iso2": "HN",
-    "languages": ["spa"], "continent":"america"
+    "languages": ["spa"],
+    "continent": "america"
   },
   {
     "iso3": "HUN",
     "iso2": "HU",
-    "languages": ["hun"], "continent":"europe"
+    "languages": ["hun"],
+    "continent": "europe"
   },
   {
     "iso3": "IND",
     "iso2": "IN",
-    "languages": ["hin","eng","mal","urd","ben","tam"], "continent":"asia"
+    "languages": ["hin", "eng", "mal", "urd", "ben", "tam"],
+    "continent": "asia"
   },
   {
     "iso3": "IDN",
     "iso2": "ID",
-    "languages": ["ind"], "continent":"asia"
+    "languages": ["ind"],
+    "continent": "asia"
   },
   {
     "iso3": "IRQ",
     "iso2": "IQ",
-    "languages": ["ara","kur"], "continent":"asia"
+    "languages": ["ara", "kur"],
+    "continent": "asia"
   },
   {
     "iso3": "IRN",
     "iso2": "IR",
-    "languages": ["fas","kur"], "continent":"asia"
+    "languages": ["fas", "kur"],
+    "continent": "asia"
   },
   {
     "iso3": "IRL",
     "iso2": "IE",
-    "languages": ["eng"], "continent":"europe"
+    "languages": ["eng"],
+    "continent": "europe"
   },
   {
     "iso3": "ISL",
     "iso2": "IS",
-    "languages": ["isl"], "continent":"europe",
+    "languages": ["isl"],
+    "continent": "europe"
   },
   {
     "iso3": "ISR",
     "iso2": "IL",
-    "languages": ["heb","ara"], "continent":"asia"
+    "languages": ["heb", "ara"],
+    "continent": "asia"
   },
   {
     "iso3": "ITA",
     "iso2": "IT",
-    "languages": ["ita"], "continent":"europe"
+    "languages": ["ita"],
+    "continent": "europe"
   },
   {
     "iso3": "JAM",
     "iso2": "JM",
-    "languages": ["eng"], "continent":"america"
+    "languages": ["eng"],
+    "continent": "america"
   },
   {
     "iso3": "JPN",
     "iso2": "JP",
-    "languages": ["jpn"], "continent":"asia"
+    "languages": ["jpn"],
+    "continent": "asia"
   },
   {
     "iso3": "JOR",
     "iso2": "JO",
-    "languages": ["ara"], "continent":"asia"
+    "languages": ["ara"],
+    "continent": "asia"
   },
   {
     "iso3": "KAZ",
     "iso2": "KZ",
-    "languages": ["kaz","rus"], "continent":"asia"
+    "languages": ["kaz", "rus"],
+    "continent": "asia"
   },
   {
     "iso3": "KEN",
     "iso2": "KE",
-    "languages": ["eng","swa"], "continent":"africa"
+    "languages": ["eng", "swa"],
+    "continent": "africa"
   },
   {
     "iso3": "KGZ",
     "iso2": "KG",
-    "languages": ["kir","rus"], "continent":"asia"
+    "languages": ["kir", "rus"],
+    "continent": "asia"
   },
   {
     "iso3": "KIR",
     "iso2": "KI",
-    "languages": ["eng"], "continent":"oceania"
+    "languages": ["eng"],
+    "continent": "oceania"
   },
   {
     "iso3": "XXK",
     "iso2": "XK",
-    "languages": ["sqi","srp"], "continent":"europe"
+    "languages": ["sqi", "srp"],
+    "continent": "europe"
   },
   {
     "iso3": "KWT",
     "iso2": "KW",
-    "languages": ["ara"], "continent":"asia"
+    "languages": ["ara"],
+    "continent": "asia"
   },
   {
     "iso3": "LAO",
     "iso2": "LA",
-    "languages": ["lao"], "continent":"asia"
+    "languages": ["lao"],
+    "continent": "asia"
   },
   {
     "iso3": "LSO",
     "iso2": "LS",
-    "languages": ["eng","sot"], "continent":"africa"
+    "languages": ["eng", "sot"],
+    "continent": "africa"
   },
   {
     "iso3": "LVA",
     "iso2": "LV",
-    "languages": ["lav"], "continent":"europe"
+    "languages": ["lav"],
+    "continent": "europe"
   },
   {
     "iso3": "LBN",
     "iso2": "LB",
-    "languages": ["ara"], "continent":"asia"
+    "languages": ["ara"],
+    "continent": "asia"
   },
   {
     "iso3": "LBR",
     "iso2": "LR",
-    "languages": ["eng"], "continent":"africa"
+    "languages": ["eng"],
+    "continent": "africa"
   },
   {
     "iso3": "LBY",
     "iso2": "LY",
-    "languages": ["ara"], "continent":"asia"
+    "languages": ["ara"],
+    "continent": "asia"
   },
   {
     "iso3": "LTU",
     "iso2": "LT",
-    "languages": ["lit"], "continent":"europe"
+    "languages": ["lit"],
+    "continent": "europe"
   },
   {
     "iso3": "LUX",
     "iso2": "LU",
-    "languages": ["deu","fra","ltz"], "continent":"europe"
+    "languages": ["deu", "fra", "ltz"],
+    "continent": "europe"
   },
   {
     "iso3": "MKD",
     "iso2": "MK",
-    "languages": ["mkd","sqi"], "continent":"europe"
+    "languages": ["mkd", "sqi"],
+    "continent": "europe"
   },
   {
     "iso3": "MDG",
     "iso2": "MG",
-    "languages": ["mlg","fra","eng"], "continent":"africa"
+    "languages": ["mlg", "fra", "eng"],
+    "continent": "africa"
   },
   {
     "iso3": "MYS",
     "iso2": "MY",
-    "languages": ["zsm","msa"], "continent":"asia"
+    "languages": ["zsm", "msa"],
+    "continent": "asia"
   },
   {
     "iso3": "MWI",
     "iso2": "MW",
-    "languages": ["eng"], "continent":"africa"
+    "languages": ["eng"],
+    "continent": "africa"
   },
   {
     "iso3": "MDV",
     "iso2": "MV",
-    "languages": ["div"], "continent":"asia"
+    "languages": ["div"],
+    "continent": "asia"
   },
   {
     "iso3": "MLI",
     "iso2": "ML",
-    "languages": ["fra"], "continent":"africa"
+    "languages": ["fra"],
+    "continent": "africa"
   },
   {
     "iso3": "MLT",
     "iso2": "MT",
-    "languages": ["mlt","eng"], "continent":"europe"
+    "languages": ["mlt", "eng"],
+    "continent": "europe"
   },
   {
     "iso3": "MAR",
     "iso2": "MA",
-    "languages": ["ara"], "continent":"africa"
+    "languages": ["ara"],
+    "continent": "africa"
   },
   {
     "iso3": "MHL",
     "iso2": "MH",
-    "languages": ["eng","mah"], "continent":"oceania"
+    "languages": ["eng", "mah"],
+    "continent": "oceania"
   },
   {
     "iso3": "MUS",
     "iso2": "MU",
-    "languages": ["eng","fra"], "continent":"africa"
+    "languages": ["eng", "fra"],
+    "continent": "africa"
   },
   {
     "iso3": "MRT",
     "iso2": "MR",
-    "languages": ["ara","fra"], "continent":"africa"
+    "languages": ["ara", "fra"],
+    "continent": "africa"
   },
   {
     "iso3": "MEX",
     "iso2": "MX",
-    "languages": ["spa"], "continent":"america"
+    "languages": ["spa"],
+    "continent": "america"
   },
   {
     "iso3": "FSM",
     "iso2": "FM",
-    "languages": ["eng"], "continent":"oceania"
+    "languages": ["eng"],
+    "continent": "oceania"
   },
   {
     "iso3": "MDA",
     "iso2": "MD",
-    "languages": ["ron"], "continent":"europe"
+    "languages": ["ron"],
+    "continent": "europe"
   },
   {
     "iso3": "MCO",
     "iso2": "MC",
-    "languages": ["fra"], "continent":"europe"
+    "languages": ["fra"],
+    "continent": "europe"
   },
   {
     "iso3": "MNG",
     "iso2": "MN",
-    "languages": ["mon"], "continent":"asia"
+    "languages": ["mon"],
+    "continent": "asia"
   },
   {
     "iso3": "MNE",
     "iso2": "ME",
-    "languages": ["cnr","srp","hrv","bos","sqi"], "continent":"europe"
+    "languages": ["cnr", "srp", "hrv", "bos", "sqi"],
+    "continent": "europe"
   },
   {
     "iso3": "MOZ",
     "iso2": "MZ",
-    "languages": ["por"], "continent":"africa"
+    "languages": ["por"],
+    "continent": "africa"
   },
   {
     "iso3": "NAM",
     "iso2": "NA",
-    "languages": ["eng"], "continent":"africa"
+    "languages": ["eng"],
+    "continent": "africa"
   },
   {
     "iso3": "NRU",
     "iso2": "NR",
-    "languages": ["eng","nau"], "continent":"oceania"
+    "languages": ["eng", "nau"],
+    "continent": "oceania"
   },
   {
     "iso3": "NPL",
     "iso2": "NP",
-    "languages": ["nep"], "continent":"asia"
+    "languages": ["nep"],
+    "continent": "asia"
   },
   {
     "iso3": "NIC",
     "iso2": "NI",
-    "languages": ["spa"], "continent":"america"
+    "languages": ["spa"],
+    "continent": "america"
   },
   {
     "iso3": "NER",
     "iso2": "NE",
-    "languages": ["fra"], "continent":"africa"
+    "languages": ["fra"],
+    "continent": "africa"
   },
   {
     "iso3": "NGA",
     "iso2": "NG",
-    "languages": ["eng"], "continent":"africa"
+    "languages": ["eng"],
+    "continent": "africa"
   },
   {
     "iso3": "NOR",
     "iso2": "NO",
-    "languages": ["nor"], "continent":"europe"
+    "languages": ["nor"],
+    "continent": "europe"
   },
   {
     "iso3": "NZL",
     "iso2": "NZ",
-    "languages": ["eng","mri"], "continent":"oceania"
+    "languages": ["eng", "mri"],
+    "continent": "oceania"
   },
   {
     "iso3": "OMN",
     "iso2": "OM",
-    "languages": ["ara"], "continent":"asia"
+    "languages": ["ara"],
+    "continent": "asia"
   },
   {
     "iso3": "UGA",
     "iso2": "UG",
-    "languages": ["eng"], "continent":"america"
+    "languages": ["eng"],
+    "continent": "america"
   },
   {
     "iso3": "UZB",
     "iso2": "UZ",
-    "languages": ["uzb","rus"], "continent":"asia"
+    "languages": ["uzb", "rus"],
+    "continent": "asia"
   },
   {
     "iso3": "PAK",
     "iso2": "PK",
-    "languages": ["eng","urd","snd"], "continent":"asia"
+    "languages": ["eng", "urd", "snd"],
+    "continent": "asia"
   },
   {
     "iso3": "PAN",
     "iso2": "PA",
-    "languages": ["spa"], "continent":"america"
+    "languages": ["spa"],
+    "continent": "america"
   },
   {
     "iso3": "PNG",
     "iso2": "PG",
-    "languages": ["eng"], "continent":"oceania"
+    "languages": ["eng"],
+    "continent": "oceania"
   },
   {
     "iso3": "PRY",
     "iso2": "PY",
-    "languages": ["spa"], "continent":"america"
+    "languages": ["spa"],
+    "continent": "america"
   },
   {
     "iso3": "NLD",
     "iso2": "NL",
-    "languages": ["nld"], "continent":"europe"
+    "languages": ["nld"],
+    "continent": "europe"
   },
   {
     "iso3": "PER",
     "iso2": "PE",
-    "languages": ["spa"], "continent":"america"
+    "languages": ["spa"],
+    "continent": "america"
   },
   {
     "iso3": "PHL",
     "iso2": "PH",
-    "languages": ["eng","fil"], "continent":"asia"
+    "languages": ["eng", "fil"],
+    "continent": "asia"
   },
   {
     "iso3": "POL",
     "iso2": "PL",
-    "languages": ["pol"], "continent":"europe"
+    "languages": ["pol"],
+    "continent": "europe"
   },
   {
     "iso3": "PRT",
     "iso2": "PT",
-    "languages": ["por"], "continent":"europe"
+    "languages": ["por"],
+    "continent": "europe"
   },
   {
     "iso3": "QAT",
     "iso2": "QA",
-    "languages": ["ara"], "continent":"asia"
+    "languages": ["ara"],
+    "continent": "asia"
   },
   {
     "iso3": "DOM",
     "iso2": "DO",
-    "languages": ["spa"], "continent":"america"
+    "languages": ["spa"],
+    "continent": "america"
   },
   {
     "iso3": "CZE",
     "iso2": "CZ",
-    "languages": ["cze"], "continent":"europe"
+    "languages": ["cze"],
+    "continent": "europe"
   },
   {
     "iso3": "ROU",
     "iso2": "RO",
-    "languages": ["ron"], "continent":"europe"
+    "languages": ["ron"],
+    "continent": "europe"
   },
   {
     "iso3": "GBR",
     "iso2": "GB",
-    "languages": ["eng"], "continent":"europe"
+    "languages": ["eng"],
+    "continent": "europe"
   },
   {
     "iso3": "RUS",
     "iso2": "RU",
-    "languages": ["rus"], "continent":"asia"
+    "languages": ["rus"],
+    "continent": "asia"
   },
   {
     "iso3": "RWA",
     "iso2": "RW",
-    "languages": ["kin","fra","eng","swa"], "continent":"africa"
+    "languages": ["kin", "fra", "eng", "swa"],
+    "continent": "africa"
   },
   {
     "iso3": "KNA",
     "iso2": "KN",
-    "languages": ["eng"], "continent":"america"
+    "languages": ["eng"],
+    "continent": "america"
   },
   {
     "iso3": "LCA",
     "iso2": "LC",
-    "languages": ["eng"], "continent":"america"
+    "languages": ["eng"],
+    "continent": "america"
   },
   {
     "iso3": "SMR",
     "iso2": "SM",
-    "languages": ["ita"], "continent":"europe"
+    "languages": ["ita"],
+    "continent": "europe"
   },
   {
     "iso3": "VCT",
     "iso2": "VC",
-    "languages": ["eng"], "continent":"america"
+    "languages": ["eng"],
+    "continent": "america"
   },
   {
     "iso3": "SLB",
     "iso2": "SB",
-    "languages": ["eng"], "continent":"oceania"
+    "languages": ["eng"],
+    "continent": "oceania"
   },
   {
     "iso3": "STP",
     "iso2": "ST",
-    "languages": ["por"], "continent":"africa"
+    "languages": ["por"],
+    "continent": "africa"
   },
   {
     "iso3": "SLV",
     "iso2": "SV",
-    "languages": ["spa"], "continent":"america"
+    "languages": ["spa"],
+    "continent": "america"
   },
   {
     "iso3": "WSM",
     "iso2": "WS",
-    "languages": ["smo","eng"], "continent":"oceania"
+    "languages": ["smo", "eng"],
+    "continent": "oceania"
   },
   {
     "iso3": "SEN",
     "iso2": "SN",
-    "languages": ["fra"], "continent":"africa"
+    "languages": ["fra"],
+    "continent": "africa"
   },
   {
     "iso3": "SRB",
     "iso2": "RS",
-    "languages": ["srp"], "continent":"europe"
+    "languages": ["srp"],
+    "continent": "europe"
   },
   {
     "iso3": "SYC",
     "iso2": "SC",
-    "languages": ["fra","ara"], "continent":"asia"
+    "languages": ["fra", "ara"],
+    "continent": "asia"
   },
   {
     "iso3": "SLE",
     "iso2": "SL",
-    "languages": ["eng","sus"], "continent":"africa"
+    "languages": ["eng", "sus"],
+    "continent": "africa"
   },
   {
     "iso3": "SGP",
     "iso2": "SG",
-    "languages": ["eng","msa","zho","tam"], "continent":"asia"
+    "languages": ["eng", "msa", "zho", "tam"],
+    "continent": "asia"
   },
   {
     "iso3": "SVK",
     "iso2": "SK",
-    "languages": ["slk"], "continent":"europe"
+    "languages": ["slk"],
+    "continent": "europe"
   },
   {
     "iso3": "SVN",
     "iso2": "SI",
-    "languages": ["slv","hun"], "continent":"europe"
+    "languages": ["slv", "hun"],
+    "continent": "europe"
   },
   {
     "iso3": "SOM",
     "iso2": "SO",
-    "languages": ["som","ara"], "continent":"africa"
+    "languages": ["som", "ara"],
+    "continent": "africa"
   },
   {
     "iso3": "SDN",
     "iso2": "SD",
-    "languages": ["ara"], "continent":"africa"
+    "languages": ["ara"],
+    "continent": "africa"
   },
   {
     "iso3": "SSD",
     "iso2": "SS",
-    "languages": ["eng"], "continent":"africa"
+    "languages": ["eng"],
+    "continent": "africa"
   },
   {
     "iso3": "LKA",
     "iso2": "LK",
-    "languages": ["sin","tam"], "continent":"asia"
+    "languages": ["sin", "tam"],
+    "continent": "asia"
   },
   {
     "iso3": "SWE",
     "iso2": "SE",
-    "languages": ["swe"], "continent":"europe"
+    "languages": ["swe"],
+    "continent": "europe"
   },
   {
     "iso3": "CHE",
     "iso2": "CH",
-    "languages": ["deu","fra"], "continent":"europe"
+    "languages": ["deu", "fra"],
+    "continent": "europe"
   },
   {
     "iso3": "SUR",
     "iso2": "SR",
-    "languages": ["nld"], "continent":"africa"
+    "languages": ["nld"],
+    "continent": "africa"
   },
   {
     "iso3": "SWZ",
     "iso2": "SZ",
-    "languages": ["eng","ssw"], "continent":"africa"
+    "languages": ["eng", "ssw"],
+    "continent": "africa"
   },
   {
     "iso3": "SYR",
     "iso2": "SY",
-    "languages": ["ara","kur"], "continent":"asia"
+    "languages": ["ara", "kur"],
+    "continent": "asia"
   },
   {
     "iso3": "TJK",
     "iso2": "TJ",
-    "languages": ["tgk","rus"], "continent":"asia"
+    "languages": ["tgk", "rus"],
+    "continent": "asia"
   },
   {
     "iso3": "TZA",
     "iso2": "TZ",
-    "languages": ["eng","swa"], "continent":"africa"
+    "languages": ["eng", "swa"],
+    "continent": "africa"
   },
   {
     "iso3": "TCD",
     "iso2": "TD",
-    "languages": ["ara","fra"], "continent":"africa"
+    "languages": ["ara", "fra"],
+    "continent": "africa"
   },
   {
     "iso3": "TLS",
     "iso2": "TL",
-    "languages": ["por","tet"], "continent":"asia"
+    "languages": ["por", "tet"],
+    "continent": "asia"
   },
   {
     "iso3": "THA",
     "iso2": "TH",
-    "languages": ["tha"], "continent":"asia"
+    "languages": ["tha"],
+    "continent": "asia"
   },
   {
     "iso3": "TGO",
     "iso2": "TG",
-    "languages": ["fra"], "continent":"africa"
+    "languages": ["fra"],
+    "continent": "africa"
   },
   {
     "iso3": "TTO",
     "iso2": "TT",
-    "languages": ["eng"], "continent":"america"
+    "languages": ["eng"],
+    "continent": "america"
   },
   {
     "iso3": "TUN",
     "iso2": "TN",
-    "languages": ["ara"], "continent":"africa"
+    "languages": ["ara"],
+    "continent": "africa"
   },
   {
     "iso3": "TKM",
     "iso2": "TM",
-    "languages": ["tuk","rus"], "continent":"asia"
+    "languages": ["tuk", "rus"],
+    "continent": "asia"
   },
   {
     "iso3": "TUR",
     "iso2": "TR",
-    "languages": ["tur","kur"], "continent":"asia"
+    "languages": ["tur", "kur"],
+    "continent": "asia"
   },
   {
     "iso3": "TUV",
     "iso2": "TV",
-    "languages": ["eng","tvl"], "continent":"oceania"
+    "languages": ["eng", "tvl"],
+    "continent": "oceania"
   },
   {
     "iso3": "UKR",
     "iso2": "UA",
-    "languages": ["ukr"], "continent":"europe"
+    "languages": ["ukr"],
+    "continent": "europe"
   },
   {
     "iso3": "URY",
     "iso2": "UY",
-    "languages": ["spa"], "continent":"america"
+    "languages": ["spa"],
+    "continent": "america"
   },
   {
     "iso3": "VUT",
     "iso2": "VU",
-    "languages": ["eng","fra"], "continent":"oceania"
+    "languages": ["eng", "fra"],
+    "continent": "oceania"
   },
   {
     "iso3": "VAT",
     "iso2": "VA",
-    "languages": ["ita"], "continent":"europe"
+    "languages": ["ita"],
+    "continent": "europe"
   },
   {
     "iso3": "VEN",
     "iso2": "VE",
-    "languages": ["spa"], "continent":"america"
+    "languages": ["spa"],
+    "continent": "america"
   },
   {
     "iso3": "VNM",
     "iso2": "VN",
-    "languages": ["vie"], "continent":"asia"
+    "languages": ["vie"],
+    "continent": "asia"
   },
   {
     "iso3": "YEM",
     "iso2": "YE",
-    "languages": ["ara"], "continent":"asia"
+    "languages": ["ara"],
+    "continent": "asia"
   },
   {
     "iso3": "ZMB",
     "iso2": "ZM",
-    "languages": ["eng"], "continent":"africa"
+    "languages": ["eng"],
+    "continent": "africa"
   },
   {
     "iso3": "ZWE",
     "iso2": "ZW",
-    "languages": ["eng"], "continent":"africa"
+    "languages": ["eng"],
+    "continent": "africa"
   },
   {
     "iso3": "FRE",
     "iso2": "FR",
-    "languages": ["swb"], "continent":"africa"
+    "languages": ["swb"],
+    "continent": "africa"
   }
 ]
