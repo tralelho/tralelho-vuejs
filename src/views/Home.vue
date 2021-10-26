@@ -1,5 +1,14 @@
 <script setup lang="ts">
 import FlagList from "../components/Flag-list.vue";
+
+const scrollTo = ($event: KeyboardEvent, continent: string): void => {
+  $event.preventDefault();
+  location.hash = `#${continent}`;
+  const element = document.getElementById(continent);
+  if (element) {
+    element.scrollIntoView(false);
+  }
+};
 </script>
 
 <template>
@@ -18,17 +27,19 @@ import FlagList from "../components/Flag-list.vue";
             target="_blank"
             alt="Amérique du nord"
             title="Amérique du nord"
-            href="#north-america"
+            href="#america"
             coords="18,99,388,428"
             shape="rect"
+            v-on:click="scrollTo($event, 'america')"
           />
           <area
             target="_blank"
             alt="Amérique du sud"
             title="Amérique du sud"
-            href="#south-america"
+            href="#america"
             coords="148,434,400,650"
             shape="rect"
+            v-on:click="scrollTo($event, 'america')"
           />
           <area
             target="_blank"
@@ -37,6 +48,7 @@ import FlagList from "../components/Flag-list.vue";
             href="#europe"
             coords="421,195,603,370"
             shape="rect"
+            v-on:click="scrollTo($event, 'europe')"
           />
           <area
             target="_blank"
@@ -45,6 +57,7 @@ import FlagList from "../components/Flag-list.vue";
             href="#africa"
             coords="421,376,603,582"
             shape="rect"
+            v-on:click="scrollTo($event, 'africa')"
           />
           <area
             target="_blank"
@@ -53,14 +66,16 @@ import FlagList from "../components/Flag-list.vue";
             href="#asia"
             coords="610,128,983,450"
             shape="rect"
+            v-on:click="scrollTo($event, 'asia')"
           />
           <area
             target="_blank"
-            alt="Australie"
-            title="Australie"
-            href="#autralia"
+            alt="Oceania"
+            title="Océanie"
+            href="#oceania"
             coords="713,457,983,618"
             shape="rect"
+            v-on:click="scrollTo($event, 'oceania')"
           />
         </map>
       </figure>
