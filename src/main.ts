@@ -2,7 +2,7 @@ import { createApp } from "vue";
 import App from "./App.vue";
 import "./assets/main.scss";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faUserSecret } from "@fortawesome/free-solid-svg-icons";
+import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import "flag-icon-css/css/flag-icon.css";
 import { setupRouter } from "./router";
@@ -10,7 +10,7 @@ import { setupI18n } from "./i18n";
 import fra from "./locales/fra.json";
 import NavBar from "./components/Nav-bar.vue";
 
-library.add(faUserSecret);
+library.add(faAngleDown);
 
 const i18n = setupI18n({
   legacy: false,

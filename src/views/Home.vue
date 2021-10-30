@@ -6,6 +6,8 @@ const scrollTo = ($event: KeyboardEvent, continent: string): void => {
   location.hash = `#${continent}`;
   const element = document.getElementById(continent);
   if (element) {
+    console.log(continent)
+    console.log(element?.scrollHeight)
     element.scrollIntoView(false);
   }
 };
