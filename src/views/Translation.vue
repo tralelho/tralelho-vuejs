@@ -14,12 +14,12 @@ const { locale } = useI18n({ useScope: "global" });
       <div
         v-for="phrase of section.list"
         :key="phrase"
-        class="box columns m-2 is-clickable change-background-on-hover"
+        class="box columns m-2 py-2 is-clickable change-background-on-hover"
       >
-        <div class="column is-half">
+        <div class="column is-half py-1">
           <p v-t="{ path: phrase }" class="bd-notification is-primary"></p>
         </div>
-        <div class="column is-half">
+        <div class="column is-half py-1">
           <p
             v-t="{ path: phrase, locale: $route.query.lang }"
             class="bd-notification is-primary"
