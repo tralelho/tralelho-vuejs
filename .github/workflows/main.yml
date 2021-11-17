@@ -45,6 +45,7 @@ jobs:
 
       - name: Eslint, Prettier check
         run: |
+          npm run prettier:fix
           npm run lint
 
       - name: Build

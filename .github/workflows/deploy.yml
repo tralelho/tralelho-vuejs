@@ -41,6 +41,7 @@ jobs:
       - name: Build
         run: |
           npm ci
+          npm run prettier:fix
           npm run build
         env:
           CI: true
