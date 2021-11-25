@@ -3,145 +3,169 @@
     "iso3": "AFG",
     "iso2": "AF",
     "languages": ["pus", "psr"],
-    "continent": "asia"
+    "continent": "asia",
+    "namefr" : "Afghanistan / جمهوری اسلامی افغانستان"
   },
   {
     "iso3": "ZAF",
     "iso2": "ZA",
     "languages": ["zul", "xho", "afr", "eng", "nso", "tsn", "tso"],
-    "continent": "africa"
+    "continent": "africa",
+    "namefr" : "Afrique du sud / IRiphabliki yeSewula Afrika"
   },
   {
     "iso3": "ALB",
     "iso2": "AL",
     "languages": ["sqi"],
-    "continent": "europe"
+    "continent": "europe",
+    "namefr" : "Albanie / Shqipëri"
   },
   {
     "iso3": "DZA",
     "iso2": "DZ",
     "languages": ["ara"],
-    "continent": "africa"
+    "continent": "africa",
+    "namefr" : "Algérie / الجمهورية الجزائرية الديمقراطية الشعبية"
   },
   {
     "iso3": "DEU",
     "iso2": "DE",
     "languages": ["deu"],
-    "continent": "europe"
+    "continent": "europe",
+    "namefr" : "Allemagne / Bundesrepublik Deutschland "
   },
   {
     "iso3": "AND",
     "iso2": "AD",
     "languages": ["cat"],
-    "continent": "europe"
+    "continent": "europe",
+    "namefr" : "Andorre / Principat d’Andorra"
   },
   {
     "iso3": "AGO",
     "iso2": "AO",
     "languages": ["por"],
-    "continent": "africa"
+    "continent": "africa",
+    "namefr" : "Angola / República de Angola"
   },
   {
     "iso3": "ATG",
     "iso2": "AG",
     "languages": ["eng"],
-    "continent": "america"
+    "continent": "america",
+    "namefr" : "Antigua-et-barbuda / Antigua and Barbadua"
   },
   {
     "iso3": "SAU",
     "iso2": "SA",
     "languages": ["ara"],
-    "continent": "asia"
+    "continent": "asia",
+    "namefr" : "Arabie Saoudite / المملكة العربية السعودية"
   },
   {
     "iso3": "ARG",
     "iso2": "AR",
     "languages": ["spa"],
-    "continent": "america"
+    "continent": "america",
+    "namefr" : "Argentine / Argentina"
   },
   {
     "iso3": "ARM",
     "iso2": "AM",
     "languages": ["hye"],
-    "continent": "asia"
+    "continent": "asia",
+    "namefr" : "Arménie / Հայաստան"
   },
   {
     "iso3": "AUS",
     "iso2": "AU",
     "languages": ["eng"],
-    "continent": "oceania"
+    "continent": "oceania",
+    "namefr" : "Australie / Australia"
   },
   {
     "iso3": "AUT",
     "iso2": "AT",
     "languages": ["deu"],
-    "continent": "europe"
+    "continent": "europe",
+    "namefr" : "Autriche / Österreich"
   },
   {
     "iso3": "AZE",
     "iso2": "AZ",
     "languages": ["aze"],
-    "continent": "asia"
+    "continent": "asia",
+    "namefr" : "Azerbaïdjan / Azərbaycan Respublikası"
   },
   {
     "iso3": "BHS",
     "iso2": "BS",
     "languages": ["eng"],
-    "continent": "america"
+    "continent": "america",
+    "namefr" : "Bahamas / Commonwealth of the Bahamas"
   },
   {
     "iso3": "BHR",
     "iso2": "BH",
     "languages": ["ara"],
-    "continent": "asia"
+    "continent": "asia",
+    "namefr" : "Bahreïn / مملكة البحرين"
   },
   {
     "iso3": "BGD",
     "iso2": "BD",
     "languages": ["ben"],
-    "continent": "asia"
+    "continent": "asia",
+    "namefr" : "Bangladesh / গণপ্রজাতন্ত্রী বাংলাদেশ "
   },
   {
     "iso3": "BRB",
     "iso2": "BB",
     "languages": ["eng"],
-    "continent": "america"
+    "continent": "america",
+    "namefr" : "Barbade / Barbados"
   },
   {
     "iso3": "PLW",
     "iso2": "PW",
     "languages": ["eng", "pau"],
-    "continent": "oceania"
+    "continent": "oceania",
+    "namefr" : "Palaos / Beluu er a Belau"
   },
   {
     "iso3": "BEL",
     "iso2": "BE",
     "languages": ["fra", "deu", "nld"],
-    "continent": "europe"
+    "continent": "europe",
+    "namefr" : "Belgique"
   },
   {
     "iso3": "BLZ",
     "iso2": "BZ",
     "languages": ["eng"],
-    "continent": "america"
+    "continent": "america",
+    "namefr" : "Belize"
   },
   {
     "iso3": "BEN",
     "iso2": "BJ",
     "languages": ["fra"],
-    "continent": "africa"
+    "continent": "africa",
+    "namefr" : "Bénin"
   },
   {
     "iso3": "BTN",
     "iso2": "BT",
     "languages": ["dzo"],
-    "continent": "asia"
+    "continent": "asia",
+    "namefr" : "Bhoutan / འབྲུག་ཡུལ"
   },
   {
     "iso3": "BLR",
     "iso2": "BY",
     "languages": ["bel", "rus"],
-    "continent": "europe"
+    "continent": "europe",
+    "namefr" : "Biélorussie / Беларусь"
   },
   {
     "iso3": "MMR",
