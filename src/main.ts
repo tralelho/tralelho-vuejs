@@ -4,7 +4,7 @@ import "./assets/main.scss";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faUserSecret } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
-import "flag-icon-css/css/flag-icon.css";
+import "flag-icon-css/css/flag-icons.min.css";
 import { setupRouter } from "./router";
 import { setupI18n } from "./i18n";
 import fra from "./locales/fra.json";

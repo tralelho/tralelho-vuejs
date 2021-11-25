@@ -2,32 +2,36 @@
   <div
     v-for="continent in countriesByContinent"
     :key="continent"
-    class="card mb-4"
+    class="section"
     :id="continent.name"
   >
-    <div class="card-header">
-      <h2 class="card-header-title is-capitalized">
-        {{ continent.name }}
-      </h2>
-    </div>
-    <div class="card-content">
-      <div class="content line-height">
-        <router-link
-          v-for="country in continent.countries"
-          :key="country.iso2"
-          class="block m-2"
-          :to="{
-            name: 'translation',
-            params: { locale },
-            query: { lang: country.languages[0].toLowerCase() },
-          }"
-        >
-          <span
-            :class="
-              'is-size-1 flag-icon flag-icon-' + country.iso2.toLowerCase()
-            "
-          ></span>
-        </router-link>
+    <h2 class="title is-2 is-capitalized">
+      {{ continent.name }}
+    </h2>
+
+    <div class="tile is-ancestor is-flex-wrap-wrap mx-4">
+      <div
+        class="tile is-vertical"
+        v-for="country in continent.countries"
+        :key="country.iso2"
+      >
+        <p class="mb-1">
+          <router-link
+            class="m-1"
+            :to="{
+              name: 'translation',
+              params: { locale },
+              query: { lang: country.languages[0].toLowerCase() },
+            }"
+          >
+            <span
+              :class="
+                'flag-font-size flag-icon flag-icon-' + country.iso2.toLowerCase()
+              "
+            ></span>
+          </router-link>
+        </p>
+        <p>{{ country.namefr }}</p>
       </div>
     </div>
   </div>
@@ -58,7 +62,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.line-height {
-  line-height: 40px;
+.flag-font-size {
+  font-size: 6rem;
 }
 </style>
