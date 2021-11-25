@@ -7,6 +7,7 @@ import type { I18n, Composer } from "vue-i18n";
 import Home from "./views/Home.vue";
 import About from "./views/About.vue";
 import Translation from "./views/Translation.vue";
+import Samu from "./views/Samu.vue";
 
 export function setupRouter(i18n: I18n): Router {
   const locale: string =
@@ -30,6 +31,11 @@ export function setupRouter(i18n: I18n): Router {
       path: "/:locale/translation",
       name: "translation",
       component: Translation,
+    },
+    {
+      path: "/:locale/samu",
+      name: "samu",
+      component: Samu,
     },
     {
       path: "/:pathMatch(.*)*",

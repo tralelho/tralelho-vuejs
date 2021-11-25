@@ -42,6 +42,13 @@
         </router-link>
 
         <router-link
+            :to="{ name: 'samu', params: { locale } }"
+            class="navbar-item"
+        >
+          Samu
+        </router-link>
+
+        <router-link
           :to="{ name: 'about', params: { locale } }"
           class="navbar-item"
         >
