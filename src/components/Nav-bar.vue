@@ -41,12 +41,61 @@
           Translation
         </router-link>
 
-        <router-link
-            :to="{ name: 'samu', params: { locale } }"
-            class="navbar-item"
-        >
-          Samu
-        </router-link>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link"> Samu </a>
+
+          <div class="navbar-dropdown">
+            <router-link
+              :to="{
+                name: 'samu',
+                params: { locale },
+                query: { lang: 'eng' },
+              }"
+              class="navbar-item"
+              v-t="{ path: 685, locale: 'fra' }"
+            ></router-link>
+
+            <router-link
+                :to="{
+                name: 'samu',
+                params: { locale },
+                query: { lang: 'deu' },
+              }"
+                class="navbar-item"
+                v-t="{ path: 681, locale: 'fra' }"
+            ></router-link>
+
+            <router-link
+                :to="{
+                name: 'samu',
+                params: { locale },
+                query: { lang: 'spa' },
+              }"
+                class="navbar-item"
+                v-t="{ path: 744, locale: 'fra' }"
+            ></router-link>
+
+            <router-link
+                :to="{
+                name: 'samu',
+                params: { locale },
+                query: { lang: 'por' },
+              }"
+                class="navbar-item"
+                v-t="{ path: 730, locale: 'fra' }"
+            ></router-link>
+
+            <router-link
+                :to="{
+                name: 'samu',
+                params: { locale },
+                query: { lang: 'ita' },
+              }"
+                class="navbar-item"
+                v-t="{ path: 700, locale: 'fra' }"
+            ></router-link>
+          </div>
+        </div>
 
         <router-link
           :to="{ name: 'about', params: { locale } }"
