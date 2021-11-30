@@ -436,7 +436,7 @@
   {
     "iso3": "FJI",
     "iso2": "FJ",
-    "languages": ["eng", "fj"],
+    "languages": ["fj", "eng"],
     "continent": "oceania",
     "namefr": "Fidji <br>"
   },
@@ -933,7 +933,7 @@
   {
     "iso3": "PAK",
     "iso2": "PK",
-    "languages": ["eng", "urd", "snd"],
+    "languages": ["urd", "snd", "eng"],
     "continent": "asia",
     "namefr": "Pakistan <br>"
   },
@@ -975,7 +975,7 @@
   {
     "iso3": "PHL",
     "iso2": "PH",
-    "languages": ["eng", "fil"],
+    "languages": ["fil", "eng"],
     "continent": "asia",
     "namefr": "Philippines <br>"
   },
@@ -1004,306 +1004,357 @@
     "iso3": "DOM",
     "iso2": "DO",
     "languages": ["spa"],
-    "continent": "america"
+    "continent": "america",
+    "namefr": "Rep Dominicaine <br>"
   },
   {
     "iso3": "CZE",
     "iso2": "CZ",
     "languages": ["cze"],
-    "continent": "europe"
+    "continent": "europe",
+    "namefr": "Rép Tchèque <br>"
   },
   {
     "iso3": "ROU",
     "iso2": "RO",
     "languages": ["ron"],
-    "continent": "europe"
+    "continent": "europe",
+    "namefr": "Roumanie <br>"
   },
   {
     "iso3": "GBR",
     "iso2": "GB",
     "languages": ["eng"],
-    "continent": "europe"
+    "continent": "europe",
+    "namefr": "Royaume Uni <br>"
   },
   {
     "iso3": "RUS",
     "iso2": "RU",
     "languages": ["rus"],
-    "continent": "asia"
+    "continent": "asia",
+    "namefr": "Russie <br>"
   },
   {
     "iso3": "RWA",
     "iso2": "RW",
     "languages": ["kin", "fra", "eng", "swa"],
-    "continent": "africa"
+    "continent": "africa",
+    "namefr": "Rwanda <br>"
   },
   {
     "iso3": "KNA",
     "iso2": "KN",
     "languages": ["eng"],
-    "continent": "america"
+    "continent": "america",
+    "namefr": "St Kitts et Nevis <br>"
   },
   {
     "iso3": "LCA",
     "iso2": "LC",
     "languages": ["eng"],
-    "continent": "america"
+    "continent": "america",
+    "namefr": "Ste Lucie <br>"
   },
   {
     "iso3": "SMR",
     "iso2": "SM",
     "languages": ["ita"],
-    "continent": "europe"
+    "continent": "europe",
+    "namefr": "St Marin <br>"
   },
   {
     "iso3": "VCT",
     "iso2": "VC",
     "languages": ["eng"],
-    "continent": "america"
+    "continent": "america",
+    "namefr": "St Vincent et les Grenadines <br>"
   },
   {
     "iso3": "SLB",
     "iso2": "SB",
     "languages": ["eng"],
-    "continent": "oceania"
+    "continent": "oceania",
+    "namefr": "Iles Salomon <br>"
   },
   {
     "iso3": "STP",
     "iso2": "ST",
     "languages": ["por"],
-    "continent": "africa"
+    "continent": "africa",
+    "namefr": "Sao Tomé et Principe <br>"
   },
   {
     "iso3": "SLV",
     "iso2": "SV",
     "languages": ["spa"],
-    "continent": "america"
+    "continent": "america",
+    "namefr": "Salvador <br>"
   },
   {
     "iso3": "WSM",
     "iso2": "WS",
     "languages": ["smo", "eng"],
-    "continent": "oceania"
+    "continent": "oceania",
+    "namefr": "Samoa <br>"
   },
   {
     "iso3": "SEN",
     "iso2": "SN",
     "languages": ["fra"],
-    "continent": "africa"
+    "continent": "africa",
+    "namefr": "Sénégal <br>"
   },
   {
     "iso3": "SRB",
     "iso2": "RS",
     "languages": ["srp"],
-    "continent": "europe"
+    "continent": "europe",
+    "namefr": "Serbie <br>"
   },
   {
     "iso3": "SYC",
     "iso2": "SC",
-    "languages": ["fra", "ara"],
-    "continent": "asia"
+    "languages": ["ara", "fra"],
+    "continent": "asia",
+    "namefr": "Seychelles <br>"
   },
   {
     "iso3": "SLE",
     "iso2": "SL",
-    "languages": ["eng", "sus"],
-    "continent": "africa"
+    "languages": ["sus", "eng"],
+    "continent": "africa",
+    "namefr": "Sierra Leone <br>"
   },
   {
     "iso3": "SGP",
     "iso2": "SG",
     "languages": ["eng", "msa", "zho", "tam"],
-    "continent": "asia"
+    "continent": "asia",
+    "namefr": "Singapour <br>"
   },
   {
     "iso3": "SVK",
     "iso2": "SK",
     "languages": ["slk"],
-    "continent": "europe"
+    "continent": "europe",
+    "namefr": "Slovaquie <br>"
   },
   {
     "iso3": "SVN",
     "iso2": "SI",
     "languages": ["slv", "hun"],
-    "continent": "europe"
+    "continent": "europe",
+    "namefr": "Slovénie <br>"
   },
   {
     "iso3": "SOM",
     "iso2": "SO",
     "languages": ["som", "ara"],
-    "continent": "africa"
+    "continent": "africa",
+    "namefr": "Somalie <br>"
   },
   {
     "iso3": "SDN",
     "iso2": "SD",
     "languages": ["ara"],
-    "continent": "africa"
+    "continent": "africa",
+    "namefr": "Soudan <br>"
   },
   {
     "iso3": "SSD",
     "iso2": "SS",
     "languages": ["eng"],
-    "continent": "africa"
+    "continent": "africa",
+    "namefr": "Sud Soudan <br>"
   },
   {
     "iso3": "LKA",
     "iso2": "LK",
     "languages": ["sin", "tam"],
-    "continent": "asia"
+    "continent": "asia",
+    "namefr": "Sri Lanka <br>"
   },
   {
     "iso3": "SWE",
     "iso2": "SE",
     "languages": ["swe"],
-    "continent": "europe"
+    "continent": "europe",
+    "namefr": "Suède <br>"
   },
   {
     "iso3": "CHE",
     "iso2": "CH",
     "languages": ["deu", "fra"],
-    "continent": "europe"
+    "continent": "europe",
+    "namefr": "Suisse <br>"
   },
   {
     "iso3": "SUR",
     "iso2": "SR",
     "languages": ["nld"],
-    "continent": "africa"
+    "continent": "africa",
+    "namefr": "Suriname <br>"
   },
   {
     "iso3": "SWZ",
     "iso2": "SZ",
-    "languages": ["eng", "ssw"],
-    "continent": "africa"
+    "languages": ["ssw", "eng"],
+    "continent": "africa",
+    "namefr": "Eswatini <br>"
   },
   {
     "iso3": "SYR",
     "iso2": "SY",
     "languages": ["ara", "kur"],
-    "continent": "asia"
+    "continent": "asia",
+    "namefr": "Syrie <br>"
   },
   {
     "iso3": "TJK",
     "iso2": "TJ",
     "languages": ["tgk", "rus"],
-    "continent": "asia"
+    "continent": "asia",
+    "namefr": "Tadjikistan <br>"
   },
   {
     "iso3": "TZA",
     "iso2": "TZ",
-    "languages": ["eng", "swa"],
-    "continent": "africa"
+    "languages": ["swa", "eng"],
+    "continent": "africa",
+    "namefr": "Tanzanie <br>"
   },
   {
     "iso3": "TCD",
     "iso2": "TD",
     "languages": ["ara", "fra"],
-    "continent": "africa"
+    "continent": "africa,
+    "namefr": "Tchad <br>"
   },
   {
     "iso3": "TLS",
     "iso2": "TL",
     "languages": ["por", "tet"],
-    "continent": "asia"
+    "continent": "asia,
+    "namefr": "Timor Leste <br>"
   },
   {
     "iso3": "THA",
     "iso2": "TH",
     "languages": ["tha"],
-    "continent": "asia"
+    "continent": "asia",
+    "namefr": "Thaïlande <br>"
   },
   {
     "iso3": "TGO",
     "iso2": "TG",
     "languages": ["fra"],
-    "continent": "africa"
+    "continent": "africa",
+    "namefr": "Togo <br>"
   },
   {
     "iso3": "TTO",
     "iso2": "TT",
     "languages": ["eng"],
-    "continent": "america"
+    "continent": "america",
+    "namefr": "Trinité et Tobago <br>"
   },
   {
     "iso3": "TUN",
     "iso2": "TN",
     "languages": ["ara"],
-    "continent": "africa"
+    "continent": "africa",
+    "namefr": "Tunisie <br>"
   },
   {
     "iso3": "TKM",
     "iso2": "TM",
     "languages": ["tuk", "rus"],
-    "continent": "asia"
+    "continent": "asia",
+    "namefr": "Turkménistan <br>"
   },
   {
     "iso3": "TUR",
     "iso2": "TR",
     "languages": ["tur", "kur"],
-    "continent": "asia"
+    "continent": "asia",
+    "namefr": "Turquie <br>"
   },
   {
     "iso3": "TUV",
     "iso2": "TV",
     "languages": ["eng", "tvl"],
-    "continent": "oceania"
+    "continent": "oceania",
+    "namefr": "Tuvalu <br>"
   },
   {
     "iso3": "UKR",
     "iso2": "UA",
     "languages": ["ukr"],
-    "continent": "europe"
+    "continent": "europe",
+    "namefr": "Ukraine <br>"
   },
   {
     "iso3": "URY",
     "iso2": "UY",
     "languages": ["spa"],
-    "continent": "america"
+    "continent": "america",
+    "namefr": "Uruguay <br>"
   },
   {
     "iso3": "VUT",
     "iso2": "VU",
     "languages": ["eng", "fra"],
-    "continent": "oceania"
+    "continent": "oceania",
+    "namefr": "Vanuatu <br>"
   },
   {
     "iso3": "VAT",
     "iso2": "VA",
     "languages": ["ita"],
-    "continent": "europe"
+    "continent": "europe",
+    "namefr": "Vatican <br>"
   },
   {
     "iso3": "VEN",
     "iso2": "VE",
     "languages": ["spa"],
-    "continent": "america"
+    "continent": "america",
+    "namefr": "Venezuela <br>"
   },
   {
     "iso3": "VNM",
     "iso2": "VN",
     "languages": ["vie"],
-    "continent": "asia"
+    "continent": "asia",
+    "namefr": "Viet Nam <br>"
   },
   {
     "iso3": "YEM",
     "iso2": "YE",
     "languages": ["ara"],
-    "continent": "asia"
+    "continent": "asia",
+    "namefr": "Yémen <br>"
   },
   {
     "iso3": "ZMB",
     "iso2": "ZM",
     "languages": ["eng"],
-    "continent": "africa"
+    "continent": "africa",
+    "namefr": "Zambie <br>"
   },
   {
     "iso3": "ZWE",
     "iso2": "ZW",
     "languages": ["eng"],
-    "continent": "africa"
+    "continent": "africa",
+    "namefr": "Zimbabwe <br>"
   },
   {
     "iso3": "FRE",
     "iso2": "FR",
     "languages": ["swb"],
-    "continent": "africa"
+    "continent": "africa",
+    "namefr": "Mayotte <br>"
   }
 ]
