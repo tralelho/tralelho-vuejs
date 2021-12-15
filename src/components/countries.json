@@ -192,7 +192,7 @@
     "iso3": "BWA",
     "iso2": "BW",
     "languages": ["eng"],
-    "continent": "africa,
+    "continent": "africa",
     "namefr": "Botswana <br>"
   },
   {
@@ -1228,14 +1228,14 @@
     "iso3": "TCD",
     "iso2": "TD",
     "languages": ["ara", "fra"],
-    "continent": "africa,
+    "continent": "africa",
     "namefr": "Tchad <br>"
   },
   {
     "iso3": "TLS",
     "iso2": "TL",
     "languages": ["por", "tet"],
-    "continent": "asia,
+    "continent": "asia",
     "namefr": "Timor Leste <br>"
   },
   {

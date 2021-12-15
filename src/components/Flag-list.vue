@@ -26,7 +26,8 @@
           >
             <span
               :class="
-                'flag-font-size flag-icon flag-icon-' + country.iso2.toLowerCase()
+                'flag-font-size flag-icon flag-icon-' +
+                country.iso2.toLowerCase()
               "
             ></span>
           </router-link>
