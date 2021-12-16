@@ -21,7 +21,10 @@
             :to="{
               name: 'translation',
               params: { locale },
-              query: { lang: country.languages[0].toLowerCase() },
+              query: {
+                lang: country.languages[0].toLowerCase(),
+                country: country.iso3,
+              },
             }"
           >
             <span

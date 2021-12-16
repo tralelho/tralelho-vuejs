@@ -2,11 +2,42 @@
 import { useI18n } from "vue-i18n";
 import pageConfig from "./Translation.config.json";
 const { locale } = useI18n({ useScope: "global" });
+import { useRouter } from "vue-router";
+import countries from "../components/countries.json";
+
+const targetLang = useRouter().currentRoute.value.query.lang;
+const country = useRouter().currentRoute.value.query.country;
+
+const countryConfig = countries.find((countryConfig) => {
+  return countryConfig.iso3 === country;
+});
+
+let selectedLanguage;
 </script>
 
 <template>
   <div class="section">
     <h1 class="title is-1">Translation Page locale: {{ locale }}</h1>
+
+    <div
+      class="change-language mx-auto mb-6 field is-horizontal"
+      v-if="countryConfig"
+    >
+      <div class="field-label is-normal field-label-size">
+        <label class="label">Change language:</label>
+      </div>
+      <div class="select">
+        <select v-model="selectedLanguage">
+          <option
+            v-for="lang of countryConfig.languages"
+            :key="lang"
+            :value="lang.value"
+          >
+            {{ lang }}
+          </option>
+        </select>
+      </div>
+    </div>
 
     <div className="columns">
       <div className="column is-2 has-text-left">
@@ -51,7 +82,7 @@ const { locale } = useI18n({ useScope: "global" });
             </div>
             <div class="column is-half py-1">
               <p
-                v-t="{ path: phrase, locale: $route.query.lang }"
+                v-t="{ path: phrase, locale: targetLang }"
                 class="bd-notification is-primary"
               ></p>
             </div>
@@ -69,7 +100,16 @@ const { locale } = useI18n({ useScope: "global" });
   align-content: center; /* used this for multiple child */
   align-items: center; /* if an only child */
 }
+
 .menu-element-multiline {
   width: 100px;
+}
+
+.field-label-size {
+  max-width: 200px;
+}
+
+.change-language {
+  max-width: 500px;
 }
 </style>
