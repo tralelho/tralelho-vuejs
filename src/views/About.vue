@@ -13,7 +13,7 @@
 Soutenir TraLELHo c'est d'abord l'utiliser, le diffuser auprès de vos collègues, amis.
 C'est aussi nous contacter si vous parlez une langue étrangère pour nous proposer une correction ou une nouvelle traduction.
 
->>>>>Lien vers l'email de contact <<<<<<
+----Lien vers l'email de contact----
     
 Enfin soutenir TraLELHo peut aussi passer par un don, afin d'aider le site à rester héberger aussi longtemps que possible, ou a obtenir de nouvelles traductions ou corrections.
 Avec 5 euros vous permettez au site d'être hébergé un mois de plus.
