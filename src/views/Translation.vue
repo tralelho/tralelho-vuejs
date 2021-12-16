@@ -9,11 +9,21 @@ const { locale } = useI18n({ useScope: "global" });
     <h1 class="title is-1">Translation Page locale: {{ locale }}</h1>
 
     <div className="columns">
-      <div className="column is-1 has-text-left">
+      <div className="column is-2 has-text-left">
         <aside class="menu">
           <ul class="menu-list">
             <li v-for="section of pageConfig" :key="section.title">
-              <a :href="'#' + section.title" v-t="{ path: section.title }"></a>
+              <a :href="'#' + section.title" class="is-align-items-center">
+                <img
+                  :src="'/' + section.icon"
+                  :alt="$t(section.title)"
+                  width="50"
+                  height="50"
+                />&nbsp;
+                <span class="menu-element-multiline">
+                  {{ $t(section.title) }}
+                </span>
+              </a>
             </li>
           </ul>
         </aside>
@@ -51,3 +61,16 @@ const { locale } = useI18n({ useScope: "global" });
     </div>
   </div>
 </template>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped lang="scss">
+.is-align-items-center {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center; /* used this for multiple child */
+  align-items: center; /* if an only child */
+}
+.menu-element-multiline {
+  width: 100px;
+}
+</style>
