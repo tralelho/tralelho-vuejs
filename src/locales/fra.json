@@ -266,7 +266,7 @@
   "265": "Vous devez aller à l'hôpital",
   "266": "Vous devez rester à l'hôpital",
   "267": "Vous allez être transféré dans un autre service",
-  "268": "PATIENT EN STRUCTURE",
+  "268": "PATIENT",
   "269": "J’ai faim",
   "270": "J’ai soif",
   "271": "J’ai mal",
@@ -855,5 +855,6 @@
   "854": "Votre œil est-il rouge ? Votre œil est-il douloureux ?",
   "855": "Buvez-vous de l'alcool ?",
   "856": "Genou",
-  "857": "Cheville"
+  "857": "Cheville",
+  "858": "CIRCONSTANCES"
 }
