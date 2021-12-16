@@ -62,7 +62,6 @@ const { locale } = useI18n({ useScope: "global" });
   </div>
 </template>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 .is-align-items-center {
   display: flex;
