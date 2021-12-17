@@ -7,14 +7,13 @@ import { ref } from "vue";
 
 const { locale } = useI18n({ useScope: "global" });
 
-const targetLang = useRouter().currentRoute.value.query.lang || "fra";
 const country = useRouter().currentRoute.value.query.country;
-
 const countryConfig = countries.find((countryConfig) => {
   return countryConfig.iso3 === country;
 });
 
-let selectedLanguage = ref(targetLang[0]);
+const targetLanguages = useRouter().currentRoute.value.query.lang || ["fra"];
+let selectedLanguage = ref(targetLanguages[0]);
 </script>
 
 <template>
@@ -30,7 +29,11 @@ let selectedLanguage = ref(targetLang[0]);
       </div>
       <div class="select">
         <select v-model="selectedLanguage">
-          <option v-for="lang of countryConfig.languages" :value="lang">
+          <option
+            v-for="lang of countryConfig.languages"
+            :key="lang"
+            :value="lang"
+          >
             {{ lang }}
           </option>
         </select>
