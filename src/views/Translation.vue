@@ -1,9 +1,11 @@
-<script setup lang="ts">
+<script lang="ts" setup>
 import { useI18n } from "vue-i18n";
 import pageConfig from "./Translation.config.json";
-const { locale } = useI18n({ useScope: "global" });
 import { useRouter } from "vue-router";
 import countries from "../components/countries.json";
+import { ref } from "vue";
+
+const { locale } = useI18n({ useScope: "global" });
 
 const targetLang = useRouter().currentRoute.value.query.lang;
 const country = useRouter().currentRoute.value.query.country;
@@ -12,7 +14,7 @@ const countryConfig = countries.find((countryConfig) => {
   return countryConfig.iso3 === country;
 });
 
-let selectedLanguage;
+let selectedLanguage = ref(targetLang![0]);
 </script>
 
 <template>
@@ -21,18 +23,14 @@ let selectedLanguage;
 
     <div
       class="change-language mx-auto mb-6 field is-horizontal"
-      v-if="countryConfig"
+      v-if="countryConfig && countryConfig.languages.length > 1"
     >
       <div class="field-label is-normal field-label-size">
         <label class="label">Change language:</label>
       </div>
       <div class="select">
         <select v-model="selectedLanguage">
-          <option
-            v-for="lang of countryConfig.languages"
-            :key="lang"
-            :value="lang.value"
-          >
+          <option v-for="lang of countryConfig.languages" :value="lang">
             {{ lang }}
           </option>
         </select>
@@ -82,7 +80,7 @@ let selectedLanguage;
             </div>
             <div class="column is-half py-1">
               <p
-                v-t="{ path: phrase, locale: targetLang }"
+                v-t="{ path: phrase, locale: selectedLanguage }"
                 class="bd-notification is-primary"
               ></p>
             </div>

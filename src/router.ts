@@ -52,7 +52,9 @@ export function setupRouter(i18n: I18n): Router {
   // navigation guards
   router.beforeEach(async (to) => {
     const paramsLocale = to.params.locale as string;
-    const queryLanguage = to.query.lang as string;
+    const queryLanguages = to.query.lang as ReadonlyArray<string>;
+
+    console.log(queryLanguages);
 
     // use locale if paramsLocale is not in SUPPORT_LOCALES
     if (!SUPPORT_LOCALES.includes(paramsLocale)) {
@@ -66,12 +68,14 @@ export function setupRouter(i18n: I18n): Router {
       setI18nLanguage(i18n, paramsLocale);
     }
 
-    if (
-      queryLanguage &&
-      !i18n.global.availableLocales.includes(queryLanguage)
-    ) {
-      console.log(`Loading ${queryLanguage} language`);
-      await loadLocaleMessages(i18n, queryLanguage);
+    if (queryLanguages) {
+      const languagesToLoad = queryLanguages.filter((queryLang) => {
+        return !i18n.global.availableLocales.includes(queryLang);
+      });
+
+      for (const lang of languagesToLoad) {
+        await loadLocaleMessages(i18n, lang);
+      }
     }
   });
 

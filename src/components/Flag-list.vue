@@ -22,7 +22,7 @@
               name: 'translation',
               params: { locale },
               query: {
-                lang: country.languages[0].toLowerCase(),
+                lang: country.languages,
                 country: country.iso3,
               },
             }"
