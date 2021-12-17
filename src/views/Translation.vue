@@ -1,24 +1,32 @@
 <script lang="ts" setup>
-import { useI18n } from "vue-i18n";
 import pageConfig from "./Translation.config.json";
 import { useRouter } from "vue-router";
 import countries from "../components/countries.json";
 import { ref } from "vue";
 
-const { locale } = useI18n({ useScope: "global" });
-
-const country = useRouter().currentRoute.value.query.country;
+const countryISO3 = useRouter().currentRoute.value.query.country;
 const countryConfig = countries.find((countryConfig) => {
-  return countryConfig.iso3 === country;
+  return countryConfig.iso3 === countryISO3;
 });
 
 const targetLanguages = useRouter().currentRoute.value.query.lang || ["fra"];
-let selectedLanguage = ref(targetLanguages[0]);
+let selectedLanguage = ref(
+  Array.isArray(targetLanguages) ? targetLanguages[0] : targetLanguages
+);
 </script>
 
 <template>
   <div class="section">
-    <h1 class="title is-1">Translation Page locale: {{ locale }}</h1>
+    <h1 class="title is-1">
+      <span class="is-size-1 mr-2 flag-icon flag-icon-fr"></span>
+      <font-awesome-icon icon="long-arrow-alt-right" />
+      <span
+        :class="
+          'is-size-1 ml-2 flag-icon flag-icon-' +
+          countryConfig.iso2.toLowerCase()
+        "
+      ></span>
+    </h1>
 
     <div
       class="change-language mx-auto mb-6 field is-horizontal"
