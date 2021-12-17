@@ -7,14 +7,14 @@ import { ref } from "vue";
 
 const { locale } = useI18n({ useScope: "global" });
 
-const targetLang = useRouter().currentRoute.value.query.lang;
+const targetLang = useRouter().currentRoute.value.query.lang || "fra";
 const country = useRouter().currentRoute.value.query.country;
 
 const countryConfig = countries.find((countryConfig) => {
   return countryConfig.iso3 === country;
 });
 
-let selectedLanguage = ref(targetLang![0]);
+let selectedLanguage = ref(targetLang[0]);
 </script>
 
 <template>
