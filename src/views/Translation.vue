@@ -2,6 +2,7 @@
 import pageConfig from "./Translation.config.json";
 import { useRouter } from "vue-router";
 import countries from "../components/countries.json";
+import iso3Languages from "../iso3-languages.json";
 import { ref } from "vue";
 
 const countryISO3 = useRouter().currentRoute.value.query.country;
@@ -42,7 +43,7 @@ let selectedLanguage = ref(
             :key="lang"
             :value="lang"
           >
-            {{ lang }}
+            {{ iso3Languages[lang] }}
           </option>
         </select>
       </div>
