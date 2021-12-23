@@ -1,5 +1,8 @@
 <script setup lang="ts">
 import FlagList from "../components/Flag-list.vue";
+import { ref } from "vue";
+
+let visibleContinent = ref("toto");
 
 const scrollTo = ($event: KeyboardEvent, continent: string): void => {
   $event.preventDefault();
@@ -8,6 +11,7 @@ const scrollTo = ($event: KeyboardEvent, continent: string): void => {
   if (element) {
     element.scrollIntoView(false);
   }
+  visibleContinent.value = continent;
 };
 </script>
 
@@ -81,7 +85,7 @@ const scrollTo = ($event: KeyboardEvent, continent: string): void => {
       </figure>
     </div>
     <div class="container">
-      <FlagList></FlagList>
+      <FlagList :visible-continent="visibleContinent"></FlagList>
     </div>
   </section>
 </template>

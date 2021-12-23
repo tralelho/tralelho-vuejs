@@ -5,11 +5,20 @@
     class="section"
     :id="continent.name"
   >
-    <h2 class="title is-2 is-capitalized">
+    <h2
+      class="title is-2 is-capitalized continent-title"
+      @click="changeVisibility(continent.name)"
+    >
       {{ continent.name }}
     </h2>
 
-    <div class="tile is-ancestor is-flex-wrap-wrap mx-4">
+    <div
+      v-if="
+        visibleContinent === continent.name ||
+        isVisibleContinent === continent.name
+      "
+      class="tile is-ancestor is-flex-wrap-wrap mx-4"
+    >
       <div
         class="tile is-vertical"
         v-for="country in continent.countries"
@@ -53,13 +62,26 @@ const countriesByContinent = continents.map((continent) => {
 });
 
 import { useI18n } from "vue-i18n";
+import { ref } from "vue";
+
+const changeVisibility = (continent: string) => {
+  isVisibleContinent.value = continent;
+};
+
+let isVisibleContinent = ref();
+
 export default {
+  props: {
+    visibleContinent: String,
+  },
   data: function () {
     const { locale } = useI18n({ useScope: "global" });
     return {
       countries,
       locale,
       countriesByContinent,
+      isVisibleContinent,
+      changeVisibility,
     };
   },
 };
@@ -68,5 +90,13 @@ export default {
 <style scoped lang="scss">
 .flag-font-size {
   font-size: 6rem;
+}
+
+.continent-title {
+  border: darkgray solid thin;
+}
+
+.continent-title:hover {
+  cursor: pointer;
 }
 </style>
