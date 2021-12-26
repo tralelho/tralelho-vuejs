@@ -11,7 +11,6 @@
     >
       {{ continent.name }}
     </h2>
-
     <div
       v-if="
         visibleContinent === continent.name ||
@@ -65,7 +64,11 @@ import { useI18n } from "vue-i18n";
 import { ref } from "vue";
 
 const changeVisibility = (continent: string) => {
-  isVisibleContinent.value = continent;
+  if (isVisibleContinent.value === continent) {
+    isVisibleContinent.value = undefined;
+  } else {
+    isVisibleContinent.value = continent;
+  }
 };
 
 let isVisibleContinent = ref();
