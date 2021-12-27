@@ -52,9 +52,15 @@ export function setupRouter(i18n: I18n): Router {
     history: createWebHistory(),
     routes,
     scrollBehavior(to, from, savedPosition) {
-      return {
-        top: 0,
-      };
+      if (to.hash) {
+        return {
+          el: to.hash,
+        };
+      } else {
+        return {
+          top: 0,
+        };
+      }
     },
   });
 
