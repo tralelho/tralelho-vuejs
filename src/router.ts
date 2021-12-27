@@ -1,4 +1,8 @@
-import { createRouter, createWebHistory } from "vue-router";
+import {
+  createRouter,
+  createWebHistory,
+  RouterScrollBehavior,
+} from "vue-router";
 import { setI18nLanguage, loadLocaleMessages, SUPPORT_LOCALES } from "./i18n";
 
 import type { Router, RouteRecordRaw } from "vue-router";
@@ -47,6 +51,11 @@ export function setupRouter(i18n: I18n): Router {
   const router = createRouter({
     history: createWebHistory(),
     routes,
+    scrollBehavior(to, from, savedPosition) {
+      return {
+        top: 0,
+      };
+    },
   });
 
   // navigation guards
