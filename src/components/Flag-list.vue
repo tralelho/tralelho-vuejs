@@ -57,6 +57,7 @@
 </template>
 
 <script lang="ts" setup>
+import { defineProps, defineEmits } from "vue";
 import { useI18n } from "vue-i18n";
 import countries from "./countries.json";
 const continents = ["africa", "america", "asia", "europe", "oceania"];
@@ -67,7 +68,7 @@ const countriesByContinent = continents.map((continent) => {
   return { name: continent, countries: countriesOfContinent };
 });
 
-const props = defineProps({
+defineProps({
   isVisibleContinent: String,
 });
 
