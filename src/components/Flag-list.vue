@@ -20,36 +20,35 @@
         </span>
       </button>
     </header>
+
     <div class="card-content" v-if="isVisibleContinent === continent.name">
       <div class="content">
-        <div class="tile is-ancestor is-flex-wrap-wrap mx-4">
-          <div
-            class="tile is-vertical"
-            v-for="country in continent.countries"
-            :key="country.iso2"
-          >
-            <p class="mb-1">
-              <router-link
-                class="m-1"
-                :to="{
-                  name: 'translation',
-                  params: { locale },
-                  query: {
-                    lang: country.languages,
-                    country: country.iso3,
-                  },
-                }"
-              >
-                <span
-                  :class="
-                    'flag-font-size flag-icon flag-icon-' +
-                    country.iso2.toLowerCase()
-                  "
-                ></span>
-              </router-link>
-            </p>
-            <p>{{ country.namefr }}</p>
-          </div>
+        <div
+          class="country-block"
+          v-for="country in continent.countries"
+          :key="country.iso2"
+        >
+          <p class="mb-1">
+            <router-link
+              class="m-1"
+              :to="{
+                name: 'translation',
+                params: { locale },
+                query: {
+                  lang: country.languages,
+                  country: country.iso3,
+                },
+              }"
+            >
+              <span
+                :class="
+                  'flag-font-size flag-icon flag-icon-' +
+                  country.iso2.toLowerCase()
+                "
+              ></span>
+            </router-link>
+          </p>
+          <p>{{ country.namefr }}</p>
         </div>
       </div>
     </div>
@@ -83,14 +82,15 @@ const { locale } = useI18n({ useScope: "global" });
 
 <style scoped lang="scss">
 .flag-font-size {
-  font-size: 6rem;
+  font-size: 5rem;
 }
 
-.continent-title {
-  border: darkgray solid thin;
-}
-
-.continent-title:hover {
+header:hover {
   cursor: pointer;
+}
+
+.country-block {
+  width: 8rem;
+  display: inline-grid;
 }
 </style>

@@ -25,9 +25,10 @@ const changeContinent = (continent: string) => {
 
 <template>
   <section class="section">
-    <div class="container mb-6">
+    <div class="container mb-6 is-hidden-touch">
       <figure>
         <img
+          id="map"
           src="../assets/monde.png"
           alt="Cliquez sur la zone de votre pays"
           width="1000"
@@ -116,5 +117,11 @@ li {
 }
 a {
   color: #42b983;
+}
+
+#map {
+  height: 680px;
+  width:auto;
+  max-width:1000px;
 }
 </style>
