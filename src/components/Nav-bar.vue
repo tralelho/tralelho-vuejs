@@ -18,6 +18,8 @@
         aria-label="menu"
         aria-expanded="false"
         data-target="mainNavbar"
+        @click="showNav = !showNav"
+        :class="{ 'is-active': showNav }"
       >
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
@@ -25,7 +27,7 @@
       </a>
     </div>
 
-    <div id="mainNavbar" class="navbar-menu">
+    <div id="mainNavbar" class="navbar-menu" :class="{ 'is-active': showNav }">
       <div class="navbar-start">
         <router-link
           :to="{ name: 'home', params: { locale } }"
@@ -114,15 +116,11 @@
   </nav>
 </template>
 
-<script lang="ts">
+<script lang="ts" setup>
 import { useI18n } from "vue-i18n";
+import { ref } from "vue";
 
-export default {
-  data() {
-    const { locale } = useI18n({ useScope: "global" });
-    return {
-      locale,
-    };
-  },
-};
+const { locale } = useI18n({ useScope: "global" });
+
+const showNav = ref(false);
 </script>
