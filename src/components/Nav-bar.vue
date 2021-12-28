@@ -32,6 +32,7 @@
         <router-link
           :to="{ name: 'home', params: { locale } }"
           class="navbar-item"
+          @click="showNav = !showNav"
         >
           Home
         </router-link>
@@ -39,6 +40,7 @@
         <router-link
           :to="{ name: 'translation', params: { locale } }"
           class="navbar-item"
+          @click="showNav = !showNav"
         >
           Translation
         </router-link>
@@ -55,6 +57,7 @@
               }"
               class="navbar-item"
               v-t="{ path: 685, locale: 'fra' }"
+              @click="showNav = !showNav"
             ></router-link>
 
             <router-link
@@ -65,6 +68,7 @@
               }"
               class="navbar-item"
               v-t="{ path: 681, locale: 'fra' }"
+              @click="showNav = !showNav"
             ></router-link>
 
             <router-link
@@ -75,6 +79,7 @@
               }"
               class="navbar-item"
               v-t="{ path: 744, locale: 'fra' }"
+              @click="showNav = !showNav"
             ></router-link>
 
             <router-link
@@ -85,6 +90,7 @@
               }"
               class="navbar-item"
               v-t="{ path: 730, locale: 'fra' }"
+              @click="showNav = !showNav"
             ></router-link>
 
             <router-link
@@ -95,6 +101,7 @@
               }"
               class="navbar-item"
               v-t="{ path: 700, locale: 'fra' }"
+              @click="showNav = !showNav"
             ></router-link>
           </div>
         </div>
@@ -102,6 +109,7 @@
         <router-link
           :to="{ name: 'about', params: { locale } }"
           class="navbar-item"
+          @click="showNav = !showNav"
         >
           About
         </router-link>
