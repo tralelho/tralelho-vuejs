@@ -93,6 +93,16 @@ const changeContinent = (continent: string) => {
         </map>
       </figure>
     </div>
+    <div class="container mb-6 is-hidden-desktop">
+      <figure>
+        <img
+          src="../assets/monde.png"
+          alt="Carte du monde"
+          width="1000"
+          height="680"
+        />
+      </figure>
+    </div>
     <div class="container">
       <FlagList
         :is-visible-continent="visibleContinent"
@@ -121,7 +131,7 @@ a {
 
 #map {
   height: 680px;
-  width:auto;
-  max-width:1000px;
+  width: auto;
+  max-width: 1000px;
 }
 </style>
