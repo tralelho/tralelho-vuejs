@@ -6,6 +6,14 @@
     :id="continent.name"
   >
     <header class="card-header" @click="changeVisibility(continent.name)">
+      <figure class="image is-48x48 mx-2">
+        <img
+          :src="'/' + continent.ico"
+          :alt="continent.name"
+          width="48"
+          height="48"
+        />
+      </figure>
       <p class="card-header-title is-capitalized">{{ continent.name }}</p>
       <button class="card-header-icon" aria-label="more options">
         <span class="icon">
@@ -59,12 +67,22 @@
 import { defineProps, defineEmits } from "vue";
 import { useI18n } from "vue-i18n";
 import countries from "./countries.json";
-const continents = ["africa", "america", "asia", "europe", "oceania"];
-const countriesByContinent = continents.map((continent) => {
+enum Continents {
+  africa = "continents/africa.svg",
+  america = "continents/america.svg",
+  asia = "continents/asia.svg",
+  europe = "continents/europe.svg",
+  oceania = "continents/oceania.svg",
+}
+const countriesByContinent = Object.keys(Continents).map((continent) => {
   const countriesOfContinent = countries.filter(
     (country) => country.continent === continent
   );
-  return { name: continent, countries: countriesOfContinent };
+  return {
+    name: continent,
+    ico: Continents[continent],
+    countries: countriesOfContinent,
+  };
 });
 
 defineProps({

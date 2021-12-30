@@ -9,7 +9,8 @@
         :to="{ name: 'home', params: { locale } }"
         class="navbar-item"
       >
-        <img src="/favicon.png" />
+        <img src="/favicon.png" alt="Tralelho" class="mx-2" />
+        <h1 class="title has-text-white">Tralelho</h1>
       </router-link>
 
       <a
