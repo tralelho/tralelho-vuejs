@@ -68,18 +68,18 @@ import { defineProps, defineEmits } from "vue";
 import { useI18n } from "vue-i18n";
 import countries from "./countries.json";
 enum Continents {
-  africa = "continents/africa.svg",
-  america = "continents/america.svg",
-  asia = "continents/asia.svg",
-  europe = "continents/europe.svg",
-  oceania = "continents/oceania.svg",
+  AFRICA = "continents/africa.svg",
+  AMERICA = "continents/america.svg",
+  ASIA = "continents/asia.svg",
+  EUROPE = "continents/europe.svg",
+  OCEANIA = "continents/oceania.svg",
 }
 const countriesByContinent = Object.keys(Continents).map((continent) => {
   const countriesOfContinent = countries.filter(
-    (country) => country.continent === continent
+    (country) => country.continent === continent.toLowerCase()
   );
   return {
-    name: continent,
+    name: continent.toLowerCase(),
     ico: Continents[continent],
     countries: countriesOfContinent,
   };
