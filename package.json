@@ -9,7 +9,8 @@
     "serve": "vite preview",
     "test": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
-    "prettier:fix": "prettier --write --no-config 'src/**/*.{js,vue,ts,json}'"
+    "prettier:fix": "prettier --write --no-config 'src/**/*.{js,vue,ts,json}'",
+    "prepare": "husky install"
   },
   "engines": {
     "node": "14"
@@ -42,6 +43,7 @@
     "eslint": "^7.32.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^7.20.0",
+    "husky": "7.0.4",
     "node-sass": "^6.0.1",
     "prettier": "^2.5.1",
     "sass": "^1.45.0",
