@@ -1038,7 +1038,7 @@
   {
     "iso3": "RWA",
     "iso2": "RW",
-    "languages": ["kin", "fra", "eng", "swa"],
+    "languages": ["fra","kin","eng", "swa"],
     "continent": "africa",
     "namefr": "Rwanda / Repubulika y'u Rwanda "
   },
