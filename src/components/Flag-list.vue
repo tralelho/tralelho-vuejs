@@ -19,11 +19,11 @@
         <span class="icon">
           <font-awesome-icon
             v-if="isVisibleContinent === continent.name"
-            icon="angle-down"
+            icon="angle-up"
           />
           <font-awesome-icon
             v-if="isVisibleContinent != continent.name"
-            icon="angle-up"
+            icon="angle-down"
           />
         </span>
       </button>
