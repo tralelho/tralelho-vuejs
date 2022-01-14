@@ -10,11 +10,12 @@
   "bre",
   "bul",
  "cat",
-  
+  "cnr",
   "cze",
   "dan",
   "deu",
-  
+  "div",
+  "dzo",
   "ell",
   "eng",
   "est",
@@ -35,7 +36,7 @@
   "kat",
   "kaz",
   "khm",
-  
+  "kin",
   "kir",
   "kor",
   "kur",
@@ -44,7 +45,7 @@
   "lin",
   "lit",
   "ltz",
-  
+  "mah",
   "mal",
   "mkd",
   "mlg",
@@ -53,12 +54,12 @@
   "mri",
   "msa",
   "mya",
-  
+  "nau",
   "nep",
   "nld",
   "nor",
-  
-  
+  "nso",
+  "pau",
   "pol",
   "por",
   "prs",
@@ -66,7 +67,7 @@
   "ron",
   "run",
   "rus",
- 
+ "sag",
   "sin",
   "slk",
   "slv",
@@ -77,7 +78,8 @@
   "spa",
   "sqi",
   "srp",
-  
+  "sus",
+  "ssw",
   "swa",
   "swb",
   "swe",
@@ -85,10 +87,12 @@
   "tet",
   "tgk",
   "tha",
-  
+  "tvl",
   "tuk",
   "tur",
-  
+  "tso",
+  "tsn",
+  "tir",
   "ukr",
   "urd",
   "uzb",
