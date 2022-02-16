@@ -126,7 +126,7 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: #318ce7;
 }
 
 #map {
