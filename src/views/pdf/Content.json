@@ -1,0 +1,20 @@
+{
+  "Patient": {
+    "phrases": [790, 791]
+  },
+  "Pédiatrie": {
+    "phrases": [173, 174]
+  },
+  "Scanner": {
+    "phrases": [213, 214]
+  },
+  "IRM": {
+    "phrases": [233, 234]
+  },
+  "Bloc opératoire": {
+    "phrases": [242, 243]
+  },
+  "Secretariat": {
+    "phrases": [24, 25]
+  }
+}

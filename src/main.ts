@@ -12,7 +12,7 @@ import NavBar from "./components/Nav-bar.vue";
 
 library.add(faLongArrowAltRight, faAngleDown, faAngleUp);
 
-const i18n = setupI18n({
+export const i18n = setupI18n({
   legacy: false,
   locale: "fra",
   fallbackLocale: "fra",
@@ -22,7 +22,7 @@ const i18n = setupI18n({
   globalInjection: true,
 });
 
-const router = setupRouter(i18n);
+export const router = setupRouter(i18n);
 
 const app = createApp(App);
 

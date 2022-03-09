@@ -107,6 +107,27 @@
           </div>
         </div>
 
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link"> Imprimer </a>
+
+          <div class="navbar-dropdown">
+            <a class="navbar-item" @click="createPdf(Pdf.PATIENT)">
+              Fiche patient
+            </a>
+            <a class="navbar-item" @click="createPdf(Pdf.PEDIATRIE)">
+              Fiche pédiatrie
+            </a>
+            <a class="navbar-item" @click="createPdf(Pdf.SCANNER)">Scanner</a>
+            <a class="navbar-item" @click="createPdf(Pdf.IRM)">IRM</a>
+            <a class="navbar-item" @click="createPdf(Pdf.BLOC)">
+              Bloc Opératoire
+            </a>
+            <a class="navbar-item" @click="createPdf(Pdf.SECRETARIAT)"
+              >Secrétariat</a
+            >
+          </div>
+        </div>
+
         <router-link
           :to="{ name: 'about', params: { locale } }"
           class="navbar-item"
@@ -128,8 +149,36 @@
 <script lang="ts" setup>
 import { useI18n } from "vue-i18n";
 import { ref } from "vue";
+import { jsPDF } from "jspdf";
+import { i18n } from "../main";
 
 const { locale } = useI18n({ useScope: "global" });
 
+import Content from "../views/pdf/Content.json";
+
 const showNav = ref(false);
+
+enum Pdf {
+  PATIENT = "Patient",
+  PEDIATRIE = "Pédiatrie",
+  SCANNER = "Scanner",
+  IRM = "IRM",
+  BLOC = "Bloc opératoire",
+  SECRETARIAT = "Secretariat",
+}
+
+const createPdf = function (type: Pdf) {
+  const doc = new jsPDF();
+
+  doc.text(type, 10, 10);
+
+  let y = 30;
+  for (const phrase of Content[type].phrases) {
+    doc.text(i18n.global.t(`${phrase}`), 10, y);
+    doc.text(i18n.global.t(`${phrase}`, "eng"), 10, y + 10);
+    y = y + 30;
+  }
+
+  doc.save(`${type}.pdf`);
+};
 </script>
