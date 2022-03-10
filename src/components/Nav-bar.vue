@@ -150,9 +150,10 @@
 import { useI18n } from "vue-i18n";
 import { ref } from "vue";
 import { jsPDF } from "jspdf";
-import { i18n } from "../main";
 
-const { locale } = useI18n({ useScope: "global" });
+const { locale, t, messages } = useI18n({
+  useScope: "global",
+});
 
 import Content from "../views/pdf/Content.json";
 
@@ -174,8 +175,8 @@ const createPdf = function (type: Pdf) {
 
   let y = 30;
   for (const phrase of Content[type].phrases) {
-    doc.text(i18n.global.t(`${phrase}`), 10, y);
-    doc.text(i18n.global.t(`${phrase}`, "eng"), 10, y + 10);
+    doc.text(t(`${phrase}`), 10, y);
+    doc.text(messages.value.eng[`${phrase}`].source, 10, y + 10);
     y = y + 30;
   }
 
