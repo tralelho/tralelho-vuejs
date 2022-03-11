@@ -111,18 +111,27 @@
           <a class="navbar-link"> Imprimer </a>
 
           <div class="navbar-dropdown">
-            <a class="navbar-item" @click="createPdf(Pdf.PATIENT)">
+            <a class="navbar-item" @click="createPdf(PdfDocumentList.PATIENT)">
               Fiche patient
             </a>
-            <a class="navbar-item" @click="createPdf(Pdf.PEDIATRIE)">
+            <a
+              class="navbar-item"
+              @click="createPdf(PdfDocumentList.PEDIATRIE)"
+            >
               Fiche pédiatrie
             </a>
-            <a class="navbar-item" @click="createPdf(Pdf.SCANNER)">Scanner</a>
-            <a class="navbar-item" @click="createPdf(Pdf.IRM)">IRM</a>
-            <a class="navbar-item" @click="createPdf(Pdf.BLOC)">
+            <a class="navbar-item" @click="createPdf(PdfDocumentList.SCANNER)"
+              >Scanner</a
+            >
+            <a class="navbar-item" @click="createPdf(PdfDocumentList.IRM)"
+              >IRM</a
+            >
+            <a class="navbar-item" @click="createPdf(PdfDocumentList.BLOC)">
               Bloc Opératoire
             </a>
-            <a class="navbar-item" @click="createPdf(Pdf.SECRETARIAT)"
+            <a
+              class="navbar-item"
+              @click="createPdf(PdfDocumentList.SECRETARIAT)"
               >Secrétariat</a
             >
           </div>
@@ -149,43 +158,11 @@
 <script lang="ts" setup>
 import { useI18n } from "vue-i18n";
 import { ref } from "vue";
-import { jsPDF } from "jspdf";
+import { createPdf, PdfDocumentList } from "./PDF-creator";
 
-const { locale, t, messages } = useI18n({
+const { locale } = useI18n({
   useScope: "global",
 });
 
-import Content from "../views/pdf/Content.json";
-
 const showNav = ref(false);
-
-enum Pdf {
-  PATIENT = "Patient",
-  PEDIATRIE = "Pédiatrie",
-  SCANNER = "Scanner",
-  IRM = "IRM",
-  BLOC = "Bloc opératoire",
-  SECRETARIAT = "Secretariat",
-}
-
-const createPdf = function (type: Pdf) {
-  const doc = new jsPDF();
-
-  doc.setFontSize(24);
-  doc.setFont("helvetica", "bold")
-  doc.text(type, 10, 10);
-
-  doc.setFontSize(8);
-
-  let y = 30;
-  for (const phrase of Content[type].phrases) {
-    doc.setFont("helvetica", "bold")
-    doc.text(t(`${phrase}`), 10, y);
-    doc.setFont("helvetica", "normal")
-    doc.text(messages.value.eng[`${phrase}`].source, 10, y + 4);
-    y = y + 12;
-  }
-
-  doc.save(`${type}.pdf`);
-};
 </script>

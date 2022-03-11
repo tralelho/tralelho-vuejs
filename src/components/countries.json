@@ -296,7 +296,7 @@
   {
     "iso3": "COM",
     "iso2": "KM",
-    "languages": ["swb","fra","ara"],
+    "languages": ["swb", "fra", "ara"],
     "continent": "africa",
     "namefr": "Comores / الاتحاد القمر"
   },
@@ -1038,7 +1038,7 @@
   {
     "iso3": "RWA",
     "iso2": "RW",
-    "languages": ["fra","kin","eng", "swa"],
+    "languages": ["fra", "kin", "eng", "swa"],
     "continent": "africa",
     "namefr": "Rwanda / Repubulika y'u Rwanda "
   },
