@@ -111,27 +111,37 @@
           <a class="navbar-link"> Imprimer </a>
 
           <div class="navbar-dropdown">
-            <a class="navbar-item" @click="createPdf(PdfDocumentList.PATIENT)">
+            <a
+              class="navbar-item"
+              @click="createPdf(PdfDocumentList.PATIENT, messages)"
+            >
               Fiche patient
             </a>
             <a
               class="navbar-item"
-              @click="createPdf(PdfDocumentList.PEDIATRIE)"
+              @click="createPdf(PdfDocumentList.PEDIATRIE, messages)"
             >
               Fiche pédiatrie
             </a>
-            <a class="navbar-item" @click="createPdf(PdfDocumentList.SCANNER)"
+            <a
+              class="navbar-item"
+              @click="createPdf(PdfDocumentList.SCANNER, messages)"
               >Scanner</a
             >
-            <a class="navbar-item" @click="createPdf(PdfDocumentList.IRM)"
+            <a
+              class="navbar-item"
+              @click="createPdf(PdfDocumentList.IRM, messages)"
               >IRM</a
             >
-            <a class="navbar-item" @click="createPdf(PdfDocumentList.BLOC)">
+            <a
+              class="navbar-item"
+              @click="createPdf(PdfDocumentList.BLOC, messages)"
+            >
               Bloc Opératoire
             </a>
             <a
               class="navbar-item"
-              @click="createPdf(PdfDocumentList.SECRETARIAT)"
+              @click="createPdf(PdfDocumentList.SECRETARIAT, messages)"
               >Secrétariat</a
             >
           </div>
@@ -160,7 +170,7 @@ import { useI18n } from "vue-i18n";
 import { ref } from "vue";
 import { createPdf, PdfDocumentList } from "./PDF-creator";
 
-const { locale } = useI18n({
+const { locale, messages } = useI18n({
   useScope: "global",
 });
 

@@ -12,8 +12,16 @@ export enum PdfDocumentList {
   SECRETARIAT = "Secretariat",
 }
 
-export const createPdf = function (type: PdfDocumentList) {
-  const { t, messages } = i18n.global;
+const getMessage = function (messages: any, lang: string, code: string) {
+  return messages.eng[code]({
+    normalize: function (text: string) {
+      return text[0];
+    },
+  });
+};
+
+export const createPdf = function (type: PdfDocumentList, messages: any) {
+  const { t } = i18n.global;
 
   let doc = new jsPDF();
 
@@ -27,8 +35,10 @@ export const createPdf = function (type: PdfDocumentList) {
   for (const phrase of Content[type].phrases) {
     doc.setFont("helvetica", "bold");
     doc.text(t(`${phrase}`), 10, y);
+
     doc.setFont("helvetica", "normal");
-    doc.text(messages.value.eng[`${phrase}`].source, 10, y + 4);
+    doc.text(getMessage(messages, "eng", `${phrase}`), 10, y + 4);
+
     y = y + 12;
   }
 
@@ -49,7 +59,7 @@ const createScannerPdf = function (
   //CheckList
   doc.setFontSize(16);
   doc.setFont("helvetica", "bold");
-  doc.rect(10, position-1, 190, 8);
+  doc.rect(10, position - 1, 190, 8);
   doc.text("Checklist Scanner", 75, position + 5);
   position = position + 15;
   doc.setFontSize(8);
@@ -59,7 +69,7 @@ const createScannerPdf = function (
     doc.text(translate(`${formElement.code}`), 20, position);
     doc.setFont("helvetica", "normal");
     doc.text(
-      messages.value.eng[`${formElement.code}`].source,
+      getMessage(messages, "eng", `${formElement.code}`),
       20,
       position + 4
     );
@@ -70,14 +80,26 @@ const createScannerPdf = function (
   position = position + 5;
   doc.setFont("helvetica", "bold");
 
-  const startRectangle= position;
+  const startRectangle = position;
 
   doc.text(translate(`${content.checkList.responses[0]}`), 110, position);
-  doc.text(messages.value.eng[`${content.checkList.responses[0]}`].source, 110, position + 4);
+  doc.text(
+    getMessage(messages, "eng", `${content.checkList.responses[0]}`),
+    110,
+    position + 4
+  );
   doc.text(translate(`${content.checkList.responses[1]}`), 140, position);
-  doc.text(messages.value.eng[`${content.checkList.responses[1]}`].source, 140, position + 4);
+  doc.text(
+    getMessage(messages, "eng", `${content.checkList.responses[1]}`),
+    140,
+    position + 4
+  );
   doc.text(translate(`${content.checkList.responses[2]}`), 170, position);
-  doc.text(messages.value.eng[`${content.checkList.responses[2]}`].source, 170, position + 4);
+  doc.text(
+    getMessage(messages, "eng", `${content.checkList.responses[2]}`),
+    170,
+    position + 4
+  );
 
   position = position + 10;
 
@@ -85,7 +107,7 @@ const createScannerPdf = function (
     doc.setFont("helvetica", "bold");
     doc.text(translate(`${phrase}`), 12, position);
     doc.setFont("helvetica", "normal");
-    doc.text(messages.value.eng[`${phrase}`].source, 12, position + 4);
+    doc.text(getMessage(messages, "eng", `${phrase}`), 12, position + 4);
 
     doc.rect(110, position, 5, 5);
     doc.rect(140, position, 5, 5);
@@ -93,14 +115,14 @@ const createScannerPdf = function (
 
     position = position + 12;
   }
-  doc.rect(10, startRectangle-5, 190, position - startRectangle)
+  doc.rect(10, startRectangle - 5, 190, position - startRectangle);
 
   position = position + 10;
 
   doc.setFont("helvetica", "bold");
   doc.text(translate(`${content.sign}`), 20, position);
   doc.setFont("helvetica", "normal");
-  doc.text(messages.value.eng[`${content.sign}`].source, 20, position + 4);
+  doc.text(getMessage(messages, "eng", `${content.sign}`), 20, position + 4);
 
   return doc;
 };
