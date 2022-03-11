@@ -171,13 +171,19 @@ enum Pdf {
 const createPdf = function (type: Pdf) {
   const doc = new jsPDF();
 
+  doc.setFontSize(24);
+  doc.setFont("helvetica", "bold")
   doc.text(type, 10, 10);
+
+  doc.setFontSize(8);
 
   let y = 30;
   for (const phrase of Content[type].phrases) {
+    doc.setFont("helvetica", "bold")
     doc.text(t(`${phrase}`), 10, y);
-    doc.text(messages.value.eng[`${phrase}`].source, 10, y + 10);
-    y = y + 30;
+    doc.setFont("helvetica", "normal")
+    doc.text(messages.value.eng[`${phrase}`].source, 10, y + 4);
+    y = y + 12;
   }
 
   doc.save(`${type}.pdf`);
