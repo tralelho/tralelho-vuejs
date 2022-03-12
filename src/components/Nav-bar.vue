@@ -113,35 +113,35 @@
           <div class="navbar-dropdown">
             <a
               class="navbar-item"
-              @click="createPdf(PdfDocumentList.PATIENT, messages)"
+              @click="createPdf(PdfDocumentList.PATIENT, messages, $route.query.lang)"
             >
               Fiche patient
             </a>
             <a
               class="navbar-item"
-              @click="createPdf(PdfDocumentList.PEDIATRIE, messages)"
+              @click="createPdf(PdfDocumentList.PEDIATRIE, messages, $route.query.lang)"
             >
               Fiche pédiatrie
             </a>
             <a
               class="navbar-item"
-              @click="createPdf(PdfDocumentList.SCANNER, messages)"
+              @click="createPdf(PdfDocumentList.SCANNER, messages, $route.query.lang)"
               >Scanner</a
             >
             <a
               class="navbar-item"
-              @click="createPdf(PdfDocumentList.IRM, messages)"
+              @click="createPdf(PdfDocumentList.IRM, messages, $route.query.lang)"
               >IRM</a
             >
             <a
               class="navbar-item"
-              @click="createPdf(PdfDocumentList.BLOC, messages)"
+              @click="createPdf(PdfDocumentList.BLOC, messages, $route.query.lang)"
             >
               Bloc Opératoire
             </a>
             <a
               class="navbar-item"
-              @click="createPdf(PdfDocumentList.SECRETARIAT, messages)"
+              @click="createPdf(PdfDocumentList.SECRETARIAT, messages, $route.query.lang)"
               >Secrétariat</a
             >
           </div>

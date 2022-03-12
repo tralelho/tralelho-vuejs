@@ -1,4 +1,3 @@
-import { useI18n } from "vue-i18n";
 import { jsPDF } from "jspdf";
 import Content from "../views/pdf/Content.json";
 import { i18n } from "../main";
@@ -13,14 +12,20 @@ export enum PdfDocumentList {
 }
 
 const getMessage = function (messages: any, lang: string, code: string) {
-  return messages.eng[code]({
+  return messages[lang][code]({
     normalize: function (text: string) {
       return text[0];
     },
   });
 };
 
-export const createPdf = function (type: PdfDocumentList, messages: any) {
+export const createPdf = function (
+  type: PdfDocumentList,
+  messages: any,
+  lang?: string
+) {
+  lang = lang || "fra";
+
   const { t } = i18n.global;
 
   let doc = new jsPDF();
@@ -37,13 +42,13 @@ export const createPdf = function (type: PdfDocumentList, messages: any) {
     doc.text(t(`${phrase}`), 10, y);
 
     doc.setFont("helvetica", "normal");
-    doc.text(getMessage(messages, "eng", `${phrase}`), 10, y + 4);
+    doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 4);
 
     y = y + 12;
   }
 
   if (type === PdfDocumentList.SCANNER) {
-    doc = createScannerPdf(t, doc, Content[type], y, messages);
+    doc = createScannerPdf(t, doc, Content[type], y, messages, lang);
   }
 
   doc.save(`${type}.pdf`);
@@ -54,7 +59,8 @@ const createScannerPdf = function (
   doc: jsPDF,
   content: any,
   position: number,
-  messages: any
+  messages: any,
+  lang: string
 ): jsPDF {
   //CheckList
   doc.setFontSize(16);
@@ -69,7 +75,7 @@ const createScannerPdf = function (
     doc.text(translate(`${formElement.code}`), 20, position);
     doc.setFont("helvetica", "normal");
     doc.text(
-      getMessage(messages, "eng", `${formElement.code}`),
+      getMessage(messages, lang, `${formElement.code}`),
       20,
       position + 4
     );
@@ -84,19 +90,19 @@ const createScannerPdf = function (
 
   doc.text(translate(`${content.checkList.responses[0]}`), 110, position);
   doc.text(
-    getMessage(messages, "eng", `${content.checkList.responses[0]}`),
+    getMessage(messages, lang, `${content.checkList.responses[0]}`),
     110,
     position + 4
   );
   doc.text(translate(`${content.checkList.responses[1]}`), 140, position);
   doc.text(
-    getMessage(messages, "eng", `${content.checkList.responses[1]}`),
+    getMessage(messages, lang, `${content.checkList.responses[1]}`),
     140,
     position + 4
   );
   doc.text(translate(`${content.checkList.responses[2]}`), 170, position);
   doc.text(
-    getMessage(messages, "eng", `${content.checkList.responses[2]}`),
+    getMessage(messages, lang, `${content.checkList.responses[2]}`),
     170,
     position + 4
   );
@@ -107,7 +113,7 @@ const createScannerPdf = function (
     doc.setFont("helvetica", "bold");
     doc.text(translate(`${phrase}`), 12, position);
     doc.setFont("helvetica", "normal");
-    doc.text(getMessage(messages, "eng", `${phrase}`), 12, position + 4);
+    doc.text(getMessage(messages, lang, `${phrase}`), 12, position + 4);
 
     doc.rect(110, position, 5, 5);
     doc.rect(140, position, 5, 5);
@@ -122,7 +128,7 @@ const createScannerPdf = function (
   doc.setFont("helvetica", "bold");
   doc.text(translate(`${content.sign}`), 20, position);
   doc.setFont("helvetica", "normal");
-  doc.text(getMessage(messages, "eng", `${content.sign}`), 20, position + 4);
+  doc.text(getMessage(messages, lang, `${content.sign}`), 20, position + 4);
 
   return doc;
 };
