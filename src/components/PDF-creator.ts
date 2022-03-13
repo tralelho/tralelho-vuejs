@@ -12,11 +12,15 @@ export enum PdfDocumentList {
 }
 
 const getMessage = function (messages: any, lang: string, code: string) {
-  return messages[lang][code]({
-    normalize: function (text: string) {
-      return text[0];
-    },
-  });
+  try {
+    return messages[lang][code]({
+      normalize: function (text: string) {
+        return text[0];
+      },
+    });
+  } catch {
+    throw new Error(`Cannot find traduction ${code}`);
+  }
 };
 
 export const createPdf = function (
@@ -47,15 +51,16 @@ export const createPdf = function (
     y = y + 12;
   }
 
-  if (type === PdfDocumentList.SCANNER) {
-    doc = createScannerPdf(t, doc, Content[type], y, messages, lang);
+  if (type === PdfDocumentList.SCANNER || type === PdfDocumentList.IRM) {
+    doc = createScannerIRMPdf(t, type, doc, Content[type], y, messages, lang);
   }
 
   doc.save(`${type}.pdf`);
 };
 
-const createScannerPdf = function (
+const createScannerIRMPdf = function (
   translate: any,
+  type: PdfDocumentList,
   doc: jsPDF,
   content: any,
   position: number,
@@ -66,7 +71,7 @@ const createScannerPdf = function (
   doc.setFontSize(16);
   doc.setFont("helvetica", "bold");
   doc.rect(10, position - 1, 190, 8);
-  doc.text("Checklist Scanner", 75, position + 5);
+  doc.text(`Checklist ${type}`, 75, position + 5);
   position = position + 15;
   doc.setFontSize(8);
 
@@ -108,8 +113,15 @@ const createScannerPdf = function (
   );
 
   position = position + 10;
+  let pageAdded = false;
 
   for (const phrase of content.checkList.list) {
+    if (position >= 290) {
+      doc.rect(10, startRectangle - 5, 190, position - startRectangle);
+      doc.addPage();
+      pageAdded = true;
+      position = 10;
+    }
     doc.setFont("helvetica", "bold");
     doc.text(translate(`${phrase}`), 12, position);
     doc.setFont("helvetica", "normal");
@@ -121,9 +133,14 @@ const createScannerPdf = function (
 
     position = position + 12;
   }
-  doc.rect(10, startRectangle - 5, 190, position - startRectangle);
 
-  position = position + 10;
+  if (pageAdded) {
+    doc.rect(10, 5, 190, position);
+  } else {
+    doc.rect(10, startRectangle - 5, 190, position - startRectangle);
+  }
+
+  position = position + 15;
 
   doc.setFont("helvetica", "bold");
   doc.text(translate(`${content.sign}`), 20, position);
