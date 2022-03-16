@@ -39,23 +39,76 @@ export const createPdf = function (
   doc.text(type, 10, 10);
 
   doc.setFontSize(8);
-
   let y = 20;
-  for (const phrase of Content[type].phrases) {
-    doc.setFont("helvetica", "bold");
-    doc.text(t(`${phrase}`), 10, y);
 
-    doc.setFont("helvetica", "normal");
-    doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 4);
+  if (type === PdfDocumentList.SECRETARIAT) {
+    // @ts-ignore
+    doc = createSecretariatPdf(t, doc, Content[type], y, messages, lang);
+  } else {
+    for (const phrase of Content[type].phrases) {
+      doc.setFont("helvetica", "bold");
+      doc.text(t(`${phrase}`), 10, y);
 
-    y = y + 12;
-  }
+      doc.setFont("helvetica", "normal");
+      doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 4);
 
-  if (type === PdfDocumentList.SCANNER || type === PdfDocumentList.IRM) {
-    doc = createScannerIRMPdf(t, type, doc, Content[type], y, messages, lang);
+      y = y + 12;
+    }
+
+    if (type === PdfDocumentList.SCANNER || type === PdfDocumentList.IRM) {
+      doc = createScannerIRMPdf(t, type, doc, Content[type], y, messages, lang);
+    }
   }
 
   doc.save(`${type}.pdf`);
+};
+
+const changePage = function (doc: any, position: number): number {
+  if (position >= 290) {
+    doc.addPage();
+    position = 10;
+  }
+
+  return position;
+};
+
+const createSecretariatPdf = function (
+  translate: any,
+  doc: any,
+  contentElement: { phrases: {} },
+  y: number,
+  messages: any,
+  lang: string
+): jsPDF {
+  for (const section of contentElement.sections) {
+    doc.setFont("helvetica", "bold");
+    doc.text(translate(`${section.title}`), 10, y);
+
+    y = y + 8;
+
+    doc.setFont("helvetica", "normal");
+    for (const phrase of section.list) {
+      y = changePage(doc, y);
+      doc.text(translate(`${phrase}`), 20, y);
+      doc.text(getMessage(messages, lang, `${phrase}`), 20, y + 4);
+
+      y = y + 12;
+    }
+
+    if (section.form) {
+      for (const formElement of section.form) {
+        y = changePage(doc, y);
+        doc.setFont("helvetica", "bold");
+        doc.text(translate(`${formElement}`), 20, y);
+        doc.setFont("helvetica", "normal");
+        doc.text(getMessage(messages, lang, `${formElement}`), 20, y + 4);
+        doc.text("_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _", 100, y + 4);
+        y = y + 12;
+      }
+    }
+  }
+
+  return doc;
 };
 
 const createScannerIRMPdf = function (
