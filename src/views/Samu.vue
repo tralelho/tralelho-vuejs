@@ -39,6 +39,7 @@ const { locale } = useI18n({ useScope: "global" });
             :id="section.title"
             class="title is-2 has-text-left"
             v-t="{ path: section.title }"
+            style="margin-top:20px
           ></h2>
 
           <div
