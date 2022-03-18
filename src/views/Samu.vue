@@ -6,7 +6,7 @@ const { locale } = useI18n({ useScope: "global" });
 
 <template>
   <div class="section">
-    <h1 class="title is-1">Translation Page locale: {{ locale }}</h1>
+    <h1 class="title is-1">Traduction vers l'Anglais</h1>
 
     <div className="columns">
       <div className="column is-2 has-text-left">
