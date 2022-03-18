@@ -3,14 +3,14 @@
     "iso3": "AFG",
     "iso2": "AF",
     "languages": ["pus", "psr"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Afghanistan / جمهوری اسلامی افغانستان"
   },
   {
     "iso3": "ZAF",
     "iso2": "ZA",
     "languages": ["zul", "xho", "afr", "eng", "nso", "tsn", "tso"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Afrique du sud / Suid-Afrika"
   },
   {
@@ -24,7 +24,7 @@
     "iso3": "DZA",
     "iso2": "DZ",
     "languages": ["ara"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Algérie / الجمهورية الجزائرية الديمقراطية الشعبية"
   },
   {
@@ -45,42 +45,42 @@
     "iso3": "AGO",
     "iso2": "AO",
     "languages": ["por"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Angola / República de Angola"
   },
   {
     "iso3": "ATG",
     "iso2": "AG",
     "languages": ["eng"],
-    "continent": "america",
+    "continent": "amerique",
     "namefr": "Antigua-et-barbuda / Antigua and Barbadua"
   },
   {
     "iso3": "SAU",
     "iso2": "SA",
     "languages": ["ara"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Arabie Saoudite / المملكة العربية السعودية"
   },
   {
     "iso3": "ARG",
     "iso2": "AR",
     "languages": ["spa"],
-    "continent": "america",
+    "continent": "amerique",
     "namefr": "Argentine / Argentina"
   },
   {
     "iso3": "ARM",
     "iso2": "AM",
     "languages": ["hye"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Arménie / Հայաստան"
   },
   {
     "iso3": "AUS",
     "iso2": "AU",
     "languages": ["eng"],
-    "continent": "oceania",
+    "continent": "oceanie",
     "namefr": "Australie / Australia"
   },
   {
@@ -94,42 +94,42 @@
     "iso3": "AZE",
     "iso2": "AZ",
     "languages": ["aze"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Azerbaïdjan / Azərbaycan Respublikası"
   },
   {
     "iso3": "BHS",
     "iso2": "BS",
     "languages": ["eng"],
-    "continent": "america",
+    "continent": "amerique",
     "namefr": "Bahamas / Bahamas"
   },
   {
     "iso3": "BHR",
     "iso2": "BH",
     "languages": ["ara"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Bahreïn / مملكة البحرين"
   },
   {
     "iso3": "BGD",
     "iso2": "BD",
     "languages": ["ben"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Bangladesh / গণপ্রজাতন্ত্রী বাংলাদেশ "
   },
   {
     "iso3": "BRB",
     "iso2": "BB",
     "languages": ["eng"],
-    "continent": "america",
+    "continent": "amerique",
     "namefr": "Barbade / Barbados"
   },
   {
     "iso3": "PLW",
     "iso2": "PW",
     "languages": ["eng", "pau"],
-    "continent": "oceania",
+    "continent": "oceanie",
     "namefr": "Palaos / Beluu er a Belau"
   },
   {
@@ -143,21 +143,21 @@
     "iso3": "BLZ",
     "iso2": "BZ",
     "languages": ["eng"],
-    "continent": "america",
+    "continent": "amerique",
     "namefr": "Belize / Belize"
   },
   {
     "iso3": "BEN",
     "iso2": "BJ",
     "languages": ["fra"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Bénin / Benin"
   },
   {
     "iso3": "BTN",
     "iso2": "BT",
     "languages": ["dzo"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Bhoutan / འབྲུག་ཡུལ"
   },
   {
@@ -171,14 +171,14 @@
     "iso3": "MMR",
     "iso2": "MM",
     "languages": ["mya"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Birmanie / မြန်မာပြည်"
   },
   {
     "iso3": "BOL",
     "iso2": "BO",
     "languages": ["spa"],
-    "continent": "america",
+    "continent": "amerique",
     "namefr": "Bolivie / Bolivia"
   },
   {
@@ -192,21 +192,21 @@
     "iso3": "BWA",
     "iso2": "BW",
     "languages": ["eng"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Botswana / Lefatshe la Botswana"
   },
   {
     "iso3": "BRA",
     "iso2": "BR",
     "languages": ["bre"],
-    "continent": "america",
+    "continent": "amerique",
     "namefr": "Brésil / Brazil"
   },
   {
     "iso3": "BRN",
     "iso2": "BN",
     "languages": ["msa"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Bruneï / Negara Brunei Darussalam"
   },
   {
@@ -220,63 +220,63 @@
     "iso3": "BFA",
     "iso2": "BF",
     "languages": ["fra"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Burkina Faso / Burkina Faso"
   },
   {
     "iso3": "BDI",
     "iso2": "BI",
     "languages": ["run", "fra"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Burundi / Republika y'Uburundi"
   },
   {
     "iso3": "KHM",
     "iso2": "KH",
     "languages": ["khm"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Cambodge / Kâmpŭchéa"
   },
   {
     "iso3": "CMR",
     "iso2": "CM",
     "languages": ["fra", "eng"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Cameroun"
   },
   {
     "iso3": "CAN",
     "iso2": "CA",
     "languages": ["eng", "fra"],
-    "continent": "america",
+    "continent": "amerique",
     "namefr": "Canada"
   },
   {
     "iso3": "CPV",
     "iso2": "CV",
     "languages": ["por"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Cap-Vert / Cabo Verde"
   },
   {
     "iso3": "CAF",
     "iso2": "CF",
     "languages": ["sag", "fra"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Centrafrique / Ködrö ti Bê-Afrika"
   },
   {
     "iso3": "CHL",
     "iso2": "CL",
     "languages": ["spa"],
-    "continent": "america",
+    "continent": "amerique",
     "namefr": "Chili / Chile"
   },
   {
     "iso3": "CHN",
     "iso2": "CN",
     "languages": ["zho"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Chine / 中国"
   },
   {
@@ -290,56 +290,56 @@
     "iso3": "COL",
     "iso2": "CO",
     "languages": ["spa"],
-    "continent": "america",
+    "continent": "amerique",
     "namefr": "Colombie / Colombia"
   },
   {
     "iso3": "COM",
     "iso2": "KM",
     "languages": ["swb", "fra", "ara"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Comores / الاتحاد القمر"
   },
   {
     "iso3": "COG",
     "iso2": "CG",
     "languages": ["lin", "fra"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Congo"
   },
   {
     "iso3": "COD",
     "iso2": "CD",
     "languages": ["lin", "fra", "swa", "lua"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Rep Dem Congo"
   },
   {
     "iso3": "PRK",
     "iso2": "KP",
     "languages": ["kor"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Corée du Nord /  조선 민주주의 인민 공화국"
   },
   {
     "iso3": "KOR",
     "iso2": "KR",
     "languages": ["kor"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Corée du Sud / 대한민국 大韓民國"
   },
   {
     "iso3": "CRI",
     "iso2": "CR",
     "languages": ["spa"],
-    "continent": "america",
+    "continent": "amerique",
     "namefr": "Costa Rica"
   },
   {
     "iso3": "CIV",
     "iso2": "CI",
     "languages": ["fra"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Côte d'Ivoire"
   },
   {
@@ -353,7 +353,7 @@
     "iso3": "CUB",
     "iso2": "CU",
     "languages": ["spa"],
-    "continent": "america",
+    "continent": "amerique",
     "namefr": "Cuba"
   },
   {
@@ -367,42 +367,42 @@
     "iso3": "DJI",
     "iso2": "DJ",
     "languages": ["ara", "fra"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Djibouti / جمهورية جيبوتي"
   },
   {
     "iso3": "DMA",
     "iso2": "DM",
     "languages": ["eng"],
-    "continent": "america",
+    "continent": "amerique",
     "namefr": "Dominique / Dominica"
   },
   {
     "iso3": "EGY",
     "iso2": "EG",
     "languages": ["ara"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Egypte / جمهوريّة مصر العربيّة"
   },
   {
     "iso3": "ARE",
     "iso2": "AE",
     "languages": ["ara"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Emirats Arabes Unis / الامارات العربية المتحدة"
   },
   {
     "iso3": "ECU",
     "iso2": "EC",
     "languages": ["spa"],
-    "continent": "america",
+    "continent": "amerique",
     "namefr": "Equateur / Equador"
   },
   {
     "iso3": "ERI",
     "iso2": "ER",
     "languages": ["tir", "ara", "eng"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Erythrée / Hagärä Ertra - إريتريا "
   },
   {
@@ -423,21 +423,21 @@
     "iso3": "USA",
     "iso2": "US",
     "languages": ["eng"],
-    "continent": "america",
+    "continent": "amerique",
     "namefr": "Etats Unis / USA"
   },
   {
     "iso3": "ETH",
     "iso2": "ET",
     "languages": ["amh"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Ethiopie / ኢትዮጵያ"
   },
   {
     "iso3": "FJI",
     "iso2": "FJ",
     "languages": ["fj", "eng"],
-    "continent": "oceania",
+    "continent": "oceanie",
     "namefr": "Fidji"
   },
   {
@@ -458,28 +458,28 @@
     "iso3": "GAB",
     "iso2": "GA",
     "languages": ["fra"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Gabon"
   },
   {
     "iso3": "GMB",
     "iso2": "GM",
     "languages": ["eng"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Gambie / Republic of Gambia"
   },
   {
     "iso3": "GEO",
     "iso2": "GE",
     "languages": ["kat"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Georgie / საქართველოს"
   },
   {
     "iso3": "GHA",
     "iso2": "GH",
     "languages": ["eng"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Ghana / Republic of Ghana"
   },
   {
@@ -493,56 +493,56 @@
     "iso3": "GRD",
     "iso2": "GD",
     "languages": ["eng"],
-    "continent": "america",
+    "continent": "amerique",
     "namefr": "Grenade / Grenada"
   },
   {
     "iso3": "GTM",
     "iso2": "GT",
     "languages": ["spa"],
-    "continent": "america",
+    "continent": "amerique",
     "namefr": "Guatemala / República de Guatemala"
   },
   {
     "iso3": "GNB",
     "iso2": "GW",
     "languages": ["por"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Guinée-Bissau / Guiné-Bissau"
   },
   {
     "iso3": "GIN",
     "iso2": "GN",
     "languages": ["fra"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Guinée"
   },
   {
     "iso3": "GNQ",
     "iso2": "GQ",
     "languages": ["spa"],
-    "continent": "america",
+    "continent": "amerique",
     "namefr": "Guinée Equatoriale / Guiena ecuatorial "
   },
   {
     "iso3": "GUY",
     "iso2": "GY",
     "languages": ["eng"],
-    "continent": "america",
+    "continent": "amerique",
     "namefr": "Guyane / Guyana"
   },
   {
     "iso3": "HTI",
     "iso2": "HT",
     "languages": ["fra", "hat"],
-    "continent": "america",
+    "continent": "amerique",
     "namefr": "Haïti / Repiblik d'Ayiti"
   },
   {
     "iso3": "HND",
     "iso2": "HN",
     "languages": ["spa"],
-    "continent": "america",
+    "continent": "amerique",
     "namefr": "Honduras"
   },
   {
@@ -556,28 +556,28 @@
     "iso3": "IND",
     "iso2": "IN",
     "languages": ["hin", "eng", "mal", "urd", "ben", "tam"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Inde / इंडिया"
   },
   {
     "iso3": "IDN",
     "iso2": "ID",
     "languages": ["ind"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Indonésie"
   },
   {
     "iso3": "IRQ",
     "iso2": "IQ",
     "languages": ["kur", "ara"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Irak / العراق"
   },
   {
     "iso3": "IRN",
     "iso2": "IR",
     "languages": ["fas", "kur"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Iran / جمهوری اسلامی ايران"
   },
   {
@@ -598,7 +598,7 @@
     "iso3": "ISR",
     "iso2": "IL",
     "languages": ["heb", "ara"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Israel / שמורות"
   },
   {
@@ -612,49 +612,49 @@
     "iso3": "JAM",
     "iso2": "JM",
     "languages": ["eng"],
-    "continent": "america",
+    "continent": "amerique",
     "namefr": "Jamaïque / Jamaïca"
   },
   {
     "iso3": "JPN",
     "iso2": "JP",
     "languages": ["jpn"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Japon / 日本"
   },
   {
     "iso3": "JOR",
     "iso2": "JO",
     "languages": ["ara"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Jordanie / الأردن"
   },
   {
     "iso3": "KAZ",
     "iso2": "KZ",
     "languages": ["kaz", "rus"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Kazakhstan / Қазақстан Республикасы"
   },
   {
     "iso3": "KEN",
     "iso2": "KE",
     "languages": ["swa", "eng"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Kenya / Jamhuri ya Kenya"
   },
   {
     "iso3": "KGZ",
     "iso2": "KG",
     "languages": ["kir", "rus"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Kirghizistan / Кыргыз Республикасы"
   },
   {
     "iso3": "KIR",
     "iso2": "KI",
     "languages": ["eng"],
-    "continent": "oceania",
+    "continent": "oceanie",
     "namefr": "Kiribati"
   },
   {
@@ -668,21 +668,21 @@
     "iso3": "KWT",
     "iso2": "KW",
     "languages": ["ara"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Koweït / دولة الكويت"
   },
   {
     "iso3": "LAO",
     "iso2": "LA",
     "languages": ["lao"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Laos / ປະເທດລາວ"
   },
   {
     "iso3": "LSO",
     "iso2": "LS",
     "languages": ["sot", "eng"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Lesotho / Mmuso wa Lesotho"
   },
   {
@@ -696,21 +696,21 @@
     "iso3": "LBN",
     "iso2": "LB",
     "languages": ["ara"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Liban / الجمهوريّةاللبنانيّة "
   },
   {
     "iso3": "LBR",
     "iso2": "LR",
     "languages": ["eng"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Libéria"
   },
   {
     "iso3": "LBY",
     "iso2": "LY",
     "languages": ["ara"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Libye / الجماهيرية العربية الليبية الشعبية الإشتراكية"
   },
   {
@@ -738,35 +738,35 @@
     "iso3": "MDG",
     "iso2": "MG",
     "languages": ["mlg", "fra", "eng"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Madagascar / Repoblikan'i Madagasikara"
   },
   {
     "iso3": "MYS",
     "iso2": "MY",
     "languages": ["zsm", "msa"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Malaisie / Malaysia"
   },
   {
     "iso3": "MWI",
     "iso2": "MW",
     "languages": ["eng"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Malawi / Dziko la Malaŵi"
   },
   {
     "iso3": "MDV",
     "iso2": "MV",
     "languages": ["div"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Maldives"
   },
   {
     "iso3": "MLI",
     "iso2": "ML",
     "languages": ["fra"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Mali"
   },
   {
@@ -780,42 +780,42 @@
     "iso3": "MAR",
     "iso2": "MA",
     "languages": ["ara"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Maroc / المغرب"
   },
   {
     "iso3": "MHL",
     "iso2": "MH",
     "languages": ["eng", "mah"],
-    "continent": "oceania",
+    "continent": "oceanie",
     "namefr": "Iles Marshall"
   },
   {
     "iso3": "MUS",
     "iso2": "MU",
     "languages": ["eng", "fra"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Maurice / Republic of Mauritius"
   },
   {
     "iso3": "MRT",
     "iso2": "MR",
     "languages": ["ara", "fra"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Mauritanie / الجمهورية الإسلامية الموريتانية"
   },
   {
     "iso3": "MEX",
     "iso2": "MX",
     "languages": ["spa"],
-    "continent": "america",
+    "continent": "amerique",
     "namefr": "Mexique / Estados Unidos Mexicanos"
   },
   {
     "iso3": "FSM",
     "iso2": "FM",
     "languages": ["eng"],
-    "continent": "oceania",
+    "continent": "oceanie",
     "namefr": "Micronésie / Micronesia"
   },
   {
@@ -836,7 +836,7 @@
     "iso3": "MNG",
     "iso2": "MN",
     "languages": ["mon"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Mongolie / Монгол Улс"
   },
   {
@@ -850,49 +850,49 @@
     "iso3": "MOZ",
     "iso2": "MZ",
     "languages": ["por"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Mozambique / Moçambique"
   },
   {
     "iso3": "NAM",
     "iso2": "NA",
     "languages": ["eng"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Namibie / Namibia"
   },
   {
     "iso3": "NRU",
     "iso2": "NR",
     "languages": ["nau", "eng"],
-    "continent": "oceania",
+    "continent": "oceanie",
     "namefr": "Nauru / Ripublik Naoero"
   },
   {
     "iso3": "NPL",
     "iso2": "NP",
     "languages": ["nep"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Népal / नेपाल"
   },
   {
     "iso3": "NIC",
     "iso2": "NI",
     "languages": ["spa"],
-    "continent": "america",
+    "continent": "amerique",
     "namefr": "Nicaragua"
   },
   {
     "iso3": "NER",
     "iso2": "NE",
     "languages": ["fra"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Niger"
   },
   {
     "iso3": "NGA",
     "iso2": "NG",
     "languages": ["eng"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Nigeria"
   },
   {
@@ -906,56 +906,56 @@
     "iso3": "NZL",
     "iso2": "NZ",
     "languages": ["eng", "mri"],
-    "continent": "oceania",
+    "continent": "oceanie",
     "namefr": "Nouvelle-Zélande / New Zeland"
   },
   {
     "iso3": "OMN",
     "iso2": "OM",
     "languages": ["ara"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Oman / سلطنة عُمان"
   },
   {
     "iso3": "UGA",
     "iso2": "UG",
     "languages": ["eng"],
-    "continent": "america",
+    "continent": "afrique",
     "namefr": "Ouganda / Jamhuri ya Uganda"
   },
   {
     "iso3": "UZB",
     "iso2": "UZ",
     "languages": ["uzb", "rus"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "OUzbékistan / O'zbekiston Respublikasi"
   },
   {
     "iso3": "PAK",
     "iso2": "PK",
     "languages": ["urd", "snd", "eng"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Pakistan /اسلامی جمہوریت پاکستان"
   },
   {
     "iso3": "PAN",
     "iso2": "PA",
     "languages": ["spa"],
-    "continent": "america",
+    "continent": "amerique",
     "namefr": "Panama"
   },
   {
     "iso3": "PNG",
     "iso2": "PG",
     "languages": ["eng"],
-    "continent": "oceania",
+    "continent": "oceanie",
     "namefr": "Papouasie / Papua New Guinea"
   },
   {
     "iso3": "PRY",
     "iso2": "PY",
     "languages": ["spa"],
-    "continent": "america",
+    "continent": "amerique",
     "namefr": "Paraguay"
   },
   {
@@ -969,14 +969,14 @@
     "iso3": "PER",
     "iso2": "PE",
     "languages": ["spa"],
-    "continent": "america",
+    "continent": "amerique",
     "namefr": "Pérou / Peru"
   },
   {
     "iso3": "PHL",
     "iso2": "PH",
     "languages": ["fil", "eng"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Philippines / Republika ng Pilipinas"
   },
   {
@@ -997,14 +997,14 @@
     "iso3": "QAT",
     "iso2": "QA",
     "languages": ["ara"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Qatar / دولة قطر"
   },
   {
     "iso3": "DOM",
     "iso2": "DO",
     "languages": ["spa"],
-    "continent": "america",
+    "continent": "amerique",
     "namefr": "Rep Dominicaine / República Dominicana"
   },
   {
@@ -1032,28 +1032,28 @@
     "iso3": "RUS",
     "iso2": "RU",
     "languages": ["rus"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Russie / Россия"
   },
   {
     "iso3": "RWA",
     "iso2": "RW",
     "languages": ["fra", "kin", "eng", "swa"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Rwanda / Repubulika y'u Rwanda "
   },
   {
     "iso3": "KNA",
     "iso2": "KN",
     "languages": ["eng"],
-    "continent": "america",
+    "continent": "amerique",
     "namefr": "St Kitts et Nevis"
   },
   {
     "iso3": "LCA",
     "iso2": "LC",
     "languages": ["eng"],
-    "continent": "america",
+    "continent": "amerique",
     "namefr": "Ste Lucie / Saint Lucia"
   },
   {
@@ -1067,42 +1067,42 @@
     "iso3": "VCT",
     "iso2": "VC",
     "languages": ["eng"],
-    "continent": "america",
+    "continent": "amerique",
     "namefr": "St Vincent et les Grenadines / St Vincent and the Grenadines"
   },
   {
     "iso3": "SLB",
     "iso2": "SB",
     "languages": ["eng"],
-    "continent": "oceania",
+    "continent": "oceanie",
     "namefr": "Iles Salomon"
   },
   {
     "iso3": "STP",
     "iso2": "ST",
     "languages": ["por"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Sao Tomé et Principe / São Tomé e Príncipe"
   },
   {
     "iso3": "SLV",
     "iso2": "SV",
     "languages": ["spa"],
-    "continent": "america",
+    "continent": "amerique",
     "namefr": "Salvador / El Salvador"
   },
   {
     "iso3": "WSM",
     "iso2": "WS",
     "languages": ["smo", "eng"],
-    "continent": "oceania",
+    "continent": "oceanie",
     "namefr": "Samoa / Malo Sa'oloto Tuto'atasi o Samoa"
   },
   {
     "iso3": "SEN",
     "iso2": "SN",
     "languages": ["fra"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Sénégal"
   },
   {
@@ -1116,21 +1116,21 @@
     "iso3": "SYC",
     "iso2": "SC",
     "languages": ["ara", "fra"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Seychelles / Repiblik Sesel"
   },
   {
     "iso3": "SLE",
     "iso2": "SL",
     "languages": ["sus", "eng"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Sierra Leone"
   },
   {
     "iso3": "SGP",
     "iso2": "SG",
     "languages": ["eng", "msa", "zho", "tam"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Singapour / Singapore"
   },
   {
@@ -1151,28 +1151,28 @@
     "iso3": "SOM",
     "iso2": "SO",
     "languages": ["som", "ara"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Somalie / Soomaaliya"
   },
   {
     "iso3": "SDN",
     "iso2": "SD",
     "languages": ["ara"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Soudan / جمهورية السودان"
   },
   {
     "iso3": "SSD",
     "iso2": "SS",
     "languages": ["eng"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Sud Soudan"
   },
   {
     "iso3": "LKA",
     "iso2": "LK",
     "languages": ["sin", "tam"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Sri Lanka / ශ්රී ලංකාව"
   },
   {
@@ -1193,98 +1193,98 @@
     "iso3": "SUR",
     "iso2": "SR",
     "languages": ["nld"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Suriname / Republiek Suriname"
   },
   {
     "iso3": "SWZ",
     "iso2": "SZ",
     "languages": ["ssw", "eng"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Swaziland / Eswatini / Umbuso Swatini"
   },
   {
     "iso3": "SYR",
     "iso2": "SY",
     "languages": ["ara", "kur"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Syrie / الجمهوريّة العربيّة السّوريّة"
   },
   {
     "iso3": "TJK",
     "iso2": "TJ",
     "languages": ["tgk", "rus"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Tadjikistan /جمهوری تاجکستان"
   },
   {
     "iso3": "TZA",
     "iso2": "TZ",
     "languages": ["swa", "eng"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Tanzanie / Jamhuri ya Muungano wa Tanzania"
   },
   {
     "iso3": "TCD",
     "iso2": "TD",
     "languages": ["ara", "fra"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Tchad / تشاد"
   },
   {
     "iso3": "TLS",
     "iso2": "TL",
     "languages": ["por", "tet"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Timor / Repúblika Demokrátika Timor Lorosa'e"
   },
   {
     "iso3": "THA",
     "iso2": "TH",
     "languages": ["tha"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Thaïlande / ประเทศไทย"
   },
   {
     "iso3": "TGO",
     "iso2": "TG",
     "languages": ["fra"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Togo"
   },
   {
     "iso3": "TTO",
     "iso2": "TT",
     "languages": ["eng"],
-    "continent": "america",
+    "continent": "amerique",
     "namefr": "Trinité et Tobago / Trinidad and Tobago"
   },
   {
     "iso3": "TUN",
     "iso2": "TN",
     "languages": ["ara"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Tunisie / لجمهورية التونسية"
   },
   {
     "iso3": "TKM",
     "iso2": "TM",
     "languages": ["tuk", "rus"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Turkménistan / Türkmenistan Jumhuriyäti"
   },
   {
     "iso3": "TUR",
     "iso2": "TR",
     "languages": ["tur", "kur"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Turquie / Türkiye Cumhuriyeti"
   },
   {
     "iso3": "TUV",
     "iso2": "TV",
     "languages": ["eng", "tvl"],
-    "continent": "oceania",
+    "continent": "oceanie",
     "namefr": "Tuvalu"
   },
   {
@@ -1298,14 +1298,14 @@
     "iso3": "URY",
     "iso2": "UY",
     "languages": ["spa"],
-    "continent": "america",
+    "continent": "amerique",
     "namefr": "Uruguay"
   },
   {
     "iso3": "VUT",
     "iso2": "VU",
     "languages": ["eng", "fra"],
-    "continent": "oceania",
+    "continent": "oceanie",
     "namefr": "Vanuatu / Ripablik blong Vanuatu"
   },
   {
@@ -1319,42 +1319,42 @@
     "iso3": "VEN",
     "iso2": "VE",
     "languages": ["spa"],
-    "continent": "america",
+    "continent": "amerique",
     "namefr": "Venezuela"
   },
   {
     "iso3": "VNM",
     "iso2": "VN",
     "languages": ["vie"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Viet Nam / Cộng Hoà Xã Hội Chủ Nghĩa Việt Nam"
   },
   {
     "iso3": "YEM",
     "iso2": "YE",
     "languages": ["ara"],
-    "continent": "asia",
+    "continent": "asie",
     "namefr": "Yémen / ﺍﻟﺠﻤﻬﻮﺭﯾّﺔ اليمنية"
   },
   {
     "iso3": "ZMB",
     "iso2": "ZM",
     "languages": ["eng"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Zambie / Zambia"
   },
   {
     "iso3": "ZWE",
     "iso2": "ZW",
     "languages": ["eng"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Zimbabwe"
   },
   {
     "iso3": "FRE",
     "iso2": "FR",
     "languages": ["swb"],
-    "continent": "africa",
+    "continent": "afrique",
     "namefr": "Mayotte"
   }
 ]
