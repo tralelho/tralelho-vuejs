@@ -68,11 +68,11 @@ import { defineProps, defineEmits } from "vue";
 import { useI18n } from "vue-i18n";
 import countries from "./countries.json";
 enum Continents {
-  AFRICA = "continents/africa.svg",
-  AMERICA = "continents/america.svg",
-  ASIA = "continents/asia.svg",
+  AFRIQUE = "continents/africa.svg",
+  AMERIQUE = "continents/america.svg",
+  ASIE = "continents/asia.svg",
   EUROPE = "continents/europe.svg",
-  OCEANIA = "continents/oceania.svg",
+  OCEANIE = "continents/oceania.svg",
 }
 const countriesByContinent = Object.keys(Continents).map((continent) => {
   const countriesOfContinent = countries.filter(

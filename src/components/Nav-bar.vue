@@ -122,18 +122,6 @@
             <a
               class="navbar-item"
               @click="
-                createPdf(
-                  PdfDocumentList.PEDIATRIE,
-                  messages,
-                  $route.query.lang
-                )
-              "
-            >
-              Fiche pédiatrie
-            </a>
-            <a
-              class="navbar-item"
-              @click="
                 createPdf(PdfDocumentList.SCANNER, messages, $route.query.lang)
               "
               >Scanner</a
