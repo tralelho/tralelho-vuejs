@@ -68,9 +68,9 @@ import { defineProps, defineEmits } from "vue";
 import { useI18n } from "vue-i18n";
 import countries from "./countries.json";
 enum Continents {
-  AFRIQUE = "continents/africa.svg",
-  AMERIQUE = "continents/america.svg",
-  ASIE = "continents/asia.svg",
+  afrique = "continents/africa.svg",
+  amerique = "continents/america.svg",
+  asie = "continents/asia.svg",
   EUROPE = "continents/europe.svg",
   OCEANIE = "continents/oceania.svg",
 }
