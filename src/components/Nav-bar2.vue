@@ -32,68 +32,7 @@
       <div class="navbar-start">
        
 
-       
-
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link"> Samu </a>
-
-          <div class="navbar-dropdown">
-            <router-link
-              :to="{
-                name: 'samu',
-                params: { locale },
-                query: { lang: 'eng' },
-              }"
-              class="navbar-item"
-              v-t="{ path: 685, locale: 'fra' }"
-              @click="showNav = !showNav"
-            ></router-link>
-
-            <router-link
-              :to="{
-                name: 'samu',
-                params: { locale },
-                query: { lang: 'deu' },
-              }"
-              class="navbar-item"
-              v-t="{ path: 681, locale: 'fra' }"
-              @click="showNav = !showNav"
-            ></router-link>
-
-            <router-link
-              :to="{
-                name: 'samu',
-                params: { locale },
-                query: { lang: 'spa' },
-              }"
-              class="navbar-item"
-              v-t="{ path: 744, locale: 'fra' }"
-              @click="showNav = !showNav"
-            ></router-link>
-
-            <router-link
-              :to="{
-                name: 'samu',
-                params: { locale },
-                query: { lang: 'por' },
-              }"
-              class="navbar-item"
-              v-t="{ path: 730, locale: 'fra' }"
-              @click="showNav = !showNav"
-            ></router-link>
-
-            <router-link
-              :to="{
-                name: 'samu',
-                params: { locale },
-                query: { lang: 'ita' },
-              }"
-              class="navbar-item"
-              v-t="{ path: 700, locale: 'fra' }"
-              @click="showNav = !showNav"
-            ></router-link>
-          </div>
-        </div>
+    
 
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link"> Imprimer </a>
