@@ -30,10 +30,6 @@
 
     <div id="mainNavbar" class="navbar-menu" :class="{ 'is-active': showNav }">
       <div class="navbar-start">
-       
-
-    
-
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link"> Imprimer </a>
 

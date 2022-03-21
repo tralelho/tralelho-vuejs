@@ -1,7 +1,5 @@
 <script setup lang="ts">
-import { useI18n } from "vue-i18n";
 import pageConfig from "./Samu.config.json";
-const { locale } = useI18n({ useScope: "global" });
 </script>
 
 <template>
@@ -9,7 +7,7 @@ const { locale } = useI18n({ useScope: "global" });
     <h1 class="title is-1">Traductions pour les SAMU et SDIS</h1>
 
     <div className="columns">
-      <div className="column is-2 has-text-left" style="margin-left:40px> 
+      <div className="column is-2 has-text-left" style="margin-left: 40px">
         <aside class="menu">
           <ul class="menu-list">
             <li v-for="section of pageConfig" :key="section.title">
@@ -39,7 +37,7 @@ const { locale } = useI18n({ useScope: "global" });
             :id="section.title"
             class="title is-2 has-text-left"
             v-t="{ path: section.title }"
-            style="margin-top:20px
+            style="margin-top: 20px"
           ></h2>
 
           <div
