@@ -118,6 +118,10 @@ section {
   background-color: #318ce7;
 }
 
+container {
+background-color:#6699CC;
+}
+
 h3 {
   margin: 40px 0 0;
 }
