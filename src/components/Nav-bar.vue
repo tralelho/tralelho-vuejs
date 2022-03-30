@@ -30,7 +30,10 @@
 
     <div id="mainNavbar" class="navbar-menu" :class="{ 'is-active': showNav }">
       <div class="navbar-start">
-        <div class="navbar-item has-dropdown is-hoverable" v-if="!$route.query.lang">
+        <div
+          class="navbar-item has-dropdown is-hoverable"
+          v-if="!$route.query.lang"
+        >
           <a class="navbar-link"> Samu </a>
 
           <div class="navbar-dropdown">
