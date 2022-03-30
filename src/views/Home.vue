@@ -119,7 +119,7 @@ section {
 }
 
 container {
-background-color:#6699CC;
+  background-color: #6699cc;
 }
 
 h3 {

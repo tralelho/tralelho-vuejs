@@ -47,7 +47,7 @@ jobs:
           CI: true
 
         # Setup and configure gcloud CLI
-      - uses: google-github-actions/setup-gcloud@master
+      - uses: google-github-actions/setup-gcloud@v0
         with:
           version: "334.0.0"
           project_id: ${{ secrets.PROJECT_ID }}
