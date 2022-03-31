@@ -67,8 +67,17 @@ import pageConfig from "./Samu.config.json";
   flex-wrap: wrap;
   align-content: center; /* used this for multiple child */
   align-items: center; /* if an only child */
+  position: relative; 
+  top: -40px;
+
 }
+
 .menu-element-multiline {
   width: 100px;
 }
+.menu {
+  position: fixed;
+}
+
+
 </style>
