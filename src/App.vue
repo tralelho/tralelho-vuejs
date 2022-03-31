@@ -55,7 +55,7 @@ export default defineComponent({
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background-color: #FAC0C0;
+  background-color: #FFCOCB;
 }
 @import "src/assets/main";
 </style>
