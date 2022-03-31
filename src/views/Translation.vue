@@ -124,10 +124,10 @@ let selectedLanguage = ref(
 }
 
 .box columns m-2 py-2 is-clickable change-background-on-hover {
-  background-color:#6FA0D1;
+  background-color:#26619C;
 }
 .menu {
-  background-color:#7FB9F0;
+  background-color:#3A8EBA;
   position: fixed;
 }
 
