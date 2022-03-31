@@ -49,7 +49,7 @@ const buildPdfContent = function (
   let doc = new jsPDF();
 
   doc.setFontSize(24);
-  doc.setFont("helvetica", "bold");
+  doc.setFont("arial", "bold");
   doc.text(type, 10, 10);
 
   doc.setFontSize(8);
@@ -60,10 +60,10 @@ const buildPdfContent = function (
     return createSecretariatPdf(t, doc, Content[type], y, messages, lang);
   } else {
     for (const phrase of Content[type].phrases) {
-      doc.setFont("helvetica", "bold");
+      doc.setFont("arial", "bold");
       doc.text(t(`${phrase}`), 10, y);
 
-      doc.setFont("helvetica", "normal");
+      doc.setFont("arial", "normal");
       doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 4);
 
       y = y + 12;
@@ -103,7 +103,7 @@ const createPatientPdf = function (
   let doc = new jsPDF({ orientation: "landscape" });
 
   doc.setFontSize(24);
-  doc.setFont("helvetica", "bold");
+  doc.setFont("arial", "bold");
   doc.text(PdfDocumentList.PATIENT, 10, 10);
 
   doc.setFontSize(8);
@@ -246,12 +246,12 @@ const createSecretariatPdf = function (
   lang: string
 ): jsPDF {
   for (const section of contentElement.sections) {
-    doc.setFont("helvetica", "bold");
+    doc.setFont("arial", "bold");
     doc.text(translate(`${section.title}`), 10, y);
 
     y = y + 8;
 
-    doc.setFont("helvetica", "normal");
+    doc.setFont("arial", "normal");
     for (const phrase of section.list) {
       y = changePage(doc, y);
       doc.text(translate(`${phrase}`), 20, y);
@@ -263,9 +263,9 @@ const createSecretariatPdf = function (
     if (section.form) {
       for (const formElement of section.form) {
         y = changePage(doc, y);
-        doc.setFont("helvetica", "bold");
+        doc.setFont("arial", "bold");
         doc.text(translate(`${formElement}`), 20, y);
-        doc.setFont("helvetica", "normal");
+        doc.setFont("arial", "normal");
         doc.text(getMessage(messages, lang, `${formElement}`), 20, y + 4);
         doc.text("_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _", 100, y + 4);
         y = y + 12;
@@ -287,16 +287,16 @@ const createScannerIRMPdf = function (
 ): jsPDF {
   //CheckList
   doc.setFontSize(16);
-  doc.setFont("helvetica", "bold");
+  doc.setFont("arial", "bold");
   doc.rect(10, position - 1, 190, 8);
   doc.text(`Checklist ${type}`, 75, position + 5);
   position = position + 15;
   doc.setFontSize(8);
 
   for (const formElement of content.checkList.form) {
-    doc.setFont("helvetica", "bold");
+    doc.setFont("arial", "bold");
     doc.text(translate(`${formElement.code}`), 20, position);
-    doc.setFont("helvetica", "normal");
+    doc.setFont("arial", "normal");
     doc.text(
       getMessage(messages, lang, `${formElement.code}`),
       20,
@@ -307,7 +307,7 @@ const createScannerIRMPdf = function (
   }
 
   position = position + 5;
-  doc.setFont("helvetica", "bold");
+  doc.setFont("arial", "bold");
 
   const startRectangle = position;
 
@@ -340,9 +340,9 @@ const createScannerIRMPdf = function (
       pageAdded = true;
       position = 10;
     }
-    doc.setFont("helvetica", "bold");
+    doc.setFont("arial", "bold");
     doc.text(translate(`${phrase}`), 12, position);
-    doc.setFont("helvetica", "normal");
+    doc.setFont("arial", "normal");
     doc.text(getMessage(messages, lang, `${phrase}`), 12, position + 4);
 
     doc.rect(110, position, 5, 5);
@@ -360,9 +360,9 @@ const createScannerIRMPdf = function (
 
   position = position + 15;
 
-  doc.setFont("helvetica", "bold");
+  doc.setFont("arial", "bold");
   doc.text(translate(`${content.sign}`), 20, position);
-  doc.setFont("helvetica", "normal");
+  doc.setFont("arial", "normal");
   doc.text(getMessage(messages, lang, `${content.sign}`), 20, position + 4);
 
   return doc;
