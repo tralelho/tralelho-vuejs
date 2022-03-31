@@ -160,6 +160,12 @@
   </nav>
 </template>
 
+<style scoped lang="scss">
+.navbar is-fixed-top is-primary {
+  background-color: #26619C;
+}
+</style>
+
 <script lang="ts" setup>
 import { useI18n } from "vue-i18n";
 import { ref } from "vue";
