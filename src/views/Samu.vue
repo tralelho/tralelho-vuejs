@@ -6,7 +6,7 @@ import pageConfig from "./Samu.config.json";
   <div class="section">
     <h1 class="title is-1">Traductions pour les SAMU et SDIS</h1>
 
-    <textarea id="textarea" placeholder="Ecrivez ici votre texte avant de le copier/coller sur votre logiciel ..." rows="8" cols="50" position="fixed" border="1px solid black" float="right">
+<textarea id="textarea" placeholder="Ecrivez ici votre texte avant de le copier/coller sur votre logiciel ..." rows="8" cols="50" position="fixed" border="1px solid black" float="right">
 
 </textarea>
 
