@@ -127,7 +127,7 @@ let selectedLanguage = ref(
   background-color:#318CE7;
 }
 .menu {
-  background-color:#FFB3C7;
+  background-color:#6699cc;
   position: fixed;
 }
 
