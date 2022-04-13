@@ -1,18 +1,17 @@
 [
-  
-   {
-    "title":796,
-  "icon": "exclamation.png",
-     },
   {
-    "title": 797, 
-  "icon": "exclamation.png",
-     },
+    "title": 796,
+    "icon": "exclamation.png"
+  },
   {
-    "title":795,
-  "icon": "exclamation.png",
-     },
-     
+    "title": 797,
+    "icon": "exclamation.png"
+  },
+  {
+    "title": 795,
+    "icon": "exclamation.png"
+  },
+
   {
     "title": 12,
     "icon": "IDENTITÉ.png",
@@ -93,6 +92,4 @@
     "icon": "CONCLUSION.png",
     "list": [834, 800, 801, 802, 803, 804, 832, 833, 798, 799]
   }
-  
- 
 ]
