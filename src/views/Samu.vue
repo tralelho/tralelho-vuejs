@@ -81,7 +81,7 @@ import pageConfig from "./Samu.config.json";
   width: 100px;
 }
 .menu {
-  position: fixed;
+  position: absolute;
 }
 
 
