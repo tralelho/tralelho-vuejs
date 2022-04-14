@@ -42,7 +42,7 @@ import pageConfig from "./Samu.config.json";
             :id="section.title"
             class="title is-2 has-text-left"
             v-t="{ path: section.title }"
-            style="margin-top: 20px"
+            style="margin-top: 10px"
           ></h2>
 
           <div
@@ -73,15 +73,15 @@ import pageConfig from "./Samu.config.json";
   align-content: center; /* used this for multiple child */
   align-items: center; /* if an only child */
   position: relative; 
-  top: -40px;
-
+  top:40px;
 }
+
 
 .menu-element-multiline {
-  width: 100px;
+  width: 120px;
 }
 .menu {
-  position: absolute;
+  position: sticky;
 }
 
 
