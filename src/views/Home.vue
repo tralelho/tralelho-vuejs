@@ -115,7 +115,7 @@ const changeContinent = (continent: string) => {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 section {
-  background-color: #318ce7;
+  background-color: #a2c0de;
 }
 
 container {
@@ -134,7 +134,7 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #318ce7;
+  color: #a2c0de;
 }
 
 #map {
