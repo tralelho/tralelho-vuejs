@@ -74,15 +74,17 @@ import pageConfig from "./Samu.config.json";
   align-items: center; /* if an only child */
   position: relative; 
   top:40px;
+  background-color:#a7eba9;
+
 }
 
 
 .menu-element-multiline {
-  width: 120px;
-}
-.menu {
+  width: 140px;
   position: sticky;
+  background-color:#a7eba9;
 }
+
 
 
 </style>
