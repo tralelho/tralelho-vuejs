@@ -82,6 +82,7 @@ import pageConfig from "./Samu.config.json";
 .menu-element-multiline {
   width: 140px;
   position:fixed;
+  top:10px;
   background-color:#a7eba9;
 }
 
