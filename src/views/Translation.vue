@@ -112,7 +112,7 @@ let selectedLanguage = ref(
 }
 
 .menu-element-multiline {
-  width: 100px;
+  width: 140px;
 }
 
 .field-label-size {
@@ -128,7 +128,7 @@ let selectedLanguage = ref(
 }
 .menu {
   background-color:#6699cc;
-  position: fixed;
+  position: relative;
 }
 
 
