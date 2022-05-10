@@ -169,7 +169,7 @@
 <script lang="ts" setup>
 import { useI18n } from "vue-i18n";
 import { ref } from "vue";
-import { createPdf, PdfDocumentList } from "./PDF-creator";
+import { createPdf, PdfDocumentList } from "./pdf-creation/PDF-creator";
 
 const { locale, messages } = useI18n({
   useScope: "global",
