@@ -6,10 +6,16 @@ import pageConfig from "./Samu.config.json";
   <div class="section">
     <h1 class="title is-1">Traductions pour les SAMU et SDIS</h1>
 
-<textarea id="textarea" placeholder="Ecrivez ici votre texte avant de le copier/coller sur votre logiciel ..." rows="8" cols="50" position="fixed" border="1px solid black" float="right">
-
-</textarea>
-
+    <textarea
+      id="textarea"
+      placeholder="Ecrivez ici votre texte avant de le copier/coller sur votre logiciel ..."
+      rows="8"
+      cols="50"
+      position="fixed"
+      border="1px solid black"
+      float="right"
+    >
+    </textarea>
 
     <div className="columns">
       <div className="column is-2 has-text-left" style="margin-left: 40px">
@@ -72,29 +78,24 @@ import pageConfig from "./Samu.config.json";
   flex-wrap: wrap;
   align-content: center; /* used this for multiple child */
   align-items: center; /* if an only child */
-  position: relative; 
-  top:10px;
-  width:100px;
-  background-color:#a7eba9;
-
+  position: relative;
+  top: 10px;
+  width: 100px;
+  background-color: #a7eba9;
+}
 
 .column {
-  background-color:#a7eba9;
+  background-color: #a7eba9;
 }
 
 .columns {
-  background-color:#a7eba9;
+  background-color: #a7eba9;
 }
 
 .menu-element-multiline {
-
-  background-color:#a7eba9;
-   position: relative; 
-  top:10px;
-  width:100px;
-  
+  background-color: #a7eba9;
+  position: relative;
+  top: 10px;
+  width: 100px;
 }
-
-
-
 </style>
