@@ -110,6 +110,6 @@ header:hover {
 .country-block {
   width: 8rem;
   display: inline-grid;
-  background-color:#c8d2ff;
+  background-color: #c8d2ff;
 }
 </style>

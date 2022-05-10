@@ -162,7 +162,7 @@
 
 <style scoped lang="scss">
 .navbar is-fixed-top is-primary {
-background-color:#26619C;
+  background-color: #26619c;
 }
 </style>
 
