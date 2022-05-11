@@ -9,24 +9,24 @@
  "tvl","tuk","tur","tso","tsn","tir","uzb","vie","xho","zsm","zul"]
 }
 {
-    "font":"symbol",
-    "languages":["ell"]
+"font":"symbol",
+"languages":["ell"]
 }
 {
-"font":"arial",
+"font":"xxx",
 "languages":["amh"]
 }
 {
-"font":"arabe",
+"font":"xxx",
 "languages":"ara"
-    
-        }
-
-        "hye",
+}
+{
+    "font":"xxx",
+    "languages":[ "hye",
         "lao",
         "sin",
         "ben",
-        "urd"
+        "urd",
         "mya",
         "mon",
         "dzo",
@@ -38,12 +38,11 @@
     "kat",
     "hin",
     "heb",
-    "tha",
+    "tha"]}
 
-    {
-        "font":"cyrillique",
-        "languages":["kaz","kir","rus","bul","bel","ukr"]
-    
-        }
+{
+"font":"cyrillique",
+"languages":["kaz","kir","rus","bul","bel","ukr"] 
+}
        
 ]
