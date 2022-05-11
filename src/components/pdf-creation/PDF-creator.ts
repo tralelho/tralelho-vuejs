@@ -43,6 +43,7 @@ const buildPdfContent = function (
   doc.setFontSize(24);
   doc.setFont("arial", "bold");
   doc.text(type, 10, 10);
+  doc.addfont(arabic)
 
   doc.setFontSize(8);
   let y = 20;
