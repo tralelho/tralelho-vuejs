@@ -123,7 +123,7 @@ let selectedLanguage = ref(
   max-width: 500px;
 }
 
-.box columns m-2 py-2 is-clickable change-background-on-hover {
+.box columns m-2 py-2 is-clickable change-background-on-hover:hover {
   background-color: #fac3f2;
 }
 .menu {

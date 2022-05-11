@@ -164,6 +164,10 @@
 .navbar is-fixed-top is-primary {
   background-color: #26619c;
 }
+
+.navbar-brand {
+  background-color: #26619c;
+}
 </style>
 
 <script lang="ts" setup>
