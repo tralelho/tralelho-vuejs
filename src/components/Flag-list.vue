@@ -107,8 +107,7 @@ header:hover {
   cursor: pointer;
 }
 
-.content{
-  
+.content {
   background-color: #9cadf89c;
 }
 
