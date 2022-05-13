@@ -9,6 +9,7 @@ export const createPatientPdf = function (
   lang: string
 ): jsPDF {
   let doc = new jsPDF({ orientation: "landscape" });
+  const img = new Image();
 
   doc.setFontSize(24);
   doc.setFont("arial", "bold");
@@ -51,9 +52,17 @@ export const createPatientPdf = function (
     doc.rect(x - 5, y - 4, 11, 10);
     x = x + 11;
   }
-  doc.rect(18, startSection - 4, 121, y - startSection + 10);
 
-  y = y + 20;
+  x = 23;
+  for (let i = 0; i < 6; i++) {
+    img.src = `/pdf-images/patient/douleur${i}.png`;
+    doc.addImage(img, "png", x, 80, 12, 12);
+    x = x + 20;
+  }
+
+  doc.rect(18, startSection - 4, 121, y - startSection + 25);
+
+  y = y + 40;
 
   //Medication section
   startSection = y;
@@ -62,6 +71,8 @@ export const createPatientPdf = function (
     doc.text(getMessage(messages, lang, `${phrase}`), 20, y + 4);
     y = y + 10;
   }
+  img.src = `/pdf-images/patient/medoc.png`;
+  doc.addImage(img, "png", 120, startSection, 15, 15);
   doc.rect(18, startSection - 4, 121, y - startSection);
 
   y = y + 20;
@@ -83,6 +94,8 @@ export const createPatientPdf = function (
     );
     yRight = yRight + (originalPhrase.length > 90 ? 15 : 10);
   }
+  img.src = `/pdf-images/patient/pouls.png`;
+  doc.addImage(img, "png", 265, startSection, 15, 20);
   doc.rect(148, startSection - 4, 140, yRight - startSection + 5);
 
   yRight = yRight + 20;
@@ -94,6 +107,8 @@ export const createPatientPdf = function (
     doc.text(getMessage(messages, lang, `${phrase}`), 150, yRight + 4);
     yRight = yRight + 10;
   }
+  img.src = `/pdf-images/patient/seringue.png`;
+  doc.addImage(img, "png", 265, startSection, 15, 15);
   doc.rect(148, startSection - 4, 140, yRight - startSection);
 
   y = y + 20;
@@ -108,6 +123,8 @@ export const createPatientPdf = function (
     doc.text(getMessage(messages, lang, `${phrase}`), 20, y + 4);
     y = y + 10;
   }
+  img.src = `/pdf-images/patient/interdit.png`;
+  doc.addImage(img, "png", 120, startSection, 15, 15);
   doc.rect(18, startSection - 4, 121, y - startSection);
 
   y = y + 20;
