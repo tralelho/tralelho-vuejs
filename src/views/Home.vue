@@ -40,19 +40,19 @@ const changeContinent = (continent: string) => {
             target="_blank"
             alt="Amérique du nord"
             title="Amérique du nord"
-            href="#america"
+            href="#amerique"
             coords="18,99,388,428"
             shape="rect"
-            v-on:click="scrollTo($event, 'america')"
+            v-on:click="scrollTo($event, 'amerique')"
           />
           <area
             target="_blank"
             alt="Amérique du sud"
             title="Amérique du sud"
-            href="#america"
+            href="#amerique"
             coords="148,434,400,650"
             shape="rect"
-            v-on:click="scrollTo($event, 'america')"
+            v-on:click="scrollTo($event, 'amerique')"
           />
           <area
             target="_blank"
@@ -67,28 +67,28 @@ const changeContinent = (continent: string) => {
             target="_blank"
             alt="Afrique"
             title="Afrique"
-            href="#africa"
+            href="#afrique"
             coords="421,376,603,582"
             shape="rect"
-            v-on:click="scrollTo($event, 'africa')"
+            v-on:click="scrollTo($event, 'afrique')"
           />
           <area
             target="_blank"
             alt="Asie"
             title="Asie"
-            href="#asia"
+            href="#asie"
             coords="610,128,983,450"
             shape="rect"
-            v-on:click="scrollTo($event, 'asia')"
+            v-on:click="scrollTo($event, 'asie')"
           />
           <area
             target="_blank"
-            alt="Oceania"
+            alt="Oceanie"
             title="Océanie"
-            href="#oceania"
+            href="#oceanie"
             coords="713,457,983,618"
             shape="rect"
-            v-on:click="scrollTo($event, 'oceania')"
+            v-on:click="scrollTo($event, 'oceanie')"
           />
         </map>
       </figure>
