@@ -1,5 +1,5 @@
 import { jsPDF } from "jspdf";
-import Content from "../../views/pdf/Content.json";
+import Content from "./configuration.json";
 import { i18n } from "../../main";
 import { createPatientPdf } from "./patient";
 import { createSecretariatPdf } from "./secretariat";
