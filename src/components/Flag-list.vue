@@ -107,9 +107,14 @@ header:hover {
   cursor: pointer;
 }
 
+.content{
+  
+  background-color: #9cadf89c;
+}
+
 .country-block {
   width: 8rem;
   display: inline-grid;
-  background-color: #c8d2ff;
+  background-color: #9cadf89c;
 }
 </style>
