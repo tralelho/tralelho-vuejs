@@ -149,15 +149,39 @@ export const createPatientPdf = function (
   }
   doc.rect(18, startSection - 4, 121, y - startSection);
 
-  y = y + 20;
+  doc.addPage();
 
+  y = 20;
   //flower section
-  for (const phrase of contentElement.flower.phrases) {
-    y = changePage(doc, y);
-    doc.text(translate(`${phrase}`), 20, y);
-    doc.text(getMessage(messages, lang, `${phrase}`), 20, y + 4);
-    y = y + 10;
-  }
+  // for (const phrase of contentElement.flower.phrases) {
+  //   doc.text(translate(`${phrase}`), 20, y);
+  //   doc.text(getMessage(messages, lang, `${phrase}`), 20, y + 4);
+  //   y = y + 10;
+  // }
+
+  img.src = `/pdf-images/patient/cercle.png`;
+  doc.addImage(img, "png", 60, 20, 180, 180);
+
+  img.src = `/pdf-images/patient/manger.png`;
+  doc.addImage(img, "png", 172, 42, 20, 20);
+
+  img.src = `/pdf-images/patient/boire.png`;
+  doc.addImage(img, "png", 200, 66, 20, 20);
+
+  img.src = `/pdf-images/patient/wc.png`;
+  doc.addImage(img, "png", 210, 100, 20, 20);
+
+  img.src = `/pdf-images/patient/nausée.png`;
+  doc.addImage(img, "png", 105, 160, 22, 20);
+
+  img.src = `/pdf-images/patient/vomi.png`;
+  doc.addImage(img, "png", 80, 135, 20, 20);
+
+  img.src = `/pdf-images/patient/froid.png`;
+  doc.addImage(img, "png", 70, 100, 20, 20);
+
+  img.src = `/pdf-images/patient/chaud.png`;
+  doc.addImage(img, "png", 78, 65, 20, 20);
 
   return doc;
 };
