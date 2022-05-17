@@ -114,6 +114,6 @@ header:hover {
 .country-block {
   width: 8rem;
   display: inline-grid;
-  background-color: #9cadf89c;
+  background-color: #a2c0de;
 }
 </style>
