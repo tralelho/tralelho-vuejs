@@ -101,5 +101,6 @@ section {
 
 a {
   color: hsl(296, 26%, 51%);
+  writing-mode: vertical-rl;
 }
 </style>
