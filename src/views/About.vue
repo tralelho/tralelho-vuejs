@@ -68,22 +68,22 @@
       href="https://www.francebleu.fr/infos/societe/rennes-tralelho-permets-de-traduire-50-questions-medicales-en-195-langues-1523178137"
       >France-Bleu</a
     >
-    <br />
+
     <a
       href="https://www.actusoins.com/308702/tralelho-un-traducteur-universel-pour-briser-la-barriere-de-la-langue-dans-les-hopitaux.html"
       >Actusoins</a
     >
-    <br />
+  
     <a
       href="https://solidarites-sante.gouv.fr/systeme-de-sante-et-medico-social/parcours-de-sante-vos-droits/bonnes-pratiques-en-region/bretagne/article/tralelho"
       >Solidarite-sante.gouv.fr</a
     >
-    <br />
+    
     <a
       href="https://www.europe1.fr/emissions/la-france-bouge-avec-raphaelle-duchemin/raphaelle-duchemin-les-innovations-dans-le-domaine-de-la-traduction-3894444"
       >Europe 1</a
     >
-    <br />
+ 
     <a href="https://www.tvr.bzh/v/57d2235-tvr-events-13-10-2020">TVR</a>
     <a
       href="https://www.actusoins.com/349854/marion-verdaguer-infirmiere-chevalier-dans-lordre-du-merite.html"
@@ -101,6 +101,6 @@ section {
 
 a {
   color: hsl(296, 26%, 51%);
-  margin-right:10%,
+  margin-right:5%,
   }
 </style>
