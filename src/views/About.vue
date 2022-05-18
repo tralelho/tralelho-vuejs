@@ -4,7 +4,7 @@
   <div class="section">
     <h1 class="title">Qu'est ce que TraLELHo</h1>
 
-    Dans les hôpitaux, l’accueil de personnes étrangères n’est pas toujours
+    <p>Dans les hôpitaux, l’accueil de personnes étrangères n’est pas toujours
     simple. Comment demander en effet à un patient ne parlant pas le français
     d’expliquer ses douleurs ou ses antécédents médicaux ?
     <br />
@@ -13,12 +13,12 @@
     utilisées par les services de secours ou de soins dans un maximum de
     langues.
     <br />
-    A ce jour 101 langues sont traduites ou en cours de traductions.
+    A ce jour 101 langues sont traduites ou en cours de traductions.</p>
     <br />
     <br />
     <h1 class="title">Soutenir TraLELHo</h1>
 
-    Soutenir TraLELHo c'est d'abord l'utiliser, le diffuser auprès de vos
+    <p>Soutenir TraLELHo c'est d'abord l'utiliser, le diffuser auprès de vos
     collègues, amis.
     <br />
     C'est aussi nous contacter si vous parlez une langue étrangère pour nous
@@ -35,7 +35,7 @@
     <br />Avec 50 euros vous permettez de traduire les phrases utiles au SAMU
     dans une nouvelle langue. <br />
     Avec 550 euros vous permettez de traduire une nouvelle langue (et ses 550
-    phrases) <br />
+    phrases) </p><br />
     <br />
     <h1 class="title">On parle de Tralelho</h1>
 
@@ -96,7 +96,11 @@
 <style scoped lang="scss">
 section {
   background-color: #a2c0de;
-  text-align: left;
+ }
+
+p{
+
+  text-align: justify;
 }
 
 a {
