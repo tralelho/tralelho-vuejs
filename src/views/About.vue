@@ -41,29 +41,29 @@
 
     <a
       href=" https://www.leparisien.fr/societe/sante/les-questions-medicales-traduites-dans-toutes-les-langues-avec-tralelho-02-11-2018-7933467.php"
-      >Le Parisien                  -</a
+      >Le Parisien</a
     >
-    <br />
+   
     <a
       href="https://le-quotidien-du-patient.fr/article/tous-pour-un/2019/01/21/tralelho/"
-      >Le Quotidien du patient                  -</a
+      >Le Quotidien du patient</a
     >
-    <br />
+   
     <a
       href="https://france3-regions.francetvinfo.fr/bretagne/ille-et-vilaine/rennes/rennes-infirmiere-urgences-concoit-tralelho-briser-barriere-langue-1606739.html"
-      >France 3                  -</a
+      >France 3</a
     >
-    <br />
+ 
     <a
       href="https://www.20minutes.fr/sante/2271679-20180516-rennes-chu-langues-etrangeres-plus-secrets-personnel-medical"
-      >20 Minutes                  -</a
+      >20 Minutes</a
     >
-    <br />
+  
     <a
       href="https://www.ouest-france.fr/bretagne/rennes-35000/video-grace-marion-sait-parler-138-langues-aux-urgences-du-chu-de-rennes-6179604"
-      >Ouest-France                  -</a
+      >Ouest-France</a
     >
-    <br />
+
     <a
       href="https://www.francebleu.fr/infos/societe/rennes-tralelho-permets-de-traduire-50-questions-medicales-en-195-langues-1523178137"
       >France-Bleu</a
@@ -96,10 +96,11 @@
 <style scoped lang="scss">
 section {
   background-color: #a2c0de;
-  text-align: justify;
+  text-align: left;
 }
 
 a {
   color: hsl(296, 26%, 51%);
+  margin-right:10%,
   }
 </style>
