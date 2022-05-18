@@ -108,7 +108,7 @@ header:hover {
 }
 
 .content {
-  background-color: #9cadf89c;
+  background-color: #a2c0de;
 }
 
 .country-block {
