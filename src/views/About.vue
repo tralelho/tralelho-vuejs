@@ -105,6 +105,6 @@ p{
 
 a {
   color: hsl(296, 26%, 51%);
-  margin-right:5%,
+  margin-right:4%,
   }
 </style>
