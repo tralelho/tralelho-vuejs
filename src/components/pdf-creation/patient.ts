@@ -151,25 +151,80 @@ export const createPatientPdf = function (
 
   doc.addPage();
 
-  y = 20;
-  //flower section
+  // flower section
   // for (const phrase of contentElement.flower.phrases) {
   //   doc.text(translate(`${phrase}`), 20, y);
   //   doc.text(getMessage(messages, lang, `${phrase}`), 20, y + 4);
   //   y = y + 10;
   // }
 
+  doc.setFontSize(12);
+
   img.src = `/pdf-images/patient/cercle.png`;
   doc.addImage(img, "png", 60, 20, 180, 180);
 
+  img.src = `/pdf-images/patient/peur.png`;
+  doc.addImage(img, "png", 140, 30, 20, 20);
+  doc.text(translate(`${contentElement.flower.phrases.peur}`), 140, 10);
+  doc.text(
+    getMessage(messages, lang, `${contentElement.flower.phrases.peur}`),
+    140,
+    15
+  );
+
   img.src = `/pdf-images/patient/manger.png`;
   doc.addImage(img, "png", 172, 42, 20, 20);
+  doc.text(translate(`${contentElement.flower.phrases.faim}`), 190, 30);
+  doc.text(
+      getMessage(messages, lang, `${contentElement.flower.phrases.faim}`),
+      190,
+      35
+  );
 
   img.src = `/pdf-images/patient/boire.png`;
   doc.addImage(img, "png", 200, 66, 20, 20);
+  doc.text(translate(`${contentElement.flower.phrases.soif}`), 230, 60);
+  doc.text(
+      getMessage(messages, lang, `${contentElement.flower.phrases.soif}`),
+      230,
+      65
+  );
 
   img.src = `/pdf-images/patient/wc.png`;
   doc.addImage(img, "png", 210, 100, 20, 20);
+  doc.text(translate(`${contentElement.flower.phrases.wc[0]}`), 235, 100);
+  doc.text(
+      getMessage(messages, lang, `${contentElement.flower.phrases.wc[0]}`),
+      235,
+      105
+  );
+  doc.text(translate(`${contentElement.flower.phrases.wc[1]}`), 235, 120);
+  doc.text(
+      getMessage(messages, lang, `${contentElement.flower.phrases.wc[1]}`),
+      235,
+      125
+  );
+
+  img.src = `/pdf-images/patient/diarrhée.png`;
+  doc.addImage(img, "png", 200, 135, 20, 20);
+  doc.text(translate(`${contentElement.flower.phrases.diarrhée}`), 230, 155);
+  doc.text(
+      getMessage(messages, lang, `${contentElement.flower.phrases.diarrhée}`),
+      230,
+      160
+  );
+
+  img.src = `/pdf-images/patient/vertiges.png`;
+  doc.addImage(img, "png", 178, 160, 15, 20);
+  doc.text(translate(`${contentElement.flower.phrases.vertiges}`), 190, 195);
+  doc.text(
+      getMessage(messages, lang, `${contentElement.flower.phrases.vertiges}`),
+      190,
+      200
+  );
+
+  img.src = `/pdf-images/patient/informations.png`;
+  doc.addImage(img, "png", 140, 170, 20, 18);
 
   img.src = `/pdf-images/patient/nausée.png`;
   doc.addImage(img, "png", 105, 160, 22, 20);
@@ -182,6 +237,9 @@ export const createPatientPdf = function (
 
   img.src = `/pdf-images/patient/chaud.png`;
   doc.addImage(img, "png", 78, 65, 20, 20);
+
+  img.src = `/pdf-images/patient/mal.png`;
+  doc.addImage(img, "png", 105, 42, 20, 20);
 
   return doc;
 };
