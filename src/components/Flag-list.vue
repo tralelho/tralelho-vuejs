@@ -115,6 +115,6 @@ header:hover {
   width: 8rem;
   display: inline-grid;
   background-color: #a2c0de;
-  margin-top:10px;
+  margin-top: 10px;
 }
 </style>

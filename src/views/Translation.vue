@@ -113,12 +113,11 @@ let selectedLanguage = ref(
 
 .menu-element-multiline {
   width: 140px;
-   position: fixed;
+  position: fixed;
 }
 
-.menu-list{
-
-   position: fixed;
+.menu-list {
+  position: fixed;
 }
 
 .field-label-size {
@@ -131,13 +130,12 @@ let selectedLanguage = ref(
 
 .box columns m-2 py-2 is-clickable change-background-on-hover {
   scroll-margin-top: -60px;
-  }
+}
 
 .box columns m-2 py-2 is-clickable change-background-on-hover:hover {
   background-color: #fac3f2;
 }
 .menu {
   background-color: #6699cc;
- 
 }
 </style>
