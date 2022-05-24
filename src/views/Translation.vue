@@ -130,7 +130,7 @@ let selectedLanguage = ref(
 }
 
 .box columns m-2 py-2 is-clickable change-background-on-hover {
-  scroll-margin-top: (-60px;
+  scroll-margin-top: -60px;
   }
 
 .box columns m-2 py-2 is-clickable change-background-on-hover:hover {

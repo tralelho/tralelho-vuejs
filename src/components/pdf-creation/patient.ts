@@ -75,8 +75,6 @@ export const createPatientPdf = function (
   doc.addImage(img, "png", 120, startSection, 15, 15);
   doc.rect(18, startSection - 4, 121, y - startSection);
 
-  y = y + 20;
-
   //Measures section
   let yRight = 20;
   startSection = yRight;
@@ -110,8 +108,6 @@ export const createPatientPdf = function (
   img.src = `/pdf-images/patient/seringue.png`;
   doc.addImage(img, "png", 265, startSection, 15, 15);
   doc.rect(148, startSection - 4, 140, yRight - startSection);
-
-  y = y + 20;
 
   doc.addPage();
   y = 20;
