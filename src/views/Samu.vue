@@ -17,25 +17,9 @@ import pageConfig from "./Samu.config.json";
     >
     </textarea>
 
-    <div className="columns">
-      <div className="column is-2 has-text-left" style="margin-left: 40px">
+    <div className="columns main-color">
+      <div className="column main-color is-2 has-text-left" style="margin-left: 40px">
         <aside class="menu">
-          <ul class="menu-list">
-            <li v-for="section of pageConfig" :key="section.title2">
-              <a :href="'#' + section.title2" class="is-align-items-center">
-                <img
-                  :src="'/' + section.icon"
-                  :alt="$t(section.title2)"
-                  width="50"
-                  height="50"
-                />&nbsp;
-                <span class="menu-element-multiline">
-                  {{ $t(section.title2) }}
-                </span>
-              </a>
-            </li>
-          </ul>
-
           <ul class="menu-list">
             <li v-for="section of pageConfig" :key="section.title">
               <a :href="'#' + section.title" class="is-align-items-center">
@@ -54,7 +38,7 @@ import pageConfig from "./Samu.config.json";
         </aside>
       </div>
 
-      <div className="column">
+      <div className="column main-color is-7">
         <div
           class="container mb-6"
           v-for="section of pageConfig"
@@ -70,7 +54,7 @@ import pageConfig from "./Samu.config.json";
           <div
             v-for="phrase of section.list"
             :key="phrase"
-            class="box columns m-2 py-2 is-clickable change-background-on-hover"
+            class="box columns main-color m-2 py-2 is-clickable change-background-on-hover"
           >
             <div class="column is-half py-1">
               <p v-t="{ path: phrase }" class="bd-notification is-primary"></p>
@@ -83,6 +67,49 @@ import pageConfig from "./Samu.config.json";
             </div>
           </div>
         </div>
+      </div>
+
+      <div
+        className="column is-2 has-text-right fixed-right"
+        style="margin-right: 40px"
+      >
+        <aside class="menu">
+          <ul class="menu-fixed-right">
+            <li class="mb-5 box main-color">
+              <span class="menu-element-multiline">
+                {{ $t(796) }}
+              </span>
+              <br>
+              <span
+                class="menu-element-multiline"
+                v-t="{ path: 796, locale: $route.query.lang }"
+              >
+              </span>
+            </li>
+            <li class="mb-5 box main-color">
+              <span class="menu-element-multiline">
+                {{ $t(797) }}
+              </span>
+              <br>
+              <span
+                class="menu-element-multiline"
+                v-t="{ path: 797, locale: $route.query.lang }"
+              >
+              </span>
+            </li>
+            <li class="mb-5 box main-color">
+              <span class="menu-element-multiline">
+                {{ $t(795) }}
+              </span>
+              <br>
+              <span
+                class="menu-element-multiline"
+                v-t="{ path: 795, locale: $route.query.lang }"
+              >
+              </span>
+            </li>
+          </ul>
+        </aside>
       </div>
     </div>
   </div>
@@ -100,11 +127,7 @@ import pageConfig from "./Samu.config.json";
   background-color: #a7eba9;
 }
 
-.column {
-  background-color: #a7eba9;
-}
-
-.columns {
+.main-color {
   background-color: #a7eba9;
 }
 
@@ -113,5 +136,11 @@ import pageConfig from "./Samu.config.json";
   position: relative;
   top: 11px;
   width: 100px;
+}
+
+.fixed-right{
+  position: fixed;
+  right: 0;
+  background-color: #a7eba9;
 }
 </style>
