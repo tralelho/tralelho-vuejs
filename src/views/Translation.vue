@@ -58,8 +58,8 @@ let selectedLanguage = ref(
                 <img
                   :src="'/' + section.icon"
                   :alt="$t(section.title)"
-                  width="50"
-                  height="50"
+                  width="35"
+                  height="35"
                 />&nbsp;
                 <span class="menu-element-multiline">
                   {{ $t(section.title) }}
@@ -113,6 +113,11 @@ let selectedLanguage = ref(
 
 .menu-element-multiline {
   width: 140px;
+   position: fixed;
+}
+
+.menu-list{
+
    position: fixed;
 }
 
