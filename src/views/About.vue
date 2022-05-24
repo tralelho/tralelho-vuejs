@@ -39,6 +39,11 @@
       dans une nouvelle langue. <br />
       Avec 550 euros vous permettez de traduire une nouvelle langue (et ses 550
       phrases)
+
+      <a
+      href=" https://www.paypal.me/OuiCare"
+      >Paypal</a
+    >
     </p>
     <br />
     <br />
@@ -52,6 +57,16 @@
     <a
       href="https://le-quotidien-du-patient.fr/article/tous-pour-un/2019/01/21/tralelho/"
       >Le Quotidien du patient</a
+    >
+
+     <a
+      href="https://solidarites-sante.gouv.fr/systeme-de-sante-et-medico-social/parcours-de-sante-vos-droits/bonnes-pratiques-en-region/bretagne/article/tralelho"
+      >Solidarite-sante.gouv.fr</a
+    >
+
+     <a
+      href="https://www.ticsante.com/story?ID=6155"
+      >Ticsanté.com</a
     >
 
     <a
@@ -79,10 +94,7 @@
       >Actusoins</a
     >
 
-    <a
-      href="https://solidarites-sante.gouv.fr/systeme-de-sante-et-medico-social/parcours-de-sante-vos-droits/bonnes-pratiques-en-region/bretagne/article/tralelho"
-      >Solidarite-sante.gouv.fr</a
-    >
+   
 
     <a
       href="https://www.europe1.fr/emissions/la-france-bouge-avec-raphaelle-duchemin/raphaelle-duchemin-les-innovations-dans-le-domaine-de-la-traduction-3894444"
