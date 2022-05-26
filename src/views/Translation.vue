@@ -115,11 +115,12 @@ let selectedLanguage = ref(
   width:25%;
   position: fixed;
   font-size: 18px;
-  margin-top:-10%;
+  margin-top:-15%;
 }
 
 .menu-list {
   position: fixed;
+  margin-top:-15%;
 }
 
 .field-label-size {
