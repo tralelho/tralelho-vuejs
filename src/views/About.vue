@@ -134,7 +134,7 @@ p {
 }
 
 a {
-  color: hsl(296, 26%, 51%);
-  margin-right: 4%;
+  color:#010817;
+  margin-right: 3%;
 }
 </style>
