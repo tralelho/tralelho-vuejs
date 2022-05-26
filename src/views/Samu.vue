@@ -123,15 +123,15 @@ import pageConfig from "./Samu.config.json";
   position: relative;
   top: 10px;
   width: 100px;
-  background-color: #010817;
+  background-color: #af9fe3;
 }
 
 .main-color {
-  background-color: #4c83cf;
+  background-color: #deb1f0;
 }
 
 .menu-element-multiline {
-  background-color: #010817;
+  background-color: #af9fe3;
   position: relative;
   top: 11px;
   width: 100px;
@@ -140,6 +140,6 @@ import pageConfig from "./Samu.config.json";
 .fixed-right{
   position: fixed;
   right: 0;
-  background-color: #010817;
+  background-color: #af9fe3;
 }
 </style>
