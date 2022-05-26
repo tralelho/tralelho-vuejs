@@ -68,7 +68,7 @@
     <br />
     <h1 class="title">On parle de Tralelho</h1>
 
-    <img src="globe1.png" alt="Globe"/>*
+    <img src="globe1.png" alt="Globe"/>
     <a   href=" https://www.leparisien.fr/societe/sante/les-questions-medicales-traduites-dans-toutes-les-langues-avec-tralelho-02-11-2018-7933467.php"
       >Le Parisien</a
     >
