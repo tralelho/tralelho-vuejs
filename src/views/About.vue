@@ -62,7 +62,7 @@
       Avec 550 euros vous permettez de traduire une nouvelle langue (et ses 550
       phrases)
       <br /><br /> </p>
-     <h1 class="title">href=" https://www.paypal.me/OuiCare">Paypal</h1>
+     <h1 class="title" href=" https://www.paypal.me/OuiCare">Paypal</h1>
    
     <br />
     <br />
