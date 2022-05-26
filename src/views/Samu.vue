@@ -9,16 +9,16 @@ import pageConfig from "./Samu.config.json";
     <textarea
       id="textarea"
       placeholder="Ecrivez ici votre texte avant de le copier/coller sur votre logiciel ..."
-      rows="8"
-      cols="50"
+      rows="5"
+      cols="200"
       position="fixed"
       border="1px solid black"
       float="right"
-    >
+    >Ecrivez ici votre texte avant de le copier/coller sur votre logiciel
     </textarea>
 
     <div className="columns main-color">
-      <div className="column main-color is-2 has-text-left" style="margin-left: 40px">
+      <div className="column main-color is-2 has-text-left" style="margin-left: 20px">
         <aside class="menu">
           <ul class="menu-list">
             <li v-for="section of pageConfig" :key="section.title">
@@ -124,7 +124,7 @@ import pageConfig from "./Samu.config.json";
   position: relative;
   top: 10px;
   width: 100px;
-  background-color: #2f78de;
+  background-color: #6992e0;
 }
 
 .main-color {
@@ -132,7 +132,7 @@ import pageConfig from "./Samu.config.json";
 }
 
 .menu-element-multiline {
-  background-color: #2f78de;
+  background-color: #6992e0;
   position: relative;
   top: 11px;
   width: 100px;
@@ -141,6 +141,6 @@ import pageConfig from "./Samu.config.json";
 .fixed-right{
   position: fixed;
   right: 0;
-  background-color: #2f78de;
+  background-color: #6992e0;
 }
 </style>
