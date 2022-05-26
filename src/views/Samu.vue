@@ -8,13 +8,12 @@ import pageConfig from "./Samu.config.json";
 
     <textarea
       id="textarea"
-      placeholder="Ecrivez ici votre texte avant de le copier/coller sur votre logiciel ..."
-      rows="5"
-      cols="200"
+      rows="4"
+      cols="100"
       position="fixed"
       border="1px solid black"
       float="right"
-    >Ecrivez ici votre texte avant de le copier/coller sur votre logiciel
+    >Écrivez ici votre texte avant de le copier/coller sur votre logiciel
     </textarea>
 
     <div className="columns main-color">
@@ -124,7 +123,7 @@ import pageConfig from "./Samu.config.json";
   position: relative;
   top: 10px;
   width: 100px;
-  background-color: #6992e0;
+  background-color: #010817;
 }
 
 .main-color {
@@ -132,7 +131,7 @@ import pageConfig from "./Samu.config.json";
 }
 
 .menu-element-multiline {
-  background-color: #6992e0;
+  background-color: #010817;
   position: relative;
   top: 11px;
   width: 100px;
@@ -141,6 +140,6 @@ import pageConfig from "./Samu.config.json";
 .fixed-right{
   position: fixed;
   right: 0;
-  background-color: #6992e0;
+  background-color: #010817;
 }
 </style>
