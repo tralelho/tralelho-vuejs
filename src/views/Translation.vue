@@ -115,6 +115,7 @@ let selectedLanguage = ref(
   width:25%;
   position: fixed;
   font-size: 18px;
+  margin-top:-10%;
 }
 
 .menu-list {
