@@ -4,7 +4,7 @@ import pageConfig from "./Samu.config.json";
 
 <template>
   <div class="section">
-    <h1 class="title is-1">Traductions pour les SAMU et SDIS</h1>
+    <h1 class="title is-1"></h1>
 
     <textarea
       id="textarea"
@@ -26,8 +26,8 @@ import pageConfig from "./Samu.config.json";
                 <img
                   :src="'/' + section.icon"
                   :alt="$t(section.title)"
-                  width="50"
-                  height="50"
+                  width="35"
+                  height="35"
                 />&nbsp;
                 <span class="menu-element-multiline">
                   {{ $t(section.title) }}
@@ -124,15 +124,15 @@ import pageConfig from "./Samu.config.json";
   position: relative;
   top: 10px;
   width: 100px;
-  background-color: #a7eba9;
+  background-color: #2f78de;
 }
 
 .main-color {
-  background-color: #a7eba9;
+  background-color: #4c83cf;
 }
 
 .menu-element-multiline {
-  background-color: #a7eba9;
+  background-color: #2f78de;
   position: relative;
   top: 11px;
   width: 100px;
@@ -141,6 +141,6 @@ import pageConfig from "./Samu.config.json";
 .fixed-right{
   position: fixed;
   right: 0;
-  background-color: #a7eba9;
+  background-color: #2f78de;
 }
 </style>
