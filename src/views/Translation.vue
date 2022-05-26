@@ -112,8 +112,9 @@ let selectedLanguage = ref(
 }
 
 .menu-element-multiline {
-  width: 140px;
+  width:25%;
   position: fixed;
+  font-size: 18px;
 }
 
 .menu-list {
@@ -129,7 +130,7 @@ let selectedLanguage = ref(
 }
 
 .box columns m-2 py-2 is-clickable change-background-on-hover {
-  scroll-margin-top: -60px;
+  scroll-margin-top:-60px;
 }
 
 .box columns m-2 py-2 is-clickable change-background-on-hover:hover {
