@@ -18,6 +18,28 @@
     </p>
     <br />
     <br />
+    <h1 class="title">Remerciements</h1>
+
+    <p>
+      Merci à : Jana, André, Svetlana, Olga, Andr, Manuela, Mathea, Iwan, Ieva, Christophe,
+       Bert, Lucia, Navinam, Jana, Brigitte, Maria Luiza, Maher, Hiroko, Kristin, Anne, 
+       Emilya, Bella, Natalia, Yi, Mehmet, Totatou, Jacqueline, Safia, Gavriela, manuela, 
+       Andr, Bayasalmaa, Linda, Leone, Lyubov, Gery, Mano, Nico, Dikla, Veronica, Uzaïr, 
+       Angelicintan, Kahina, Johan, Maud, Rajid, Jana, Birgit, Kelly, Gabrielle, Terry, 
+       Tiiugr, Majid, Suzanne, Mostafid, Newton, Marianthi, Yotam Yosef, Shrirag, Charlotte,
+        Vita, Mirtill, Yuki, Takuya, Lucie, Lee, Jena, Janggeon, Salna, Sylvie, Dessberg,
+         Nash, Gonette, Mary, Danuta, Dominik, Sofia, Anderson, Wanderson, Salna, Placide, 
+         André, Ekaterina, Mickaela, Andrea, Bruno, Estelle, Linda, Natasa, Emmanuel, Fatima,
+          Jeffke, Basak, Elena, Céline, Lê Phuong Huyen, Li, Pascaline, Sarah, Aknur, Bertrand,
+           Sedra, Millie, Varje, Bori, Juliette, Dahye, Sreya, ben, Amel, Salim, Sirine, djanila,
+            Jovan, MD, Mena, Tal, Sofi, Yumi, Arno, Koïzumi, Georges, Leon, Ju, Roda, Honorata,
+             Luana, Nasser, Daniela, Natalia, Iryna, Ani, Lys, Mary, Prolet, Jovan, Serpil, Garip,
+              Svetlana, Andres, Alt, Lorena, Irene, Juan, Chris, Manuel, Vitor, Estelle, Partaccia,
+               Lucas, Yahya, Titta, Roxane, Ulysse ... Max, Emmanuel et Arthur.
+      
+    </p>
+    <br />
+    <br />
     <h1 class="title">Soutenir TraLELHo</h1>
 
     <p>
