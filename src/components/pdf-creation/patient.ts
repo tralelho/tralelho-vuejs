@@ -156,7 +156,7 @@ export const createPatientPdf = function (
 
   doc.setFontSize(12);
 
-  img.src = `/pdf-images/patient/cercle.png`;
+  img.src = `/pdf-images/patient/flower2.png`;
   doc.addImage(img, "png", 60, 20, 180, 180);
 
   img.src = `/pdf-images/patient/peur.png`;
