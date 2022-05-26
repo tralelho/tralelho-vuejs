@@ -61,9 +61,9 @@
       dans une nouvelle langue. <br />
       Avec 550 euros vous permettez de traduire une nouvelle langue (et ses 550
       phrases)
-      <br /><br />
-      <a href=" https://www.paypal.me/OuiCare">Paypal</a>
-    </p>
+      <br /><br /> </p>
+     <h1 class="title">href=" https://www.paypal.me/OuiCare">Paypal</h1>
+   
     <br />
     <br />
     <h1 class="title">On parle de Tralelho</h1>
