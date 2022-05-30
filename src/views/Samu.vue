@@ -141,5 +141,6 @@ import pageConfig from "./Samu.config.json";
   position: fixed;
   right: 0;
   background-color: hsl(310, 71%, 85%);
+  margin-top:-10px;
 }
 </style>
