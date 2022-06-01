@@ -13,11 +13,15 @@ import pageConfig from "./Samu.config.json";
       position="fixed"
       border="1px solid black"
       float="right"
-    >Écrivez ici votre texte avant de le copier/coller sur votre logiciel
+    >
+Écrivez ici votre texte avant de le copier/coller sur votre logiciel
     </textarea>
 
     <div className="columns main-color">
-      <div className="column main-color is-2 has-text-left" style="margin-left: 20px">
+      <div
+        className="column main-color is-2 has-text-left"
+        style="margin-left: 20px"
+      >
         <aside class="menu">
           <ul class="menu-list">
             <li v-for="section of pageConfig" :key="section.title">
@@ -78,7 +82,7 @@ import pageConfig from "./Samu.config.json";
               <span class="menu-element-multiline">
                 {{ $t(796) }}
               </span>
-              <br>
+              <br />
               <span
                 class="menu-element-multiline"
                 v-t="{ path: 796, locale: $route.query.lang }"
@@ -89,7 +93,7 @@ import pageConfig from "./Samu.config.json";
               <span class="menu-element-multiline">
                 {{ $t(797) }}
               </span>
-              <br>
+              <br />
               <span
                 class="menu-element-multiline"
                 v-t="{ path: 797, locale: $route.query.lang }"
@@ -100,7 +104,7 @@ import pageConfig from "./Samu.config.json";
               <span class="menu-element-multiline">
                 {{ $t(795) }}
               </span>
-              <br>
+              <br />
               <span
                 class="menu-element-multiline"
                 v-t="{ path: 795, locale: $route.query.lang }"
@@ -137,10 +141,10 @@ import pageConfig from "./Samu.config.json";
   width: 100px;
 }
 
-.fixed-right{
+.fixed-right {
   position: fixed;
   right: 0;
   background-color: hsl(310, 71%, 85%);
-  margin-top:-10px;
+  margin-top: -10px;
 }
 </style>
