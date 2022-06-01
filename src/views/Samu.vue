@@ -17,9 +17,9 @@ import pageConfig from "./Samu.config.json";
 Écrivez ici votre texte avant de le copier/coller sur votre logiciel
     </textarea>
 
-    <div className="columns main-color">
+    <div className="columns main-color is-centered">
       <div
-        className="column main-color is-2 has-text-left"
+        className="column main-color is-2 has-text-left fixed-left"
         style="margin-left: 20px"
       >
         <aside class="menu">
@@ -126,8 +126,11 @@ import pageConfig from "./Samu.config.json";
   align-items: center; /* if an only child */
   position: relative;
   top: 10px;
-  width: 100px;
   background-color: hsl(310, 68%, 82%);
+
+  &:hover {
+    background-color: whitesmoke;
+  }
 }
 
 .main-color {
@@ -135,7 +138,6 @@ import pageConfig from "./Samu.config.json";
 }
 
 .menu-element-multiline {
-  background-color: hsl(310, 68%, 82%);
   position: relative;
   top: 11px;
   width: 100px;
@@ -146,5 +148,14 @@ import pageConfig from "./Samu.config.json";
   right: 0;
   background-color: hsl(310, 71%, 85%);
   margin-top: -10px;
+}
+
+.fixed-left {
+  position: fixed;
+  left: 35px;
+  background-color: hsl(310, 71%, 85%);
+  margin-top: -10px;
+  height: 400px;
+  overflow: auto;
 }
 </style>
