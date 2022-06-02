@@ -74,9 +74,9 @@
     <img src="/public/globe1.png" alt="Globe" width="25px" height="25px" />
     <a
       href=" https://www.leparisien.fr/societe/sante/les-questions-medicales-traduites-dans-toutes-les-langues-avec-tralelho-02-11-2018-7933467.php"
-      >Le Parisien
+      > Le Parisien
     </a>
-    <img src="/public/globe2.png" alt="Globe" width="25px" height="25px" />
+    <img src="/public/globe2.png" alt="Globe" width="25px" height="25px" /> <p>&nbsp;</p>
     <a
       href="https://le-quotidien-du-patient.fr/article/tous-pour-un/2019/01/21/tralelho/"
       >Le Quotidien du patient</a
