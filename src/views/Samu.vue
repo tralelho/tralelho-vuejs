@@ -120,7 +120,7 @@ import pageConfig from "./Samu.config.json";
 <style scoped lang="scss">
 .is-align-items-center {
   display: flex;
-  float:left;
+  float: left;
   flex-wrap: wrap;
   background-color: #a2c0de;
   align-content: center; /* used this for multiple child */
@@ -135,7 +135,7 @@ import pageConfig from "./Samu.config.json";
 }
 
 .menu-element-multiline {
-  background-color:#a2c0de;
+  background-color: #a2c0de;
   position: relative;
   top: 0px;
   width: 100px;
@@ -157,8 +157,7 @@ import pageConfig from "./Samu.config.json";
   overflow: auto;
 }
 
-.box columns main-color m-2 py-2 is-clickable change-background-on-hover : hover {
+.change-background-on-hover:hover {
   background-color: #fac3f2;
 }
-
 </style>

@@ -109,7 +109,7 @@ let selectedLanguage = ref(
   flex-wrap: wrap;
   align-content: center; /* used this for multiple child */
   align-items: center; /* if an only child */
-  margin-top:0%;
+  margin-top: 0%;
 }
 
 .menu-element-multiline {

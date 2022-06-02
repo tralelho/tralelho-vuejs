@@ -21,24 +21,24 @@
     <h1 class="title">Remerciements</h1>
 
     <p>
-      <strong>Merci à :</strong> Jana, André, Svetlana, Olga, Andr, Manuela, Mathea, Iwan, Ieva,
-      Christophe, Bert, Lucia, Navinam, Jana, Brigitte, Maria Luiza, Maher,
-      Hiroko, Kristin, Anne, Emilya, Bella, Natalia, Yi, Mehmet, Totatou,
-      Jacqueline, Safia, Gavriela, manuela, Andr, Bayasalmaa, Linda, Leone,
-      Lyubov, Gery, Mano, Nico, Dikla, Veronica, Uzaïr, Angelicintan, Kahina,
-      Johan, Maud, Rajid, Jana, Birgit, Kelly, Gabrielle, Terry, Tiiugr, Majid,
-      Suzanne, Mostafid, Newton, Marianthi, Yotam Yosef, Shrirag, Charlotte,
-      Vita, Mirtill, Yuki, Takuya, Lucie, Lee, Jena, Janggeon, Salna, Sylvie,
-      Dessberg, Nash, Gonette, Mary, Danuta, Dominik, Sofia, Anderson,
-      Wanderson, Salna, Placide, André, Ekaterina, Mickaela, Andrea, Bruno,
-      Estelle, Linda, Natasa, Emmanuel, Fatima, Jeffke, Basak, Elena, Céline, Lê
-      Phuong Huyen, Li, Pascaline, Sarah, Aknur, Bertrand, Sedra, Millie, Varje,
-      Bori, Juliette, Dahye, Sreya, ben, Amel, Salim, Sirine, djanila, Jovan,
-      MD, Mena, Tal, Sofi, Yumi, Arno, Koïzumi, Georges, Leon, Ju, Roda,
-      Honorata, Luana, Nasser, Daniela, Natalia, Iryna, Ani, Lys, Mary, Prolet,
-      Jovan, Serpil, Garip, Svetlana, Andres, Alt, Lorena, Irene, Juan, Chris,
-      Manuel, Vitor, Estelle, Partaccia, Lucas, Yahya, Titta, Roxane, Ulysse ...
-      Max, Emmanuel et Arthur.
+      <strong>Merci à :</strong> Jana, André, Svetlana, Olga, Andr, Manuela,
+      Mathea, Iwan, Ieva, Christophe, Bert, Lucia, Navinam, Jana, Brigitte,
+      Maria Luiza, Maher, Hiroko, Kristin, Anne, Emilya, Bella, Natalia, Yi,
+      Mehmet, Totatou, Jacqueline, Safia, Gavriela, manuela, Andr, Bayasalmaa,
+      Linda, Leone, Lyubov, Gery, Mano, Nico, Dikla, Veronica, Uzaïr,
+      Angelicintan, Kahina, Johan, Maud, Rajid, Jana, Birgit, Kelly, Gabrielle,
+      Terry, Tiiugr, Majid, Suzanne, Mostafid, Newton, Marianthi, Yotam Yosef,
+      Shrirag, Charlotte, Vita, Mirtill, Yuki, Takuya, Lucie, Lee, Jena,
+      Janggeon, Salna, Sylvie, Dessberg, Nash, Gonette, Mary, Danuta, Dominik,
+      Sofia, Anderson, Wanderson, Salna, Placide, André, Ekaterina, Mickaela,
+      Andrea, Bruno, Estelle, Linda, Natasa, Emmanuel, Fatima, Jeffke, Basak,
+      Elena, Céline, Lê Phuong Huyen, Li, Pascaline, Sarah, Aknur, Bertrand,
+      Sedra, Millie, Varje, Bori, Juliette, Dahye, Sreya, ben, Amel, Salim,
+      Sirine, djanila, Jovan, MD, Mena, Tal, Sofi, Yumi, Arno, Koïzumi, Georges,
+      Leon, Ju, Roda, Honorata, Luana, Nasser, Daniela, Natalia, Iryna, Ani,
+      Lys, Mary, Prolet, Jovan, Serpil, Garip, Svetlana, Andres, Alt, Lorena,
+      Irene, Juan, Chris, Manuel, Vitor, Estelle, Partaccia, Lucas, Yahya,
+      Titta, Roxane, Ulysse ... Max, Emmanuel et Arthur.
     </p>
     <br />
     <br />
@@ -56,11 +56,11 @@
       <br />
       <br />Enfin soutenir TraLELHo peut aussi passer par un don, afin d'aider
       le site à rester héberger aussi longtemps que possible, ou a obtenir de
-      nouvelles traductions ou corrections :  <br /><br />Avec 5 euros vous permettez
-      au site d'être hébergé un mois de plus. <br />Avec 20 euros vous permettez
-      de traduire les phrases nécessaires aux urgences dans une nouvelle langue.
-      <br />Avec 50 euros vous permettez de traduire les phrases utiles au SAMU
-      dans une nouvelle langue. <br />
+      nouvelles traductions ou corrections : <br /><br />Avec 5 euros vous
+      permettez au site d'être hébergé un mois de plus. <br />Avec 20 euros vous
+      permettez de traduire les phrases nécessaires aux urgences dans une
+      nouvelle langue. <br />Avec 50 euros vous permettez de traduire les
+      phrases utiles au SAMU dans une nouvelle langue. <br />
       Avec 550 euros vous permettez de traduire une nouvelle langue (et ses 550
       phrases)
       <br /><br />
@@ -71,28 +71,27 @@
     <br />
     <h1 class="title">On parle de Tralelho</h1>
 
-    <img src="/public/globe1.png" alt="Globe" width="25px" height="25px" /> 
+    <img src="/public/globe1.png" alt="Globe" width="25px" height="25px" />
     <a
       href=" https://www.leparisien.fr/societe/sante/les-questions-medicales-traduites-dans-toutes-les-langues-avec-tralelho-02-11-2018-7933467.php"
     >
       . Le Parisien
     </a>
     <img src="/public/globe2.png" alt="Globe" width="25px" height="25px" />
- 
+
     <a
       href="https://le-quotidien-du-patient.fr/article/tous-pour-un/2019/01/21/tralelho/"
       >. Le Quotidien du patient</a
     >
-    <img src="/public/globe3.png" alt="Globe" width="25px" height="25px" /> 
+    <img src="/public/globe3.png" alt="Globe" width="25px" height="25px" />
     <a
       href="https://solidarites-sante.gouv.fr/systeme-de-sante-et-medico-social/parcours-de-sante-vos-droits/bonnes-pratiques-en-region/bretagne/article/tralelho"
       >. Solidarite-sante.gouv.fr</a
     >
-    <img src="/public/globe4.png" alt="Globe" width="25px" height="25px" /> 
-    <a href="https://www.ticsante.com/story?ID=6155"
-    >. Ticsanté.com</a>
+    <img src="/public/globe4.png" alt="Globe" width="25px" height="25px" />
+    <a href="https://www.ticsante.com/story?ID=6155">. Ticsanté.com</a>
 
-    <img src="/public/globe5.png" alt="Globe" width="25px" height="25px" /> 
+    <img src="/public/globe5.png" alt="Globe" width="25px" height="25px" />
     <a
       href="https://france3-regions.francetvinfo.fr/bretagne/ille-et-vilaine/rennes/rennes-infirmiere-urgences-concoit-tralelho-briser-barriere-langue-1606739.html"
       >. France 3</a
@@ -107,24 +106,25 @@
       href="https://www.ouest-france.fr/bretagne/rennes-35000/video-grace-marion-sait-parler-138-langues-aux-urgences-du-chu-de-rennes-6179604"
       >. Ouest-France</a
     >
-    <img src="/public/globe8.png" alt="Globe" width="25px" height="25px" /> 
+    <img src="/public/globe8.png" alt="Globe" width="25px" height="25px" />
     <a
       href="https://www.francebleu.fr/infos/societe/rennes-tralelho-permets-de-traduire-50-questions-medicales-en-195-langues-1523178137"
       >. France-Bleu</a
     >
-    <img src="/public/globe9.png" alt="Globe" width="25px" height="25px" /> 
+    <img src="/public/globe9.png" alt="Globe" width="25px" height="25px" />
     <a
       href="https://www.actusoins.com/308702/tralelho-un-traducteur-universel-pour-briser-la-barriere-de-la-langue-dans-les-hopitaux.html"
       >. Actusoins</a
     >
-   <img src="/public/globe1.png" alt="Globe" width="25px" height="25px" /> 
+    <img src="/public/globe1.png" alt="Globe" width="25px" height="25px" />
     <a
       href="https://www.europe1.fr/emissions/la-france-bouge-avec-raphaelle-duchemin/raphaelle-duchemin-les-innovations-dans-le-domaine-de-la-traduction-3894444"
       >. Europe 1</a
     >
-   <img src="/public/globe10.png" alt="Globe" width="25px" height="25px" /> 
+    <img src="/public/globe10.png" alt="Globe" width="25px" height="25px" />
     <a href="https://www.tvr.bzh/v/57d2235-tvr-events-13-10-2020">
-      . TV Rennes</a>
+      . TV Rennes</a
+    >
     <img src="/public/globe4.png" alt="Globe" width="25px" height="25px" />
     <a
       href="https://www.actusoins.com/349854/marion-verdaguer-infirmiere-chevalier-dans-lordre-du-merite.html"
