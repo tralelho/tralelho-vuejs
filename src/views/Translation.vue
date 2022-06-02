@@ -106,10 +106,12 @@ let selectedLanguage = ref(
 <style scoped lang="scss">
 .is-align-items-center {
   display: flex;
+  float: left;
   flex-wrap: wrap;
   align-content: center; /* used this for multiple child */
   align-items: center; /* if an only child */
   margin-top: 0%;
+  position: relative;
   width : 25%;
 }
 
