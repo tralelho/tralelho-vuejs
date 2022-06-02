@@ -99,7 +99,8 @@ export const createPatientPdf = function (
   doc.rect(148, startSection - 4, 140, y - startSection);
     
      //Medication section
-  startSection = yRight;
+     let y = 20;
+  startSection = y;
   for (const phrase of contentElement.medication.phrases) {
     doc.text(translate(`${phrase}`), 20, y);
     doc.text(getMessage(messages, lang, `${phrase}`), 20, y + 4);
