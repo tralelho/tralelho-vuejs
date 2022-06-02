@@ -64,23 +64,16 @@ export const createPatientPdf = function (
 
   y = y + 40;
 
-
-
   //Measures section
-  let y = 20;
+  y = 20;
   startSection = y;
   for (const phrase of contentElement.measures.phrases) {
     const originalPhrase = translate(`${phrase}`);
     const translatedPhrase = getMessage(messages, lang, `${phrase}`);
     doc.text(originalPhrase, 150, y, { maxWidth: 130 });
-    doc.text(
-      translatedPhrase,
-      150,
-      y + (originalPhrase.length > 90 ? 8 : 4),
-      {
-        maxWidth: 130,
-      }
-    );
+    doc.text(translatedPhrase, 150, y + (originalPhrase.length > 90 ? 8 : 4), {
+      maxWidth: 130,
+    });
     y = y + (originalPhrase.length > 90 ? 15 : 10);
   }
   img.src = `/pdf-images/patient/pouls.png`;
@@ -88,7 +81,7 @@ export const createPatientPdf = function (
   doc.rect(148, startSection - 4, 140, y - startSection + 5);
 
   y = y + 20;
-   
+
   for (const phrase of contentElement.treatment.phrases) {
     doc.text(translate(`${phrase}`), 150, y);
     doc.text(getMessage(messages, lang, `${phrase}`), 150, y + 4);
@@ -97,9 +90,9 @@ export const createPatientPdf = function (
   img.src = `/pdf-images/patient/seringue.png`;
   doc.addImage(img, "png", 265, startSection, 15, 15);
   doc.rect(148, startSection - 4, 140, y - startSection);
-    
-     //Medication section
-     let y = 20;
+
+  //Medication section
+  y = 20;
   startSection = y;
   for (const phrase of contentElement.medication.phrases) {
     doc.text(translate(`${phrase}`), 20, y);
@@ -109,8 +102,6 @@ export const createPatientPdf = function (
   img.src = `/pdf-images/patient/medoc.png`;
   doc.addImage(img, "png", 120, startSection, 15, 15);
   doc.rect(18, startSection - 4, 70, y - startSection);
-
- 
 
   doc.addPage();
   y = 20;
@@ -129,7 +120,7 @@ export const createPatientPdf = function (
   y = y + 20;
 
   //informations section
-  yRight = 20;
+  let yRight = 20;
   startSection = yRight;
   for (const phrase of contentElement.informations.phrases) {
     doc.text(translate(`${phrase}`), 150, yRight);
@@ -150,13 +141,6 @@ export const createPatientPdf = function (
 
   doc.addPage();
 
-  // flower section
-  // for (const phrase of contentElement.flower.phrases) {
-  //   doc.text(translate(`${phrase}`), 20, y);
-  //   doc.text(getMessage(messages, lang, `${phrase}`), 20, y + 4);
-  //   y = y + 10;
-  // }
-
   doc.setFontSize(12);
 
   img.src = `/pdf-images/patient/flower2.png`;
@@ -175,58 +159,58 @@ export const createPatientPdf = function (
   doc.addImage(img, "png", 172, 42, 20, 20);
   doc.text(translate(`${contentElement.flower.phrases.faim}`), 190, 30);
   doc.text(
-      getMessage(messages, lang, `${contentElement.flower.phrases.faim}`),
-      190,
-      35
+    getMessage(messages, lang, `${contentElement.flower.phrases.faim}`),
+    190,
+    35
   );
 
   img.src = `/pdf-images/patient/boire.png`;
   doc.addImage(img, "png", 200, 66, 20, 20);
   doc.text(translate(`${contentElement.flower.phrases.soif}`), 230, 60);
   doc.text(
-      getMessage(messages, lang, `${contentElement.flower.phrases.soif}`),
-      230,
-      65
+    getMessage(messages, lang, `${contentElement.flower.phrases.soif}`),
+    230,
+    65
   );
 
   img.src = `/pdf-images/patient/wc.png`;
   doc.addImage(img, "png", 210, 100, 20, 20);
   doc.text(translate(`${contentElement.flower.phrases.wc[0]}`), 235, 100);
   doc.text(
-      getMessage(messages, lang, `${contentElement.flower.phrases.wc[0]}`),
-      235,
-      105
+    getMessage(messages, lang, `${contentElement.flower.phrases.wc[0]}`),
+    235,
+    105
   );
   doc.text(translate(`${contentElement.flower.phrases.wc[1]}`), 235, 120);
   doc.text(
-      getMessage(messages, lang, `${contentElement.flower.phrases.wc[1]}`),
-      235,
-      125
+    getMessage(messages, lang, `${contentElement.flower.phrases.wc[1]}`),
+    235,
+    125
   );
 
   img.src = `/pdf-images/patient/diarrhée.png`;
   doc.addImage(img, "png", 200, 135, 20, 20);
   doc.text(translate(`${contentElement.flower.phrases.diarrhée}`), 230, 155);
   doc.text(
-      getMessage(messages, lang, `${contentElement.flower.phrases.diarrhée}`),
-      230,
-      160
+    getMessage(messages, lang, `${contentElement.flower.phrases.diarrhée}`),
+    230,
+    160
   );
 
   img.src = `/pdf-images/patient/vertiges.png`;
   doc.addImage(img, "png", 178, 160, 15, 20);
   doc.text(translate(`${contentElement.flower.phrases.vertiges}`), 190, 195);
   doc.text(
-      getMessage(messages, lang, `${contentElement.flower.phrases.vertiges}`),
-      190,
-      200
+    getMessage(messages, lang, `${contentElement.flower.phrases.vertiges}`),
+    190,
+    200
   );
 
   doc.text(translate(`${contentElement.flower.phrases.informations}`), 50, 250);
   doc.text(
-      getMessage(messages, lang, `${contentElement.flower.phrases.informations}`),
-      50,
-      255
+    getMessage(messages, lang, `${contentElement.flower.phrases.informations}`),
+    50,
+    255
   );
 
   img.src = `/pdf-images/patient/informations.png`;

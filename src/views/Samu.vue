@@ -4,8 +4,6 @@ import pageConfig from "./Samu.config.json";
 
 <template>
   <div class="section">
-    
-
     <textarea
       id="textarea"
       rows="4"
@@ -16,108 +14,108 @@ import pageConfig from "./Samu.config.json";
     >
 Écrivez ici votre texte avant de le copier/coller sur votre logiciel
     </textarea>
-   <br />
+    <br />
   </div>
 
-    <div className="columns main-color is-centered">
+  <div className="columns main-color is-centered">
+    <div
+      className="column main-color is-2 has-text-left fixed-left"
+      style="margin-left: 20px"
+    >
+      <aside class="menu">
+        <ul class="menu-list">
+          <li v-for="section of pageConfig" :key="section.title">
+            <a :href="'#' + section.title" class="is-align-items-center">
+              <img
+                :src="'/' + section.icon"
+                :alt="$t(section.title)"
+                width="35"
+                height="35"
+              />&nbsp;
+              <span class="menu-element-multiline">
+                {{ $t(section.title) }}
+              </span>
+            </a>
+          </li>
+        </ul>
+      </aside>
+    </div>
+
+    <div className="column main-color is-7">
       <div
-        className="column main-color is-2 has-text-left fixed-left"
-        style="margin-left: 20px"
+        class="container mb-6"
+        v-for="section of pageConfig"
+        :key="section.title"
       >
-        <aside class="menu">
-          <ul class="menu-list">
-            <li v-for="section of pageConfig" :key="section.title">
-              <a :href="'#' + section.title" class="is-align-items-center">
-                <img
-                  :src="'/' + section.icon"
-                  :alt="$t(section.title)"
-                  width="35"
-                  height="35"
-                />&nbsp;
-                <span class="menu-element-multiline">
-                  {{ $t(section.title) }}
-                </span>
-              </a>
-            </li>
-          </ul>
-        </aside>
-      </div>
+        <h2
+          :id="section.title"
+          class="title is-2 has-text-left"
+          v-t="{ path: section.title }"
+          style="margin-top: 5px"
+        ></h2>
 
-      <div className="column main-color is-7">
         <div
-          class="container mb-6"
-          v-for="section of pageConfig"
-          :key="section.title"
+          v-for="phrase of section.list"
+          :key="phrase"
+          class="box columns main-color m-2 py-2 is-clickable change-background-on-hover"
         >
-          <h2
-            :id="section.title"
-            class="title is-2 has-text-left"
-            v-t="{ path: section.title }"
-            style="margin-top: 5px"
-          ></h2>
-
-          <div
-            v-for="phrase of section.list"
-            :key="phrase"
-            class="box columns main-color m-2 py-2 is-clickable change-background-on-hover"
-          >
-            <div class="column is-half py-1">
-              <p v-t="{ path: phrase }" class="bd-notification is-primary"></p>
-            </div>
-            <div class="column is-half py-1">
-              <p
-                v-t="{ path: phrase, locale: $route.query.lang }"
-                class="bd-notification is-primary"
-              ></p>
-            </div>
+          <div class="column is-half py-1">
+            <p v-t="{ path: phrase }" class="bd-notification is-primary"></p>
+          </div>
+          <div class="column is-half py-1">
+            <p
+              v-t="{ path: phrase, locale: $route.query.lang }"
+              class="bd-notification is-primary"
+            ></p>
           </div>
         </div>
       </div>
+    </div>
 
-      <div
-        className="column is-2 has-text-right fixed-right"
-        style="margin-right: 40px"
-      >
-        <aside class="menu">
-          <ul class="menu-fixed-right">
-            <li class="mb-5 box main-color">
-              <span class="menu-element-multiline">
-                {{ $t(796) }}
-              </span>
-              <br />
-              <span
-                class="menu-element-multiline"
-                v-t="{ path: 796, locale: $route.query.lang }"
-              >
-              </span>
-            </li>
-            <li class="mb-5 box main-color">
-              <span class="menu-element-multiline">
-                {{ $t(797) }}
-              </span>
-              <br />
-              <span
-                class="menu-element-multiline"
-                v-t="{ path: 797, locale: $route.query.lang }"
-              >
-              </span>
-            </li>
-            <li class="mb-5 box main-color">
-              <span class="menu-element-multiline">
-                {{ $t(795) }}
-              </span>
-              <br />
-              <span
-                class="menu-element-multiline"
-                v-t="{ path: 795, locale: $route.query.lang }"
-              >
-              </span>
-            </li>
-          </ul>
-        </aside>
-      </div>
-     </div>
-  </template>
+    <div
+      className="column is-2 has-text-right fixed-right"
+      style="margin-right: 40px"
+    >
+      <aside class="menu">
+        <ul class="menu-fixed-right">
+          <li class="mb-5 box main-color">
+            <span class="menu-element-multiline">
+              {{ $t(796) }}
+            </span>
+            <br />
+            <span
+              class="menu-element-multiline"
+              v-t="{ path: 796, locale: $route.query.lang }"
+            >
+            </span>
+          </li>
+          <li class="mb-5 box main-color">
+            <span class="menu-element-multiline">
+              {{ $t(797) }}
+            </span>
+            <br />
+            <span
+              class="menu-element-multiline"
+              v-t="{ path: 797, locale: $route.query.lang }"
+            >
+            </span>
+          </li>
+          <li class="mb-5 box main-color">
+            <span class="menu-element-multiline">
+              {{ $t(795) }}
+            </span>
+            <br />
+            <span
+              class="menu-element-multiline"
+              v-t="{ path: 795, locale: $route.query.lang }"
+            >
+            </span>
+          </li>
+        </ul>
+      </aside>
+    </div>
+  </div>
+</template>
 
 <style scoped lang="scss">
 .is-align-items-center {
@@ -128,23 +126,23 @@ import pageConfig from "./Samu.config.json";
   position: relative;
   top: 0px;
   width: 100px;
- }
+}
 
 .main-color {
-  background-color:rgb(222, 201, 242)
+  background-color: rgb(222, 201, 242);
 }
 
 .menu-element-multiline {
-  background-color: rgb(243,189,234);
+  background-color: rgb(243, 189, 234);
   position: relative;
-  top:0px;
+  top: 0px;
   width: 100px;
 }
 
 .fixed-right {
   position: fixed;
   right: 0;
-  margin-top:-10px;
+  margin-top: -10px;
 }
 
 .fixed-left {

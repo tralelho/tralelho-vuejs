@@ -74,9 +74,11 @@
     <img src="/public/globe1.png" alt="Globe" width="25px" height="25px" />
     <a
       href=" https://www.leparisien.fr/societe/sante/les-questions-medicales-traduites-dans-toutes-les-langues-avec-tralelho-02-11-2018-7933467.php"
-      > Le Parisien
+    >
+      Le Parisien
     </a>
-    <img src="/public/globe2.png" alt="Globe" width="25px" height="25px" /> <p>&nbsp;</p>
+    <img src="/public/globe2.png" alt="Globe" width="25px" height="25px" />
+    <p>&nbsp;</p>
     <a
       href="https://le-quotidien-du-patient.fr/article/tous-pour-un/2019/01/21/tralelho/"
       >Le Quotidien du patient</a
@@ -114,12 +116,12 @@
       href="https://www.actusoins.com/308702/tralelho-un-traducteur-universel-pour-briser-la-barriere-de-la-langue-dans-les-hopitaux.html"
       >Actusoins</a
     >
-   <img src="/public/globe1.png" alt="Globe" width="25px" height="25px" />
+    <img src="/public/globe1.png" alt="Globe" width="25px" height="25px" />
     <a
       href="https://www.europe1.fr/emissions/la-france-bouge-avec-raphaelle-duchemin/raphaelle-duchemin-les-innovations-dans-le-domaine-de-la-traduction-3894444"
       >Europe 1</a
     >
-   <img src="/public/globe10.png" alt="Globe" width="25px" height="25px" />
+    <img src="/public/globe10.png" alt="Globe" width="25px" height="25px" />
     <a href="https://www.tvr.bzh/v/57d2235-tvr-events-13-10-2020">TVR</a>
     <img src="/public/globe4.png" alt="Globe" width="25px" height="25px" />
     <a
