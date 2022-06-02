@@ -128,12 +128,16 @@ import pageConfig from "./Samu.config.json";
   width: 100px;
 }
 
+.p{
+  background-color: rgb(227, 213, 240);
+}
+
 .main-color {
-  background-color: rgb(222, 201, 242);
+  background-color: rgb(227, 213, 240);
 }
 
 .menu-element-multiline {
-  background-color: rgb(243, 189, 234);
+  background-color: rgb(227, 213, 240);
   position: relative;
   top: 0px;
   width: 100px;
