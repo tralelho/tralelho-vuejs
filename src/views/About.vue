@@ -56,7 +56,7 @@
       <br />
       <br />Enfin soutenir TraLELHo peut aussi passer par un don, afin d'aider
       le site à rester héberger aussi longtemps que possible, ou a obtenir de
-      nouvelles traductions ou corrections : <br />Avec 5 euros vous permettez
+      nouvelles traductions ou corrections :  <br /><br />Avec 5 euros vous permettez
       au site d'être hébergé un mois de plus. <br />Avec 20 euros vous permettez
       de traduire les phrases nécessaires aux urgences dans une nouvelle langue.
       <br />Avec 50 euros vous permettez de traduire les phrases utiles au SAMU
@@ -65,7 +65,7 @@
       phrases)
       <br /><br />
     </p>
-    <h1 class="title" href=" https://www.paypal.me/OuiCare">Paypal</h1>
+    <h1 class="title" href="https://www.paypal.me/OuiCare">Paypal</h1>
 
     <br />
     <br />
