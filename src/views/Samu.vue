@@ -131,15 +131,15 @@ import pageConfig from "./Samu.config.json";
   position: relative;
   top: 0px;
   width: 100px;
-  background-color: hsla(310, 67%, 82%, 0.799);
+  background-color: rgb(243,189,234);
 }
 
 .main-color {
-  background-color: hsl((310, 67%, 82%, 0.799);
+  background-color:rgb(162,192,222)
 }
 
 .menu-element-multiline {
-  background-color: hsl((310, 67%, 82%, 0.799);
+  background-color: rgb(243,189,234);
   position: relative;
   top:0px;
   width: 100px;
@@ -148,14 +148,14 @@ import pageConfig from "./Samu.config.json";
 .fixed-right {
   position: fixed;
   right: 0;
-  background-color: hsl((310, 67%, 82%, 0.799);
+  background-color: rgb(243,189,234);
   margin-top:-10px;
 }
 
 .fixed-left {
   position: fixed;
   left: 35px;
-  background-color: hsl(310, 71%, 85%);
+  background-color:rgb(243,189,234);
   margin-top: -10px;
   max-height: 70vh;
   overflow: auto;
