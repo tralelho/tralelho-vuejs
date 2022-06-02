@@ -127,11 +127,11 @@ import pageConfig from "./Samu.config.json";
   align-items: center; /* if an only child */
   position: relative;
   top: 0px;
-  width: 150px;
+  width: 20%;
 }
 
 .is-align-items-center:hover {
-  background-color: #a2c0de;
+  background-color: #fac3f2;
 } 
 
 .main-color {
@@ -156,7 +156,7 @@ import pageConfig from "./Samu.config.json";
 .fixed-left {
   position: fixed;
   background-color: #6699cc;
-  left: 35px;
+  left: 40px;
   margin-top: -30px;
   max-height: 70vh;
   overflow: auto;
