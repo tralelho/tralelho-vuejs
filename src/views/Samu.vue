@@ -121,6 +121,7 @@ import pageConfig from "./Samu.config.json";
 .is-align-items-center {
   display: flex;
   flex-wrap: wrap;
+  background-color: rgb(116, 173, 133);
   align-content: center; /* used this for multiple child */
   align-items: center; /* if an only child */
   position: relative;
@@ -141,6 +142,7 @@ import pageConfig from "./Samu.config.json";
 
 .fixed-right {
   position: fixed;
+  background-color: rgb(227, 213, 240);
   right: 0;
   margin-top: -10px;
 }
