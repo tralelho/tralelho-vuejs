@@ -150,15 +150,15 @@ font-weight:bold;
   position: fixed;
   background-color: #6699cc;
   right: 0;
-  margin-top: -30px;
-  
+  padding-top: -30px;
+  overflow: auto;
 }
 
 .fixed-left {
   position: fixed;
   background-color: #6699cc;
   left: 40px;
-  margin-top: -30px;
+  padding-top: -30px;
   max-height: 70vh;
   overflow: auto;
 }
