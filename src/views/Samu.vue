@@ -4,7 +4,7 @@ import pageConfig from "./Samu.config.json";
 
 <template>
   <div class="section">
-    <h1 class="title is-1"></h1>
+    
 
     <textarea
       id="textarea"
@@ -16,6 +16,10 @@ import pageConfig from "./Samu.config.json";
     >
 Écrivez ici votre texte avant de le copier/coller sur votre logiciel
     </textarea>
+
+<br> 
+
+    </div>
 
     <div className="columns main-color is-centered">
       <div
