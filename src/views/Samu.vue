@@ -16,7 +16,7 @@ import pageConfig from "./Samu.config.json";
     >
 Écrivez ici votre texte avant de le copier/coller sur votre logiciel
     </textarea>
-
+   <br />
   </div>
 
     <div className="columns main-color is-centered">
@@ -116,9 +116,7 @@ import pageConfig from "./Samu.config.json";
           </ul>
         </aside>
       </div>
-    </div>
-  </div>
-</template>
+  </template>
 
 <style scoped lang="scss">
 .is-align-items-center {
