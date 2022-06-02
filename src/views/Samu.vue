@@ -29,8 +29,8 @@ import pageConfig from "./Samu.config.json";
               <img
                 :src="'/' + section.icon"
                 :alt="$t(section.title)"
-                width="35"
-                height="35"
+                width="25"
+                height="25"
               />
               <span class="menu-element-multiline">
                 {{ $t(section.title) }}
@@ -51,7 +51,7 @@ import pageConfig from "./Samu.config.json";
           :id="section.title"
           class="title is-2 has-text-left"
           v-t="{ path: section.title }"
-          style="margin-top: 5px"
+          style="margin-top: 2px"
         ></h2>
 
         <div
@@ -121,12 +121,12 @@ import pageConfig from "./Samu.config.json";
 .is-align-items-center {
   display: flex;
   flex-wrap: wrap;
-  background-color: rgb(116, 173, 133);
+  background-color: rgb(227, 213, 240);
   align-content: center; /* used this for multiple child */
   align-items: center; /* if an only child */
   position: relative;
   top: 0px;
-  width: 100px;
+  width: 130px;
 }
 
 .main-color {
