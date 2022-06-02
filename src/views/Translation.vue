@@ -115,7 +115,7 @@ let selectedLanguage = ref(
 }
 
 .menu-element-multiline {
-  width: 25%;
+  width:150px;
   position: fixed;
   font-size: 18px;
   margin-left:40px;
