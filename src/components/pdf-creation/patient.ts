@@ -227,7 +227,7 @@ export const createPatientPdf = function (
   );
 
   img.src = `/pdf-images/patient/informations.png`;
-  doc.addImage(img, "png", 140, 170, 20, 18);
+  doc.addImage(img, "png", 140, 170, 20, 17);
 
   img.src = `/pdf-images/patient/nausée.png`;
   doc.addImage(img, "png", 105, 160, 22, 20);
