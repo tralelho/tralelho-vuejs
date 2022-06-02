@@ -142,7 +142,6 @@ import pageConfig from "./Samu.config.json";
   background-color: #a2c0de;
   position: relative;
   top: -20px;
-  width: 20%;
 font-weight:bold;
 }
 
