@@ -64,8 +64,42 @@ export const createPatientPdf = function (
 
   y = y + 40;
 
-  //Medication section
+
+
+  //Measures section
+  let y = 20;
   startSection = y;
+  for (const phrase of contentElement.measures.phrases) {
+    const originalPhrase = translate(`${phrase}`);
+    const translatedPhrase = getMessage(messages, lang, `${phrase}`);
+    doc.text(originalPhrase, 150, y, { maxWidth: 130 });
+    doc.text(
+      translatedPhrase,
+      150,
+      y + (originalPhrase.length > 90 ? 8 : 4),
+      {
+        maxWidth: 130,
+      }
+    );
+    y = y + (originalPhrase.length > 90 ? 15 : 10);
+  }
+  img.src = `/pdf-images/patient/pouls.png`;
+  doc.addImage(img, "png", 265, startSection, 15, 20);
+  doc.rect(148, startSection - 4, 140, y - startSection + 5);
+
+  y = y + 20;
+   
+  for (const phrase of contentElement.treatment.phrases) {
+    doc.text(translate(`${phrase}`), 150, y);
+    doc.text(getMessage(messages, lang, `${phrase}`), 150, y + 4);
+    y = y + 10;
+  }
+  img.src = `/pdf-images/patient/seringue.png`;
+  doc.addImage(img, "png", 265, startSection, 15, 15);
+  doc.rect(148, startSection - 4, 140, y - startSection);
+    
+     //Medication section
+  startSection = yRight;
   for (const phrase of contentElement.medication.phrases) {
     doc.text(translate(`${phrase}`), 20, y);
     doc.text(getMessage(messages, lang, `${phrase}`), 20, y + 4);
@@ -73,41 +107,9 @@ export const createPatientPdf = function (
   }
   img.src = `/pdf-images/patient/medoc.png`;
   doc.addImage(img, "png", 120, startSection, 15, 15);
-  doc.rect(18, startSection - 4, 121, y - startSection);
+  doc.rect(18, startSection - 4, 70, y - startSection);
 
-  //Measures section
-  let yRight = 20;
-  startSection = yRight;
-  for (const phrase of contentElement.measures.phrases) {
-    const originalPhrase = translate(`${phrase}`);
-    const translatedPhrase = getMessage(messages, lang, `${phrase}`);
-    doc.text(originalPhrase, 150, yRight, { maxWidth: 130 });
-    doc.text(
-      translatedPhrase,
-      150,
-      yRight + (originalPhrase.length > 90 ? 8 : 4),
-      {
-        maxWidth: 130,
-      }
-    );
-    yRight = yRight + (originalPhrase.length > 90 ? 15 : 10);
-  }
-  img.src = `/pdf-images/patient/pouls.png`;
-  doc.addImage(img, "png", 265, startSection, 15, 20);
-  doc.rect(148, startSection - 4, 140, yRight - startSection + 5);
-
-  yRight = yRight + 20;
-
-  //treatment section
-  startSection = yRight;
-  for (const phrase of contentElement.treatment.phrases) {
-    doc.text(translate(`${phrase}`), 150, yRight);
-    doc.text(getMessage(messages, lang, `${phrase}`), 150, yRight + 4);
-    yRight = yRight + 10;
-  }
-  img.src = `/pdf-images/patient/seringue.png`;
-  doc.addImage(img, "png", 265, startSection, 15, 15);
-  doc.rect(148, startSection - 4, 140, yRight - startSection);
+ 
 
   doc.addPage();
   y = 20;
