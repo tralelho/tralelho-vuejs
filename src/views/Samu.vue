@@ -17,9 +17,7 @@ import pageConfig from "./Samu.config.json";
 Écrivez ici votre texte avant de le copier/coller sur votre logiciel
     </textarea>
 
-<br> 
-
-    </div>
+  </div>
 
     <div className="columns main-color is-centered">
       <div
