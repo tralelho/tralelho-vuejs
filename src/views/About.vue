@@ -46,7 +46,7 @@
 
     <p>
       Soutenir TraLELHo c'est d'abord l'utiliser, le diffuser auprès de vos
-      collègues, amis.
+      collègues, amis. <br />
       <br />
       C'est aussi nous contacter si vous parlez une langue étrangère pour nous
       proposer une correction ou une nouvelle traduction.
@@ -75,26 +75,27 @@
     <a
       href=" https://www.leparisien.fr/societe/sante/les-questions-medicales-traduites-dans-toutes-les-langues-avec-tralelho-02-11-2018-7933467.php"
     >
-       Le Parisien
+      . Le Parisien
     </a>
     <img src="/public/globe2.png" alt="Globe" width="25px" height="25px" />
  
     <a
       href="https://le-quotidien-du-patient.fr/article/tous-pour-un/2019/01/21/tralelho/"
-      > Le Quotidien du patient</a
+      >. Le Quotidien du patient</a
     >
     <img src="/public/globe3.png" alt="Globe" width="25px" height="25px" /> 
     <a
       href="https://solidarites-sante.gouv.fr/systeme-de-sante-et-medico-social/parcours-de-sante-vos-droits/bonnes-pratiques-en-region/bretagne/article/tralelho"
-      ># Solidarite-sante.gouv.fr</a
+      >. Solidarite-sante.gouv.fr</a
     >
     <img src="/public/globe4.png" alt="Globe" width="25px" height="25px" /> 
-    <a href="https://www.ticsante.com/story?ID=6155"># Ticsanté.com</a>
+    <a href="https://www.ticsante.com/story?ID=6155"
+    >. Ticsanté.com</a>
 
     <img src="/public/globe5.png" alt="Globe" width="25px" height="25px" /> 
     <a
       href="https://france3-regions.francetvinfo.fr/bretagne/ille-et-vilaine/rennes/rennes-infirmiere-urgences-concoit-tralelho-briser-barriere-langue-1606739.html"
-      ># France 3</a
+      >. France 3</a
     >
     <img src="/public/globe6.png" alt="Globe" width="25px" height="25px" />
     <a
@@ -109,24 +110,25 @@
     <img src="/public/globe8.png" alt="Globe" width="25px" height="25px" /> 
     <a
       href="https://www.francebleu.fr/infos/societe/rennes-tralelho-permets-de-traduire-50-questions-medicales-en-195-langues-1523178137"
-      >- France-Bleu</a
+      >. France-Bleu</a
     >
     <img src="/public/globe9.png" alt="Globe" width="25px" height="25px" /> 
     <a
       href="https://www.actusoins.com/308702/tralelho-un-traducteur-universel-pour-briser-la-barriere-de-la-langue-dans-les-hopitaux.html"
-      >- Actusoins</a
+      >. Actusoins</a
     >
    <img src="/public/globe1.png" alt="Globe" width="25px" height="25px" /> 
     <a
       href="https://www.europe1.fr/emissions/la-france-bouge-avec-raphaelle-duchemin/raphaelle-duchemin-les-innovations-dans-le-domaine-de-la-traduction-3894444"
-      >=> Europe 1</a
+      >. Europe 1</a
     >
    <img src="/public/globe10.png" alt="Globe" width="25px" height="25px" /> 
-    <a href="https://www.tvr.bzh/v/57d2235-tvr-events-13-10-2020"># TV Rennes</a>
+    <a href="https://www.tvr.bzh/v/57d2235-tvr-events-13-10-2020">
+      . TV Rennes</a>
     <img src="/public/globe4.png" alt="Globe" width="25px" height="25px" />
     <a
       href="https://www.actusoins.com/349854/marion-verdaguer-infirmiere-chevalier-dans-lordre-du-merite.html"
-      >=> Actusoins</a
+      >. Actusoins</a
     >
     <br />
   </div>
