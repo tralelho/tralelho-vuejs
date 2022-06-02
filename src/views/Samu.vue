@@ -128,11 +128,10 @@ import pageConfig from "./Samu.config.json";
   position: relative;
   top: 0px;
   width: 100px;
-  background-color: rgb(243,189,234);
-}
+ }
 
 .main-color {
-  background-color:rgb(162,192,222)
+  background-color:rgb(222, 201, 242)
 }
 
 .menu-element-multiline {
@@ -145,14 +144,12 @@ import pageConfig from "./Samu.config.json";
 .fixed-right {
   position: fixed;
   right: 0;
-  background-color: rgb(243,189,234);
   margin-top:-10px;
 }
 
 .fixed-left {
   position: fixed;
   left: 35px;
-  background-color:rgb(243,189,234);
   margin-top: -10px;
   max-height: 70vh;
   overflow: auto;
