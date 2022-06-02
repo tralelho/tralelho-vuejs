@@ -120,6 +120,7 @@ import pageConfig from "./Samu.config.json";
 <style scoped lang="scss">
 .is-align-items-center {
   display: flex;
+  float:left;
   flex-wrap: wrap;
   background-color: #a2c0de;
   align-content: center; /* used this for multiple child */
