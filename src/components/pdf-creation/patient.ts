@@ -219,6 +219,13 @@ export const createPatientPdf = function (
       200
   );
 
+  doc.text(translate(`${contentElement.flower.phrases.informations}`), 50, 250);
+  doc.text(
+      getMessage(messages, lang, `${contentElement.flower.phrases.informations}`),
+      50,
+      255
+  );
+
   img.src = `/pdf-images/patient/informations.png`;
   doc.addImage(img, "png", 140, 170, 20, 18);
 
