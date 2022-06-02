@@ -60,7 +60,7 @@ let selectedLanguage = ref(
                   :alt="$t(section.title)"
                   width="35"
                   height="35"
-                />&nbsp;
+                />
                 <span class="menu-element-multiline">
                   {{ $t(section.title) }}
                 </span>
