@@ -143,6 +143,7 @@ import pageConfig from "./Samu.config.json";
   position: relative;
   top: -20px;
 font-weight:bold;
+overflow: auto;
 }
 
 .fixed-right {
