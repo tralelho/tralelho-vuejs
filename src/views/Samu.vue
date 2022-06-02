@@ -132,7 +132,7 @@ import pageConfig from "./Samu.config.json";
 
 .is-align-items-center:hover {
   background-color: #a2c0de;
-} {
+} 
 
 .main-color {
   background-color: #a2c0de;
