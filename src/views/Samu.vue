@@ -9,7 +9,7 @@ import pageConfig from "./Samu.config.json";
     <textarea
       id="textarea"
       rows="4"
-      cols="100"
+      cols="80"
       position="fixed"
       border="1px solid black"
       float="right"
@@ -51,7 +51,7 @@ import pageConfig from "./Samu.config.json";
             :id="section.title"
             class="title is-2 has-text-left"
             v-t="{ path: section.title }"
-            style="margin-top: 10px"
+            style="margin-top: 5px"
           ></h2>
 
           <div
@@ -125,29 +125,27 @@ import pageConfig from "./Samu.config.json";
   align-content: center; /* used this for multiple child */
   align-items: center; /* if an only child */
   position: relative;
-  top: 10px;
-  background-color: hsl(310, 68%, 82%);
-
-  &:hover {
-    background-color: whitesmoke;
-  }
+  top: 0px;
+  width: 100px;
+  background-color: hsla(310, 67%, 82%, 0.799);
 }
 
 .main-color {
-  background-color: hsl(310, 68%, 82%);
+  background-color: hsl((310, 67%, 82%, 0.799);
 }
 
 .menu-element-multiline {
+  background-color: hsl((310, 67%, 82%, 0.799);
   position: relative;
-  top: 11px;
+  top:0px;
   width: 100px;
 }
 
 .fixed-right {
   position: fixed;
   right: 0;
-  background-color: hsl(310, 71%, 85%);
-  margin-top: -10px;
+  background-color: hsl((310, 67%, 82%, 0.799);
+  margin-top:-10px;
 }
 
 .fixed-left {
