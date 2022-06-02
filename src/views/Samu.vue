@@ -143,6 +143,7 @@ import pageConfig from "./Samu.config.json";
   position: relative;
   top: 0px;
   width: 100px;
+font-weight:bold;
 }
 
 .fixed-right {
@@ -150,7 +151,7 @@ import pageConfig from "./Samu.config.json";
   background-color: #6699cc;
   right: 0;
   margin-top: -30px;
-  font-weight:bold;
+  
 }
 
 .fixed-left {
