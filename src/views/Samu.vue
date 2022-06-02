@@ -116,6 +116,7 @@ import pageConfig from "./Samu.config.json";
           </ul>
         </aside>
       </div>
+     </div>
   </template>
 
 <style scoped lang="scss">
