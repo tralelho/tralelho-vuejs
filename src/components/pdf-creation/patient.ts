@@ -8,7 +8,7 @@ export const createPatientPdf = function (
   messages: any,
   lang: string
 ): jsPDF {
-  let doc = new jsPDF({ orientation: "landscape" });
+  let doc = new jsPDF({ orientation: "portrait" });
   const img = new Image();
 
   doc.setFontSize(24);
@@ -160,7 +160,7 @@ export const createPatientPdf = function (
   doc.addImage(img, "png", 60, 20, 180, 180);
 
   img.src = `/pdf-images/patient/peur.png`;
-  doc.addImage(img, "png", 140, 30, 20, 20);
+  doc.addImage(img, "png", 100, 130, 15, 15);
   doc.text(translate(`${contentElement.flower.phrases.peur}`), 140, 10);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.peur}`),
