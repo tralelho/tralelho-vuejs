@@ -121,7 +121,7 @@ import pageConfig from "./Samu.config.json";
 .is-align-items-center {
   display: flex;
   flex-wrap: wrap;
-  background-color: rgb(227, 213, 240);
+  background-color: #6699cc;
   align-content: center; /* used this for multiple child */
   align-items: center; /* if an only child */
   position: relative;
@@ -130,11 +130,11 @@ import pageConfig from "./Samu.config.json";
 }
 
 .main-color {
-  background-color: #a2c0de;
+  background-color: #6699cc;
 }
 
 .menu-element-multiline {
-  background-color: rgb(227, 213, 240);
+  background-color:#6699cc;
   position: relative;
   top: 0px;
   width: 100px;
@@ -142,17 +142,22 @@ import pageConfig from "./Samu.config.json";
 
 .fixed-right {
   position: fixed;
-  background-color: rgb(227, 213, 240);
+  background-color: #6699cc;
   right: 0;
   margin-top: -10px;
 }
 
 .fixed-left {
   position: fixed;
-  background-color: rgb(227, 213, 240);
+  background-color: #6699cc;
   left: 35px;
   margin-top: -10px;
   max-height: 70vh;
   overflow: auto;
 }
+
+.box columns main-color m-2 py-2 is-clickable change-background-on-hover:hover {
+  background-color: #fac3f2;
+}
+
 </style>
