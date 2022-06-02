@@ -21,7 +21,7 @@
     <h1 class="title">Remerciements</h1>
 
     <p>
-      Merci à : Jana, André, Svetlana, Olga, Andr, Manuela, Mathea, Iwan, Ieva,
+      <strong>Merci à :</strong> Jana, André, Svetlana, Olga, Andr, Manuela, Mathea, Iwan, Ieva,
       Christophe, Bert, Lucia, Navinam, Jana, Brigitte, Maria Luiza, Maher,
       Hiroko, Kristin, Anne, Emilya, Bella, Natalia, Yi, Mehmet, Totatou,
       Jacqueline, Safia, Gavriela, manuela, Andr, Bayasalmaa, Linda, Leone,
