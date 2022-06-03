@@ -113,20 +113,19 @@ let selectedLanguage = ref(
   margin-top: 0%;
   position: relative;
   width:200px;
-  overflow: auto;
+  
 }
 
 .menu-element-multiline {
-  width:50px;
+  width:150px;
   position: fixed;
   font-size: 18px;
   margin-left:40px;
-  overflow: auto;
 }
 
 .menu-list {
   position: fixed;
-  
+  overflow: auto;
 }
 
 .field-label-size {
@@ -141,5 +140,6 @@ let selectedLanguage = ref(
 }
 .menu {
   background-color: #6699cc;
+  overflow: auto;
 }
 </style>
