@@ -127,7 +127,7 @@ import pageConfig from "./Samu.config.json";
   align-items: center; /* if an only child */
   position: relative;
   top: 1px;
-  width:130px;
+  width:150px;
 }
 
 .is-align-items-center:hover {
@@ -143,14 +143,13 @@ import pageConfig from "./Samu.config.json";
   position: relative;
   top:0px;
 font-weight:bold;
-overflow: auto;
 }
 
 .fixed-right {
   position: fixed;
   background-color: #6699cc;
   right: 0;
-  padding-top: -30px;
+  padding-top:0px;
   overflow: auto;
 }
 
@@ -158,7 +157,7 @@ overflow: auto;
   position: fixed;
   background-color: #6699cc;
   left: 40px;
-  padding-top: -30px;
+  padding-top:0px;
   max-height: 70vh;
   overflow: auto;
 }
