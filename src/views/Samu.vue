@@ -51,7 +51,7 @@ import pageConfig from "./Samu.config.json";
           :id="section.title"
           class="title is-2 has-text-left"
           v-t="{ path: section.title }"
-          style="margin-top: 2px"
+          style="margin-top: 20px"
         ></h2>
 
         <div
@@ -150,7 +150,7 @@ font-weight:bold;
   position: fixed;
   background-color: #6699cc;
   right: 0;
-  padding-top:0px;
+  margin-top:10px;
 }
 
 .fixed-left {
