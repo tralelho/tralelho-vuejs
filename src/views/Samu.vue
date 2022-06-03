@@ -141,7 +141,7 @@ import pageConfig from "./Samu.config.json";
 .menu-element-multiline {
   background-color: #a2c0de;
   position: relative;
-  top:10px;
+  top:-10px;
   padding-top:-10px;
 font-weight:bold;
 }
