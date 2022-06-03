@@ -143,7 +143,6 @@ import pageConfig from "./Samu.config.json";
   top:0px;
   margin-left:10px
   padding-top:-10px;
-font-weight:bold;
 }
 
 
