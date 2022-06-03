@@ -141,13 +141,19 @@ import pageConfig from "./Samu.config.json";
   background-color: #6699cc;
   position: relative;
   top:0px;
+  margin-left:10px
   padding-top:-10px;
 font-weight:bold;
 }
 
+
+.menu-element-multiline:hover {
+  background-color: #fac3f2;
+} 
+
 .fixed-right {
   position: fixed;
-  background-color: #6699cc;
+  background-color: #a2c0de;
   right: 0;
   margin-top:10px;
 }
