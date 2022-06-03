@@ -112,6 +112,7 @@ let selectedLanguage = ref(
   align-items: center; /* if an only child */
   margin-top: 0%;
   position: relative;
+  width:150px;
 }
 
 .menu-element-multiline {
@@ -119,11 +120,12 @@ let selectedLanguage = ref(
   position: fixed;
   font-size: 18px;
   margin-left:40px;
+  overflow: auto;
 }
 
 .menu-list {
   position: fixed;
-  overflow: auto;
+  
 }
 
 .field-label-size {
