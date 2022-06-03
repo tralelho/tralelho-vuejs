@@ -152,9 +152,10 @@ import pageConfig from "./Samu.config.json";
 
 .fixed-right {
   position: fixed;
-  background-color: #a2c0de;
+  background-color:#6699cc;
   right: 0;
   margin-top:10px;
+  overflow: auto;
 }
 
 .fixed-left {
