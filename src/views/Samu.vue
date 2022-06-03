@@ -126,7 +126,7 @@ import pageConfig from "./Samu.config.json";
   align-content: center; /* used this for multiple child */
   align-items: center; /* if an only child */
   position: relative;
-  top: 0px;
+  top: 1px;
   width: 20%;
 }
 
