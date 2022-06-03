@@ -20,7 +20,7 @@ import pageConfig from "./Samu.config.json";
   <div className="columns main-color is-centered">
     <div
       className="column main-color is-2 has-text-left fixed-left"
-      style="margin-left: 20px"
+      style="margin-left: 25px"
     >
       <aside class="menu">
         <ul class="menu-list">
@@ -122,7 +122,7 @@ import pageConfig from "./Samu.config.json";
   display: flex;
   float: left;
   flex-wrap: wrap;
-  background-color: #a2c0de;
+  background-color: #ffffff;
   align-content: center; /* used this for multiple child */
   align-items: center; /* if an only child */
   position: relative;
@@ -141,7 +141,7 @@ import pageConfig from "./Samu.config.json";
 .menu-element-multiline {
   background-color: #a2c0de;
   position: relative;
-  top:-10px;
+  top:0px;
   padding-top:-10px;
 font-weight:bold;
 }
