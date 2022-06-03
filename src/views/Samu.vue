@@ -127,7 +127,7 @@ import pageConfig from "./Samu.config.json";
   align-items: center; /* if an only child */
   position: relative;
   top: 1px;
-  width:150px;
+  width:200px;
 }
 
 .is-align-items-center:hover {
@@ -142,6 +142,7 @@ import pageConfig from "./Samu.config.json";
   background-color: #a2c0de;
   position: relative;
   top:0px;
+  padding-top:-10px;
 font-weight:bold;
 }
 
@@ -150,7 +151,6 @@ font-weight:bold;
   background-color: #6699cc;
   right: 0;
   padding-top:0px;
-  overflow: auto;
 }
 
 .fixed-left {
@@ -165,4 +165,12 @@ font-weight:bold;
 .change-background-on-hover:hover {
   background-color: #fac3f2;
 }
+
+.mb-5 box main-color {
+  margin-top:-30px;
+  padding-top:-10px;
+}
+
+
+
 </style>
