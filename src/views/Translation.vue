@@ -123,6 +123,7 @@ let selectedLanguage = ref(
 
 .menu-list {
   position: fixed;
+  overflow: auto;
 }
 
 .field-label-size {
