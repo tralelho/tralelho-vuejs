@@ -127,7 +127,7 @@ import pageConfig from "./Samu.config.json";
   align-items: center; /* if an only child */
   position: relative;
   top: 1px;
-  width: 20%;
+  width:130px;
 }
 
 .is-align-items-center:hover {
