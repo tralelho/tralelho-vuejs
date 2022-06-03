@@ -126,8 +126,8 @@ import pageConfig from "./Samu.config.json";
   align-content: center; /* used this for multiple child */
   align-items: center; /* if an only child */
   position: relative;
-  top: 1px;
-  width:200px;
+  top: 10px;
+  width:250px;
 }
 
 .is-align-items-center:hover {
@@ -141,7 +141,7 @@ import pageConfig from "./Samu.config.json";
 .menu-element-multiline {
   background-color: #a2c0de;
   position: relative;
-  top:0px;
+  top:10px;
   padding-top:-10px;
 font-weight:bold;
 }
