@@ -65,12 +65,12 @@ export const createPatientPdf = function (
   y = y + 40;
 
    //Medication section
-   yRight = 20;
-   startSection = yRight;
+   y = 20;
+   startSection = y;
    for (const phrase of contentElement.medication.phrases) {
-     doc.text(translate(`${phrase}`), 20, yRight);
-     doc.text(getMessage(messages, lang, `${phrase}`), 20, yRight + 4);
-     yRight = yRight + 10;
+     doc.text(translate(`${phrase}`), 20, y);
+     doc.text(getMessage(messages, lang, `${phrase}`), 20, y + 4);
+     y = y + 10;
    }
    img.src = `/pdf-images/patient/medoc.png`;
    doc.addImage(img, "png", 120, startSection, 15, 15);
