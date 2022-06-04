@@ -135,16 +135,11 @@ import pageConfig from "./Samu.config.json";
   width:250px;
 }
 
-.is-align-items-center:hover {
-  background-color: #fac3f2;
-} 
-
 .main-color {
   background-color: #a2c0de;
 }
 
 .menu-element-multiline {
-  background-color: #6699cc;
   position: relative;
   top:0px;
   margin-left:10px;
@@ -166,7 +161,7 @@ import pageConfig from "./Samu.config.json";
   background-color: #6699cc;
   left: 25px;
   padding-top:0px;
-  max-height: 90vh;
+  max-height:50vh;
   overflow: auto;
 }
 
@@ -175,7 +170,7 @@ import pageConfig from "./Samu.config.json";
 }
 
 .mb-5 box main-color {
-  margin-top:-30px;
+  margin-top:-60px;
   padding-top:-10px;
 }
 
