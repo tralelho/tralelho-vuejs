@@ -140,7 +140,7 @@ import pageConfig from "./Samu.config.json";
 } 
 
 .main-color {
-  background-color: #adc7e0;
+  background-color: #a2c0de;
 }
 
 .menu-element-multiline {
@@ -152,9 +152,6 @@ import pageConfig from "./Samu.config.json";
 }
 
 
-.menu-element-multiline:hover {
-  background-color: #ffffff;
-} 
 
 .fixed-right {
   position: fixed;
