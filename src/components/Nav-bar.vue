@@ -160,11 +160,12 @@
   </nav>
 </template>
 <style scoped lang="scss">
+
 .navbar is-fixed-top is-primary {
   background-color: #26619c;
 }
 
-.navbar-brand {
+.navbar-item {
   background-color: #26619c;
 }
 </style>
