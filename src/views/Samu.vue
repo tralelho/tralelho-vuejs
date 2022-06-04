@@ -118,63 +118,38 @@ import pageConfig from "./Samu.config.json";
 </template>
 
 <style scoped lang="scss">
-
-.title is-2 has-text-left{
-  margin-top:-20px;
-} 
-
-
 .is-align-items-center {
   display: flex;
-  float: left;
   flex-wrap: wrap;
   align-content: center; /* used this for multiple child */
   align-items: center; /* if an only child */
   position: relative;
   top: 10px;
-  width:250px;
+  background-color: hsl(310, 68%, 82%);
+  &:hover {
+    background-color: whitesmoke;
+  }
 }
-
 .main-color {
-  background-color: #a2c0de;
+  background-color: hsl(310, 68%, 82%);
 }
-
 .menu-element-multiline {
   position: relative;
-  top:0px;
-  margin-left:10px;
-  padding-top:-10px;
+  top: 11px;
+  width: 100px;
 }
-
-
-
 .fixed-right {
   position: fixed;
-  background-color:#6699cc;
   right: 0;
-  margin-top:10px;
-  min-height: max-content;
-  overflow: auto;
+  background-color: hsl(310, 71%, 85%);
+  margin-top: -10px;
 }
-
 .fixed-left {
   position: fixed;
-  background-color: #6699cc;
-  left: 25px;
-  padding-top:0px;
-  max-height:100vh;
+  left: 35px;
+  background-color: hsl(310, 71%, 85%);
+  margin-top: -10px;
+  max-height: 70vh;
   overflow: auto;
 }
-
-.change-background-on-hover:hover {
-  background-color: #fac3f2;
-}
-
-.mb-5 box main-color {
-  margin-top:-60px;
-  padding-top:-10px;
-}
-
-
-
 </style>
