@@ -118,6 +118,12 @@ import pageConfig from "./Samu.config.json";
 </template>
 
 <style scoped lang="scss">
+
+.title is-2 has-text-left{
+  margin-top:-20px;
+} 
+
+
 .is-align-items-center {
   display: flex;
   float: left;
