@@ -162,12 +162,24 @@
 <style scoped lang="scss">
 
 .navbar is-fixed-top is-primary {
-  background-color: #26619c;
+  background-color: #406d99;
 }
 
 .navbar-item {
-  background-color: #26619c;
+  background-color: #406d99;
+  color:#ffffff;
 }
+.navbar-item:hover {
+  background-color: #6897c4;
+}
+
+.navbar-end {
+background-color: #406d99;
+}
+
+
+
+
 </style>
 
 <script lang="ts" setup>
