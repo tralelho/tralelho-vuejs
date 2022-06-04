@@ -173,7 +173,7 @@
   background-color: #6897c4;
 }
 
-.navbar-end {
+.navbar-menu {
 background-color: #406d99;
 }
 
