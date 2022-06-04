@@ -153,6 +153,7 @@ import pageConfig from "./Samu.config.json";
   background-color:#6699cc;
   right: 0;
   margin-top:10px;
+  min-height: max-content;
   overflow: auto;
 }
 
