@@ -128,7 +128,7 @@ let selectedLanguage = ref(
   left: 10;
   margin-top: -70px;
   background-color: #6699cc;
-  max-height: 80vh;
+  max-height:70vh;
   overflow: auto;
 }
 
