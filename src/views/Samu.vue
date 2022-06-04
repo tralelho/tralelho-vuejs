@@ -147,7 +147,7 @@ import pageConfig from "./Samu.config.json";
 
 
 .menu-element-multiline:hover {
-  background-color: #fac3f2;
+  background-color: #ffffff;
 } 
 
 .fixed-right {
