@@ -125,6 +125,9 @@ let selectedLanguage = ref(
 
 .menu-list {
   position: fixed;
+  right: 0;
+  margin-top: -10px;
+  max-height: 80vh;
   overflow: auto;
 }
 
