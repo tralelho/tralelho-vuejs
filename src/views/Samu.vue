@@ -167,9 +167,9 @@ import pageConfig from "./Samu.config.json";
 .fixed-left {
   position: fixed;
   background-color: #6699cc;
-  left: 40px;
+  left: 25px;
   padding-top:0px;
-  max-height: 70vh;
+  max-height: 90vh;
   overflow: auto;
 }
 
