@@ -143,7 +143,7 @@ import pageConfig from "./Samu.config.json";
   right: 0;
   background-color: #a2c0de;
   margin-top: -10px;
-  max-height: 98vh;
+  max-height: 80vh;
   overflow: auto;
 }
 .fixed-left {
@@ -151,7 +151,7 @@ import pageConfig from "./Samu.config.json";
   left: 25px;
   background-color: #87a7c7;
   margin-top: -30px;
-  max-height: 80vh;
+  max-height: 98vh;
   overflow: auto;
 }
 </style>
