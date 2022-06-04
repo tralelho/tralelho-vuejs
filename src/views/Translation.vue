@@ -123,6 +123,15 @@ let selectedLanguage = ref(
   margin-left:40px;
 }
 
+.menu {
+  position: fixed;
+  left: 10;
+  margin-top: -10px;
+  background-color: #6699cc;
+  max-height: 80vh;
+  overflow: auto;
+}
+
 .menu-list {
   position: fixed;
   left: 10;
@@ -141,8 +150,5 @@ let selectedLanguage = ref(
 .box columns m-2 py-2 is-clickable change-background-on-hover:hover {
   background-color: #fac3f2;
 }
-.menu {
-  background-color: #6699cc;
-  overflow: auto;
-}
+
 </style>
