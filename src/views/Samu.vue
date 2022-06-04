@@ -125,13 +125,13 @@ import pageConfig from "./Samu.config.json";
   align-items: center; /* if an only child */
   position: relative;
   top: 10px;
-  background-color: hsl(310, 68%, 82%);
+  background-color: #a2c0de;
   &:hover {
     background-color: whitesmoke;
   }
 }
 .main-color {
-  background-color: hsl(310, 68%, 82%);
+  background-color: #a2c0de;
 }
 .menu-element-multiline {
   position: relative;
@@ -141,15 +141,17 @@ import pageConfig from "./Samu.config.json";
 .fixed-right {
   position: fixed;
   right: 0;
-  background-color: hsl(310, 71%, 85%);
+  background-color: #a2c0de;
   margin-top: -10px;
+  max-height: 80vh;
+  overflow: auto;
 }
 .fixed-left {
   position: fixed;
-  left: 35px;
-  background-color: hsl(310, 71%, 85%);
-  margin-top: -10px;
-  max-height: 70vh;
+  left: 25px;
+  background-color: #87a7c7;
+  margin-top: -30px;
+  max-height: 80vh;
   overflow: auto;
 }
 </style>
