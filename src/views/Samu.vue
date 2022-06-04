@@ -140,7 +140,7 @@ import pageConfig from "./Samu.config.json";
 } 
 
 .main-color {
-  background-color: #a2c0de;
+  background-color: #adc7e0;
 }
 
 .menu-element-multiline {
