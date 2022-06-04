@@ -123,7 +123,7 @@ let selectedLanguage = ref(
   margin-left:40px;
 }
 
-.menu {
+.columns {
   position: fixed;
   left: 10;
   margin-top: -10px;
