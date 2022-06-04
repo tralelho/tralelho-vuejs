@@ -126,7 +126,7 @@ let selectedLanguage = ref(
 .Menu {
   position: fixed;
   left: 10;
-  margin-top: -70px;
+  top: -50px;
   background-color: #6699cc;
   max-height:70vh;
   overflow: auto;
@@ -149,6 +149,10 @@ let selectedLanguage = ref(
 }
 .box columns m-2 py-2 is-clickable change-background-on-hover:hover {
   background-color: #fac3f2;
+}
+
+.columns {
+  left:50px;
 }
 
 </style>
