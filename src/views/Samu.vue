@@ -74,7 +74,7 @@ import pageConfig from "./Samu.config.json";
 
     <div
       className="column is-2 has-text-right fixed-right"
-      style="margin-right: 60px"
+      style="margin-right: 40px"
     >
       <aside class="menu">
         <ul class="menu-fixed-right">
@@ -142,7 +142,7 @@ import pageConfig from "./Samu.config.json";
   position: fixed;
   right: 0;
   background-color: #a2c0de;
-  margin-top: -10px;
+  margin-top: 0px;
   max-height:70vh;
   overflow: auto;
 }
@@ -150,7 +150,7 @@ import pageConfig from "./Samu.config.json";
   position: fixed;
   left: 25px;
   background-color: #87a7c7;
-  top:-10px;
+  top:0px;
   max-height: 79vh;
   overflow: auto;
 }
