@@ -105,14 +105,7 @@ let selectedLanguage = ref(
 
 <style scoped lang="scss">
 
-.list  {
-  position: fixed;
-  right: 1;
-  background-color: #a2c0de;
-  margin-top: -10px;
-  max-height:70vh;
-  overflow: auto;
-}
+
 
 .is-align-items-center {
   display: flex;
@@ -144,6 +137,7 @@ let selectedLanguage = ref(
   top: -10px;
   background-color: #6699cc;
   max-height:70vh;
+  overflow: auto;
 
 }
 
