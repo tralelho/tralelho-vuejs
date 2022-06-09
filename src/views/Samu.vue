@@ -136,7 +136,6 @@ import pageConfig from "./Samu.config.json";
 }
 .menu-element-multiline {
   position: relative;
-  top: 110px;
   width: 100px;
 }
 .fixed-right {
