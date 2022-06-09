@@ -118,6 +118,7 @@ import pageConfig from "./Samu.config.json";
 </template>
 
 <style scoped lang="scss">
+
 .is-align-items-center {
   display: flex;
   flex-wrap: wrap;
@@ -135,7 +136,7 @@ import pageConfig from "./Samu.config.json";
 }
 .menu-element-multiline {
   position: relative;
-  top: 11px;
+  top: 110px;
   width: 100px;
 }
 .fixed-right {
@@ -155,7 +156,4 @@ import pageConfig from "./Samu.config.json";
   overflow: auto;
 }
 
-.menu {
-  top:40px; 
-}
 </style>
