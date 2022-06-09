@@ -149,7 +149,7 @@ import pageConfig from "./Samu.config.json";
 }
 .fixed-left {
   position: fixed;
-  left: 24px;
+  left: 23px;
   background-color: #87a7c7;
   margin-top:-45px;
   max-height:95vh;
