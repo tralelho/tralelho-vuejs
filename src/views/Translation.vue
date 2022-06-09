@@ -114,6 +114,7 @@ let selectedLanguage = ref(
   margin-top: 0%;
   position: fixed;
   width:200px;
+  overflow:auto;
  
   
 }
@@ -160,6 +161,7 @@ let selectedLanguage = ref(
 
 .columns {
   left:50px;
+  overflow:auto;
 }
 
 </style>
