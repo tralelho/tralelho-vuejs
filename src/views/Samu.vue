@@ -155,7 +155,7 @@ import pageConfig from "./Samu.config.json";
   overflow: auto;
 }
 
-.menu-list {
+.menu {
   top:40px; 
 }
 </style>
