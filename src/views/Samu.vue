@@ -137,6 +137,7 @@ import pageConfig from "./Samu.config.json";
 .menu-element-multiline {
   position: relative;
   width: 100px;
+  margin-left:5px;
 }
 .fixed-right {
   position: fixed;
@@ -150,8 +151,8 @@ import pageConfig from "./Samu.config.json";
   position: fixed;
   left: 25px;
   background-color: #87a7c7;
-  margin-top:40px;
-  max-height: 79vh;
+  margin-top:45px;
+  max-height: 89vh;
   overflow: auto;
 }
 
