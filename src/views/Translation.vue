@@ -111,7 +111,7 @@ let selectedLanguage = ref(
   align-content: center; /* used this for multiple child */
   align-items: center; /* if an only child */
   margin-top: 0%;
-  position: relative;
+  position: fixed;
   width:200px;
   overflow: auto;
   
@@ -123,7 +123,7 @@ let selectedLanguage = ref(
   font-size: 18px;
   margin-left:40px;
   margin-top: 0%;
-  position: relative;
+  position: fixed;
   width:200px;
   overflow: auto;
 }
