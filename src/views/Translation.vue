@@ -113,6 +113,7 @@ let selectedLanguage = ref(
   margin-top: 0%;
   position: relative;
   width:200px;
+  overflow: auto;
   
 }
 
@@ -121,6 +122,10 @@ let selectedLanguage = ref(
   position: fixed;
   font-size: 18px;
   margin-left:40px;
+  margin-top: 0%;
+  position: relative;
+  width:200px;
+  overflow: auto;
 }
 
 .Menu {
