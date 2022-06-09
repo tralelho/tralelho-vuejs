@@ -150,8 +150,12 @@ import pageConfig from "./Samu.config.json";
   position: fixed;
   left: 25px;
   background-color: #87a7c7;
-  top:40px;
+  top:0px;
   max-height: 79vh;
   overflow: auto;
+}
+
+.menu-list {
+  top:40px; 
 }
 </style>
