@@ -151,8 +151,8 @@ import pageConfig from "./Samu.config.json";
   position: fixed;
   left: 24px;
   background-color: #87a7c7;
-  margin-top:32px;
-  max-height: 85vh;
+  margin-top:35px;
+  max-height: 87vh;
   overflow: auto;
 }
 
