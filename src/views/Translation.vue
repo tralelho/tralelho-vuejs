@@ -144,7 +144,7 @@ let selectedLanguage = ref(
 .column is-2 has-text-left {
   position: fixed;
   left: 10;
-  margin-top: -10px;
+  margin-top: -5px;
   max-height: 80vh;
  
 }
