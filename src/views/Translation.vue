@@ -105,8 +105,6 @@ let selectedLanguage = ref(
 
 <style scoped lang="scss">
 
-
-
 .is-align-items-center {
   display: flex;
   float: left;
@@ -134,7 +132,7 @@ let selectedLanguage = ref(
 .Menu {
   position: fixed;
   left: 10;
-  top: -10px;
+  top: 10px;
   background-color: #6699cc;
   max-height:70vh;
   overflow: auto;
