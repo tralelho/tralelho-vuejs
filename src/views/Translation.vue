@@ -104,6 +104,16 @@ let selectedLanguage = ref(
 </template>
 
 <style scoped lang="scss">
+
+.list  {
+  position: fixed;
+  right: 1;
+  background-color: #a2c0de;
+  margin-top: -10px;
+  max-height:70vh;
+  overflow: auto;
+}
+
 .is-align-items-center {
   display: flex;
   float: left;
@@ -113,7 +123,7 @@ let selectedLanguage = ref(
   margin-top: 0%;
   position: fixed;
   width:200px;
-  overflow: auto;
+ 
   
 }
 
@@ -125,7 +135,7 @@ let selectedLanguage = ref(
   margin-top: 0%;
   position: fixed;
   width:200px;
-  overflow: auto;
+ 
 }
 
 .Menu {
@@ -134,7 +144,7 @@ let selectedLanguage = ref(
   top: -10px;
   background-color: #6699cc;
   max-height:70vh;
-  overflow: auto;
+
 }
 
 .column is-2 has-text-left {
@@ -142,7 +152,7 @@ let selectedLanguage = ref(
   left: 10;
   margin-top: -10px;
   max-height: 80vh;
-  overflow: auto;
+ 
 }
 
 .field-label-size {
