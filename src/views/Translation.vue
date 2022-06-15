@@ -142,6 +142,5 @@ let selectedLanguage = ref(
 }
 .box columns m-2 py-2 is-clickable change-background-on-hover:hover {
   background-color: #fac3f2;
-  margin-left:160px;
 }
 </style>
