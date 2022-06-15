@@ -20,7 +20,7 @@ import pageConfig from "./Samu.config.json";
   <div className="columns main-color is-centered">
     <div
       className="column main-color is-2 has-text-left fixed-left"
-      style="margin-left:15px"
+      style="margin-left: 15px"
     >
       <aside class="menu">
         <ul class="menu-list">
@@ -118,14 +118,13 @@ import pageConfig from "./Samu.config.json";
 </template>
 
 <style scoped lang="scss">
-
 .is-align-items-center {
   display: flex;
   flex-wrap: wrap;
   align-content: center; /* used this for multiple child */
   align-items: center; /* if an only child */
   position: relative;
-  top:-10px;
+  top: -10px;
   background-color: #a2c0de;
   &:hover {
     background-color: whitesmoke;
@@ -137,23 +136,22 @@ import pageConfig from "./Samu.config.json";
 .menu-element-multiline {
   position: relative;
   width: 100px;
-  margin-left:5px;
+  margin-left: 5px;
 }
 .fixed-right {
   position: fixed;
   right: 0;
   background-color: #a2c0de;
   margin-top: -20px;
-  max-height:70vh;
+  max-height: 70vh;
   overflow: auto;
 }
 .fixed-left {
   position: fixed;
   left: 23px;
   background-color: #87a7c7;
-  margin-top:20px;
-  height:300px;
+  margin-top: 20px;
+  height: 300px;
   overflow: auto;
 }
-
 </style>

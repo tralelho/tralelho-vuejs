@@ -65,9 +65,9 @@
       phrases)
       <br /><br />
     </p>
-<h1>
-    <a href="https://www.paypal.me/OuiCare">PAYPAL</a>
- </h1>
+    <h1>
+      <a href="https://www.paypal.me/OuiCare">PAYPAL</a>
+    </h1>
 
     <br />
     <br />

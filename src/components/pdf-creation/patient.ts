@@ -74,7 +74,7 @@ export const createPatientPdf = function (
    }
    img.src = `/pdf-images/patient/medoc.png`;
    doc.addImage(img, "png", 120, startSection, 15, 15);
-   doc.rect(18, startSection - 4, 70, yRight - startSection);
+   doc.rect(18, startSection - 4, 70, y - startSection);
  
    y = 20;
 

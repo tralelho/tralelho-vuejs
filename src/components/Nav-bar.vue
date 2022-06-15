@@ -160,26 +160,21 @@
   </nav>
 </template>
 <style scoped lang="scss">
-
 .navbar is-fixed-top is-primary {
   background-color: #406d99;
 }
 
 .navbar-item {
   background-color: #406d99;
-  color:#ffffff;
+  color: #ffffff;
 }
 .navbar-item:hover {
   background-color: #6897c4;
 }
 
 .navbar-menu {
-background-color: #406d99;
+  background-color: #406d99;
 }
-
-
-
-
 </style>
 
 <script lang="ts" setup>
