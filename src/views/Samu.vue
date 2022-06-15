@@ -132,7 +132,7 @@ import pageConfig from "./Samu.config.json";
   }
 }
 .main-color {
-  background-color: #899eb3;
+  background-color: #a2c0de;
 }
 .menu-element-multiline {
   position: relative;
