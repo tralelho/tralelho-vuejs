@@ -110,14 +110,15 @@ let selectedLanguage = ref(
   flex-wrap: wrap;
   align-content: center; /* used this for multiple child */
   align-items: center; /* if an only child */
-  margin-top: 0%;
+  margin-top: 1%;
+  width:50px;
 }
 
 .menu-element-multiline {
   width: 150px;
-  font-size: 18px;
-  margin-left: 40px;
-  margin-top: 10%;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-top: 1%;
 }
 
 .has-text-left {
@@ -127,7 +128,7 @@ let selectedLanguage = ref(
   background-color: #6699cc;
   max-height: 70vh;
   overflow: auto;
-  width: 150px;
+  width: 100px;
 }
 
 
