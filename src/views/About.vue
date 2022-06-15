@@ -113,21 +113,21 @@
       href="https://www.francebleu.fr/infos/societe/rennes-tralelho-permets-de-traduire-50-questions-medicales-en-195-langues-1523178137"
       >. France-Bleu</a
     >
-    <img src="/public/globe9.png" alt="Globe" width="25px" height="25px" />
+    <img src="/public/globe3.png" alt="Globe" width="25px" height="25px" />
     <a
       href="https://www.actusoins.com/308702/tralelho-un-traducteur-universel-pour-briser-la-barriere-de-la-langue-dans-les-hopitaux.html"
       >. Actusoins</a
     >
-    <img src="/public/globe1.png" alt="Globe" width="25px" height="25px" />
+    <img src="/public/globe2.png" alt="Globe" width="25px" height="25px" />
     <a
       href="https://www.europe1.fr/emissions/la-france-bouge-avec-raphaelle-duchemin/raphaelle-duchemin-les-innovations-dans-le-domaine-de-la-traduction-3894444"
       >. Europe 1</a
     >
-    <img src="/public/globe10.png" alt="Globe" width="25px" height="25px" />
+    <img src="/public/globe8.png" alt="Globe" width="25px" height="25px" />
     <a href="https://www.tvr.bzh/v/57d2235-tvr-events-13-10-2020">
       . TV Rennes</a
     >
-    <img src="/public/globe4.png" alt="Globe" width="25px" height="25px" />
+    <img src="/public/globe6.png" alt="Globe" width="25px" height="25px" />
     <a
       href="https://www.actusoins.com/349854/marion-verdaguer-infirmiere-chevalier-dans-lordre-du-merite.html"
       >. Actusoins bis</a
