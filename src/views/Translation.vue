@@ -111,7 +111,7 @@ let selectedLanguage = ref(
   align-content: center; /* used this for multiple child */
   align-items: center; /* if an only child */
   margin-top: 1%;
-  width:50px;
+  width:100px;
 }
 
 .menu-element-multiline {
