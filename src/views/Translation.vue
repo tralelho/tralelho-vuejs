@@ -112,23 +112,20 @@ let selectedLanguage = ref(
   align-content: center; /* used this for multiple child */
   align-items: center; /* if an only child */
   margin-top: 0%;
-  position: fixed;
-  width:200px;
-  overflow:auto;
+  
  
   
 }
 
 .menu-element-multiline {
   width:150px;
-  position: fixed;
   font-size: 18px;
   margin-left:40px;
   margin-top: 1%;
  
 }
 
-.Menu {
+.has-text-left {
   position: fixed;
   left: 10;
   top: 10px;
@@ -138,13 +135,7 @@ let selectedLanguage = ref(
 
 }
 
-.column is-2 has-text-left {
-  position: fixed;
-  left: 10;
-  margin-top: 15px;
-  max-height: 80vh;
- 
-}
+
 
 .field-label-size {
   max-width: 200px;
@@ -157,9 +148,6 @@ let selectedLanguage = ref(
   background-color: #fac3f2;
 }
 
-.columns {
-  left:50px;
-  overflow:auto;
-}
+
 
 </style>
