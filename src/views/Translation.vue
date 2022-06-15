@@ -117,19 +117,20 @@ let selectedLanguage = ref(
   width: 150px;
   font-size: 18px;
   margin-left: 40px;
-  margin-top: 1%;
+  margin-top: 10%;
 }
 
 .has-text-left {
   position: fixed;
   left: 10;
   top: 10px;
-  margin-top: 45px;
   background-color: #6699cc;
   max-height: 70vh;
   overflow: auto;
   width: 150px;
 }
+
+
 
 .field-label-size {
   max-width: 200px;
@@ -140,5 +141,6 @@ let selectedLanguage = ref(
 }
 .box columns m-2 py-2 is-clickable change-background-on-hover:hover {
   background-color: #fac3f2;
+  margin-left:160px;
 }
 </style>
