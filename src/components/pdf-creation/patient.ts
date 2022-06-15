@@ -154,9 +154,12 @@ export const createPatientPdf = function (
   doc.text(translate(`${contentElement.flower.phrases.peur}`), 140, 10);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.peur}`),
-    150,
-    150
-  );
+    150,150);
+
+  doc.text(translate(`${contentElement.flower.phrases.douleur}`), 50, 50);
+  doc.text(
+      getMessage(messages, lang, `${contentElement.flower.phrases.douleur}`),
+      50,55);
 
   img.src = `/pdf-images/patient/manger.png`;
   doc.addImage(img, "png", 172, 42, 20, 20);
