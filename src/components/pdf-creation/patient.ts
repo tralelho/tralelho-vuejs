@@ -56,11 +56,11 @@ export const createPatientPdf = function (
   x = 23;
   for (let i = 0; i < 6; i++) {
     img.src = `/pdf-images/patient/douleur${i}.png`;
-    doc.addImage(img, "png", x, 80, 12, 12);
+    doc.addImage(img, "png", x, 70, 12, 12);
     x = x + 20;
   }
 
-  doc.rect(18, startSection - 4, 121, y - startSection + 25);
+  doc.rect(18, startSection - 4, 81, y - startSection + 25);
 
   y = y + 40;
 
