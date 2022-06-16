@@ -110,7 +110,6 @@ let selectedLanguage = ref(
   flex-wrap: wrap;
   align-content: center; /* used this for multiple child */
   align-items: center; /* if an only child */
-  margin-top: 5%;
   width:30px;
 }
 
@@ -118,20 +117,18 @@ let selectedLanguage = ref(
   width: 100px;
   font-size: 16px;
   margin-left: 25px;
-  margin-top: 1%;
+
 }
 
 .has-text-left {
   position: fixed;
-  top: 0px;
+  top: 100px;
   background-color: #6699cc;
   max-height: 70vh;
   overflow: auto;
   width:150px;
   
 }
-
-
 
 .field-label-size {
   max-width: 200px;
@@ -141,8 +138,8 @@ let selectedLanguage = ref(
   max-width: 500px;
 }
 .box columns m-2 py-2 is-clickable change-background-on-hover:hover {
+  float:right;
   background-color: #fac3f2;
-  width:500px;
-  margin-left:100px;
+  width:60%;
 }
 </style>
