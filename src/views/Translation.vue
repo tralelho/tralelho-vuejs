@@ -110,8 +110,8 @@ let selectedLanguage = ref(
   flex-wrap: wrap;
   align-content: center; /* used this for multiple child */
   align-items: center; /* if an only child */
-  margin-top: 1%;
-  width:150px;
+  margin-top: 5%;
+  width:30px;
 }
 
 .menu-element-multiline {
@@ -123,11 +123,11 @@ let selectedLanguage = ref(
 
 .has-text-left {
   position: fixed;
-  left: 10;
-  top: 10px;
+  top: 0px;
   background-color: #6699cc;
   max-height: 70vh;
   overflow: auto;
+  width:150px;
   
 }
 
@@ -142,5 +142,7 @@ let selectedLanguage = ref(
 }
 .box columns m-2 py-2 is-clickable change-background-on-hover:hover {
   background-color: #fac3f2;
+  width:500px;
+  margin-left:100px;
 }
 </style>
