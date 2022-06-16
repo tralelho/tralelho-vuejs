@@ -147,14 +147,14 @@ export const createPatientPdf = function (
   doc.setFontSize(12);
 
   img.src = `/pdf-images/patient/flower2.png`;
-  doc.addImage(img, "png", 20, 100, 20, 20);
+  doc.addImage(img, "png", 20, 20, 200, 300);
 
   img.src = `/pdf-images/patient/peur.png`;
-  doc.addImage(img, "png", 100, 100, 100, 100);
-  doc.text(translate(`${contentElement.flower.phrases.peur}`), 140, 10);
+  doc.addImage(img, "png", 100, 100, 20, 20);
+  doc.text(translate(`${contentElement.flower.phrases.peur}`), 140, 10, peur,none,45);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.peur}`),
-    150,150);
+    140,15,peur,none,45);
 
   doc.text(translate(`${contentElement.flower.phrases.douleur}`), 50, 50);
   doc.text(
