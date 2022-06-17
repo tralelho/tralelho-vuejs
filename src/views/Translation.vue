@@ -127,14 +127,6 @@ let selectedLanguage = ref(
   margin-left: 5px;
 }
 
-.fixed-left {
-  position: fixed;
-  left: 23px;
-  background-color: #87a7c7;
-  margin-top: 20px;
-  height: 200px;
-  overflow: auto;
-}
 
 .change-language {
   max-width: 500px;
