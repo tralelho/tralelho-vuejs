@@ -112,7 +112,7 @@ let selectedLanguage = ref(
   align-content: center; /* used this for multiple child */
   align-items: center; /* if an only child */
   position: relative;
-  top: 0px;
+  top: 10px;
   background-color: #a2c0de;
   &:hover {
     background-color: whitesmoke;
@@ -126,7 +126,6 @@ let selectedLanguage = ref(
   width: 100px;
   margin-left: 5px;
 }
-
 
 .change-language {
   max-width: 500px;
