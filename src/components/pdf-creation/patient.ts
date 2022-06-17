@@ -17,7 +17,7 @@ export const createPatientPdf = function (
 
   doc.setFontSize(8);
 
-  let y = 20;
+  let y = 10;
 
   //Pain section
   let startSection = y;
