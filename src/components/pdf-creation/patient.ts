@@ -11,7 +11,7 @@ export const createPatientPdf = function (
   let doc = new jsPDF({ orientation: "portrait" });
   const img = new Image();
 
-  doc.setFontSize(24);
+  doc.setFontSize(16);
   doc.setFont("arial", "bold");
   doc.text(PdfDocumentList.PATIENT, 10, 10);
 
