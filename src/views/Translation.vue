@@ -108,17 +108,14 @@ let selectedLanguage = ref(
 
 .has-text-left {
   position: fixed;
-  top: 100px;
+  top: 10px;
   background-color: #6699cc;
   max-height: 70vh;
   overflow: auto;
-  width:150px;
+  width:250px;
   
 }
 
-.field-label-size {
-  max-width: 200px;
-}
 
 .change-language {
   max-width: 500px;
