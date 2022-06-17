@@ -106,14 +106,25 @@ let selectedLanguage = ref(
 <style scoped lang="scss">
 
 
-.has-text-left {
-  position: fixed;
-  top: 15px;
-  margin-top:100px;
-  background-color: #6699cc;
-  max-height: 70vh;
-  overflow: auto;
-  width:200px;
+.is-align-items-center {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center; /* used this for multiple child */
+  align-items: center; /* if an only child */
+  position: relative;
+  top: 0px;
+  background-color: #a2c0de;
+  &:hover {
+    background-color: whitesmoke;
+  }
+}
+.main-color {
+  background-color: #a2c0de;
+}
+.menu-element-multiline {
+  position: relative;
+  width: 100px;
+  margin-left: 5px;
 }
 
 
@@ -121,16 +132,6 @@ let selectedLanguage = ref(
   max-width: 500px;
 }
 
-.title is-2 has-text-left{
-  background-color: #fac3f2;
-  font-size:15px;
-  margin-left:20px;
-}
-
-
-.box columns m-2 py-2 is-clickable change-background-on-hover:hover {
-  background-color: #fac3f2;
-  float: right;
-  
-}
 </style>
+
+
