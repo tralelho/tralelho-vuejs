@@ -56,7 +56,7 @@ export const createPatientPdf = function (
   x = 23;
   for (let i = 0; i < 6; i++) {
     img.src = `/pdf-images/patient/douleur${i}.png`;
-    doc.addImage(img, "png", x, 90, 10, 10);
+    doc.addImage(img, "png", x, 70, 10, 10);
     x = x + 20;
   }
 
@@ -84,42 +84,41 @@ export const createPatientPdf = function (
   
 
   //Measures section
-  y = 20;
+
   startSection = y;
   for (const phrase of contentElement.measures.phrases) {
-    const originalPhrase = translate(`${phrase}`);
-    const translatedPhrase = getMessage(messages, lang, `${phrase}`);
-    doc.text(originalPhrase, 150, y, { maxWidth: 130 });
-    doc.text(translatedPhrase, 150, y + (originalPhrase.length > 90 ? 8 : 4), {
-      maxWidth: 130,
-    });
-    y = y + (originalPhrase.length > 90 ? 15 : 10);
+    doc.text(translate(`${phrase}`), 20, y);
+    doc.text(getMessage(messages, lang, `${phrase}`), 20, y + 4);
+    y = y + 10;
   }
   img.src = `/pdf-images/patient/pouls.png`;
-  doc.addImage(img, "png", 265, startSection, 15, 20);
-  doc.rect(148, startSection - 4, 140, y - startSection + 5);
+  doc.addImage(img, "png", 120, startSection, 15, 15);
+  doc.rect(18, startSection - 4, 121, y - startSection);
+
+
+//bans section
 
   y = y + 20;
 
-  for (const phrase of contentElement.treatment.phrases) {
+  for (const phrase of contentElement.bans.phrases) {
     doc.text(translate(`${phrase}`), 150, y);
     doc.text(getMessage(messages, lang, `${phrase}`), 150, y + 4);
     y = y + 10;
   }
-  img.src = `/pdf-images/patient/seringue.png`;
+  img.src = `/pdf-images/patient/interdit.png`;
   doc.addImage(img, "png", 265, startSection, 15, 15);
   doc.rect(148, startSection - 4, 140, y - startSection);
 
  
 
-  //bans section
+  //to Have section
   startSection = y;
-  for (const phrase of contentElement.bans.phrases) {
+  for (const phrase of contentElement.toHave.phrases) {
     doc.text(translate(`${phrase}`), 20, y);
     doc.text(getMessage(messages, lang, `${phrase}`), 20, y + 4);
     y = y + 10;
   }
-  img.src = `/pdf-images/patient/interdit.png`;
+  img.src = `/pdf-images/patient/seringue.png`;
   doc.addImage(img, "png", 120, startSection, 15, 15);
   doc.rect(18, startSection - 4, 121, y - startSection);
 
