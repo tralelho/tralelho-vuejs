@@ -56,27 +56,31 @@ export const createPatientPdf = function (
   x = 23;
   for (let i = 0; i < 6; i++) {
     img.src = `/pdf-images/patient/douleur${i}.png`;
-    doc.addImage(img, "png", x, 90, 12, 12);
+    doc.addImage(img, "png", x, 90, 10, 10);
     x = x + 20;
   }
 
-  doc.rect(18, startSection - 4, 101, y - startSection + 25);
+  doc.rect(18, startSection - 4, 121, y - startSection + 25);
 
   y = y + 40;
 
 
    //Medication section
 
+  y = 20;
   startSection = y;
   for (const phrase of contentElement.medication.phrases) {
-    doc.text(translate(`${phrase}`), 20, y);
-    doc.text(getMessage(messages, lang, `${phrase}`), 20, y + 4);
-    y = y + 10;
+    const originalPhrase = translate(`${phrase}`);
+    const translatedPhrase = getMessage(messages, lang, `${phrase}`);
+    doc.text(originalPhrase, 150, y, { maxWidth: 130 });
+    doc.text(translatedPhrase, 150, y + (originalPhrase.length > 90 ? 8 : 4), {
+      maxWidth: 130,
+    });
+    y = y + (originalPhrase.length > 90 ? 15 : 10);
   }
   img.src = `/pdf-images/patient/medoc.png`;
-  doc.addImage(img, "png", 120, startSection, 15, 15);
-  doc.rect(18, startSection - 4, 70, y - startSection);
-  y = y + 20;
+  doc.addImage(img, "png", 265, startSection, 15, 20);
+  doc.rect(148, startSection - 4, 140, y - startSection + 5);
   
 
   //Measures section
