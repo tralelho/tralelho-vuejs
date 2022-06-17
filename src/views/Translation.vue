@@ -120,6 +120,14 @@ let selectedLanguage = ref(
 .change-language {
   max-width: 500px;
 }
+
+.title is-2 has-text-left{
+  background-color: #fac3f2;
+  font-size:15px;
+  margin-left:20px;
+}
+
+
 .box columns m-2 py-2 is-clickable change-background-on-hover:hover {
   background-color: #fac3f2;
   float: right;
