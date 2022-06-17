@@ -108,7 +108,7 @@ let selectedLanguage = ref(
 
 .has-text-left {
   position: fixed;
-  top: 10px;
+  top: 15px;
   margin-top:100px;
   background-color: #6699cc;
   max-height: 70vh;
