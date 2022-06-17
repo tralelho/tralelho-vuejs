@@ -130,7 +130,7 @@
     <img src="/public/globe6.png" alt="Globe" width="20px" height="20px" />
     <a
       href="https://www.actusoins.com/349854/marion-verdaguer-infirmiere-chevalier-dans-lordre-du-merite.html"
-      >. Actusoins bis</a
+      >. Actusoins</a
     >
     <br />
   </div>
@@ -147,6 +147,6 @@ p {
 
 a {
   color: #010817;
-  margin-right: 2%;
+  margin-right: 2.1%;
 }
 </style>

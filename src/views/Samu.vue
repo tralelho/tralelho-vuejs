@@ -124,7 +124,7 @@ import pageConfig from "./Samu.config.json";
   align-content: center; /* used this for multiple child */
   align-items: center; /* if an only child */
   position: relative;
-  top: -10px;
+  top: 0px;
   background-color: #a2c0de;
   &:hover {
     background-color: whitesmoke;
@@ -142,7 +142,7 @@ import pageConfig from "./Samu.config.json";
   position: fixed;
   right: 0;
   background-color: #a2c0de;
-  margin-top: -20px;
+  margin-top: 0px;
   max-height: 70vh;
   overflow: auto;
 }
