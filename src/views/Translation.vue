@@ -127,14 +127,13 @@ let selectedLanguage = ref(
   margin-left: 5px;
 }
 
-.has-text-left {
+.fixed-left {
   position: fixed;
-  top: 15px;
-  margin-top:0px;
-  background-color: #6699cc;
-  max-height: 70vh;
+  left: 23px;
+  background-color: #87a7c7;
+  margin-top: 20px;
+  height: 200px;
   overflow: auto;
-  width:200px;
 }
 
 .change-language {
