@@ -131,6 +131,12 @@ let selectedLanguage = ref(
   max-width: 500px;
 }
 
+.fixed-left {
+  position: fixed;
+  max-height: 70vh;
+  overflow: auto;
+}
+
 </style>
 
 
