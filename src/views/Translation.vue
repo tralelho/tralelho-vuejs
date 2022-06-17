@@ -104,21 +104,7 @@ let selectedLanguage = ref(
 </template>
 
 <style scoped lang="scss">
-.is-align-items-center {
-  display: flex;
-  float: left;
-  flex-wrap: wrap;
-  align-content: center; /* used this for multiple child */
-  align-items: center; /* if an only child */
-  width:150px;
-}
 
-.menu-element-multiline {
-
-  font-size: 16px;
-  margin-left: 25px;
-
-}
 
 .has-text-left {
   position: fixed;
@@ -139,5 +125,8 @@ let selectedLanguage = ref(
 }
 .box columns m-2 py-2 is-clickable change-background-on-hover:hover {
   background-color: #fac3f2;
+   display: flex;
+  float: right;
+  flex-wrap: wrap;
 }
 </style>
