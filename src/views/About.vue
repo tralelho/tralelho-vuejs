@@ -143,10 +143,11 @@ section {
 
 p {
   text-align: justify;
+  margin-left:10px;
 }
 
 a {
   color: #010817;
-  margin-left:13px;
+  margin-left:2%;
 }
 </style>
