@@ -154,11 +154,11 @@ export const createPatientPdf = function (
   doc.addImage(img, "png", 0, 20, 200, 270);
 
   img.src = `/pdf-images/patient/peur.png`;
-  doc.addImage(img, "png", 95, 90, 15, 15);
-  doc.text(translate(`${contentElement.flower.phrases.peur}`), 110, 110);
+  doc.addImage(img, "png", 75, 65, 15, 15);
+  doc.text(translate(`${contentElement.flower.phrases.peur}`), 95, 65);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.peur}`),
-    110,115);
+    95,70);
 
   img.src = `/pdf-images/patient/manger.png`;
   doc.addImage(img, "png", 68, 43, 15, 15);
@@ -179,23 +179,23 @@ export const createPatientPdf = function (
   );
 
   img.src = `/pdf-images/patient/wc.png`;
-  doc.addImage(img, "png", 140, 140, 15, 15);
-  doc.text(translate(`${contentElement.flower.phrases.wc[0]}`), 110, 50);
+  doc.addImage(img, "png", 100, 50, 15, 15);
+  doc.text(translate(`${contentElement.flower.phrases.wc[0]}`), 50, 50);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.wc[0]}`),
-    110,
+    50,
     55
   );
-  doc.text(translate(`${contentElement.flower.phrases.wc[1]}`), 90, 80);
+  doc.text(translate(`${contentElement.flower.phrases.wc[1]}`), 120, 110);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.wc[1]}`),
-    90,
-    85
+    120,
+    115
   );
 
 
   img.src = `/pdf-images/patient/vertiges.png`;
-  doc.addImage(img, "png", 124, 138, 13, 15);
+  doc.addImage(img, "png", 125, 139, 13, 15);
   doc.text(translate(`${contentElement.flower.phrases.vertiges}`), 120, 170);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.vertiges}`),
@@ -222,11 +222,11 @@ export const createPatientPdf = function (
   );
 
   img.src = `/pdf-images/patient/vomi.png`;
-  doc.addImage(img, "png", 110, 105, 15, 15);
-  doc.text(translate(`${contentElement.flower.phrases.vomi}`), 85, 130);
+  doc.addImage(img, "png", 110, 115, 15, 15);
+  doc.text(translate(`${contentElement.flower.phrases.vomi}`), 85, 120);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.vomi}`),
-    85,135
+    85,125
   );
 
   img.src = `/pdf-images/patient/froid.png`;
