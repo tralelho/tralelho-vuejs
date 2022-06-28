@@ -224,22 +224,22 @@ export const createPatientPdf = function (
   );
 
   img.src = `/pdf-images/patient/informations.png`;
-  doc.addImage(img, "png", 140, 170, 20, 17);
+  doc.addImage(img, "png", 50, 50, 20, 17);
 
   img.src = `/pdf-images/patient/nausée.png`;
-  doc.addImage(img, "png", 105, 160, 22, 20);
+  doc.addImage(img, "png", 100, 100, 22, 20);
 
   img.src = `/pdf-images/patient/vomi.png`;
-  doc.addImage(img, "png", 80, 135, 20, 20);
+  doc.addImage(img, "png", 150, 150, 20, 20);
 
   img.src = `/pdf-images/patient/froid.png`;
-  doc.addImage(img, "png", 70, 100, 20, 20);
+  doc.addImage(img, "png", 25, 25, 20, 20);
 
   img.src = `/pdf-images/patient/chaud.png`;
-  doc.addImage(img, "png", 78, 65, 20, 20);
+  doc.addImage(img, "png", 75, 75, 20, 20);
 
   img.src = `/pdf-images/patient/mal.png`;
-  doc.addImage(img, "png", 105, 42, 20, 20);
+  doc.addImage(img, "png", 175, 175, 20, 20);
 
   return doc;
 };
