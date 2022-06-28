@@ -154,57 +154,57 @@ export const createPatientPdf = function (
   doc.addImage(img, "png", 0, 20, 200, 270);
 
   img.src = `/pdf-images/patient/peur.png`;
-  doc.addImage(img, "png", 125, 125, 20, 20);
-  doc.text(translate(`${contentElement.flower.phrases.peur}`), 140, 10);
+  doc.addImage(img, "png", 50, 120, 15, 15);
+  doc.text(translate(`${contentElement.flower.phrases.peur}`), 40, 120);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.peur}`),
-    140,15);
+    40,125);
 
-  doc.text(translate(`${contentElement.flower.phrases.douleur}`), 50, 50);
+  doc.text(translate(`${contentElement.flower.phrases.douleur}`), 40, 80);
   doc.text(
       getMessage(messages, lang, `${contentElement.flower.phrases.douleur}`),
-      50,55);
+      40,75);
 
   img.src = `/pdf-images/patient/manger.png`;
-  doc.addImage(img, "png", 60, 35, 20, 20);
-  doc.text(translate(`${contentElement.flower.phrases.faim}`), 190, 30);
+  doc.addImage(img, "png", 65, 40, 15, 15);
+  doc.text(translate(`${contentElement.flower.phrases.faim}`), 75, 20);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.faim}`),
-    190,
-    35
+    75,
+    25
   );
 
   img.src = `/pdf-images/patient/boire.png`;
   doc.addImage(img, "png", 40, 55, 20, 20);
-  doc.text(translate(`${contentElement.flower.phrases.soif}`), 230, 60);
+  doc.text(translate(`${contentElement.flower.phrases.soif}`), 35, 50);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.soif}`),
-    230,
-    65
+    35,
+    55
   );
 
   img.src = `/pdf-images/patient/wc.png`;
-  doc.addImage(img, "png", 100, 100, 20, 20);
-  doc.text(translate(`${contentElement.flower.phrases.wc[0]}`), 235, 100);
+  doc.addImage(img, "png", 120, 115, 15, 15);
+  doc.text(translate(`${contentElement.flower.phrases.wc[0]}`), 130, 115);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.wc[0]}`),
-    235,
-    105
+    130,
+    120
   );
-  doc.text(translate(`${contentElement.flower.phrases.wc[1]}`), 235, 120);
+  doc.text(translate(`${contentElement.flower.phrases.wc[1]}`), 130, 150);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.wc[1]}`),
-    235,
-    125
+    130,
+    150
   );
 
   img.src = `/pdf-images/patient/diarrhée.png`;
-  doc.addImage(img, "png", 200, 135, 20, 20);
-  doc.text(translate(`${contentElement.flower.phrases.diarrhée}`), 230, 155);
+  doc.addImage(img, "png", 120, 150, 15, 15);
+  doc.text(translate(`${contentElement.flower.phrases.diarrhée}`), 140, 150);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.diarrhée}`),
-    230,
-    160
+    140,
+    155
   );
 
   img.src = `/pdf-images/patient/vertiges.png`;
@@ -233,13 +233,13 @@ export const createPatientPdf = function (
   doc.addImage(img, "png", 150, 150, 20, 20);
 
   img.src = `/pdf-images/patient/froid.png`;
-  doc.addImage(img, "png", 100, 130, 20, 20);
+  doc.addImage(img, "png", 60, 75, 15, 15);
 
   img.src = `/pdf-images/patient/chaud.png`;
-  doc.addImage(img, "png", 105, 110, 20, 20);
+  doc.addImage(img, "png", 40, 65, 15, 15);
 
   img.src = `/pdf-images/patient/mal.png`;
-  doc.addImage(img, "png", 175, 175, 20, 20);
+  doc.addImage(img, "png", 30, 150, 15, 15);
 
   return doc;
 };
