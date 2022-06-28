@@ -154,7 +154,7 @@ export const createPatientPdf = function (
   doc.addImage(img, "png", 0, 20, 200, 270);
 
   img.src = `/pdf-images/patient/peur.png`;
-  doc.addImage(img, "png", 60, 90, 15, 15);
+  doc.addImage(img, "png", 65, 100, 15, 15);
   doc.text(translate(`${contentElement.flower.phrases.peur}`), 50, 130);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.peur}`),
@@ -166,16 +166,16 @@ export const createPatientPdf = function (
       40,75);
 
   img.src = `/pdf-images/patient/manger.png`;
-  doc.addImage(img, "png", 70, 45, 15, 15);
+  doc.addImage(img, "png", 65, 40, 15, 15);
   doc.text(translate(`${contentElement.flower.phrases.faim}`), 75, 25);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.faim}`),
     75,
-    35
+    30
   );
 
   img.src = `/pdf-images/patient/boire.png`;
-  doc.addImage(img, "png", 45, 60, 15, 15);
+  doc.addImage(img, "png", 40, 55, 15, 15);
   doc.text(translate(`${contentElement.flower.phrases.soif}`), 10, 60);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.soif}`),
@@ -184,36 +184,36 @@ export const createPatientPdf = function (
   );
 
   img.src = `/pdf-images/patient/wc.png`;
-  doc.addImage(img, "png", 140, 85, 15, 15);
-  doc.text(translate(`${contentElement.flower.phrases.wc[0]}`), 150, 90);
+  doc.addImage(img, "png", 130, 105, 15, 15);
+  doc.text(translate(`${contentElement.flower.phrases.wc[0]}`), 150, 80);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.wc[0]}`),
     150,
-    95
+    85
   );
-  doc.text(translate(`${contentElement.flower.phrases.wc[1]}`), 50, 50);
+  doc.text(translate(`${contentElement.flower.phrases.wc[1]}`), 180, 1100);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.wc[1]}`),
-    50,
-    55
+    180,
+    115
   );
 
   img.src = `/pdf-images/patient/diarrhée.png`;
-  doc.addImage(img, "png", 15, 15, 15, 15);
-  doc.text(translate(`${contentElement.flower.phrases.diarrhée}`), 15, 15);
+  doc.addImage(img, "png", 180, 130, 15, 15);
+  doc.text(translate(`${contentElement.flower.phrases.diarrhée}`), 210, 130);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.diarrhée}`),
-    15,
-    20
+    210,
+    135
   );
 
   img.src = `/pdf-images/patient/vertiges.png`;
-  doc.addImage(img, "png", 130, 120, 15, 20);
-  doc.text(translate(`${contentElement.flower.phrases.vertiges}`), 130, 90);
+  doc.addImage(img, "png", 125, 150, 15, 20);
+  doc.text(translate(`${contentElement.flower.phrases.vertiges}`), 95, 180);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.vertiges}`),
-    130,
-    95
+    95,
+    185
   );
 
  
@@ -227,24 +227,42 @@ export const createPatientPdf = function (
   
 
   img.src = `/pdf-images/patient/nausée.png`;
-  doc.addImage(img, "png", 100, 100, 22, 20);
+  doc.addImage(img, "png", 95, 140, 16, 15);
+  doc.text(translate(`${contentElement.flower.phrases.nausée}`), 80, 150);
+  doc.text(
+    getMessage(messages, lang, `${contentElement.flower.phrases.nausée}`),
+    80,155
+  );
 
   img.src = `/pdf-images/patient/vomi.png`;
-  doc.addImage(img, "png", 150, 150, 20, 20);
+  doc.addImage(img, "png", 100, 110, 15, 15);
+  doc.text(translate(`${contentElement.flower.phrases.vomi}`), 80, 110);
+  doc.text(
+    getMessage(messages, lang, `${contentElement.flower.phrases.vomi}`),
+    80,115
+  );
 
   img.src = `/pdf-images/patient/froid.png`;
-  doc.addImage(img, "png", 65, 95, 15, 15);
+  doc.addImage(img, "png", 63, 100, 15, 15);
+  doc.text(translate(`${contentElement.flower.phrases.froid}`), 40, 75);
+  doc.text(
+    getMessage(messages, lang, `${contentElement.flower.phrases.froid}`),
+    40,80
+  );
 
   img.src = `/pdf-images/patient/chaud.png`;
-  doc.addImage(img, "png", 40, 85, 15, 15);
+  doc.addImage(img, "png", 42, 90, 15, 15);
+  doc.text(translate(`${contentElement.flower.phrases.chaud}`), 20, 95);
+  doc.text(
+    getMessage(messages, lang, `${contentElement.flower.phrases.chaud}`),
+    20,100
+  );
 
-  img.src = `/pdf-images/patient/mal.png`;
-  doc.addImage(img, "png", 30, 200, 15, 15);
-  doc.text(translate(`${contentElement.flower.phrases.mal}`), 10, 225);
+  doc.text(translate(`${contentElement.flower.phrases.mal}`), 10, 275);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.mal}`),
     10,
-    250
+    280
   );
 
   return doc;

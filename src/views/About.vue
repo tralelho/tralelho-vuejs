@@ -106,7 +106,7 @@
     <img src="/public/globe4.png" alt="Globe" width="20px" height="20px" />
     <a
       href="https://www.ouest-france.fr/bretagne/rennes-35000/video-grace-marion-sait-parler-138-langues-aux-urgences-du-chu-de-rennes-6179604"
-      >. Ouest-France  .</a
+      >Ouest-France</a
     >
     <img src="/public/globe9.png" alt="Globe" width="20px" height="20px" />
     <a
@@ -147,7 +147,8 @@ p {
 
 a {
   color: #010817;
-  margin-left:2%;
+  margin-left:1%;
+  margin-right:1%;
 }
 
 </style>
