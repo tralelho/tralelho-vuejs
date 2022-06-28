@@ -155,10 +155,8 @@ import pageConfig from "./Samu.config.json";
   overflow: auto;
 }
 
-.box columns m-2 py-2 is-clickable change-background-on-hover:hover {
+.column is-half py-1:hover {
   background-color: #fac3f2;
-
-  
 }
 
 
