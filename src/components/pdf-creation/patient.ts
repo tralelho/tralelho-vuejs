@@ -154,7 +154,7 @@ export const createPatientPdf = function (
   doc.addImage(img, "png", 0, 20, 200, 270);
 
   img.src = `/pdf-images/patient/peur.png`;
-  doc.addImage(img, "png", 100, 100, 20, 20);
+  doc.addImage(img, "png", 125, 125, 20, 20);
   doc.text(translate(`${contentElement.flower.phrases.peur}`), 140, 10);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.peur}`),
@@ -166,7 +166,7 @@ export const createPatientPdf = function (
       50,55);
 
   img.src = `/pdf-images/patient/manger.png`;
-  doc.addImage(img, "png", 172, 42, 20, 20);
+  doc.addImage(img, "png", 200, 200, 20, 20);
   doc.text(translate(`${contentElement.flower.phrases.faim}`), 190, 30);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.faim}`),
