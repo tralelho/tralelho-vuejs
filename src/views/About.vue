@@ -147,6 +147,6 @@ p {
 
 a {
   color: #010817;
-  margin-left:10px;
+  margin-left:15px;
 }
 </style>
