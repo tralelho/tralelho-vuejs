@@ -56,7 +56,7 @@ export const createPatientPdf = function (
   x = 23;
   for (let i = 0; i < 6; i++) {
     img.src = `/pdf-images/patient/douleur${i}.png`;
-    doc.addImage(img, "png", x, 70, 10, 10);
+    doc.addImage(img, "png", x, 90, 10, 10);
     x = x + 20;
   }
 
@@ -67,7 +67,7 @@ export const createPatientPdf = function (
 
    //Medication section
 
-  y = 40;
+  y = 60;
   startSection = y;
   for (const phrase of contentElement.medication.phrases) {
     const originalPhrase = translate(`${phrase}`);
