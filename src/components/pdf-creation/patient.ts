@@ -179,7 +179,7 @@ export const createPatientPdf = function (
   );
 
   img.src = `/pdf-images/patient/wc.png`;
-  doc.addImage(img, "png",50, 50, 15, 15);
+  doc.addImage(img, "png",150, 50, 15, 15);
   doc.text(translate(`${contentElement.flower.phrases.wc[0]}`), 140, 110);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.wc[0]}`),
@@ -245,6 +245,73 @@ export const createPatientPdf = function (
     20,115
   );
 
+  doc.text(translate(`${contentElement.flower.phrases.zero}`), 50, 275);
+  doc.text(
+    getMessage(messages, lang, `${contentElement.flower.phrases.zero}`),
+    50,
+    280
+  );
+
+  doc.text(translate(`${contentElement.flower.phrases.un}`), 60, 265);
+  doc.text(
+    getMessage(messages, lang, `${contentElement.flower.phrases.un}`),
+    60,
+    270
+  );
+  doc.text(translate(`${contentElement.flower.phrases.deux}`), 70, 255);
+  doc.text(
+    getMessage(messages, lang, `${contentElement.flower.phrases.deux}`),
+    70,
+    260
+  );
+  doc.text(translate(`${contentElement.flower.phrases.trois}`), 80, 245);
+  doc.text(
+    getMessage(messages, lang, `${contentElement.flower.phrases.trois}`),
+    80,
+    250
+  );
+  doc.text(translate(`${contentElement.flower.phrases.quatre}`), 90, 235);
+  doc.text(
+    getMessage(messages, lang, `${contentElement.flower.phrases.quatre}`),
+    90,
+    240
+  );
+  doc.text(translate(`${contentElement.flower.phrases.cinq}`), 100, 225);
+  doc.text(
+    getMessage(messages, lang, `${contentElement.flower.phrases.cinq}`),
+    100,
+    230
+  );
+  doc.text(translate(`${contentElement.flower.phrases.six}`), 110, 215);
+  doc.text(
+    getMessage(messages, lang, `${contentElement.flower.phrases.six}`),
+    110,
+    220
+  );
+  doc.text(translate(`${contentElement.flower.phrases.sept}`), 120, 205);
+  doc.text(
+    getMessage(messages, lang, `${contentElement.flower.phrases.sept}`),
+    120,
+    210
+  );
+  doc.text(translate(`${contentElement.flower.phrases.huit}`), 130, 195);
+  doc.text(
+    getMessage(messages, lang, `${contentElement.flower.phrases.huit}`),
+    130,
+    200
+  );
+  doc.text(translate(`${contentElement.flower.phrases.neuf}`), 140, 185);
+  doc.text(
+    getMessage(messages, lang, `${contentElement.flower.phrases.neuf}`),
+    140,
+    190
+  );
+  doc.text(translate(`${contentElement.flower.phrases.dix}`), 150, 175);
+  doc.text(
+    getMessage(messages, lang, `${contentElement.flower.phrases.dix}`),
+    150,
+    185
+  );
   doc.text(translate(`${contentElement.flower.phrases.mal}`), 10, 275);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.mal}`),
