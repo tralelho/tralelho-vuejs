@@ -67,7 +67,7 @@ export const createPatientPdf = function (
 
    //Medication section
 
-  y = 20;
+  y = 40;
   startSection = y;
   for (const phrase of contentElement.medication.phrases) {
     const originalPhrase = translate(`${phrase}`);
@@ -154,7 +154,7 @@ export const createPatientPdf = function (
   doc.addImage(img, "png", 0, 20, 200, 270);
 
   img.src = `/pdf-images/patient/peur.png`;
-  doc.addImage(img, "png", 85, 75, 15, 15);
+  doc.addImage(img, "png", 85, 72, 15, 15);
   doc.text(translate(`${contentElement.flower.phrases.peur}`), 105, 75);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.peur}`),
@@ -179,13 +179,15 @@ export const createPatientPdf = function (
   );
 
   img.src = `/pdf-images/patient/wc.png`;
-  doc.addImage(img, "png",150, 50, 15, 15);
+  doc.addImage(img, "png",150, 150, 15, 15);
   doc.text(translate(`${contentElement.flower.phrases.wc[0]}`), 140, 110);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.wc[0]}`),
     140,
     115
   );
+  img.src = `/pdf-images/patient/diarrhée.png`;
+  doc.addImage(img, "png",140, 140, 15, 15);
   doc.text(translate(`${contentElement.flower.phrases.wc[1]}`), 140, 130);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.wc[1]}`),
