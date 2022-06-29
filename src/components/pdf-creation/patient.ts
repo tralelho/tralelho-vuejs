@@ -224,7 +224,7 @@ export const createPatientPdf = function (
   );
 
   img.src = `/pdf-images/patient/vomi.png`;
-  doc.addImage(img, "png", 110, 115, 15, 15);
+  doc.addImage(img, "png", 109, 114, 15, 15);
   doc.text(translate(`${contentElement.flower.phrases.vomi}`), 85, 120);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.vomi}`),
