@@ -39,13 +39,13 @@ export const createPatientPdf = function (
   );
 
   for (const phrase of contentElement.pain.phrases) {
-    doc.text(translate(`${phrase}`), 20, y);
-    doc.text(getMessage(messages, lang, `${phrase}`), 20, y + 4);
+    doc.text(translate(`${phrase}`),10, y);
+    doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 4);
 
     y = y + 13;
   }
 
-  let x = 23;
+  let x = 13;
   for (const phrase of contentElement.pain.painScale) {
     doc.text(translate(`${phrase}`), x, y);
     doc.text(getMessage(messages, lang, `${phrase}`), x - 2, y + 4);
@@ -53,33 +53,33 @@ export const createPatientPdf = function (
     x = x + 11;
   }
 
-  x = 23;
+  x = 13;
   for (let i = 0; i < 6; i++) {
     img.src = `/pdf-images/patient/douleur${i}.png`;
-    doc.addImage(img, "png", x, 90, 10, 10);
+    doc.addImage(img, "png", x, 80, 10, 10);
     x = x + 20;
   }
 
-  doc.rect(18, startSection - 4, 121, y - startSection + 25);
+  doc.rect(10, startSection - 4, 121, y - startSection + 25);
 
   y = y + 40;
 
 
    //Medication section
 
-  y = 60;
+  y = 20;
   startSection = y;
   for (const phrase of contentElement.medication.phrases) {
     const originalPhrase = translate(`${phrase}`);
     const translatedPhrase = getMessage(messages, lang, `${phrase}`);
-    doc.text(originalPhrase, 150, y, { maxWidth: 130 });
-    doc.text(translatedPhrase, 150, y + (originalPhrase.length > 90 ? 8 : 4), {
+    doc.text(originalPhrase, 145, y, { maxWidth: 130 });
+    doc.text(translatedPhrase, 145, y + (originalPhrase.length > 90 ? 8 : 4), {
       maxWidth: 130,
     });
     y = y + (originalPhrase.length > 90 ? 15 : 10);
   }
   img.src = `/pdf-images/patient/medoc.png`;
-  doc.addImage(img, "png", 265, startSection, 15, 20);
+  doc.addImage(img, "png", 65, startSection, 15, 20);
   doc.rect(148, startSection - 4, 140, y - startSection + 5);
   
 
