@@ -79,21 +79,27 @@ export const createPatientPdf = function (
     y = y + (originalPhrase.length > 90 ? 15 : 10);
   }
   img.src = `/pdf-images/patient/medoc.png`;
-  doc.addImage(img, "png", 155, startSection - 10, 15, 20);
+  doc.addImage(img, "png", 175, startSection + 5, 15, 20);
   doc.rect(135, startSection - 4, 65, y - startSection + 5);
   
+
+
+
 
   //Measures section
 
   startSection = y;
   for (const phrase of contentElement.measures.phrases) {
-    doc.text(translate(`${phrase}`), 10,100);
+    doc.text(translate(`${phrase}`), 10, 150);
     doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 4);
     y = y + 10;
   }
   img.src = `/pdf-images/patient/pouls.png`;
-  doc.addImage(img, "png", 40, startSection, 15, 15);
-  doc.rect(8, startSection - 4, 121, y - startSection);
+  doc.addImage(img, "png", 70, startSection, 15, 15);
+  doc.rect(18, startSection - 4, 90, y - startSection);
+
+  y = y + 20;
+
 
 
 //bans section
@@ -130,21 +136,13 @@ export const createPatientPdf = function (
   let yRight = 20;
   startSection = yRight;
   for (const phrase of contentElement.informations.phrases) {
-    doc.text(translate(`${phrase}`), 150, yRight);
-    doc.text(getMessage(messages, lang, `${phrase}`), 150, yRight + 4);
+    doc.text(translate(`${phrase}`), 130, yRight);
+    doc.text(getMessage(messages, lang, `${phrase}`), 130, yRight + 4);
     yRight = yRight + 10;
   }
-  doc.rect(148, startSection - 4, 140, yRight - startSection);
+  doc.rect(148, startSection - 4, 70, yRight - startSection);
 
-  //toHave section
-  startSection = y;
-  for (const phrase of contentElement.toHave.phrases) {
-    y = changePage(doc, y);
-    doc.text(translate(`${phrase}`), 20, y);
-    doc.text(getMessage(messages, lang, `${phrase}`), 20, y + 4);
-    y = y + 10;
-  }
-  doc.rect(18, startSection - 4, 121, y - startSection);
+ 
 
   doc.addPage();
 
