@@ -19,7 +19,7 @@ export const createPatientPdf = function (
 
   let y = 20;
 
-  //Pain section
+  //Pain section ok
   let startSection = y;
   doc.rect(77, y - 2, 20, 7);
   doc.text(
@@ -79,17 +79,17 @@ export const createPatientPdf = function (
     y = y + (originalPhrase.length > 90 ? 15 : 10);
   }
   img.src = `/pdf-images/patient/medoc.png`;
-  doc.addImage(img, "png", 65, startSection, 15, 20);
-  doc.rect(135, startSection - 4, 75, y - startSection + 5);
+  doc.addImage(img, "png", 165, startSection, 15, 20);
+  doc.rect(135, startSection - 4, 65, y - startSection + 5);
   
 
   //Measures section
 
   startSection = y;
   for (const phrase of contentElement.measures.phrases) {
-    doc.text(translate(`${phrase}`), 15,150);
+    doc.text(translate(`${phrase}`), 15,10);
     doc.text(getMessage(messages, lang, `${phrase}`), 15, y + 4);
-    y = y + 10;
+    y = y + 100;
   }
   img.src = `/pdf-images/patient/pouls.png`;
   doc.addImage(img, "png", 40, startSection, 15, 15);
@@ -98,7 +98,7 @@ export const createPatientPdf = function (
 
 //bans section
 
-  y = y + 20;
+  y = y + 10;
 
   for (const phrase of contentElement.bans.phrases) {
     doc.text(translate(`${phrase}`), 135, y);
@@ -106,7 +106,7 @@ export const createPatientPdf = function (
     y = y + 10;
   }
   img.src = `/pdf-images/patient/interdit.png`;
-  doc.addImage(img, "png", 100, startSection, 15, 15);
+  doc.addImage(img, "png", 160, startSection, 15, 15);
   doc.rect(130, startSection - 4, 70, y - startSection);
 
  
