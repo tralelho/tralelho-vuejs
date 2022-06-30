@@ -72,23 +72,23 @@ export const createPatientPdf = function (
   for (const phrase of contentElement.medication.phrases) {
     const originalPhrase = translate(`${phrase}`);
     const translatedPhrase = getMessage(messages, lang, `${phrase}`);
-    doc.text(originalPhrase, 145, y, { maxWidth: 130 });
-    doc.text(translatedPhrase, 145, y + (originalPhrase.length > 90 ? 8 : 4), {
+    doc.text(originalPhrase, 138, y, { maxWidth: 130 });
+    doc.text(translatedPhrase, 138, y + (originalPhrase.length > 90 ? 8 : 4), {
       maxWidth: 130,
     });
     y = y + (originalPhrase.length > 90 ? 15 : 10);
   }
   img.src = `/pdf-images/patient/medoc.png`;
   doc.addImage(img, "png", 65, startSection, 15, 20);
-  doc.rect(128, startSection - 4, 70, y - startSection + 5);
+  doc.rect(135, startSection - 4, 75, y - startSection + 5);
   
 
   //Measures section
 
   startSection = y;
   for (const phrase of contentElement.measures.phrases) {
-    doc.text(translate(`${phrase}`), 20, 150);
-    doc.text(getMessage(messages, lang, `${phrase}`), 20, y + 4);
+    doc.text(translate(`${phrase}`), 15,150);
+    doc.text(getMessage(messages, lang, `${phrase}`), 15, y + 4);
     y = y + 10;
   }
   img.src = `/pdf-images/patient/pouls.png`;
@@ -101,13 +101,13 @@ export const createPatientPdf = function (
   y = y + 20;
 
   for (const phrase of contentElement.bans.phrases) {
-    doc.text(translate(`${phrase}`), 150, y);
-    doc.text(getMessage(messages, lang, `${phrase}`), 150, y + 4);
+    doc.text(translate(`${phrase}`), 135, y);
+    doc.text(getMessage(messages, lang, `${phrase}`), 135, y + 4);
     y = y + 10;
   }
   img.src = `/pdf-images/patient/interdit.png`;
-  doc.addImage(img, "png", 265, startSection, 15, 15);
-  doc.rect(148, startSection - 4, 140, y - startSection);
+  doc.addImage(img, "png", 100, startSection, 15, 15);
+  doc.rect(130, startSection - 4, 70, y - startSection);
 
  
 
@@ -119,8 +119,8 @@ export const createPatientPdf = function (
     y = y + 10;
   }
   img.src = `/pdf-images/patient/seringue.png`;
-  doc.addImage(img, "png", 120, startSection, 15, 15);
-  doc.rect(18, startSection - 4, 121, y - startSection);
+  doc.addImage(img, "png", 70, startSection, 15, 15);
+  doc.rect(18, startSection - 4, 90, y - startSection);
 
   y = y + 20;
 
