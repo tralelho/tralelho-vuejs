@@ -60,7 +60,7 @@ export const createPatientPdf = function (
     x = x + 20;
   }
 
-  doc.rect(10, startSection - 4, 121, y - startSection + 25);
+  doc.rect(8, startSection - 4, 121, y - startSection + 25);
 
   y = y + 40;
 
@@ -80,20 +80,20 @@ export const createPatientPdf = function (
   }
   img.src = `/pdf-images/patient/medoc.png`;
   doc.addImage(img, "png", 65, startSection, 15, 20);
-  doc.rect(148, startSection - 4, 140, y - startSection + 5);
+  doc.rect(128, startSection - 4, 70, y - startSection + 5);
   
 
   //Measures section
 
   startSection = y;
   for (const phrase of contentElement.measures.phrases) {
-    doc.text(translate(`${phrase}`), 80, y);
+    doc.text(translate(`${phrase}`), 20, 150);
     doc.text(getMessage(messages, lang, `${phrase}`), 20, y + 4);
     y = y + 10;
   }
   img.src = `/pdf-images/patient/pouls.png`;
-  doc.addImage(img, "png", 120, startSection, 15, 15);
-  doc.rect(18, startSection - 4, 121, y - startSection);
+  doc.addImage(img, "png", 40, startSection, 15, 15);
+  doc.rect(8, startSection - 4, 121, y - startSection);
 
 
 //bans section
