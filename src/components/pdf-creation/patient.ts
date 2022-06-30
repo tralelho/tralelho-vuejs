@@ -65,7 +65,7 @@ export const createPatientPdf = function (
   y = y + 40;
 
 
-   //Medication section
+   //Medication section ok
 
   y = 20;
   startSection = y;
@@ -79,7 +79,7 @@ export const createPatientPdf = function (
     y = y + (originalPhrase.length > 90 ? 15 : 10);
   }
   img.src = `/pdf-images/patient/medoc.png`;
-  doc.addImage(img, "png", 165, startSection, 15, 20);
+  doc.addImage(img, "png", 155, startSection - 10, 15, 20);
   doc.rect(135, startSection - 4, 65, y - startSection + 5);
   
 
@@ -87,9 +87,9 @@ export const createPatientPdf = function (
 
   startSection = y;
   for (const phrase of contentElement.measures.phrases) {
-    doc.text(translate(`${phrase}`), 15,10);
-    doc.text(getMessage(messages, lang, `${phrase}`), 15, y + 4);
-    y = y + 100;
+    doc.text(translate(`${phrase}`), 10,100);
+    doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 4);
+    y = y + 10;
   }
   img.src = `/pdf-images/patient/pouls.png`;
   doc.addImage(img, "png", 40, startSection, 15, 15);
