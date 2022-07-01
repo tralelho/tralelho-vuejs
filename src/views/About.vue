@@ -76,7 +76,7 @@
     <img src="/public/globe2.png" alt="Globe" width="20px" height="20px" />
     <a
       href=" https://www.leparisien.fr/societe/sante/les-questions-medicales-traduites-dans-toutes-les-langues-avec-tralelho-02-11-2018-7933467.php"
-    >Le Parisien
+      >Le Parisien
     </a>
     <img src="/public/globe8.png" alt="Globe" width="20px" height="20px" />
 
@@ -123,9 +123,7 @@
       >Europe 1</a
     >
     <img src="/public/globe3.png" alt="Globe" width="20px" height="20px" />
-    <a href="https://www.tvr.bzh/v/57d2235-tvr-events-13-10-2020">
-      TV Rennes</a
-    >
+    <a href="https://www.tvr.bzh/v/57d2235-tvr-events-13-10-2020"> TV Rennes</a>
     <img src="/public/globe6.png" alt="Globe" width="20px" height="20px" />
     <a
       href="https://www.actusoins.com/349854/marion-verdaguer-infirmiere-chevalier-dans-lordre-du-merite.html"
@@ -146,8 +144,7 @@ p {
 
 a {
   color: #010817;
-  margin-left:1%;
-  margin-right:1%;
+  margin-left: 1%;
+  margin-right: 1%;
 }
-
 </style>

@@ -158,6 +158,4 @@ import pageConfig from "./Samu.config.json";
 .column is-half py-1:hover {
   background-color: #fac3f2;
 }
-
-
 </style>

@@ -104,8 +104,6 @@ let selectedLanguage = ref(
 </template>
 
 <style scoped lang="scss">
-
-
 .is-align-items-center {
   display: flex;
   flex-wrap: wrap;
@@ -130,8 +128,4 @@ let selectedLanguage = ref(
 .change-language {
   max-width: 500px;
 }
-
-
 </style>
-
-
