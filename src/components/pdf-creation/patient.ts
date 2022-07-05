@@ -82,10 +82,6 @@ export const createPatientPdf = function (
   doc.addImage(img, "png", 175, startSection + 5, 15, 20);
   doc.rect(135, startSection - 4, 65, y - startSection + 5);
   
-
-
-
-
   //Measures section
 
   startSection = y;
@@ -99,8 +95,6 @@ export const createPatientPdf = function (
   doc.rect(18, startSection - 4, 90, y - startSection);
 
   y = y + 20;
-
-
 
 //bans section
 
