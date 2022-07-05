@@ -131,6 +131,15 @@ let selectedLanguage = ref(
   max-width: 500px;
 }
 
+.has-text-left{
+  position: fixed;
+  left: 23px;
+  background-color: #87a7c7;
+  margin-top: 10px;
+  height: 300px;
+  overflow: auto;
+}
+
 
 </style>
 
