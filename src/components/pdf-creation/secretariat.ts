@@ -2,93 +2,40 @@ import { jsPDF } from "jspdf";
 import {changePage, getMessage} from "./util";
 
 export const createSecretariatPdf = function (
-   translate: any,
-  type: PdfDocumentList,
-  doc: jsPDF,
-  content: any,
-  position: number,
+  translate: any,
+  doc: any,
+  contentElement: { phrases: {} },
+  y: number,
   messages: any,
   lang: string
 ): jsPDF {
-  //CheckList
-  doc.setFontSize(16);
-  doc.setFont("arial", "bold");
-  doc.rect(10, position - 1, 190, 8);
-  doc.text(`Checklist ${type}`, 75, position + 5);
-  position = position + 15;
-  doc.setFontSize(8);
-
-  for (const formElement of content.checkList.form) {
+  for (const section of contentElement.sections) {
     doc.setFont("arial", "bold");
-    doc.text(translate(`${formElement.code}`), 20, position);
+    doc.text(translate(`${section.title}`), 10, y);
+
+    y = y + 8;
+
     doc.setFont("arial", "normal");
-    doc.text(
-      getMessage(messages, lang, `${formElement.code}`),
-      20,
-      position + 4
-    );
-    doc.text(formElement.response, 100, position + 4);
-    position = position + 12;
-  }
+    for (const phrase of section.list) {
+      y = changePage(doc, y);
+      doc.text(translate(`${phrase}`), 20, y);
+      doc.text(getMessage(messages, lang, `${phrase}`), 20, y + 4);
 
-  position = position + 5;
-  doc.setFont("arial", "bold");
-
-  const startRectangle = position;
-
-  doc.text(translate(`${content.checkList.responses[0]}`), 110, position);
-  doc.text(
-    getMessage(messages, lang, `${content.checkList.responses[0]}`),
-    110,
-    position + 4
-  );
-  doc.text(translate(`${content.checkList.responses[1]}`), 140, position);
-  doc.text(
-    getMessage(messages, lang, `${content.checkList.responses[1]}`),
-    140,
-    position + 4
-  );
-  doc.text(translate(`${content.checkList.responses[2]}`), 170, position);
-  doc.text(
-    getMessage(messages, lang, `${content.checkList.responses[2]}`),
-    170,
-    position + 4
-  );
-
-  position = position + 10;
-  let pageAdded = false;
-
-  for (const phrase of content.checkList.list) {
-    if (position >= 290) {
-      doc.rect(10, startRectangle - 5, 190, position - startRectangle);
-      doc.addPage();
-      pageAdded = true;
-      position = 10;
+      y = y + 12;
     }
-    doc.setFont("arial", "bold");
-    doc.text(translate(`${phrase}`), 12, position);
-    doc.setFont("arial", "normal");
-    doc.text(getMessage(messages, lang, `${phrase}`), 12, position + 4);
 
-    doc.rect(110, position, 5, 5);
-    doc.rect(140, position, 5, 5);
-    doc.rect(170, position, 5, 5);
-
-    position = position + 12;
+    if (section.form) {
+      for (const formElement of section.form) {
+        y = changePage(doc, y);
+        doc.setFont("arial", "bold");
+        doc.text(translate(`${formElement}`), 20, y);
+        doc.setFont("arial", "normal");
+        doc.text(getMessage(messages, lang, `${formElement}`), 20, y + 4);
+        doc.text("_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _", 100, y + 4);
+        y = y + 12;
+      }
+    }
   }
-
-  if (pageAdded) {
-    doc.rect(10, 5, 190, position);
-  } else {
-    doc.rect(10, startRectangle - 5, 190, position - startRectangle);
-  }
-
-  position = position + 15;
-
-  doc.setFont("arial", "bold");
-  doc.text(translate(`${content.sign}`), 20, position);
-  doc.setFont("arial", "normal");
-  doc.text(getMessage(messages, lang, `${content.sign}`), 20, position + 4);
 
   return doc;
 };
