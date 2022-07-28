@@ -184,11 +184,11 @@ export const createPatientPdf = function (
 
 
  
-  doc.text(translate(`${contentElement.flower.phrases.vertiges}`), 120, 170);
+  doc.text(translate(`${contentElement.flower.phrases.vertiges}`), 140, 150);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.vertiges}`),
-    120,
-    175
+    140,
+    155
   );
 
  
@@ -231,37 +231,37 @@ export const createPatientPdf = function (
 
   
 
-  doc.text(translate(`${contentElement.flower.phrases.un}`), 90, 265);
+  doc.text(translate(`${contentElement.flower.phrases.un}`), 85, 265);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.un}`),
-    120,
+    110,
     270
   );
-  doc.text(translate(`${contentElement.flower.phrases.deux}`), 100, 255);
+  doc.text(translate(`${contentElement.flower.phrases.deux}`), 90, 255);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.deux}`),
-    130,
+    120,
     260
   );
-  doc.text(translate(`${contentElement.flower.phrases.trois}`), 90, 245);
+  doc.text(translate(`${contentElement.flower.phrases.trois}`), 100, 240);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.trois}`),
     130,
     250
   );
-  doc.text(translate(`${contentElement.flower.phrases.quatre}`), 100, 235);
+  doc.text(translate(`${contentElement.flower.phrases.quatre}`), 110, 235);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.quatre}`),
-    130,
+    145,
     240
   );
-  doc.text(translate(`${contentElement.flower.phrases.cinq}`), 120, 225);
+  doc.text(translate(`${contentElement.flower.phrases.cinq}`), 110, 225);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.cinq}`),
-    130,
+    150,
     230
   );
-  doc.text(translate(`${contentElement.flower.phrases.six}`), 130, 215);
+  doc.text(translate(`${contentElement.flower.phrases.six}`), 120, 215);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.six}`),
     150,
@@ -270,19 +270,19 @@ export const createPatientPdf = function (
   doc.text(translate(`${contentElement.flower.phrases.sept}`), 130, 205);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.sept}`),
-    145,
+    165,
     210
   );
   doc.text(translate(`${contentElement.flower.phrases.huit}`), 135, 195);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.huit}`),
-    145,
+    165,
     200
   );
   doc.text(translate(`${contentElement.flower.phrases.neuf}`), 139, 185);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.neuf}`),
-    150,
+    170,
     190
   );
   doc.text(translate(`${contentElement.flower.phrases.dix}`), 145, 175);
@@ -294,7 +294,7 @@ export const createPatientPdf = function (
   doc.text(translate(`${contentElement.flower.phrases.mal}`), 10, 275);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.mal}`),
-    10,
+    30,
     280
   );
 
