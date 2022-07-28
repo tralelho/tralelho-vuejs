@@ -184,10 +184,10 @@ export const createPatientPdf = function (
 
 
  
-  doc.text(translate(`${contentElement.flower.phrases.vertiges}`), 140, 150);
+  doc.text(translate(`${contentElement.flower.phrases.vertiges}`), 145, 150);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.vertiges}`),
-    140,
+    145,
     155
   );
 
@@ -229,7 +229,12 @@ export const createPatientPdf = function (
     20,115
   );
 
-  
+   doc.text(translate(`${contentElement.flower.phrases.zero}`), 85, 270);
+  doc.text(
+    getMessage(messages, lang, `${contentElement.flower.phrases.un}`),
+    100,
+    290
+  );
 
   doc.text(translate(`${contentElement.flower.phrases.un}`), 85, 265);
   doc.text(
@@ -247,9 +252,9 @@ export const createPatientPdf = function (
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.trois}`),
     130,
-    250
+    245
   );
-  doc.text(translate(`${contentElement.flower.phrases.quatre}`), 110, 235);
+  doc.text(translate(`${contentElement.flower.phrases.quatre}`), 100, 235);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.quatre}`),
     145,
@@ -270,19 +275,19 @@ export const createPatientPdf = function (
   doc.text(translate(`${contentElement.flower.phrases.sept}`), 130, 205);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.sept}`),
-    165,
+    160,
     210
   );
   doc.text(translate(`${contentElement.flower.phrases.huit}`), 135, 195);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.huit}`),
-    165,
+    160,
     200
   );
   doc.text(translate(`${contentElement.flower.phrases.neuf}`), 139, 185);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.neuf}`),
-    170,
+    165,
     190
   );
   doc.text(translate(`${contentElement.flower.phrases.dix}`), 145, 175);
@@ -291,7 +296,7 @@ export const createPatientPdf = function (
     160,
     175
   );
-  doc.text(translate(`${contentElement.flower.phrases.mal}`), 10, 275);
+  doc.text(translate(`${contentElement.flower.phrases.mal}`), 30, 275);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.mal}`),
     30,
