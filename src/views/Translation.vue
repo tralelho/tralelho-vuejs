@@ -53,6 +53,9 @@ let selectedLanguage = ref(
       <div className="column is-2 has-text-left">
         <aside class="menu">
           <ul class="menu-list">
+        
+				<li style="text-align: center"><button onclick="txtUpDown" type="button" id="transbutton"><span><img class="navicon" src="/public/globe8.png"></span></button></li>
+				
             <li v-for="section of pageConfig" :key="section.title">
               <a :href="'#' + section.title" class="is-align-items-center">
                 <img
@@ -131,6 +134,26 @@ let selectedLanguage = ref(
   max-width: 500px;
 }
 
+.txtUpDown {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+    /* IE6,IE7 */
+    -moz-transform: rotate(-180deg);
+    /* FF3.5+ */
+    -o-transform: rotate(-180deg);
+    /* Opera 10.5 */
+    -webkit-transform: rotate(-180deg);
+    /* Safari 3.1+, Chrome */
+    background-color:rgba(255, 192, 203, 0.8);
+    width: 100%;
+    height: 30vh;
+    font-size: 30px;
+    font-weight: bold;
+    display: none;
+    position: sticky;
+    top: 8%;
+    text-align: center;
+    z-index: 0;
+}
 
 
 </style>
