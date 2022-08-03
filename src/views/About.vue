@@ -38,7 +38,9 @@
       Leon, Ju, Roda, Honorata, Luana, Nasser, Daniela, Natalia, Iryna, Ani,
       Lys, Mary, Prolet, Jovan, Serpil, Garip, Svetlana, Andres, Alt, Lorena,
       Irene, Juan, Chris, Manuel, Vitor, Estelle, Partaccia, Lucas, Yahya,
-      Titta, Roxane, Ulysse ... Max, Emmanuel, Ehouarn et Arthur.
+      Titta, Roxane, Ulysse, DRiss, Kinda, Marina, Kimiyo, Denis, Mirlan, Fanny, 
+      Tatiane, Maria, Katia, Mari, Victoria, Patricia, 
+      ... Max, Emmanuel, Ehouarn et Arthur.
     </p>
     <br />
     <br />
