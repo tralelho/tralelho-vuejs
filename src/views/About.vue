@@ -90,7 +90,7 @@
       >Solidarite-sante.gouv.fr</a
     >
     <img src="/public/globe5.png" alt="Globe" width="20px" height="20px" />
-    <a href="https://www.ticsante.com/story?ID=6155">. Ticsanté.com</a>
+    <a href="https://www.ticsante.com/story?ID=6155">Ticsanté.com</a>
 
     <img src="/public/globe1.png" alt="Globe" width="20px" height="20px" />
     <a
@@ -146,7 +146,8 @@ p {
 
 a {
   color: #010817;
-  margin-left:1%;
+  text-align: left;
+  margin-left:0.5%;
   margin-right:1%;
 }
 
