@@ -209,10 +209,10 @@ export const createPatientPdf = function (
   );
 
  
-  doc.text(translate(`${contentElement.flower.phrases.vomi}`), 85, 120);
+  doc.text(translate(`${contentElement.flower.phrases.vomi}`), 82, 120);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.vomi}`),
-    85,125
+    82,125
   );
 
 
@@ -248,11 +248,11 @@ export const createPatientPdf = function (
     120,
     260
   );
-  doc.text(translate(`${contentElement.flower.phrases.trois}`), 100, 240);
+  doc.text(translate(`${contentElement.flower.phrases.trois}`), 95, 245);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.trois}`),
-    130,
-    245
+    135,
+    240
   );
   doc.text(translate(`${contentElement.flower.phrases.quatre}`), 100, 235);
   doc.text(
