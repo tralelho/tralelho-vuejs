@@ -54,7 +54,7 @@ let selectedLanguage = ref(
         <aside class="menu">
           <ul class="menu-list">
         
-				<li style="text-align: center"><button onclick="txtUpDown" type="button" id="transbutton"><span><img class="navicon" src="/public/globe8.png"></span></button></li>
+				<li style="text-align: center"><button onclick="txtUpDown" type="button" id="transbutton"><span><img class="navicon" src="/public/tablette.png"></span></button></li>
 				
             <li v-for="section of pageConfig" :key="section.title">
               <a :href="'#' + section.title" class="is-align-items-center">
@@ -137,7 +137,7 @@ let selectedLanguage = ref(
 .txtUpDown {
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
     /* IE6,IE7 */
-    -moz-transform: rotate(-180deg);
+    -moz-transform:rotate(-180deg);
     /* FF3.5+ */
     -o-transform: rotate(-180deg);
     /* Opera 10.5 */
