@@ -86,7 +86,7 @@ export const createPatientPdf = function (
 
   startSection = y;
   for (const phrase of contentElement.measures.phrases) {
-    doc.text(translate(`${phrase}`), 10 ,175;
+    doc.text(translate(`${phrase}`), 10 ,175);
     doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 4);
     y = y + 10;
   }
