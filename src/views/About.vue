@@ -38,7 +38,9 @@
       Leon, Ju, Roda, Honorata, Luana, Nasser, Daniela, Natalia, Iryna, Ani,
       Lys, Mary, Prolet, Jovan, Serpil, Garip, Svetlana, Andres, Alt, Lorena,
       Irene, Juan, Chris, Manuel, Vitor, Estelle, Partaccia, Lucas, Yahya,
-      Titta, Roxane, Ulysse ... Max, Emmanuel, Ehouarn et Arthur.
+      Titta, Roxane, Ulysse, DRiss, Kinda, Marina, Kimiyo, Denis, Mirlan, Fanny,
+      Tatiane, Maria, Katia, Mari, Victoria, Patricia, ... Max, Emmanuel,
+      Ehouarn et Arthur.
     </p>
     <br />
     <br />
@@ -90,7 +92,7 @@
       >Solidarite-sante.gouv.fr</a
     >
     <img src="/public/globe5.png" alt="Globe" width="20px" height="20px" />
-    <a href="https://www.ticsante.com/story?ID=6155">. Ticsanté.com</a>
+    <a href="https://www.ticsante.com/story?ID=6155">Ticsanté.com</a>
 
     <img src="/public/globe1.png" alt="Globe" width="20px" height="20px" />
     <a
@@ -144,7 +146,8 @@ p {
 
 a {
   color: #010817;
-  margin-left: 1%;
+  text-align: left;
+  margin-left: 0.5%;
   margin-right: 1%;
 }
 </style>

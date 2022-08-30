@@ -39,7 +39,7 @@ export const createPatientPdf = function (
   );
 
   for (const phrase of contentElement.pain.phrases) {
-    doc.text(translate(`${phrase}`),10, y);
+    doc.text(translate(`${phrase}`), 10, y);
     doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 4);
 
     y = y + 13;
@@ -64,8 +64,7 @@ export const createPatientPdf = function (
 
   y = y + 40;
 
-
-   //Medication section ok
+  //Medication section ok
 
   y = 20;
   startSection = y;
@@ -79,30 +78,24 @@ export const createPatientPdf = function (
     y = y + (originalPhrase.length > 90 ? 15 : 10);
   }
   img.src = `/pdf-images/patient/medoc.png`;
-  doc.addImage(img, "png", 175, startSection + 5, 15, 20);
+  doc.addImage(img, "png", 175, startSection, 15, 20);
   doc.rect(135, startSection - 4, 65, y - startSection + 5);
-  
-
-
-
 
   //Measures section
 
   startSection = y;
   for (const phrase of contentElement.measures.phrases) {
-    doc.text(translate(`${phrase}`), 10, 150);
+    doc.text(translate(`${phrase}`), 10, 175);
     doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 4);
     y = y + 10;
   }
   img.src = `/pdf-images/patient/pouls.png`;
   doc.addImage(img, "png", 70, startSection, 15, 15);
-  doc.rect(18, startSection - 4, 90, y - startSection);
+  doc.rect(18, startSection, 90, y - startSection);
 
   y = y + 20;
 
-
-
-//bans section
+  //bans section
 
   y = y + 10;
 
@@ -114,8 +107,6 @@ export const createPatientPdf = function (
   img.src = `/pdf-images/patient/interdit.png`;
   doc.addImage(img, "png", 160, startSection, 15, 15);
   doc.rect(130, startSection - 4, 70, y - startSection);
-
- 
 
   //to Have section
   startSection = y;
@@ -142,8 +133,6 @@ export const createPatientPdf = function (
   }
   doc.rect(148, startSection - 4, 70, yRight - startSection);
 
- 
-
   doc.addPage();
 
   doc.setFontSize(12);
@@ -151,15 +140,13 @@ export const createPatientPdf = function (
   img.src = `/pdf-images/patient/flower2.png`;
   doc.addImage(img, "png", 0, 20, 200, 270);
 
-  img.src = `/pdf-images/patient/peur.png`;
-  doc.addImage(img, "png", 85, 72, 15, 15);
   doc.text(translate(`${contentElement.flower.phrases.peur}`), 105, 75);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.peur}`),
-    105,80);
+    105,
+    80
+  );
 
-  img.src = `/pdf-images/patient/manger.png`;
-  doc.addImage(img, "png", 68, 43, 15, 15);
   doc.text(translate(`${contentElement.flower.phrases.faim}`), 75, 25);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.faim}`),
@@ -167,8 +154,6 @@ export const createPatientPdf = function (
     30
   );
 
-  img.src = `/pdf-images/patient/boire.png`;
-  doc.addImage(img, "png", 43, 58, 15, 15);
   doc.text(translate(`${contentElement.flower.phrases.soif}`), 10, 60);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.soif}`),
@@ -176,16 +161,13 @@ export const createPatientPdf = function (
     65
   );
 
-  img.src = `/pdf-images/patient/wc.png`;
-  doc.addImage(img, "png",130, 105, 15, 15);
   doc.text(translate(`${contentElement.flower.phrases.wc[0]}`), 150, 105);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.wc[0]}`),
     150,
     110
   );
-  img.src = `/pdf-images/patient/diarrhée.png`;
-  doc.addImage(img, "png",140, 120, 15, 15);
+
   doc.text(translate(`${contentElement.flower.phrases.wc[1]}`), 160, 130);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.wc[1]}`),
@@ -193,17 +175,13 @@ export const createPatientPdf = function (
     135
   );
 
-
-  img.src = `/pdf-images/patient/vertiges.png`;
-  doc.addImage(img, "png", 125, 140, 13, 15);
-  doc.text(translate(`${contentElement.flower.phrases.vertiges}`), 120, 170);
+  doc.text(translate(`${contentElement.flower.phrases.vertiges}`), 145, 150);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.vertiges}`),
-    120,
-    175
+    145,
+    155
   );
 
- 
   doc.text(translate(`${contentElement.flower.phrases.informations}`), 10, 150);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.informations}`),
@@ -211,94 +189,93 @@ export const createPatientPdf = function (
     155
   );
 
-  
-
-  img.src = `/pdf-images/patient/nausée.png`;
-  doc.addImage(img, "png", 105, 135, 14, 13);
   doc.text(translate(`${contentElement.flower.phrases.nausée}`), 90, 160);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.nausée}`),
-    90,165
+    90,
+    165
   );
 
-  img.src = `/pdf-images/patient/vomi.png`;
-  doc.addImage(img, "png", 109, 114, 15, 15);
-  doc.text(translate(`${contentElement.flower.phrases.vomi}`), 85, 120);
+  doc.text(translate(`${contentElement.flower.phrases.vomi}`), 82, 120);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.vomi}`),
-    85,125
+    82,
+    125
   );
 
-  img.src = `/pdf-images/patient/froid.png`;
-  doc.addImage(img, "png", 63, 100, 15, 15);
   doc.text(translate(`${contentElement.flower.phrases.froid}`), 50, 130);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.froid}`),
-    50,135
+    50,
+    135
   );
 
-  img.src = `/pdf-images/patient/chaud.png`;
-  doc.addImage(img, "png", 40, 88, 15, 15);
   doc.text(translate(`${contentElement.flower.phrases.chaud}`), 20, 110);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.chaud}`),
-    20,115
+    20,
+    115
   );
 
-  
+  doc.text(translate(`${contentElement.flower.phrases.zero}`), 85, 270);
+  doc.text(
+    getMessage(messages, lang, `${contentElement.flower.phrases.zero}`),
+    100,
+    290
+  );
 
-  doc.text(translate(`${contentElement.flower.phrases.un}`), 90, 265);
+  doc.text(translate(`${contentElement.flower.phrases.un}`), 85, 265);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.un}`),
-    120,
+    110,
     270
   );
-  doc.text(translate(`${contentElement.flower.phrases.deux}`), 100, 255);
+  doc.text(translate(`${contentElement.flower.phrases.deux}`), 90, 255);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.deux}`),
-    130,
+    120,
     260
   );
-  doc.text(translate(`${contentElement.flower.phrases.trois}`), 90, 245);
+  doc.text(translate(`${contentElement.flower.phrases.trois}`), 95, 245);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.trois}`),
-    130,
-    250
+    135,
+    235
   );
   doc.text(translate(`${contentElement.flower.phrases.quatre}`), 100, 235);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.quatre}`),
-    130,
+    145,
     240
   );
-  doc.text(translate(`${contentElement.flower.phrases.cinq}`), 120, 225);
+  doc.text(translate(`${contentElement.flower.phrases.cinq}`), 110, 225);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.cinq}`),
-    130,
+    150,
     230
   );
-  doc.text(translate(`${contentElement.flower.phrases.six}`), 130, 215);
+  doc.text(translate(`${contentElement.flower.phrases.six}`), 120, 215);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.six}`),
-    150,
+    155,
     220
   );
   doc.text(translate(`${contentElement.flower.phrases.sept}`), 130, 205);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.sept}`),
-    145,
+    160,
     210
   );
   doc.text(translate(`${contentElement.flower.phrases.huit}`), 135, 195);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.huit}`),
-    145,
+    160,
     200
   );
   doc.text(translate(`${contentElement.flower.phrases.neuf}`), 139, 185);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.neuf}`),
-    150,
+    165,
     190
   );
   doc.text(translate(`${contentElement.flower.phrases.dix}`), 145, 175);
@@ -307,10 +284,10 @@ export const createPatientPdf = function (
     160,
     175
   );
-  doc.text(translate(`${contentElement.flower.phrases.mal}`), 10, 275);
+  doc.text(translate(`${contentElement.flower.phrases.mal}`), 30, 275);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.mal}`),
-    10,
+    30,
     280
   );
 

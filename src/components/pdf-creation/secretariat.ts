@@ -1,5 +1,5 @@
 import { jsPDF } from "jspdf";
-import {changePage, getMessage} from "./util";
+import { changePage, getMessage } from "./util";
 
 export const createSecretariatPdf = function (
   translate: any,

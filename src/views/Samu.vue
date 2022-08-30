@@ -14,7 +14,6 @@ import pageConfig from "./Samu.config.json";
     >
 Écrivez ici votre texte avant de le copier/coller sur votre logiciel
     </textarea>
-    <br />
   </div>
 
   <div className="columns main-color is-centered">
@@ -51,7 +50,7 @@ import pageConfig from "./Samu.config.json";
           :id="section.title"
           class="title is-2 has-text-left"
           v-t="{ path: section.title }"
-          style="margin-top: 20px"
+          style="margin-top: 10px"
         ></h2>
 
         <div
@@ -150,7 +149,7 @@ import pageConfig from "./Samu.config.json";
   position: fixed;
   left: 23px;
   background-color: #87a7c7;
-  margin-top: 19px;
+  margin-top: 10px;
   height: 300px;
   overflow: auto;
 }

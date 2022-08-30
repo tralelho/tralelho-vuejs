@@ -2,7 +2,11 @@ import { createApp } from "vue";
 import App from "./App.vue";
 import "./assets/main.scss";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faLongArrowAltRight, faAngleDown, faAngleUp } from "@fortawesome/free-solid-svg-icons";
+import {
+  faLongArrowAltRight,
+  faAngleDown,
+  faAngleUp,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import "flag-icon-css/css/flag-icons.min.css";
 import { setupRouter } from "./router";
