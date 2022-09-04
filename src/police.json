@@ -86,18 +86,25 @@
     "font": "symbol",
     "languages": ["ell"]
   },
+ 
   {
-    "font": "xxx",
-    "languages": ["amh"]
-  },
-  {
-    "font": "xxx",
+    "font": "Univers next arabic regular",
     "languages": "ara"
   },
+
   {
-    "font": "xxx",
+    "font": "Dengxian",
+    "languages": "zho"  },
+
+    {
+      "font": "Hiragino Sans",
+      "languages": "jpn"  },
+
+    {
+    "font": "Code2000",
     "languages": [
       "hye",
+      "amh",
       "lao",
       "sin",
       "ben",
@@ -106,7 +113,6 @@
       "mon",
       "dzo",
       "nep",
-      "zho",
       "tam",
       "kor",
       "jpn",
@@ -117,7 +123,7 @@
     ]
   },
   {
-    "font": "xxx",
+    "font": "Open sans",
     "languages": ["kaz", "kir", "rus", "bul", "bel", "ukr"]
   }
 ]
