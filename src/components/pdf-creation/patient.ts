@@ -239,8 +239,8 @@ export const createPatientPdf = function (
   doc.text(translate(`${contentElement.flower.phrases.trois}`), 95, 245);
   doc.text(
     getMessage(messages, lang, `${contentElement.flower.phrases.trois}`),
-    135,
-    255
+    130,
+    250
   );
   doc.text(translate(`${contentElement.flower.phrases.quatre}`), 100, 235);
   doc.text(
