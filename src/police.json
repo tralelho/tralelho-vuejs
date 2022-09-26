@@ -86,7 +86,7 @@
     "font": "symbol",
     "languages": ["ell"]
   },
- 
+
   {
     "font": "Univers next arabic regular",
     "languages": "ara"
@@ -94,13 +94,15 @@
 
   {
     "font": "Dengxian",
-    "languages": "zho"  },
+    "languages": "zho"
+  },
 
-    {
-      "font": "Hiragino Sans",
-      "languages": "jpn"  },
+  {
+    "font": "Hiragino Sans",
+    "languages": "jpn"
+  },
 
-    {
+  {
     "font": "Code2000",
     "languages": [
       "hye",
