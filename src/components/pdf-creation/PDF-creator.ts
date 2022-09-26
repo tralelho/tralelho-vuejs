@@ -5,6 +5,7 @@ import { createPatientPdf } from "./patient";
 import { createSecretariatPdf } from "./secretariat";
 import { createIRMAndScannerPdf } from "./irmAndScanner";
 import { getMessage } from "./util";
+import "./CODE2000-normal";
 
 export enum PdfDocumentList {
   PATIENT = "Patient",
@@ -43,7 +44,6 @@ const buildPdfContent = function (
   doc.setFontSize(24);
   doc.setFont("arial", "bold");
   doc.text(type, 10, 10);
-  doc.addFont("traditional arabic.ttf", "trade", "normal");
 
   doc.setFontSize(8);
   let y = 20;
@@ -56,7 +56,7 @@ const buildPdfContent = function (
       doc.setFont("arial", "bold");
       doc.text(t(`${phrase}`), 10, y);
 
-      doc.setFont("arial", "normal");
+      doc.setFont("CODE2000", "normal");
       doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 4);
 
       y = y + 12;

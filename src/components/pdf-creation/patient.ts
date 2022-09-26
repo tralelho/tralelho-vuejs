@@ -1,6 +1,6 @@
 import { PdfDocumentList } from "./PDF-creator";
 import { jsPDF } from "jspdf";
-import { changePage, getMessage } from "./util";
+import { getMessage } from "./util";
 
 export const createPatientPdf = function (
   translate: any,
@@ -16,6 +16,7 @@ export const createPatientPdf = function (
   doc.text(PdfDocumentList.PATIENT, 10, 10);
 
   doc.setFontSize(8);
+  doc.setFont("CODE2000", "normal");
 
   let y = 20;
 

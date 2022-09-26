@@ -22,7 +22,7 @@ export const createIRMAndScannerPdf = function (
   for (const formElement of content.checkList.form) {
     doc.setFont("arial", "bold");
     doc.text(translate(`${formElement.code}`), 20, position);
-    doc.setFont("arial", "normal");
+    doc.setFont("CODE2000", "normal");
     doc.text(
       getMessage(messages, lang, `${formElement.code}`),
       20,
@@ -68,7 +68,7 @@ export const createIRMAndScannerPdf = function (
     }
     doc.setFont("arial", "bold");
     doc.text(translate(`${phrase}`), 12, position);
-    doc.setFont("arial", "normal");
+    doc.setFont("CODE2000", "normal");
     doc.text(getMessage(messages, lang, `${phrase}`), 12, position + 4);
 
     doc.rect(110, position, 5, 5);
@@ -88,7 +88,7 @@ export const createIRMAndScannerPdf = function (
 
   doc.setFont("arial", "bold");
   doc.text(translate(`${content.sign}`), 20, position);
-  doc.setFont("arial", "normal");
+  doc.setFont("CODE2000", "normal");
   doc.text(getMessage(messages, lang, `${content.sign}`), 20, position + 4);
 
   return doc;

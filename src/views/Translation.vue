@@ -55,7 +55,7 @@ let selectedLanguage = ref(
           <ul class="menu-list">
             <li style="text-align: center">
               <button onclick="txtUpDown" type="button" id="transbutton">
-                <span><img class="navicon" src="/public/tablette.png" /></span>
+                <span><img class="navicon" src="/tablette.png" /></span>
               </button>
             </li>
 
