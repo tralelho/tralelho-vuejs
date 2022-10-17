@@ -43,7 +43,7 @@
                 name: 'translation',
                 params: { locale },
                 query: {
-                  lang: country.languages,
+                  lang: country.languages[0],
                   country: country.iso3,
                 },
               }"

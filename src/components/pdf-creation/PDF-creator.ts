@@ -19,7 +19,7 @@ export enum PdfDocumentList {
 export const createPdf = function (
   type: PdfDocumentList,
   messages: any,
-  lang?: string
+  lang?: string | string[]
 ) {
   lang = lang || "fra";
 

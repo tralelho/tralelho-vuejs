@@ -10,10 +10,21 @@ const countryConfig = countries.find((countryConfig) => {
   return countryConfig.iso3 === countryISO3;
 });
 
-const targetLanguages = useRouter().currentRoute.value.query.lang || ["fra"];
+const router = useRouter();
+
+const targetLanguages = router.currentRoute.value.query.lang || ["fra"];
 let selectedLanguage = ref(
   Array.isArray(targetLanguages) ? targetLanguages[0] : targetLanguages
 );
+
+const changeLanguage = function (language: string) {
+  router.replace({
+    query: Object.assign(
+      { ...router.currentRoute.value.query },
+      { lang: language }
+    ),
+  });
+};
 </script>
 
 <template>
@@ -37,7 +48,10 @@ let selectedLanguage = ref(
         <label class="label">Change language:</label>
       </div>
       <div class="select">
-        <select v-model="selectedLanguage">
+        <select
+          v-model="selectedLanguage"
+          @change="changeLanguage(selectedLanguage)"
+        >
           <option
             v-for="lang of countryConfig.languages"
             :key="lang"
