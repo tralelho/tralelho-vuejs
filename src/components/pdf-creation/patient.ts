@@ -102,12 +102,12 @@ export const createPatientPdf = function (
 
   for (const phrase of contentElement.bans.phrases) {
     doc.text(translate(`${phrase}`), 135, y);
-    doc.text(getMessage(messages, lang, `${phrase}`), 135, y);
+    doc.text(getMessage(messages, lang, `${phrase}`),50, y+4);
     y = y + 10;
   }
   img.src = `/pdf-images/patient/interdit.png`;
   doc.addImage(img, "png", 160, startSection, 15, 15);
-  doc.rect(130, startSection, 70, y - startSection);
+  doc.rect(130, startSection+1, 70, y - startSection);
 
   //to Have section
   startSection = y;
@@ -117,7 +117,7 @@ export const createPatientPdf = function (
     y = y + 10;
   }
   img.src = `/pdf-images/patient/seringue.png`;
-  doc.addImage(img, "png", 70, startSection, 15, 15);
+  doc.addImage(img, "png", 85, startSection, 15, 15);
   doc.rect(18, startSection - 4, 90, y - startSection);
 
   y = y + 20;
