@@ -555,7 +555,7 @@
   {
     "iso3": "IND",
     "iso2": "IN",
-    "languages": ["hin", "eng", "mal", "urd", "ben", "tam", "pun"],
+    "languages": ["hin", "eng", "mal", "urd", "ben", "tam", "pun", "guj"],
     "continent": "asie",
     "namefr": "Inde / इंडिया"
   },
@@ -933,7 +933,7 @@
   {
     "iso3": "PAK",
     "iso2": "PK",
-    "languages": ["urd", "snd", "eng", "pun"],
+    "languages": ["urd", "snd", "eng", "pun", "guj"],
     "continent": "asie",
     "namefr": "Pakistan /اسلامی جمہوریت پاکستان"
   },
