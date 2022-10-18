@@ -57,7 +57,7 @@ export const createPatientPdf = function (
   x = 13;
   for (let i = 0; i < 6; i++) {
     img.src = `/pdf-images/patient/douleur${i}.png`;
-    doc.addImage(img, "png", x-5, 85, 10, 10);
+    doc.addImage(img, "png", x, 80, 10, 10);
     x = x + 20;
   }
 
@@ -79,8 +79,8 @@ export const createPatientPdf = function (
     y = y + (originalPhrase.length > 90 ? 15 : 10);
   }
   img.src = `/pdf-images/patient/medoc.png`;
-  doc.addImage(img, "png", 175, startSection, 15, 20);
-  doc.rect(135, startSection - 4, 65, y - startSection + 5);
+  doc.addImage(img, "png", 180, startSection, 15, 20);
+  doc.rect(130, startSection - 4, 65, y - startSection + 5);
 
   //Measures section
 
@@ -102,12 +102,12 @@ export const createPatientPdf = function (
 
   for (const phrase of contentElement.bans.phrases) {
     doc.text(translate(`${phrase}`), 135, y);
-    doc.text(getMessage(messages, lang, `${phrase}`), 135, y + 4);
+    doc.text(getMessage(messages, lang, `${phrase}`), 135, y);
     y = y + 10;
   }
   img.src = `/pdf-images/patient/interdit.png`;
   doc.addImage(img, "png", 160, startSection, 15, 15);
-  doc.rect(130, startSection - 4, 70, y - startSection);
+  doc.rect(130, startSection, 70, y - startSection);
 
   //to Have section
   startSection = y;
