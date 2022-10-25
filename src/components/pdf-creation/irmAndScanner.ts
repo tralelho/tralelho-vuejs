@@ -37,19 +37,27 @@ export const createIRMAndScannerPdf = function (
 
   const startRectangle = position;
 
+  doc.setFont("arial", "bold");
   doc.text(translate(`${content.checkList.responses[0]}`), 110, position);
+  doc.setFont("CODE2000", "normal");
   doc.text(
     getMessage(messages, lang, `${content.checkList.responses[0]}`),
     110,
     position + 4
   );
+
+  doc.setFont("arial", "bold");
   doc.text(translate(`${content.checkList.responses[1]}`), 140, position);
+  doc.setFont("CODE2000", "normal");
   doc.text(
     getMessage(messages, lang, `${content.checkList.responses[1]}`),
     140,
     position + 4
   );
+
+  doc.setFont("arial", "bold");
   doc.text(translate(`${content.checkList.responses[2]}`), 170, position);
+  doc.setFont("CODE2000", "normal");
   doc.text(
     getMessage(messages, lang, `${content.checkList.responses[2]}`),
     170,

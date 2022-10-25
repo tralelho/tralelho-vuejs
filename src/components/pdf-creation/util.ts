@@ -4,7 +4,7 @@ export const getMessage = function (messages: any, lang: string, code: string) {
       normalize: function (text: string) {
         return text[0];
       },
-    });
+    }) || "";
   } catch {
     throw new Error(`Cannot find traduction ${code}`);
   }
