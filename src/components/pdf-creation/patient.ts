@@ -20,7 +20,7 @@ export const createPatientPdf = function (
 
   let y = 20;
 
-  //Pain section ok
+  //Pain section 
   let startSection = y;
   doc.rect(99, y - 3, 25, 8);
   doc.text(
@@ -65,11 +65,11 @@ export const createPatientPdf = function (
 
   y = y + 40;
 
-  //Medication section ok
+  //Medication section 
     
  
   for (const phrase of contentElement.medication.phrases) {
-    doc.text(translate(`${phrase}`), 130, y);
+    doc.text(translate(`${phrase}`), 10, y);
     doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 6);
     y = y + 10;
   }
@@ -82,7 +82,7 @@ export const createPatientPdf = function (
     
        
   for (const phrase of contentElement.measures.phrases) {
-    doc.text(translate(`${phrase}`), 130, y);
+    doc.text(translate(`${phrase}`), 10, y);
     doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 6);
     y = y + 10;
   }
@@ -94,7 +94,7 @@ export const createPatientPdf = function (
   //bans section
      
   for (const phrase of contentElement.bans.phrases) {
-    doc.text(translate(`${phrase}`), 130, y);
+    doc.text(translate(`${phrase}`), 10, y);
     doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 6);
     y = y + 10;
   }
@@ -107,7 +107,7 @@ export const createPatientPdf = function (
     
   
   for (const phrase of contentElement.toHave.phrases) {
-    doc.text(translate(`${phrase}`), 130, y);
+    doc.text(translate(`${phrase}`), 10, y);
     doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 6);
     y = y + 10;
   }
@@ -119,7 +119,7 @@ export const createPatientPdf = function (
   //informations section
  
   for (const phrase of contentElement.informations.phrases) {
-    doc.text(translate(`${phrase}`), 130, y);
+    doc.text(translate(`${phrase}`), 10, y);
     doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 6);
     y = y + 10;
   }
