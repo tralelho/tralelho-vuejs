@@ -15,7 +15,7 @@ export const createPatientPdf = function (
   doc.setFont("arial", "bold");
   doc.text(PdfDocumentList.PATIENT, 10, 10);
 
-  doc.setFontSize(8);
+  doc.setFontSize(14);
   doc.setFont("CODE2000", "normal");
 
   let y = 20;
