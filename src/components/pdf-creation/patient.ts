@@ -93,8 +93,6 @@ export const createPatientPdf = function (
      doc.addPage();
   //bans section
      
-       let y = 20;
-  let startSection = y;
   for (const phrase of contentElement.bans.phrases) {
     doc.text(translate(`${phrase}`), 130, y);
     doc.text(getMessage(messages, lang, `${phrase}`), 130, y + 4);
