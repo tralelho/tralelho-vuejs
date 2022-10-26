@@ -22,21 +22,21 @@ export const createPatientPdf = function (
 
   //Pain section ok
   let startSection = y;
-  doc.rect(77, y - 2, 20, 7);
+  doc.rect(82, y - 3, 30, 7);
   doc.text(
     translate(`${contentElement.pain.responses[0]}`) +
       " / " +
       getMessage(messages, lang, `${contentElement.pain.responses[0]}`),
     80,
-    y + 2
+    y + 3
   );
-  doc.rect(107, y - 2, 20, 7);
+  doc.rect(112, y - 3, 30, 7);
   doc.text(
     translate(`${contentElement.pain.responses[1]}`) +
       " / " +
       getMessage(messages, lang, `${contentElement.pain.responses[1]}`),
     110,
-    y + 2
+    y + 3
   );
 
   for (const phrase of contentElement.pain.phrases) {
@@ -61,7 +61,7 @@ export const createPatientPdf = function (
     x = x + 20;
   }
 
-  doc.rect(8, startSection - 4, 121, y - startSection + 25);
+  doc.rect(8, startSection - 4, 151, y - startSection + 25);
 
   y = y + 40;
 
