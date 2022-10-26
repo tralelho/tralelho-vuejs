@@ -22,20 +22,20 @@ export const createPatientPdf = function (
 
   //Pain section ok
   let startSection = y;
-  doc.rect(80, y - 3, 25, 8);
+  doc.rect(99, y - 3, 25, 8);
   doc.text(
     translate(`${contentElement.pain.responses[0]}`) +
       " / " +
       getMessage(messages, lang, `${contentElement.pain.responses[0]}`),
-    80,
+    101,
     y + 3
   );
-  doc.rect(110, y - 3, 25, 8);
+  doc.rect(129, y - 3, 25, 8);
   doc.text(
     translate(`${contentElement.pain.responses[1]}`) +
       " / " +
       getMessage(messages, lang, `${contentElement.pain.responses[1]}`),
-    110,
+    131,
     y + 3
   );
 
@@ -66,65 +66,60 @@ export const createPatientPdf = function (
   y = y + 40;
 
   //Medication section ok
-
-  y = 20;
-  startSection = y;
+    
+      let yRight = 20;
+  startSection = yRight;
   for (const phrase of contentElement.medication.phrases) {
-    const originalPhrase = translate(`${phrase}`);
-    const translatedPhrase = getMessage(messages, lang, `${phrase}`);
-    doc.text(originalPhrase, 138, y, { maxWidth: 130 });
-    doc.text(translatedPhrase, 138, y + (originalPhrase.length > 90 ? 8 : 4), {
-      maxWidth: 130,
-    });
-    y = y + (originalPhrase.length > 90 ? 15 : 10);
+    doc.text(translate(`${phrase}`), 130, yRight);
+    doc.text(getMessage(messages, lang, `${phrase}`), 130, yRight + 4);
+    yRight = yRight + 10;
   }
-  img.src = `/pdf-images/patient/medoc.png`;
-  doc.addImage(img, "png", 180, startSection, 15, 20);
-  doc.rect(130, startSection - 4, 65, y - startSection + 5);
+     img.src = `/pdf-images/patient/medoc.png`;
+  doc.addImage(img, "png", 155, startSection, 15, 15);
+  doc.rect(150, startSection - 4, 70, yRight - startSection);
+
 
   //Measures section
-
-  startSection = y;
-  for (const phrase of contentElement.measures.phrases) {
-    doc.text(translate(`${phrase}`), 10, 175);
-    doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 4);
-    y = y + 10;
-  }
-  img.src = `/pdf-images/patient/pouls.png`;
-  doc.addImage(img, "png", 70, startSection, 15, 15);
-  doc.rect(18, startSection, 90, y - startSection);
-
-  y = y + 20;
     
+       let yRight = 20;
+  startSection = yRight;
+  for (const phrase of contentElement.measures.phrases) {
+    doc.text(translate(`${phrase}`), 130, yRight);
+    doc.text(getMessage(messages, lang, `${phrase}`), 130, yRight + 4);
+    yRight = yRight + 10;
+  }
+     img.src = `/pdf-images/patient/pouls.png`;
+  doc.addImage(img, "png", 155, startSection, 15, 15);
+  doc.rect(150, startSection - 4, 70, yRight - startSection);
+
      doc.addPage();
-
   //bans section
-
-  y = y + 10;
-
+     
+       let yRight = 20;
+  startSection = yRight;
   for (const phrase of contentElement.bans.phrases) {
-    doc.text(translate(`${phrase}`), 135, y);
-    doc.text(getMessage(messages, lang, `${phrase}`),50, y+4);
-    y = y + 10;
+    doc.text(translate(`${phrase}`), 130, yRight);
+    doc.text(getMessage(messages, lang, `${phrase}`), 130, yRight + 4);
+    yRight = yRight + 10;
   }
-  img.src = `/pdf-images/patient/interdit.png`;
-  doc.addImage(img, "png", 160, startSection, 15, 15);
-  doc.rect(130, startSection+1, 70, y - startSection);
-
+     img.src = `/pdf-images/patient/interdit.png`;
+  doc.addImage(img, "png", 155, startSection, 15, 15);
+  doc.rect(150, startSection - 4, 70, yRight - startSection);
+    
+ 
   //to Have section
-  startSection = y;
+    
+     let yRight = 20;
+  startSection = yRight;
   for (const phrase of contentElement.toHave.phrases) {
-    doc.text(translate(`${phrase}`), 20, y);
-    doc.text(getMessage(messages, lang, `${phrase}`), 20, y + 5);
-    y = y + 10;
+    doc.text(translate(`${phrase}`), 130, yRight);
+    doc.text(getMessage(messages, lang, `${phrase}`), 130, yRight + 4);
+    yRight = yRight + 10;
   }
-  img.src = `/pdf-images/patient/seringue.png`;
-  doc.addImage(img, "png", 85, startSection, 15, 15);
-  doc.rect(18, startSection - 4, 150, y - startSection);
-
-  y = y + 20;
-
-  doc.addPage();
+     img.src = `/pdf-images/patient/seringue.png`;
+  doc.addImage(img, "png", 155, startSection, 15, 15);
+  doc.rect(150, startSection - 4, 70, yRight - startSection);
+   
 
   //informations section
   let yRight = 20;
@@ -134,7 +129,7 @@ export const createPatientPdf = function (
     doc.text(getMessage(messages, lang, `${phrase}`), 130, yRight + 4);
     yRight = yRight + 10;
   }
-  doc.rect(148, startSection - 4, 70, yRight - startSection);
+  doc.rect(150, startSection - 4, 70, yRight - startSection);
 
   doc.addPage();
 
