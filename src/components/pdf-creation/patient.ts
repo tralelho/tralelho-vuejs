@@ -67,8 +67,7 @@ export const createPatientPdf = function (
 
   //Medication section ok
     
-  let y = 20;
-  let startSection = y;
+ 
   for (const phrase of contentElement.medication.phrases) {
     doc.text(translate(`${phrase}`), 130, y);
     doc.text(getMessage(messages, lang, `${phrase}`), 130, y + 4);
@@ -81,8 +80,7 @@ export const createPatientPdf = function (
 
   //Measures section
     
-        let y = 20;
-  let startSection = y;
+       
   for (const phrase of contentElement.measures.phrases) {
     doc.text(translate(`${phrase}`), 130, y);
     doc.text(getMessage(messages, lang, `${phrase}`), 130, y + 4);
@@ -95,7 +93,7 @@ export const createPatientPdf = function (
      doc.addPage();
   //bans section
      
-      let y = 20;
+       let y = 20;
   let startSection = y;
   for (const phrase of contentElement.bans.phrases) {
     doc.text(translate(`${phrase}`), 130, y);
@@ -109,8 +107,7 @@ export const createPatientPdf = function (
  
   //to Have section
     
-   let y = 20;
-  let startSection = y;
+  
   for (const phrase of contentElement.toHave.phrases) {
     doc.text(translate(`${phrase}`), 130, y);
     doc.text(getMessage(messages, lang, `${phrase}`), 130, y + 4);
@@ -122,8 +119,7 @@ export const createPatientPdf = function (
    
 
   //informations section
-  let y = 20;
-  let startSection = y;
+ 
   for (const phrase of contentElement.informations.phrases) {
     doc.text(translate(`${phrase}`), 130, y);
     doc.text(getMessage(messages, lang, `${phrase}`), 130, y + 4);
