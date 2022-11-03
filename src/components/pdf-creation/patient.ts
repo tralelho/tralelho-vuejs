@@ -50,7 +50,7 @@ export const createPatientPdf = function (
   for (const phrase of contentElement.pain.painScale) {
     doc.text(translate(`${phrase}`), x, y);
     doc.text(getMessage(messages, lang, `${phrase}`), x - 2, y + 4);
-    doc.rect(x - 5, y - 4, 11, 10);
+    doc.rect(x - 5, y - 4, 15, 10);
     x = x + 11;
   }
 
@@ -58,7 +58,7 @@ export const createPatientPdf = function (
   for (let i = 0; i < 6; i++) {
     img.src = `/pdf-images/patient/douleur${i}.png`;
     doc.addImage(img, "png", x, 80, 10, 10);
-    x = x + 20;
+    x = x + 25;
   }
 
   doc.rect(8, startSection - 4, 155, y - startSection + 25);
@@ -70,12 +70,12 @@ export const createPatientPdf = function (
  
   for (const phrase of contentElement.medication.phrases) {
     doc.text(translate(`${phrase}`), 10, y);
-    doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 6);
-    y = y + 10;
+    doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 5);
+    y = y + 15;
   }
      img.src = `/pdf-images/patient/medoc.png`;
-  doc.addImage(img, "png", 155, startSection, 15, 15);
-  doc.rect(10, startSection - 4, 70, y - startSection);
+  doc.addImage(img, "png", 105, startSection, 15, 15);
+  
 
 
   //Measures section
@@ -88,7 +88,7 @@ export const createPatientPdf = function (
   }
      img.src = `/pdf-images/patient/pouls.png`;
   doc.addImage(img, "png", 155, startSection, 15, 15);
-  doc.rect(10, startSection - 4, 70, y - startSection);
+
 
      doc.addPage();
   //bans section
@@ -100,7 +100,7 @@ export const createPatientPdf = function (
   }
      img.src = `/pdf-images/patient/interdit.png`;
   doc.addImage(img, "png", 155, startSection, 15, 15);
-  doc.rect(10, startSection - 4, 70, y - startSection);
+ 
     
  
   //to Have section
@@ -113,7 +113,7 @@ export const createPatientPdf = function (
   }
      img.src = `/pdf-images/patient/seringue.png`;
   doc.addImage(img, "png", 155, startSection, 15, 15);
-  doc.rect(10, startSection - 4, 70, y - startSection);
+  
    
 
   //informations section
@@ -123,7 +123,7 @@ export const createPatientPdf = function (
     doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 6);
     y = y + 10;
   }
-  doc.rect(10, startSection - 4, 70, y - startSection);
+
 
   doc.addPage();
 
