@@ -51,13 +51,13 @@ export const createPatientPdf = function (
     doc.text(translate(`${phrase}`), x, y);
     doc.text(getMessage(messages, lang, `${phrase}`), x - 2, y + 4);
     doc.rect(x - 5, y - 4, 20, 10);
-    x = x + 11;
+    x = x + 20;
   }
 
   x = 13;
   for (let i = 0; i < 6; i++) {
     img.src = `/pdf-images/patient/douleur${i}.png`;
-    doc.addImage(img, "png", x, 80, 10, 10);
+    doc.addImage(img, "png", x, 100, 10, 10);
     x = x + 25;
   }
 
@@ -73,21 +73,22 @@ export const createPatientPdf = function (
     y = y + 15;
   }
      img.src = `/pdf-images/patient/medoc.png`;
-  doc.addImage(img, "png", 155, 100, 15, 15);
-  
-doc.addPage();
+  doc.addImage(img, "png", 10, 10, 15, 15);
+
 
   //Measures section
     
-       
+      
   for (const phrase of contentElement.measures.phrases) {
     doc.text(translate(`${phrase}`), 10, y);
     doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 5);
     y = y + 15;
   }
      img.src = `/pdf-images/patient/pouls.png`;
-  doc.addImage(img, "png", 155, 15, 15, 15);
+  doc.addImage(img, "png", 10, 15, 15, 15);
 
+     doc.addPage();
+    
   //bans section
      
   for (const phrase of contentElement.bans.phrases) {
