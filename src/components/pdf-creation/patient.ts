@@ -51,18 +51,17 @@ export const createPatientPdf = function (
     doc.text(translate(`${phrase}`), x, y);
     doc.text(getMessage(messages, lang, `${phrase}`), x - 2, y + 4);
     doc.rect(x - 5, y - 4, 20, 10);
-    x = x + 20;
-  }
-
-  x = 13;
-  for (let i = 0; i < 6; i++) {
-    img.src = `/pdf-images/patient/douleur${i}.png`;
-    doc.addImage(img, "png", x, 100, 10, 10);
     x = x + 25;
   }
 
+  x = 13;
 
-  y = y + 40;
+    img.src = `/pdf-images/patient/douleur${i}.png`;
+    doc.addImage(img, "png", x, 80, 10, 10);
+ 
+
+
+  
 
   //Medication section 
     
