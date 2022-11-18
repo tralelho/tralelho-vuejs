@@ -35,15 +35,15 @@ export const createPatientPdf = function (
     translate(`${contentElement.pain.responses[1]}`) +
       " / " +
       getMessage(messages, lang, `${contentElement.pain.responses[1]}`),
-    131,
+    142,
     y + 3
   );
 
   for (const phrase of contentElement.pain.phrases) {
     doc.text(translate(`${phrase}`), 10, y);
-    doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 6);
+    doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 5);
 
-    y = y + 13;
+    y = y + 15;
   }
 
   let x = 13;
@@ -75,7 +75,7 @@ export const createPatientPdf = function (
      img.src = `/pdf-images/patient/medoc.png`;
   doc.addImage(img, "png", 155, 100, 15, 15);
   
-
+doc.addPage();
 
   //Measures section
     
@@ -86,10 +86,8 @@ export const createPatientPdf = function (
     y = y + 15;
   }
      img.src = `/pdf-images/patient/pouls.png`;
-  doc.addImage(img, "png", 155, 150, 15, 15);
+  doc.addImage(img, "png", 155, 15, 15, 15);
 
-
-     doc.addPage();
   //bans section
      
   for (const phrase of contentElement.bans.phrases) {
@@ -98,7 +96,7 @@ export const createPatientPdf = function (
     y = y + 15;
   }
      img.src = `/pdf-images/patient/interdit.png`;
-  doc.addImage(img, "png", 155, 200, 15, 15);
+  doc.addImage(img, "png", 155, 50, 15, 15);
  
     
  
@@ -111,9 +109,9 @@ export const createPatientPdf = function (
     y = y + 15;
   }
      img.src = `/pdf-images/patient/seringue.png`;
-  doc.addImage(img, "png", 155, startSection, 15, 15);
+  doc.addImage(img, "png", 155, 75, 15, 15);
   
-   
+   doc.addPage();
 
   //informations section
  
