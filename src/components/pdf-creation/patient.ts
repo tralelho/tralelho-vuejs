@@ -30,7 +30,7 @@ export const createPatientPdf = function (
     101,
     y + 3
   );
-  doc.rect(129, y - 3, 30, 8);
+  doc.rect(139, y - 3, 30, 8);
   doc.text(
     translate(`${contentElement.pain.responses[1]}`) +
       " / " +
@@ -40,8 +40,8 @@ export const createPatientPdf = function (
   );
 
   for (const phrase of contentElement.pain.phrases) {
-    doc.text(translate(`${phrase}`), 14, y);
-    doc.text(getMessage(messages, lang, `${phrase}`), 14, y + 6);
+    doc.text(translate(`${phrase}`), 10, y);
+    doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 6);
 
     y = y + 13;
   }
@@ -50,7 +50,7 @@ export const createPatientPdf = function (
   for (const phrase of contentElement.pain.painScale) {
     doc.text(translate(`${phrase}`), x, y);
     doc.text(getMessage(messages, lang, `${phrase}`), x - 2, y + 4);
-    doc.rect(x - 5, y - 4, 15, 10);
+    doc.rect(x - 5, y - 4, 20, 10);
     x = x + 11;
   }
 
@@ -73,7 +73,7 @@ export const createPatientPdf = function (
     y = y + 15;
   }
      img.src = `/pdf-images/patient/medoc.png`;
-  doc.addImage(img, "png", 105, startSection, 15, 15);
+  doc.addImage(img, "png", 155, 100, 15, 15);
   
 
 
@@ -82,11 +82,11 @@ export const createPatientPdf = function (
        
   for (const phrase of contentElement.measures.phrases) {
     doc.text(translate(`${phrase}`), 10, y);
-    doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 6);
-    y = y + 10;
+    doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 5);
+    y = y + 15;
   }
      img.src = `/pdf-images/patient/pouls.png`;
-  doc.addImage(img, "png", 155, startSection, 15, 15);
+  doc.addImage(img, "png", 155, 150, 15, 15);
 
 
      doc.addPage();
@@ -94,11 +94,11 @@ export const createPatientPdf = function (
      
   for (const phrase of contentElement.bans.phrases) {
     doc.text(translate(`${phrase}`), 10, y);
-    doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 6);
-    y = y + 10;
+    doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 5);
+    y = y + 15;
   }
      img.src = `/pdf-images/patient/interdit.png`;
-  doc.addImage(img, "png", 155, startSection, 15, 15);
+  doc.addImage(img, "png", 155, 200, 15, 15);
  
     
  
@@ -107,8 +107,8 @@ export const createPatientPdf = function (
   
   for (const phrase of contentElement.toHave.phrases) {
     doc.text(translate(`${phrase}`), 10, y);
-    doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 6);
-    y = y + 10;
+    doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 5);
+    y = y + 15;
   }
      img.src = `/pdf-images/patient/seringue.png`;
   doc.addImage(img, "png", 155, startSection, 15, 15);
@@ -119,8 +119,8 @@ export const createPatientPdf = function (
  
   for (const phrase of contentElement.informations.phrases) {
     doc.text(translate(`${phrase}`), 10, y);
-    doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 6);
-    y = y + 10;
+    doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 5);
+    y = y + 15;
   }
 
 
