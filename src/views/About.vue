@@ -39,8 +39,8 @@
       Lys, Mary, Prolet, Jovan, Serpil, Garip, Svetlana, Andres, Alt, Lorena,
       Irene, Juan, Chris, Manuel, Vitor, Estelle, Partaccia, Lucas, Yahya,
       Titta, Roxane, Ulysse, DRiss, Kinda, Marina, Kimiyo, Denis, Mirlan, Fanny,
-      Tatiane, Maria, Katia, Mari, Victoria, Patricia, ... Max, Emmanuel,
-      Ehouarn et Arthur.
+      Tatiane, Maria, Katia, Mari, Victoria, Patricia, Leila, Maarit, Beata, Izabella, Dessberg, 
+      Nikoleta, Steve, Lidiane... Max, Emmanuel, Ehouarn et Arthur.
     </p>
     <br />
     <br />
