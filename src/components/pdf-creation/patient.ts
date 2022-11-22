@@ -57,10 +57,10 @@ export const createPatientPdf = function (
   x = 13;
 for (let i = 0; i < 6; i++) {
     img.src = `/pdf-images/patient/douleur${i}.png`;
-    doc.addImage(img, "png", x, 100, 10, 10);
+    doc.addImage(img, "png", x, 110, 10, 10);
  
  x = x + 25;
- y = y + 15;
+ y = y + 1;
   }
 
   
@@ -77,7 +77,7 @@ for (let i = 0; i < 6; i++) {
      img.src = `/pdf-images/patient/medoc.png`;
   doc.addImage(img, "png", 120, 120, 15, 15);
 
-  
+   doc.addPage();
     
   //bans section
     
@@ -102,7 +102,7 @@ for (let i = 0; i < 6; i++) {
      img.src = `/pdf-images/patient/pouls.png`;
   doc.addImage(img, "png", 10, 15, 15, 15);
 
-
+ doc.addPage();
   //to Have section
     
   
@@ -114,7 +114,6 @@ for (let i = 0; i < 6; i++) {
      img.src = `/pdf-images/patient/seringue.png`;
   doc.addImage(img, "png", 15, 15, 15, 15);
   
-   doc.addPage();
 
   //informations section
  
