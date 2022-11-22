@@ -50,48 +50,52 @@ export const createPatientPdf = function (
   for (const phrase of contentElement.pain.painScale) {
     doc.text(translate(`${phrase}`), x, y);
     doc.text(getMessage(messages, lang, `${phrase}`), x - 2, y + 4);
-    doc.rect(x - 5, y - 4, 20, 10);
-    x = x + 20;
+    doc.rect(x - 5, y - 4, 15, 10);
+    x = x + 15;
   }
 
   x = 13;
 for (let i = 0; i < 6; i++) {
     img.src = `/pdf-images/patient/douleur${i}.png`;
-    doc.addImage(img, "png", x, 20, 10, 10);
+    doc.addImage(img, "png", x, 100, 10, 10);
  
- x = x + 20;
+ x = x + 15;
   }
 
   
 
   //Medication section 
     
- 
+  let startSection = y;
+  let x = 13;
+    
   for (const phrase of contentElement.medication.phrases) {
     doc.text(translate(`${phrase}`), 10, y);
     doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 5);
     y = y + 15;
   }
      img.src = `/pdf-images/patient/medoc.png`;
-  doc.addImage(img, "png", 100, 100, 15, 15);
+  doc.addImage(img, "png", 120, 120, 15, 15);
 
   
     
   //bans section
-     
+     let startSection = y;
+  let x = 13;
   for (const phrase of contentElement.bans.phrases) {
     doc.text(translate(`${phrase}`), 10, y);
     doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 5);
     y = y + 15;
   }
      img.src = `/pdf-images/patient/interdit.png`;
-  doc.addImage(img, "png", 10, 10, 15, 15);
+  doc.addImage(img, "png", 120, 150, 15, 15);
     
   doc.addPage();   
     
   //Measures section
     
-      
+   let startSection = y;
+  let x = 13;   
   for (const phrase of contentElement.measures.phrases) {
     doc.text(translate(`${phrase}`), 10, y);
     doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 5);
@@ -101,7 +105,6 @@ for (let i = 0; i < 6; i++) {
   doc.addImage(img, "png", 10, 15, 15, 15);
 
 
- 
   //to Have section
     
   
