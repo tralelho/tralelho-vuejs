@@ -18,7 +18,7 @@ export const createPatientPdf = function (
   doc.setFontSize(14);
   doc.setFont("CODE2000", "normal");
 
-  let y = 20;
+  let y = 40;
 
   //Pain section 
   let startSection = y;
@@ -49,7 +49,7 @@ export const createPatientPdf = function (
   let x = 13;
   for (const phrase of contentElement.pain.painScale) {
     doc.text(translate(`${phrase}`), x, y);
-    doc.text(getMessage(messages, lang, `${phrase}`), x - 2, y + 4);
+    doc.text(getMessage(messages, lang, `${phrase}`), x - 3, y + 4);
     doc.rect(x - 5, y - 4, 15, 10);
     x = x + 15;
   }
@@ -57,9 +57,9 @@ export const createPatientPdf = function (
   x = 13;
 for (let i = 0; i < 6; i++) {
     img.src = `/pdf-images/patient/douleur${i}.png`;
-    doc.addImage(img, "png", x, 100, 10, 10);
+    doc.addImage(img, "png", x, 90, 10, 10);
  
- x = x + 15;
+ x = x + 25;
   }
 
   
