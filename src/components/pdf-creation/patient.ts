@@ -88,12 +88,13 @@ for (let i = 0; i < 6; i++) {
      img.src = `/pdf-images/patient/interdit.png`;
   doc.addImage(img, "png", 120, 150, 15, 15);
     
+    
+    
   doc.addPage();   
     
   //Measures section
     
-     
-  for (const phrase of contentElement.measures.phrases) {
+       for (const phrase of contentElement.measures.phrases) {
     doc.text(translate(`${phrase}`), 10, y);
     doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 5);
     y = y + 15;
@@ -111,7 +112,7 @@ for (let i = 0; i < 6; i++) {
     y = y + 15;
   }
      img.src = `/pdf-images/patient/seringue.png`;
-  doc.addImage(img, "png", 155, 75, 15, 15);
+  doc.addImage(img, "png", 15, 15, 15, 15);
   
    doc.addPage();
 
