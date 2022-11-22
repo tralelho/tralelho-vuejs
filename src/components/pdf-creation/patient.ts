@@ -80,7 +80,7 @@ for (let i = 0; i < 6; i++) {
    doc.addPage();
     
   //bans section
-  let startSection = y;  
+
   for (const phrase of contentElement.bans.phrases) {
     doc.text(translate(`${phrase}`), 10, y);
     doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 5);
