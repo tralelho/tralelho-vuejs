@@ -66,8 +66,7 @@ for (let i = 0; i < 6; i++) {
 
   //Medication section 
     
-  let startSection = y;
-  let x = 13;
+ 
     
   for (const phrase of contentElement.medication.phrases) {
     doc.text(translate(`${phrase}`), 10, y);
@@ -80,8 +79,7 @@ for (let i = 0; i < 6; i++) {
   
     
   //bans section
-     let startSection = y;
-  let x = 13;
+    
   for (const phrase of contentElement.bans.phrases) {
     doc.text(translate(`${phrase}`), 10, y);
     doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 5);
@@ -94,8 +92,7 @@ for (let i = 0; i < 6; i++) {
     
   //Measures section
     
-   let startSection = y;
-  let x = 13;   
+     
   for (const phrase of contentElement.measures.phrases) {
     doc.text(translate(`${phrase}`), 10, y);
     doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 5);
