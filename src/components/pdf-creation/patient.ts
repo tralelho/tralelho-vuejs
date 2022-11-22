@@ -57,10 +57,10 @@ export const createPatientPdf = function (
   x = 13;
 for (let i = 0; i < 6; i++) {
     img.src = `/pdf-images/patient/douleur${i}.png`;
-    doc.addImage(img, "png", x, 110, 10, 10);
+    doc.addImage(img, "png", x, 120, 10, 10);
  
- x = x + 25;
- y = y + 1;
+ x = x + 27;
+
   }
 
   
@@ -80,7 +80,7 @@ for (let i = 0; i < 6; i++) {
    doc.addPage();
     
   //bans section
-    
+  let startSection = y;  
   for (const phrase of contentElement.bans.phrases) {
     doc.text(translate(`${phrase}`), 10, y);
     doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 5);
@@ -89,8 +89,7 @@ for (let i = 0; i < 6; i++) {
      img.src = `/pdf-images/patient/interdit.png`;
   doc.addImage(img, "png", 120, 150, 15, 15);
     
-    
-     
+       
     
   //Measures section
     
