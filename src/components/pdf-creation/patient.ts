@@ -18,7 +18,7 @@ export const createPatientPdf = function (
   doc.setFontSize(14);
   doc.setFont("CODE2000", "normal");
 
-  let y = 40;
+  let y = 35;
 
   //Pain section 
   let startSection = y;
@@ -90,8 +90,7 @@ for (let i = 0; i < 6; i++) {
   doc.addImage(img, "png", 120, 150, 15, 15);
     
     
-    
-  doc.addPage();   
+     
     
   //Measures section
     
