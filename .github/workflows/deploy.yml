@@ -47,12 +47,15 @@ jobs:
           CI: true
 
         # Setup and configure gcloud CLI
-      - uses: google-github-actions/setup-gcloud@v0
+      - id: 'auth'
+        name: 'Authenticate to Google Cloud'
+        uses: 'google-github-actions/auth@v1'
         with:
-          version: "334.0.0"
+          credentials_json: ${{ secrets.GCP_SERVICE_ACCOUNT_JSON}}
+
+      - uses: google-github-actions/setup-gcloud@v1
+        with:
           project_id: ${{ secrets.PROJECT_ID }}
-          service_account_email: ${{ secrets.GCLOUD_EMAIL }}
-          service_account_key: ${{ secrets.GCLOUD_KEY}}
 
       # Deploy App to App Engine
       - name: Publish app to Google App Engine
