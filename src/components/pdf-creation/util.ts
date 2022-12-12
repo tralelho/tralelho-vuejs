@@ -1,10 +1,12 @@
 export const getMessage = function (messages: any, lang: string, code: string) {
   try {
-    return messages[lang][code]({
-      normalize: function (text: string) {
-        return text[0];
-      },
-    }) || "";
+    return (
+      messages[lang][code]({
+        normalize: function (text: string) {
+          return text[0];
+        },
+      }) || ""
+    );
   } catch {
     throw new Error(`Cannot find traduction ${code}`);
   }

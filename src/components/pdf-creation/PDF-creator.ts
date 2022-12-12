@@ -5,7 +5,8 @@ import { createPatientPdf } from "./patient";
 import { createSecretariatPdf } from "./secretariat";
 import { createIRMAndScannerPdf } from "./irmAndScanner";
 import { getMessage } from "./util";
-import "./CODE2000-normal";
+import "./fonts/CODE2000-normal";
+import "./fonts/NotoSansSinhala-Regular-normal.js";
 
 export enum PdfDocumentList {
   PATIENT = "Patient",
@@ -23,7 +24,13 @@ export const createPdf = function (
 ) {
   lang = lang || "fra";
 
-  const doc = buildPdfContent(type, messages, lang);
+  let font = "CODE2000";
+
+  if (lang === "sin") {
+    font = "NotoSansSinhala-Regular";
+  }
+
+  const doc = buildPdfContent(type, messages, lang, font);
 
   doc.save(`${type}.pdf`);
 };
@@ -31,12 +38,13 @@ export const createPdf = function (
 const buildPdfContent = function (
   type: PdfDocumentList,
   messages: any,
-  lang: string
+  lang: string,
+  font: string
 ): jsPDF {
   const { t } = i18n.global;
 
   if (type === PdfDocumentList.PATIENT) {
-    return createPatientPdf(t, Content[type], messages, lang);
+    return createPatientPdf(t, Content[type], messages, lang, font);
   }
 
   let doc = new jsPDF();
@@ -50,13 +58,13 @@ const buildPdfContent = function (
 
   if (type === PdfDocumentList.SECRETARIAT) {
     // @ts-ignore
-    return createSecretariatPdf(t, doc, Content[type], y, messages, lang);
+    return createSecretariatPdf(t, doc, Content[type], y, messages, lang, font);
   } else {
     for (const phrase of Content[type].phrases) {
       doc.setFont("arial", "bold");
       doc.text(t(`${phrase}`), 10, y);
 
-      doc.setFont("CODE2000", "normal");
+      doc.setFont(font, "normal");
       doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 4);
 
       y = y + 12;
@@ -70,7 +78,8 @@ const buildPdfContent = function (
         Content[type],
         y,
         messages,
-        lang
+        lang,
+        font
       );
     }
 

@@ -6,7 +6,8 @@ export const createPatientPdf = function (
   translate: any,
   contentElement: { phrases: {} },
   messages: any,
-  lang: string
+  lang: string,
+  font: string
 ): jsPDF {
   let doc = new jsPDF({ orientation: "portrait" });
   const img = new Image();
@@ -16,11 +17,11 @@ export const createPatientPdf = function (
   doc.text(PdfDocumentList.PATIENT, 10, 10);
 
   doc.setFontSize(14);
-  doc.setFont("CODE2000", "normal");
+  doc.setFont(font, "normal");
 
   let y = 35;
 
-  //Pain section 
+  //Pain section
   let startSection = y;
   doc.rect(99, y - 3, 30, 8);
   doc.text(
@@ -55,30 +56,25 @@ export const createPatientPdf = function (
   }
 
   x = 13;
-for (let i = 0; i < 6; i++) {
+  for (let i = 0; i < 6; i++) {
     img.src = `/pdf-images/patient/douleur${i}.png`;
     doc.addImage(img, "png", x, 120, 10, 10);
- 
- x = x + 27;
 
+    x = x + 27;
   }
 
-  
+  //Medication section
 
-  //Medication section 
-    
- 
-    
   for (const phrase of contentElement.medication.phrases) {
     doc.text(translate(`${phrase}`), 10, y);
     doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 5);
     y = y + 15;
   }
-     img.src = `/pdf-images/patient/medoc.png`;
+  img.src = `/pdf-images/patient/medoc.png`;
   doc.addImage(img, "png", 120, 120, 15, 15);
 
-   doc.addPage();
-    
+  doc.addPage();
+
   //bans section
 
   for (const phrase of contentElement.bans.phrases) {
@@ -86,42 +82,37 @@ for (let i = 0; i < 6; i++) {
     doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 5);
     y = y + 15;
   }
-     img.src = `/pdf-images/patient/interdit.png`;
+  img.src = `/pdf-images/patient/interdit.png`;
   doc.addImage(img, "png", 120, 150, 15, 15);
-    
-       
-    
+
   //Measures section
-    
-       for (const phrase of contentElement.measures.phrases) {
+
+  for (const phrase of contentElement.measures.phrases) {
     doc.text(translate(`${phrase}`), 10, y);
     doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 5);
     y = y + 15;
   }
-     img.src = `/pdf-images/patient/pouls.png`;
+  img.src = `/pdf-images/patient/pouls.png`;
   doc.addImage(img, "png", 10, 15, 15, 15);
 
- doc.addPage();
+  doc.addPage();
   //to Have section
-    
-  
+
   for (const phrase of contentElement.toHave.phrases) {
     doc.text(translate(`${phrase}`), 10, y);
     doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 5);
     y = y + 15;
   }
-     img.src = `/pdf-images/patient/seringue.png`;
+  img.src = `/pdf-images/patient/seringue.png`;
   doc.addImage(img, "png", 15, 15, 15, 15);
-  
 
   //informations section
- 
+
   for (const phrase of contentElement.informations.phrases) {
     doc.text(translate(`${phrase}`), 10, y);
     doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 5);
     y = y + 15;
   }
-
 
   doc.addPage();
 
