@@ -129,9 +129,11 @@ import pageConfig from "./Samu.config.json";
     background-color: whitesmoke;
   }
 }
-.main-color {
+
+.main-color:not(:hover) {
   background-color: #a2c0de;
 }
+
 .menu-element-multiline {
   position: relative;
   width: 100px;
@@ -150,7 +152,7 @@ import pageConfig from "./Samu.config.json";
   left: 23px;
   background-color: #87a7c7;
   margin-top: 10px;
-  height: 300px;
+  height: 70vh;
   overflow: auto;
 }
 

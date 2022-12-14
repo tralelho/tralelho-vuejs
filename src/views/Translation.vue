@@ -63,8 +63,8 @@ const changeLanguage = function (language: string) {
       </div>
     </div>
 
-    <div className="columns">
-      <div className="column is-2 has-text-left">
+    <div className="columns is-centered">
+      <div className="column is-2 has-text-left fixed-left">
         <aside class="menu">
           <ul class="menu-list">
             <li style="text-align: center">
@@ -90,7 +90,7 @@ const changeLanguage = function (language: string) {
         </aside>
       </div>
 
-      <div className="column">
+      <div className="column ml-6 is-8">
         <div
           class="container mb-6"
           v-for="section of pageConfig"
@@ -147,6 +147,15 @@ const changeLanguage = function (language: string) {
 
 .change-language {
   max-width: 500px;
+}
+
+.fixed-left {
+  position: fixed;
+  left: 23px;
+  background-color: #87a7c7;
+  margin-top: 10px;
+  height: 70vh;
+  overflow: auto;
 }
 
 .txtUpDown {
