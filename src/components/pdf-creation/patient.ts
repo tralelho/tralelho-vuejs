@@ -10,18 +10,18 @@ export const createPatientPdf = function (
   font: string
 ): jsPDF {
   let doc = new jsPDF({ orientation: "portrait" });
+  doc.setLineHeightFactor(1);
   const img = new Image();
 
   doc.setFontSize(16);
   doc.setFont("arial", "bold");
-  doc.text(PdfDocumentList.PATIENT, 10, 10);
+  doc.text(PdfDocumentList.PATIENT, 90, 10);
 
   doc.setFontSize(14);
   doc.setFont(font, "normal");
 
-  let y = 35;
-
   //Pain section
+  let y = 25;
   let startSection = y;
   doc.rect(99, y - 3, 30, 8);
   doc.text(
@@ -49,65 +49,102 @@ export const createPatientPdf = function (
 
   let x = 13;
   for (const phrase of contentElement.pain.painScale) {
-    doc.text(translate(`${phrase}`), x, y);
-    doc.text(getMessage(messages, lang, `${phrase}`), x - 3, y + 4);
-    doc.rect(x - 5, y - 4, 15, 10);
-    x = x + 15;
+    doc.text(translate(`${phrase}`), x, y + 1);
+    doc.text(getMessage(messages, lang, `${phrase}`), x - 3, y + 6);
+    doc.rect(x - 5, y - 4, 17, 12);
+    x = x + 17;
   }
 
   x = 13;
   for (let i = 0; i < 6; i++) {
     img.src = `/pdf-images/patient/douleur${i}.png`;
-    doc.addImage(img, "png", x, 120, 10, 10);
-
-    x = x + 27;
+    doc.addImage(img, "png", x, 95, 10, 10);
+    x = x + 33;
   }
 
+  y = y + 25;
+
+  doc.line(30, y, 180, y);
+
+  y = y + 2;
   //Medication section
+  img.src = `/pdf-images/patient/medoc.png`;
+  doc.addImage(img, "png", 90, y, 15, 15);
+  y = y + 20;
 
   for (const phrase of contentElement.medication.phrases) {
     doc.text(translate(`${phrase}`), 10, y);
     doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 5);
     y = y + 15;
   }
-  img.src = `/pdf-images/patient/medoc.png`;
-  doc.addImage(img, "png", 120, 120, 15, 15);
+
+  doc.line(30, y, 180, y);
+  y = y + 2;
+  //Measures section
+  img.src = `/pdf-images/patient/pouls.png`;
+  doc.addImage(img, "png", 90, y, 15, 15);
+  y = y + 20;
+
+  for (const phrase of contentElement.measures.phrases) {
+    const splitTextOrigin = doc.splitTextToSize(translate(`${phrase}`), 180);
+    doc.text(splitTextOrigin, 10, y);
+    if (splitTextOrigin.length > 1) {
+      y = y + 5;
+    }
+    const splitTextTranslate = doc.splitTextToSize(
+      getMessage(messages, lang, `${phrase}`),
+      180
+    );
+    doc.text(splitTextTranslate, 10, y + 5);
+    y = y + 15;
+  }
 
   doc.addPage();
+  y = 5;
+  //to Have section
+  img.src = `/pdf-images/patient/seringue.png`;
+  doc.addImage(img, "png", 90, y, 15, 15);
+  y = y + 20;
+  for (const phrase of contentElement.sting.phrases) {
+    doc.text(translate(`${phrase}`), 10, y);
+    doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 5);
+    y = y + 15;
+  }
 
+  doc.line(30, y, 180, y);
+
+  y = y + 2;
   //bans section
+  img.src = `/pdf-images/patient/interdit.png`;
+  doc.addImage(img, "png", 90, y, 15, 15);
+  y = y + 20;
 
   for (const phrase of contentElement.bans.phrases) {
     doc.text(translate(`${phrase}`), 10, y);
     doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 5);
     y = y + 15;
   }
-  img.src = `/pdf-images/patient/interdit.png`;
-  doc.addImage(img, "png", 120, 150, 15, 15);
-
-  //Measures section
-
-  for (const phrase of contentElement.measures.phrases) {
-    doc.text(translate(`${phrase}`), 10, y);
-    doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 5);
-    y = y + 15;
-  }
-  img.src = `/pdf-images/patient/pouls.png`;
-  doc.addImage(img, "png", 10, 15, 15, 15);
 
   doc.addPage();
-  //to Have section
-
-  for (const phrase of contentElement.toHave.phrases) {
+  y = 5;
+  //Pad section
+  img.src = `/pdf-images/patient/seringue.png`;
+  doc.addImage(img, "png", 90, y, 15, 15);
+  y = y + 20;
+  for (const phrase of contentElement.pad.phrases) {
     doc.text(translate(`${phrase}`), 10, y);
     doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 5);
     y = y + 15;
   }
-  img.src = `/pdf-images/patient/seringue.png`;
-  doc.addImage(img, "png", 15, 15, 15, 15);
+
+  doc.line(30, y, 180, y);
+  y = y + 2;
 
   //informations section
-
+  img.src = `/pdf-images/patient/informations.png`;
+  doc.addImage(img, "png", 90, y, 15, 15);
+  y = y + 20;
+  
   for (const phrase of contentElement.informations.phrases) {
     doc.text(translate(`${phrase}`), 10, y);
     doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 5);
