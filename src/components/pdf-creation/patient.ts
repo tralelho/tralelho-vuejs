@@ -1,6 +1,7 @@
 import { PdfDocumentList } from "./PDF-creator";
 import { jsPDF } from "jspdf";
 import { getMessage } from "./util";
+import langNames from "../../iso3-languages.json";
 
 export const createPatientPdf = function (
   translate: any,
@@ -15,10 +16,12 @@ export const createPatientPdf = function (
 
   doc.setFontSize(16);
   doc.setFont("arial", "bold");
-  doc.text(PdfDocumentList.PATIENT, 90, 10);
+  doc.text(PdfDocumentList.PATIENT, 105, 10, { align: "center" });
 
   doc.setFontSize(14);
   doc.setFont(font, "normal");
+
+  doc.text(langNames[lang], 105, 15, { align: "center" });
 
   //Pain section
   let y = 25;
@@ -144,7 +147,7 @@ export const createPatientPdf = function (
   img.src = `/pdf-images/patient/informations.png`;
   doc.addImage(img, "png", 90, y, 15, 15);
   y = y + 20;
-  
+
   for (const phrase of contentElement.informations.phrases) {
     doc.text(translate(`${phrase}`), 10, y);
     doc.text(getMessage(messages, lang, `${phrase}`), 10, y + 5);

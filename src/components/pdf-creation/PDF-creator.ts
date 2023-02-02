@@ -7,6 +7,7 @@ import { createIRMAndScannerPdf } from "./irmAndScanner";
 import { getMessage } from "./util";
 import "./fonts/CODE2000-normal";
 import "./fonts/NotoSansSinhala-Regular-normal.js";
+import langNames from "../../iso3-languages.json";
 
 export enum PdfDocumentList {
   PATIENT = "Patient",
@@ -51,9 +52,12 @@ const buildPdfContent = function (
 
   doc.setFontSize(24);
   doc.setFont("arial", "bold");
-  doc.text(type, 10, 10);
+  doc.text(type, 105, 10, { align: "center" });
 
   doc.setFontSize(8);
+
+  doc.text(langNames[lang], 105, 15, { align: "center" });
+
   let y = 20;
 
   if (type === PdfDocumentList.SECRETARIAT) {
