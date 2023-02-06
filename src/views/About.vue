@@ -2,7 +2,7 @@
 
 <template>
   <div class="section">
-    <h1 class="title">Qu'est ce que TraLELHo</h1>
+    <h1 class="title">Qu'est ce que OuiKer</h1>
 
     <p>
       Dans les hôpitaux, l’accueil de personnes étrangères n’est pas toujours
@@ -10,7 +10,7 @@
       d’expliquer ses douleurs ou ses antécédents médicaux ?
       <br />
       Un casse-tête linguistique auquel tous les personnels médicaux ont un jour
-      été confrontés. Tralelho est un site qui permet de traduire les phrases
+      été confrontés. OuiKer est un site qui permet de traduire les phrases
       utilisées par les services de secours ou de soins dans un maximum de
       langues.
       <br />
