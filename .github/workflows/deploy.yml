@@ -68,4 +68,5 @@ jobs:
           server: ftp.cluster003.hosting.ovh.net
           username: ${{ secrets.OVH_FTP_USERNAME }}
           password: ${{ secrets.OVH_FTP_PASSWORD }}
+          local-dir: ./dist/
           server-dir: ./www/ouiker/
