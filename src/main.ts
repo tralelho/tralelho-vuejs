@@ -32,10 +32,10 @@ const app = createApp(App);
 
 app.component("font-awesome-icon", FontAwesomeIcon);
 
+app.component("NavBar", NavBar);
+
 app.use(i18n);
 
 app.use(router);
-
-app.component("NavBar", NavBar);
 
 app.mount("#app");

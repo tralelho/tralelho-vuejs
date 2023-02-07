@@ -1,9 +1,9 @@
 <template>
   <div
-    class="card mb-4"
     v-for="continent in countriesByContinent"
-    :key="continent"
     :id="continent.name"
+    :key="continent"
+    class="card mb-4"
   >
     <header class="card-header" @click="changeVisibility(continent.name)">
       <figure class="image is-48x48 mx-2">
@@ -18,23 +18,23 @@
       <button class="card-header-icon" aria-label="more options">
         <span class="icon">
           <font-awesome-icon
-            v-if="isVisibleContinent === continent.name"
+            v-if="visibleContinent === continent.name"
             icon="angle-up"
           />
           <font-awesome-icon
-            v-if="isVisibleContinent != continent.name"
+            v-if="visibleContinent != continent.name"
             icon="angle-down"
           />
         </span>
       </button>
     </header>
 
-    <div class="card-content" v-if="isVisibleContinent === continent.name">
+    <div v-if="visibleContinent === continent.name" class="card-content">
       <div class="content">
         <div
-          class="country-block"
           v-for="country in continent.countries"
           :key="country.iso2"
+          class="country-block"
         >
           <p class="mb-1">
             <router-link
@@ -64,7 +64,6 @@
 </template>
 
 <script lang="ts" setup>
-import { defineProps, defineEmits } from "vue";
 import { useI18n } from "vue-i18n";
 import countries from "./countries.json";
 enum Continents {
@@ -86,7 +85,7 @@ const countriesByContinent = Object.keys(Continents).map((continent) => {
 });
 
 defineProps({
-  isVisibleContinent: String,
+  visibleContinent: String,
 });
 
 const emit = defineEmits(["changeContinent"]);

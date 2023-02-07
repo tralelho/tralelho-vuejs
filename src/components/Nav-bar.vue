@@ -9,8 +9,8 @@
         :to="{ name: 'home', params: { locale } }"
         class="navbar-item"
       >
-        <img src="/favicon.png" alt="Tralelho" class="mx-2" />
-        <h1 class="title has-text-white">Tralelho</h1>
+        <img src="/icons/favicon.png" alt="OuiKer" class="mx-2" />
+        <h1 class="title has-text-white">OuiKer</h1>
       </router-link>
 
       <a
@@ -19,8 +19,8 @@
         aria-label="menu"
         aria-expanded="false"
         data-target="mainNavbar"
-        @click="showNav = !showNav"
         :class="{ 'is-active': showNav }"
+        @click="showNav = !showNav"
       >
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
@@ -31,64 +31,64 @@
     <div id="mainNavbar" class="navbar-menu" :class="{ 'is-active': showNav }">
       <div class="navbar-start">
         <div
-          class="navbar-item has-dropdown is-hoverable"
           v-if="!$route.query.lang"
+          class="navbar-item has-dropdown is-hoverable"
         >
           <a class="navbar-link"> Samu </a>
 
           <div class="navbar-dropdown">
             <router-link
+              v-t="{ path: 685, locale: 'fra' }"
               :to="{
                 name: 'samu',
                 params: { locale },
                 query: { lang: 'eng' },
               }"
               class="navbar-item"
-              v-t="{ path: 685, locale: 'fra' }"
               @click="showNav = !showNav"
             ></router-link>
 
             <router-link
+              v-t="{ path: 681, locale: 'fra' }"
               :to="{
                 name: 'samu',
                 params: { locale },
                 query: { lang: 'deu' },
               }"
               class="navbar-item"
-              v-t="{ path: 681, locale: 'fra' }"
               @click="showNav = !showNav"
             ></router-link>
 
             <router-link
+              v-t="{ path: 744, locale: 'fra' }"
               :to="{
                 name: 'samu',
                 params: { locale },
                 query: { lang: 'spa' },
               }"
               class="navbar-item"
-              v-t="{ path: 744, locale: 'fra' }"
               @click="showNav = !showNav"
             ></router-link>
 
             <router-link
+              v-t="{ path: 730, locale: 'fra' }"
               :to="{
                 name: 'samu',
                 params: { locale },
                 query: { lang: 'por' },
               }"
               class="navbar-item"
-              v-t="{ path: 730, locale: 'fra' }"
               @click="showNav = !showNav"
             ></router-link>
 
             <router-link
+              v-t="{ path: 700, locale: 'fra' }"
               :to="{
                 name: 'samu',
                 params: { locale },
                 query: { lang: 'ita' },
               }"
               class="navbar-item"
-              v-t="{ path: 700, locale: 'fra' }"
               @click="showNav = !showNav"
             ></router-link>
           </div>
@@ -159,6 +159,18 @@
     </div>
   </nav>
 </template>
+<script lang="ts" setup>
+import { useI18n } from "vue-i18n";
+import { ref } from "vue";
+import { createPdf, PdfDocumentList } from "./pdf-creation/PDF-creator";
+
+const { locale, messages } = useI18n({
+  useScope: "global",
+});
+
+const showNav = ref(false);
+</script>
+
 <style scoped lang="scss">
 .navbar is-fixed-top is-primary {
   background-color: #406d99;
@@ -176,15 +188,3 @@
   background-color: #406d99;
 }
 </style>
-
-<script lang="ts" setup>
-import { useI18n } from "vue-i18n";
-import { ref } from "vue";
-import { createPdf, PdfDocumentList } from "./pdf-creation/PDF-creator";
-
-const { locale, messages } = useI18n({
-  useScope: "global",
-});
-
-const showNav = ref(false);
-</script>

@@ -42,14 +42,14 @@ import pageConfig from "./Samu.config.json";
 
     <div className="column main-color is-7">
       <div
-        class="container mb-6"
         v-for="section of pageConfig"
         :key="section.title"
+        class="container mb-6"
       >
         <h2
           :id="section.title"
-          class="title is-2 has-text-left"
           v-t="{ path: section.title }"
+          class="title is-2 has-text-left"
           style="margin-top: 10px"
         ></h2>
 
@@ -83,8 +83,8 @@ import pageConfig from "./Samu.config.json";
             </span>
             <br />
             <span
-              class="menu-element-multiline"
               v-t="{ path: 796, locale: $route.query.lang }"
+              class="menu-element-multiline"
             >
             </span>
           </li>
@@ -94,8 +94,8 @@ import pageConfig from "./Samu.config.json";
             </span>
             <br />
             <span
-              class="menu-element-multiline"
               v-t="{ path: 797, locale: $route.query.lang }"
+              class="menu-element-multiline"
             >
             </span>
           </li>
@@ -105,8 +105,8 @@ import pageConfig from "./Samu.config.json";
             </span>
             <br />
             <span
-              class="menu-element-multiline"
               v-t="{ path: 795, locale: $route.query.lang }"
+              class="menu-element-multiline"
             >
             </span>
           </li>

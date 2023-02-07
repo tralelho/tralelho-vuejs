@@ -8,10 +8,10 @@ import { setI18nLanguage, loadLocaleMessages, SUPPORT_LOCALES } from "./i18n";
 import type { Router, RouteRecordRaw } from "vue-router";
 import type { I18n, Composer } from "vue-i18n";
 
-import Home from "./views/Home.vue";
-import About from "./views/About.vue";
-import Translation from "./views/Translation.vue";
-import Samu from "./views/Samu.vue";
+import Home from "./views/HomePage.vue";
+import About from "./views/AboutPage.vue";
+import Translation from "./views/TranslationPage.vue";
+import Samu from "./views/SamuPage.vue";
 
 export function setupRouter(i18n: I18n): Router {
   const locale: string =

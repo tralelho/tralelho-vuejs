@@ -61,3 +61,12 @@ jobs:
       - name: Publish app to Google App Engine
         run: |
           gcloud -q app deploy app.yaml --promote --quiet --version=1
+
+      - name: Publish app to OVH
+        uses: SamKirkland/FTP-Deploy-Action@4.3.3
+        with:
+          server: ftp.cluster003.hosting.ovh.net
+          username: ${{ secrets.OVH_FTP_USERNAME }}
+          password: ${{ secrets.OVH_FTP_PASSWORD }}
+          local-dir: ./dist/
+          server-dir: ./www/ouiker/

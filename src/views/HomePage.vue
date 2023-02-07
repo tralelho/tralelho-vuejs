@@ -43,7 +43,7 @@ const changeContinent = (continent: string) => {
             href="#amerique"
             coords="18,99,388,428"
             shape="rect"
-            v-on:click="scrollTo($event, 'amerique')"
+            @click="scrollTo($event, 'amerique')"
           />
           <area
             target="_blank"
@@ -52,7 +52,7 @@ const changeContinent = (continent: string) => {
             href="#amerique"
             coords="148,434,400,650"
             shape="rect"
-            v-on:click="scrollTo($event, 'amerique')"
+            @click="scrollTo($event, 'amerique')"
           />
           <area
             target="_blank"
@@ -61,7 +61,7 @@ const changeContinent = (continent: string) => {
             href="#europe"
             coords="421,195,603,370"
             shape="rect"
-            v-on:click="scrollTo($event, 'europe')"
+            @click="scrollTo($event, 'europe')"
           />
           <area
             target="_blank"
@@ -70,7 +70,7 @@ const changeContinent = (continent: string) => {
             href="#afrique"
             coords="421,376,603,582"
             shape="rect"
-            v-on:click="scrollTo($event, 'afrique')"
+            @click="scrollTo($event, 'afrique')"
           />
           <area
             target="_blank"
@@ -79,7 +79,7 @@ const changeContinent = (continent: string) => {
             href="#asie"
             coords="610,128,983,450"
             shape="rect"
-            v-on:click="scrollTo($event, 'asie')"
+            @click="scrollTo($event, 'asie')"
           />
           <area
             target="_blank"
@@ -88,7 +88,7 @@ const changeContinent = (continent: string) => {
             href="#oceanie"
             coords="713,457,983,618"
             shape="rect"
-            v-on:click="scrollTo($event, 'oceanie')"
+            @click="scrollTo($event, 'oceanie')"
           />
         </map>
       </figure>
@@ -105,7 +105,7 @@ const changeContinent = (continent: string) => {
     </div>
     <div class="container">
       <FlagList
-        :is-visible-continent="visibleContinent"
+        :visible-continent="visibleContinent"
         @change-continent="changeContinent"
       ></FlagList>
     </div>
