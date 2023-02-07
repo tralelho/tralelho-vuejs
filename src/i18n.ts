@@ -21,13 +21,6 @@ export function setI18nLanguage(i18n: I18n, locale: string): void {
   } else {
     (i18n.global as unknown as Composer).locale.value = locale;
   }
-  /**
-   * NOTE:
-   * If you need to specify the language setting for headers, such as the `fetch` API, set it here.
-   * The following is an example for axios.
-   *
-   * axios.defaults.headers.common['Accept-Language'] = locale
-   */
   document.querySelector("html")!.setAttribute("lang", locale);
 }
 

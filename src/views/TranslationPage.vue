@@ -41,8 +41,8 @@ const changeLanguage = function (language: string) {
     </h1>
 
     <div
-      class="change-language mx-auto mb-6 field is-horizontal"
       v-if="countryConfig && countryConfig.languages.length > 1"
+      class="change-language mx-auto mb-6 field is-horizontal"
     >
       <div class="field-label is-normal field-label-size">
         <label class="label">Change language:</label>
@@ -68,8 +68,8 @@ const changeLanguage = function (language: string) {
         <aside class="menu">
           <ul class="menu-list">
             <li style="text-align: center">
-              <button onclick="txtUpDown" type="button" id="transbutton">
-                <span><img class="navicon" src="/tablette.png" /></span>
+              <button id="transbutton" onclick="txtUpDown" type="button">
+                <span><img class="navicon" src="/icons/tablette.png" /></span>
               </button>
             </li>
 
@@ -92,14 +92,14 @@ const changeLanguage = function (language: string) {
 
       <div className="column ml-6 is-8">
         <div
-          class="container mb-6"
           v-for="section of pageConfig"
           :key="section.title"
+          class="container mb-6"
         >
           <h2
             :id="section.title"
-            class="title is-2 has-text-left"
             v-t="{ path: section.title }"
+            class="title is-2 has-text-left"
           ></h2>
 
           <div
