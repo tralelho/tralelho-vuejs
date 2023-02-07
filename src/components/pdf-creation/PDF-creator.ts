@@ -5,8 +5,7 @@ import { createPatientPdf } from "./patient";
 import { createSecretariatPdf } from "./secretariat";
 import { createIRMAndScannerPdf } from "./irmAndScanner";
 import { getMessage } from "./util";
-import "./fonts/CODE2000-normal";
-import "./fonts/NotoSansSinhala-Regular-normal.js";
+
 import langNames from "../../iso3-languages.json";
 
 export enum PdfDocumentList {
@@ -18,7 +17,7 @@ export enum PdfDocumentList {
   SECRETARIAT = "Secretariat",
 }
 
-export const createPdf = function (
+export const createPdf = async function (
   type: PdfDocumentList,
   messages: any,
   lang?: string | string[]
@@ -28,7 +27,11 @@ export const createPdf = function (
   let font = "CODE2000";
 
   if (lang === "sin") {
+    // @ts-ignore
+    await import("./fonts/NotoSansSinhala-Regular-normal.js");
     font = "NotoSansSinhala-Regular";
+  } else {
+    await import("./fonts/CODE2000-normal");
   }
 
   const doc = buildPdfContent(type, messages, lang, font);
