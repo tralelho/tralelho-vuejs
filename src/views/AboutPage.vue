@@ -10,7 +10,7 @@
       d’expliquer ses douleurs ou ses antécédents médicaux ?
       <br />
       Un casse-tête linguistique auquel tous les personnels médicaux ont un jour
-      été confrontés. OuiKer est un site qui permet de traduire les phrases
+      été confrontés. OuiKer (le nouveau site de Tralelho) est un site qui permet de traduire les phrases
       utilisées par les services de secours ou de soins dans un maximum de
       langues.
       <br />
@@ -45,10 +45,10 @@
     </p>
     <br />
     <br />
-    <h1 class="title">Soutenir TraLELHo</h1>
+    <h1 class="title">Soutenir OuiKer</h1>
 
     <p>
-      Soutenir TraLELHo c'est d'abord l'utiliser, le diffuser auprès de vos
+      Soutenir OuiKer c'est d'abord l'utiliser, le diffuser auprès de vos
       collègues, amis. <br />
       <br />
       C'est aussi nous contacter si vous parlez une langue étrangère pour nous
@@ -57,7 +57,7 @@
       Tralelho@gmail.com
 
       <br />
-      <br />Enfin soutenir TraLELHo peut aussi passer par un don, afin d'aider
+      <br />Enfin soutenir OuiKer peut aussi passer par un don, afin d'aider
       le site à rester héberger aussi longtemps que possible, ou a obtenir de
       nouvelles traductions ou corrections : <br /><br />Avec 5 euros vous
       permettez au site d'être hébergé un mois de plus. <br />Avec 20 euros vous
@@ -74,7 +74,7 @@
 
     <br />
     <br />
-    <h1 class="title">On parle de Tralelho</h1>
+    <h1 class="title">On parle de OuiKer/Tralelho</h1>
 
     <img
       src="/public/icons/globe2.png"
