@@ -54,6 +54,7 @@
       C'est aussi nous contacter si vous parlez une langue étrangère pour nous
       proposer une correction ou une nouvelle traduction.
       <br />
+      OuiKer.com@gmail.com
       Tralelho@gmail.com
 
       <br />
@@ -75,7 +76,17 @@
     <br />
     <br />
     <h1 class="title">On parle de OuiKer/Tralelho</h1>
-
+    
+ <img
+      src="/public/icons/globe1.png"
+      alt="Globe"
+      width="20px"
+      height="20px"
+    />
+    <a
+https://www.lemonde.fr/campus/article/2020/10/12/marion-verdaguer-l-infirmiere-bretonne-qui-a-rendu-l-hopital-polyglotte_6055735_4401467.html
+>Le Monde
+</a>
     <img
       src="/public/icons/globe2.png"
       alt="Globe"
