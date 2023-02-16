@@ -84,9 +84,8 @@
       height="20px"
     />
     <a
-https://www.lemonde.fr/campus/article/2020/10/12/marion-verdaguer-l-infirmiere-bretonne-qui-a-rendu-l-hopital-polyglotte_6055735_4401467.html
->Le Monde
-</a>
+href="https://www.lemonde.fr/campus/article/2020/10/12/marion-verdaguer-l-infirmiere-bretonne-qui-a-rendu-l-hopital-polyglotte_6055735_4401467.html"
+>Le Monde</a>
     <img
       src="/public/icons/globe2.png"
       alt="Globe"
