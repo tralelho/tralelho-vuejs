@@ -10,9 +10,9 @@
       d’expliquer ses douleurs ou ses antécédents médicaux ?
       <br />
       Un casse-tête linguistique auquel tous les personnels médicaux ont un jour
-      été confrontés. OuiKer (le nouveau site de Tralelho) est un site qui permet de traduire les phrases
-      utilisées par les services de secours ou de soins dans un maximum de
-      langues.
+      été confrontés. OuiKer (le nouveau site de Tralelho) est un site qui
+      permet de traduire les phrases utilisées par les services de secours ou de
+      soins dans un maximum de langues.
       <br />
       A ce jour 101 langues sont traduites ou en cours de traductions.
     </p>
@@ -59,8 +59,8 @@
       Tralelho@gmail.com
 
       <br />
-      <br />Enfin soutenir OuiKer peut aussi passer par un don, afin d'aider
-      le site à rester héberger aussi longtemps que possible, ou a obtenir de
+      <br />Enfin soutenir OuiKer peut aussi passer par un don, afin d'aider le
+      site à rester héberger aussi longtemps que possible, ou a obtenir de
       nouvelles traductions ou corrections : <br /><br />Avec 5 euros vous
       permettez au site d'être hébergé un mois de plus. <br />Avec 20 euros vous
       permettez de traduire les phrases nécessaires aux urgences dans une

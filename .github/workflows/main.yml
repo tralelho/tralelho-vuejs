@@ -38,7 +38,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v1
         with:
-          node-version: "14.18.0"
+          node-version: "16.18.1"
 
       - name: npm install
         run: npm ci
