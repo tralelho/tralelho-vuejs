@@ -67,7 +67,6 @@ const changeLanguage = function (language: string) {
       <div className="column is-2 has-text-left fixed-left">
         <aside class="menu">
           <ul class="menu-list">
-            
             <li v-for="section of pageConfig" :key="section.title">
               <a :href="'#' + section.title" class="is-align-items-center">
                 <img
