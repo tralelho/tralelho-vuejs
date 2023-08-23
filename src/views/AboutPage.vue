@@ -20,6 +20,17 @@
     <br />
     <h1 class="title">Remerciements</h1>
 
+ <p>
+<strong>Merci à notre partenaire :</strong>
+
+    <img
+      src="/public/icons/LogoCHU.jpg"
+      alt="CHU Rennes"
+      width="5%"
+      height="5%"
+    />
+  </p>   
+     <br />
     <p>
       <strong>Merci à :</strong> Jana, André, Svetlana, Olga, Andr, Manuela,
       Mathea, Iwan, Ieva, Christophe, Bert, Lucia, Navinam, Jana, Brigitte,
